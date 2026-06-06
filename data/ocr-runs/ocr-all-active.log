@@ -1,0 +1,4 @@
+
+--- restart 2026-06-05T11:46:01 ---
+cd /d "G:\Codex Goroskop" && "C:\Program Files\nodejs\node.exe" tools\ocr-pdf-text.cjs --all --dpi 220 --lang rus+eng >> "G:\Codex Goroskop\data\ocr-runs\ocr-all-active.log" 2>&1
+

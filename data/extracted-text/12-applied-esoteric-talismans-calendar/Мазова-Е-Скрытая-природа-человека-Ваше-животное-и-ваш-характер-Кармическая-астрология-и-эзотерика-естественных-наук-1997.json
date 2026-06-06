@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\12-applied-esoteric-talismans-calendar\\Мазова Е. - Скрытая природа человека. Ваше животное и ваш характер.(Кармическая астрология и эзотерика естественных наук) – 1997.pdf",
+  "category": "12-applied-esoteric-talismans-calendar",
+  "pages": 194,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20110727112107Z",
+    "ModDate": "D:20110727112717"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2011-07-27T11:21:07Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2011-07-27T11:29:03Z",
+      "xmp:metadatadate": "2011-07-27T11:29:03Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:7a4610d7-a20f-4498-ae88-ad30112ad13e"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:23.522Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\12-applied-esoteric-talismans-calendar\\Мазова-Е-Скрытая-природа-человека-Ваше-животное-и-ваш-характер-Кармическая-астрология-и-эзотерика-естественных-наук-1997.txt",
+  "charCount": 262333,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T12:01:12.592Z",
+    "finishedAt": "2026-06-06T12:18:05.183Z",
+    "errors": []
+  }
+}

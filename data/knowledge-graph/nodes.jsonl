@@ -1,0 +1,148 @@
+{"id":"tradition.western","type":"tradition","label":"Western Astrology","system":"western","status":"draft"}
+{"id":"tradition.vedic","type":"tradition","label":"Vedic Astrology / Jyotish","system":"vedic","status":"draft"}
+{"id":"tradition.psychological","type":"tradition","label":"Psychological Astrology","system":"western","status":"draft"}
+{"id":"theme.identity","type":"theme","label":"Identity","system":"shared","status":"draft"}
+{"id":"theme.emotion","type":"theme","label":"Emotion and Need","system":"shared","status":"draft"}
+{"id":"theme.boundary","type":"theme","label":"Boundary and Responsibility","system":"shared","status":"draft"}
+{"id":"theme.transformation","type":"theme","label":"Transformation","system":"shared","status":"draft"}
+{"id":"western.planet.sun","type":"concept","label":"Sun","system":"western","status":"draft"}
+{"id":"western.planet.moon","type":"concept","label":"Moon","system":"western","status":"draft"}
+{"id":"western.planet.saturn","type":"concept","label":"Saturn","system":"western","status":"draft"}
+{"id":"western.planet.pluto","type":"concept","label":"Pluto","system":"western","status":"draft"}
+{"id":"vedic.concept.graha","type":"concept","label":"Graha","system":"vedic","status":"draft"}
+{"id":"vedic.concept.nakshatra","type":"concept","label":"Nakshatra","system":"vedic","status":"draft"}
+{"id":"caution.no-medical-diagnosis","type":"caution","label":"No Medical Diagnosis","system":"shared","status":"active"}
+{"id":"caution.no-guaranteed-prediction","type":"caution","label":"No Guaranteed Prediction","system":"shared","status":"active"}
+{"id":"source.greene-sasportas-development-personality-v1","type":"source","label":"Greene / Sasportas - Development of Personality, Vol. 1","system":"western","status":"sampled","category":"psychological-archetypal"}
+{"id":"psychology.archetypal-expectation","type":"theme","label":"Archetypal Expectation","system":"western","status":"draft"}
+{"id":"psychology.inner-belief","type":"theme","label":"Inner Belief Or Life Statement","system":"western","status":"draft"}
+{"id":"psychology.subpersonality","type":"theme","label":"Subpersonality","system":"western","status":"draft"}
+{"id":"psychology.integration","type":"theme","label":"Integration","system":"shared","status":"draft"}
+{"id":"theme.mother-image","type":"theme","label":"Mother Image","system":"western","status":"draft"}
+{"id":"theme.father-image","type":"theme","label":"Father Image","system":"western","status":"draft"}
+{"id":"rule.western.aspect-to-inner-statement","type":"rule","label":"Aspect To Inner Statement","system":"western","status":"draft"}
+{"id":"rule.western.parent-symbol-care","type":"rule","label":"Parent Symbol Care","system":"western","status":"draft"}
+{"id":"rule.western.conflict-as-subpersonalities","type":"rule","label":"Conflict As Subpersonalities","system":"western","status":"draft"}
+{"id":"source.ushkova-zakharova-houses-life-path","type":"source","label":"Ushkova / Zakharova - Houses Of The Horoscope: Life Path","system":"western","status":"sampled","category":"natal-houses-methods"}
+{"id":"western.house.1","type":"concept","label":"1st House","system":"western","status":"draft"}
+{"id":"western.house.2","type":"concept","label":"2nd House","system":"western","status":"draft"}
+{"id":"western.house.3","type":"concept","label":"3rd House","system":"western","status":"draft"}
+{"id":"western.house.4","type":"concept","label":"4th House","system":"western","status":"draft"}
+{"id":"western.house.5","type":"concept","label":"5th House","system":"western","status":"draft"}
+{"id":"western.house.6","type":"concept","label":"6th House","system":"western","status":"draft"}
+{"id":"western.house.7","type":"concept","label":"7th House","system":"western","status":"draft"}
+{"id":"western.house.8","type":"concept","label":"8th House","system":"western","status":"draft"}
+{"id":"western.house.9","type":"concept","label":"9th House","system":"western","status":"draft"}
+{"id":"western.house.10","type":"concept","label":"10th House","system":"western","status":"draft"}
+{"id":"western.house.11","type":"concept","label":"11th House","system":"western","status":"draft"}
+{"id":"western.house.12","type":"concept","label":"12th House","system":"western","status":"draft"}
+{"id":"theme.self-presentation","type":"theme","label":"Self Presentation","system":"western","status":"draft"}
+{"id":"theme.resources","type":"theme","label":"Resources And Values","system":"western","status":"draft"}
+{"id":"theme.close-environment","type":"theme","label":"Close Environment And Learning","system":"western","status":"draft"}
+{"id":"theme.roots","type":"theme","label":"Roots And Inner Foundation","system":"western","status":"draft"}
+{"id":"theme.creativity","type":"theme","label":"Creativity And Joy","system":"western","status":"draft"}
+{"id":"theme.service-routine","type":"theme","label":"Service And Routine","system":"western","status":"draft"}
+{"id":"theme.partnership","type":"theme","label":"Partnership","system":"western","status":"draft"}
+{"id":"theme.transformation-crisis","type":"theme","label":"Transformation And Crisis","system":"western","status":"draft"}
+{"id":"theme.worldview","type":"theme","label":"Worldview And Expansion","system":"western","status":"draft"}
+{"id":"theme.public-role","type":"theme","label":"Public Role And Career","system":"western","status":"draft"}
+{"id":"theme.groups-future","type":"theme","label":"Groups And Future Plans","system":"western","status":"draft"}
+{"id":"theme.retreat-hidden-service","type":"theme","label":"Retreat And Hidden Service","system":"western","status":"draft"}
+{"id":"rule.western.house-topic-layer","type":"rule","label":"House Topic Layer","system":"western","status":"draft"}
+{"id":"rule.western.cusp-ruler-resident-pipeline","type":"rule","label":"Cusp Ruler Resident Pipeline","system":"western","status":"draft"}
+{"id":"rule.western.house-axis-balancing","type":"rule","label":"House Axis Balancing","system":"western","status":"draft"}
+{"id":"source.narasimha-rao-vedic-integrated-approach","type":"source","label":"Narasimha Rao - Vedic Astrology: An Integrated Approach","system":"vedic","status":"sampled","category":"vedic-jyotish"}
+{"id":"vedic.concept.rashi","type":"concept","label":"Rashi","system":"vedic","status":"draft"}
+{"id":"vedic.concept.bhava","type":"concept","label":"Bhava","system":"vedic","status":"draft"}
+{"id":"vedic.concept.varga","type":"concept","label":"Varga / Divisional Chart","system":"vedic","status":"draft"}
+{"id":"vedic.concept.lagna","type":"concept","label":"Lagna","system":"vedic","status":"draft"}
+{"id":"vedic.concept.dasha","type":"concept","label":"Dasha","system":"vedic","status":"draft"}
+{"id":"vedic.concept.nakshatra-pada","type":"concept","label":"Nakshatra Pada","system":"vedic","status":"draft"}
+{"id":"vedic.graha.surya","type":"concept","label":"Surya / Sun","system":"vedic","status":"draft"}
+{"id":"vedic.graha.chandra","type":"concept","label":"Chandra / Moon","system":"vedic","status":"draft"}
+{"id":"vedic.graha.mangala","type":"concept","label":"Mangala / Mars","system":"vedic","status":"draft"}
+{"id":"vedic.graha.budha","type":"concept","label":"Budha / Mercury","system":"vedic","status":"draft"}
+{"id":"vedic.graha.guru","type":"concept","label":"Guru / Jupiter","system":"vedic","status":"draft"}
+{"id":"vedic.graha.shukra","type":"concept","label":"Shukra / Venus","system":"vedic","status":"draft"}
+{"id":"vedic.graha.shani","type":"concept","label":"Shani / Saturn","system":"vedic","status":"draft"}
+{"id":"vedic.graha.rahu","type":"concept","label":"Rahu","system":"vedic","status":"draft"}
+{"id":"vedic.graha.ketu","type":"concept","label":"Ketu","system":"vedic","status":"draft"}
+{"id":"rule.vedic.system-declaration","type":"rule","label":"Vedic System Declaration","system":"vedic","status":"draft"}
+{"id":"rule.vedic.four-pillar-context","type":"rule","label":"Four Pillar Context","system":"vedic","status":"draft"}
+{"id":"rule.vedic.reference-point-discipline","type":"rule","label":"Reference Point Discipline","system":"vedic","status":"draft"}
+{"id":"rule.vedic.timing-safety","type":"rule","label":"Vedic Timing Safety","system":"vedic","status":"draft"}
+{"id":"rule-instance.western.moon-square-saturn","type":"rule","label":"Moon square Saturn","system":"western","status":"draft"}
+{"id":"rule-instance.western.venus-square-saturn","type":"rule","label":"Venus square Saturn","system":"western","status":"draft"}
+{"id":"rule-instance.western.venus-trine-jupiter","type":"rule","label":"Venus trine Jupiter","system":"western","status":"draft"}
+{"id":"rule-instance.western.sun-square-neptune","type":"rule","label":"Sun square Neptune","system":"western","status":"draft"}
+{"id":"rule-instance.western.jupiter-square-saturn","type":"rule","label":"Jupiter square Saturn","system":"western","status":"draft"}
+{"id":"rule-instance.western.saturn-in-7th-house","type":"rule","label":"Saturn in 7th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.venus-in-10th-house","type":"rule","label":"Venus in 10th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.mars-in-10th-house","type":"rule","label":"Mars in 10th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.saturn-in-11th-house","type":"rule","label":"Saturn in 11th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.moon-in-4th-house","type":"rule","label":"Moon in 4th house","system":"western","status":"draft"}
+{"id":"rule-instance.vedic.report-framework","type":"rule","label":"Vedic Report Framework","system":"vedic","status":"draft"}
+{"id":"generator.report","type":"concept","label":"Generated Report","system":"shared","status":"draft"}
+{"id":"source.agarwal-vedic-principles-dashas","type":"source","label":"Agarwal - Vedic Astrology, Vol. 2-3","system":"vedic","status":"sampled","category":"vedic-jyotish"}
+{"id":"rule.vedic.functional-role-declaration","type":"rule","label":"Functional Role Declaration","system":"vedic","status":"draft"}
+{"id":"rule.vedic.dasha-context-before-timing","type":"rule","label":"Dasha Context Before Timing","system":"vedic","status":"draft"}
+{"id":"rule.vedic.sensitive-bhava-safety-filter","type":"rule","label":"Sensitive Bhava Safety Filter","system":"vedic","status":"draft"}
+{"id":"source.kolesnikov-western-self-study","type":"source","label":"Kolesnikov - Astrology Self-Study","system":"western","status":"sampled","category":"natal-houses-methods"}
+{"id":"rule.western.topic-scoped-report","type":"rule","label":"Topic Scoped Report","system":"western","status":"draft"}
+{"id":"rule.western.multi-factor-synthesis","type":"rule","label":"Multi-Factor Synthesis","system":"western","status":"draft"}
+{"id":"rule.western.forecast-method-humility","type":"rule","label":"Forecast Method Humility","system":"western","status":"draft"}
+{"id":"rule-instance.vedic.functional-role-declaration","type":"rule","label":"Vedic Functional Role Declaration","system":"vedic","status":"draft"}
+{"id":"rule-instance.vedic.dasha-context-before-timing","type":"rule","label":"Vedic Dasha Context Before Timing","system":"vedic","status":"draft"}
+{"id":"rule-instance.vedic.sensitive-bhava-safety-filter","type":"rule","label":"Vedic Sensitive Bhava Safety Filter","system":"vedic","status":"draft"}
+{"id":"tradition.chinese-eastern","type":"tradition","label":"Chinese / East Asian Astrology","system":"chinese-eastern","status":"draft"}
+{"id":"source.davydov-eastern-zodiac-2011","type":"source","label":"Davydov - Eastern Zodiac","system":"chinese-eastern","status":"ocr-readable","category":"chinese-eastern-astrology"}
+{"id":"source.davydov-chinese-horoscope-2011","type":"source","label":"Davydov - Chinese Horoscope","system":"chinese-eastern","status":"ocr-readable","category":"chinese-eastern-astrology"}
+{"id":"source.davydov-lunar-calendar-dao-2008","type":"source","label":"Davydov - Dao Of The Lunar Calendar","system":"chinese-eastern","status":"ocr-readable","category":"chinese-eastern-astrology"}
+{"id":"source.davydov-han-astrology-2010","type":"source","label":"Davydov - Ancient Chinese Astrology Of The Han Era","system":"chinese-eastern","status":"ocr-readable","category":"chinese-eastern-astrology"}
+{"id":"source.davydov-ze-ri-xue-2011","type":"source","label":"Davydov - Ze Ri Xue Astrology","system":"chinese-eastern","status":"ocr-readable","category":"chinese-eastern-astrology"}
+{"id":"chinese.concept.lunar-calendar","type":"concept","label":"Lunar Calendar","system":"chinese-eastern","status":"draft"}
+{"id":"chinese.concept.eastern-zodiac","type":"concept","label":"Eastern Zodiac","system":"chinese-eastern","status":"draft"}
+{"id":"chinese.concept.han-astrology","type":"concept","label":"Han Era Astrology","system":"chinese-eastern","status":"draft"}
+{"id":"chinese.concept.ze-ri-xue","type":"concept","label":"Ze Ri Xue Date Selection","system":"chinese-eastern","status":"draft"}
+{"id":"domain.compatibility","type":"domain","label":"Compatibility And Relationships","system":"shared","status":"draft"}
+{"id":"source.goldschneider-complete-compatibility","type":"source","label":"Goldschneider - Complete Horoscope Of Compatibility","system":"shared","status":"sampled","category":"compatibility-relationships"}
+{"id":"source.goldschneider-love-family-business-2007","type":"source","label":"Goldschneider - Love, Family, And Business Relationships Horoscope","system":"shared","status":"ocr-readable","category":"compatibility-relationships"}
+{"id":"source.goldschneider-48-karmic-paths-2009","type":"source","label":"Goldschneider / Elffers - 48 Karmic Paths Of Personality","system":"shared","status":"ocr-readable","category":"compatibility-relationships"}
+{"id":"source.goldschneider-astrology-of-success-2004","type":"source","label":"Goldschneider - Astrology Of Success","system":"shared","status":"ocr-readable","category":"compatibility-relationships"}
+{"id":"relationship.type.romantic","type":"concept","label":"Romantic Relationship","system":"shared","status":"draft"}
+{"id":"relationship.type.parent-child","type":"concept","label":"Parent Child Relationship","system":"shared","status":"draft"}
+{"id":"relationship.type.friendship","type":"concept","label":"Friendship","system":"shared","status":"draft"}
+{"id":"relationship.type.work","type":"concept","label":"Work Or Business Relationship","system":"shared","status":"draft"}
+{"id":"rule.compatibility.relationship-type-declaration","type":"rule","label":"Relationship Type Declaration","system":"shared","status":"draft"}
+{"id":"rule.compatibility.multi-axis-compatibility","type":"rule","label":"Multi-Axis Compatibility","system":"shared","status":"draft"}
+{"id":"rule.compatibility.no-verdict-compatibility","type":"rule","label":"No Verdict Compatibility","system":"shared","status":"draft"}
+{"id":"rule-instance.compatibility.relationship-type-declaration","type":"rule","label":"Compatibility Relationship Type Declaration","system":"shared","status":"draft"}
+{"id":"rule-instance.compatibility.multi-axis-compatibility","type":"rule","label":"Compatibility Multi-Axis Output","system":"shared","status":"draft"}
+{"id":"rule-instance.compatibility.no-verdict-compatibility","type":"rule","label":"Compatibility No Final Verdict","system":"shared","status":"draft"}
+{"id":"domain.primary-wave-overlay","type":"domain","label":"Primary Wave And Overlay Architecture","system":"shared","status":"draft"}
+{"id":"source.goldschneider-secret-language-birthdays","type":"source","label":"Goldschneider - Secret Language Of Birthdays","system":"shared","status":"ocr-readable","category":"kabbalah-esoteric"}
+{"id":"concept.primary-wave","type":"concept","label":"Primary Wave","system":"shared","status":"draft"}
+{"id":"concept.overlay-layer","type":"concept","label":"Overlay Layer","system":"shared","status":"draft"}
+{"id":"concept.source-only-mode","type":"concept","label":"Source Only Report Mode","system":"shared","status":"draft"}
+{"id":"concept.birthday-personology","type":"concept","label":"Birthday Personology","system":"shared","status":"draft"}
+{"id":"rule.primary-wave.declare-source","type":"rule","label":"Declare Primary Wave Source","system":"shared","status":"draft"}
+{"id":"rule.primary-wave.separate-overlays","type":"rule","label":"Separate Primary Wave From Overlays","system":"shared","status":"draft"}
+{"id":"domain.rectification","type":"domain","label":"Birth Time Rectification","system":"western","status":"draft"}
+{"id":"domain.applied-esoteric","type":"domain","label":"Applied Esoteric Overlays","system":"shared","status":"draft"}
+{"id":"domain.special-factors","type":"domain","label":"Special Factors And Karmic Overlays","system":"shared","status":"draft"}
+{"id":"source-family.agafonov-western-school","type":"source_family","label":"Agafonov Western School Set","system":"western","status":"triaged","category":"multi-category"}
+{"id":"source-family.levin-russian-school","type":"source_family","label":"Levin / Mityaeva / Tishchenko Russian School Set","system":"western","status":"triaged","category":"multi-category"}
+{"id":"source-family.mazova-applied-esoteric","type":"source_family","label":"Mazova Applied Esoteric Set","system":"shared","status":"triaged","category":"applied-esoteric-talismans-calendar"}
+{"id":"source-family.rao-k-vedic-predictive","type":"source_family","label":"K. Rao Vedic Predictive Set","system":"vedic","status":"triaged","category":"vedic-jyotish"}
+{"id":"source-family.semira-vetash-symbolic","type":"source_family","label":"Semira / Vetash Symbolic And Asteroid Set","system":"shared","status":"triaged","category":"multi-category"}
+{"id":"source-family.sushchinskaya-karmic-special","type":"source_family","label":"Sushchinskaya Karmic And Special Factors Set","system":"western","status":"triaged","category":"multi-category"}
+{"id":"concept.rectification","type":"concept","label":"Rectification","system":"western","status":"draft"}
+{"id":"concept.progressions","type":"concept","label":"Progressions","system":"western","status":"draft"}
+{"id":"concept.symbolic-directions","type":"concept","label":"Symbolic Directions","system":"western","status":"draft"}
+{"id":"concept.vimshottari-dasha","type":"concept","label":"Vimshottari Dasha","system":"vedic","status":"draft"}
+{"id":"concept.chara-dasha-jaimini","type":"concept","label":"Chara Dasha Jaimini","system":"vedic","status":"draft"}
+{"id":"concept.sade-sati","type":"concept","label":"Sade Sati","system":"vedic","status":"draft"}
+{"id":"concept.asteroids","type":"concept","label":"Asteroids","system":"shared","status":"draft"}
+{"id":"concept.lilith-black-moon","type":"concept","label":"Lilith / Black Moon","system":"western","status":"draft"}
+{"id":"concept.lunar-nodes","type":"concept","label":"Lunar Nodes","system":"western","status":"draft"}
+{"id":"concept.talisman-calendar-overlay","type":"concept","label":"Talisman And Calendar Overlay","system":"shared","status":"draft"}

@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\04-predictive-transits-cycles\\Левин М.,  Митяева Т., Тищенко В. -  Символические дирекции. - 1998.pdf",
+  "category": "04-predictive-transits-cycles",
+  "pages": 152,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140623173010Z",
+    "ModDate": "D:20140623173316"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-06-23T17:30:10Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-06-23T17:33:54Z",
+      "xmp:metadatadate": "2014-06-23T17:33:54Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:d2d0c0c2-3467-454d-adb0-cbc4aa8ca4de"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:37.287Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\04-predictive-transits-cycles\\Левин-М-Митяева-Т-Тищенко-В-Символические-дирекции-1998.txt",
+  "charCount": 241541,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T20:43:43.906Z",
+    "finishedAt": "2026-06-05T20:58:50.944Z",
+    "errors": []
+  }
+}

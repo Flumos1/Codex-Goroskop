@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\05-vedic-jyotish\\Рао К. - Карма и перевоплощение в индийской астрологии.  - 1998.pdf",
+  "category": "05-vedic-jyotish",
+  "pages": 226,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140701164123Z",
+    "ModDate": "D:20140701164825"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-07-01T16:41:23Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-07-01T16:49:59Z",
+      "xmp:metadatadate": "2014-07-01T16:49:59Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:31b067c4-befb-4efe-92e0-dd066c22a015"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:51.288Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\05-vedic-jyotish\\Рао-К-Карма-и-перевоплощение-в-индии-скои-астрологии-1998.txt",
+  "charCount": 336760,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T08:44:39.336Z",
+    "finishedAt": "2026-06-06T08:45:08.280Z",
+    "errors": []
+  }
+}

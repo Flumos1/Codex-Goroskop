@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\12-applied-esoteric-talismans-calendar\\Семира, В. Веташ - Астрология.Имя и символ. -  1997.pdf",
+  "category": "12-applied-esoteric-talismans-calendar",
+  "pages": 466,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20110816175208Z",
+    "ModDate": "D:20110816181623"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2011-08-16T17:52:08Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2011-08-16T18:26:32Z",
+      "xmp:metadatadate": "2011-08-16T18:26:32Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:dce376c8-d390-4d97-bf86-a0c6a9e68426"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:25.692Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\12-applied-esoteric-talismans-calendar\\Семира-В-Веташ-Астрология-Имя-и-символ-1997.txt",
+  "charCount": 937651,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T13:43:53.268Z",
+    "finishedAt": "2026-06-06T13:45:13.814Z",
+    "errors": []
+  }
+}

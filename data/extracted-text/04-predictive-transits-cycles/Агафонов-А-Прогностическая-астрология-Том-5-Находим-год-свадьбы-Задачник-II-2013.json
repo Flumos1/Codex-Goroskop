@@ -1,0 +1,38 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\04-predictive-transits-cycles\\Агафонов А. - Прогностическая астрология. Том 5. Находим год свадьбы (Задачник II) —  2013.pdf",
+  "category": "04-predictive-transits-cycles",
+  "pages": 130,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid PDF Tools  (7.3.2024.0)",
+    "Producer": "Solid PDF Tools  (7.3.2024.0)",
+    "CreationDate": "D:20130626101852Z",
+    "ModDate": "D:20130626102636Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-06-26T10:18:52Z",
+      "xmp:creatortool": "Solid PDF Tools  (7.3.2024.0)",
+      "xmp:modifydate": "2013-06-26T10:26:36Z",
+      "xmp:metadatadate": "2013-06-26T10:26:36Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid PDF Tools  (7.3.2024.0)",
+      "xmpmm:documentid": "uuid:b542d314-32e3-4310-8d41-f0b91dd550d7",
+      "pdfaid:conformance": "B",
+      "pdfaid:part": "1"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:35.258Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\04-predictive-transits-cycles\\Агафонов-А-Прогностическая-астрология-Том-5-Находим-год-свадьбы-Задачник-II-2013.txt",
+  "charCount": 114180,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T20:03:39.880Z",
+    "finishedAt": "2026-06-05T20:10:41.219Z",
+    "errors": []
+  }
+}

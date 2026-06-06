@@ -1,0 +1,288 @@
+[
+  {
+    "id": "reference.obama-1961-astropro-ascendant",
+    "status": "reference",
+    "purpose": "External Ascendant and tropical planet-position check. The external chart uses Placidus houses, so this entry verifies Ascendant and selected planetary longitudes only, not our prototype house cusps.",
+    "source": {
+      "type": "external-chart-report",
+      "label": "Astropro / Richard Nolle natal report for Barack Obama",
+      "url": "https://www.astropro.com/reports/obama.pdf",
+      "notes": "Report chart data lists Aug 04 1961 07:24 PM AHT +10:00, Honolulu, HI, Placidus, Ascendant Aquarius 18°03', Sun Leo 12°33', Moon Gemini 03°21'."
+    },
+    "args": {
+      "localDate": "1961-08-04",
+      "localTime": "19:24",
+      "timeZone": "Pacific/Honolulu",
+      "place": "Honolulu, Hawaii, United States",
+      "latitude": 21.3069,
+      "longitude": -157.8583,
+      "name": "Barack Obama Reference",
+      "mode": "both",
+      "language": "en",
+      "houseSystem": "equal-from-ascendant"
+    },
+    "tolerances": {
+      "ascendantDeg": 0.08,
+      "positionDeg": 0.12
+    },
+    "expected": {
+      "datetimeUtc": "1961-08-05T05:24:00.000Z",
+      "ascendant": {
+        "longitude": 318.05,
+        "sign": "Aquarius",
+        "degreeInSign": 18.05
+      },
+      "positions": [
+        { "body": "Sun", "tropicalLongitude": 132.55, "sign": "Leo" },
+        { "body": "Moon", "tropicalLongitude": 63.35, "sign": "Gemini" },
+        { "body": "Mercury", "tropicalLongitude": 122.33, "sign": "Leo" },
+        { "body": "Venus", "tropicalLongitude": 91.78, "sign": "Cancer" },
+        { "body": "Mars", "tropicalLongitude": 172.58, "sign": "Virgo" },
+        { "body": "Jupiter", "tropicalLongitude": 300.87, "sign": "Aquarius" },
+        { "body": "Saturn", "tropicalLongitude": 295.33, "sign": "Capricorn" },
+        { "body": "Uranus", "tropicalLongitude": 145.27, "sign": "Leo" },
+        { "body": "Neptune", "tropicalLongitude": 218.60, "sign": "Scorpio" },
+        { "body": "Pluto", "tropicalLongitude": 156.98, "sign": "Virgo" }
+      ],
+      "factors": [
+        "Sun square Neptune"
+      ]
+    }
+  },
+  {
+    "id": "reference.dalai-lama-1935-astropro-lmt",
+    "status": "reference",
+    "purpose": "External Ascendant and tropical planet-position check using a Local Mean Time birth record. The external chart uses Placidus houses, so this entry verifies Ascendant and selected planetary longitudes only.",
+    "source": {
+      "type": "external-chart-report",
+      "label": "Astropro / Richard Nolle deluxe natal report for The Dalai Lama",
+      "url": "https://www.scribd.com/document/367133545/Dalai-Lam",
+      "notes": "Accessible mirror of the Astropro/Richard Nolle sample report. Chart data lists Jul 06 1935 04:38 AM LMT, Tengster Village, 101E12'00\" 36N32'00\", Placidus, Ascendant Cancer 09°59', Sun Cancer 12°56', Moon Virgo 09°45'. UTC is derived from local mean time at 101E12 longitude."
+    },
+    "args": {
+      "datetime": "1935-07-05T21:53:12Z",
+      "place": "Tengster Village, Tibet",
+      "latitude": 36.5333,
+      "longitude": 101.2,
+      "name": "Dalai Lama Reference",
+      "mode": "both",
+      "language": "en",
+      "houseSystem": "equal-from-ascendant"
+    },
+    "tolerances": {
+      "ascendantDeg": 0.08,
+      "positionDeg": 0.12
+    },
+    "expected": {
+      "datetimeUtc": "1935-07-05T21:53:12Z",
+      "ascendant": {
+        "longitude": 99.9833,
+        "sign": "Cancer",
+        "degreeInSign": 9.9833
+      },
+      "positions": [
+        { "body": "Sun", "tropicalLongitude": 102.9333, "sign": "Cancer" },
+        { "body": "Moon", "tropicalLongitude": 159.75, "sign": "Virgo" },
+        { "body": "Mercury", "tropicalLongitude": 85.5167, "sign": "Gemini" },
+        { "body": "Venus", "tropicalLongitude": 148.25, "sign": "Leo" },
+        { "body": "Mars", "tropicalLongitude": 198.2667, "sign": "Libra" },
+        { "body": "Jupiter", "tropicalLongitude": 223.4667, "sign": "Scorpio" },
+        { "body": "Saturn", "tropicalLongitude": 340.05, "sign": "Pisces" },
+        { "body": "Uranus", "tropicalLongitude": 34.9667, "sign": "Taurus" },
+        { "body": "Neptune", "tropicalLongitude": 162.2833, "sign": "Virgo" },
+        { "body": "Pluto", "tropicalLongitude": 115.2667, "sign": "Cancer" }
+      ]
+    }
+  },
+  {
+    "id": "reference.angelina-jolie-1975-astrolabe",
+    "status": "reference",
+    "purpose": "External Ascendant and tropical planet-position check from an Astrolabe sample report. The external chart uses Placidus houses, so this entry verifies Ascendant and selected planetary longitudes only.",
+    "source": {
+      "type": "external-chart-report",
+      "label": "Astrolabe Cosmic Blueprint sample report for Angelina Jolie",
+      "url": "https://alabe.com/CosmicBlueprint-AngelinaJolie.pdf",
+      "notes": "Report chart data lists Jun 04 1975 09:09 AM PDT, Los Angeles, 34N03'08\" 118W14'34\", Placidus, Ascendant Cancer 28°53'30\", Sun Gemini 13°25'20\", Moon Aries 13°05'06\"."
+    },
+    "args": {
+      "localDate": "1975-06-04",
+      "localTime": "09:09",
+      "placeKey": "los-angeles-us",
+      "name": "Angelina Jolie Reference",
+      "mode": "both",
+      "language": "en",
+      "houseSystem": "equal-from-ascendant"
+    },
+    "tolerances": {
+      "ascendantDeg": 0.08,
+      "positionDeg": 0.08
+    },
+    "expected": {
+      "datetimeUtc": "1975-06-04T16:09:00.000Z",
+      "ascendant": {
+        "longitude": 118.8917,
+        "sign": "Cancer",
+        "degreeInSign": 28.8917
+      },
+      "positions": [
+        { "body": "Sun", "tropicalLongitude": 73.4222, "sign": "Gemini" },
+        { "body": "Moon", "tropicalLongitude": 13.085, "sign": "Aries" },
+        { "body": "Mercury", "tropicalLongitude": 82.3281, "sign": "Gemini" },
+        { "body": "Venus", "tropicalLongitude": 118.1556, "sign": "Cancer" },
+        { "body": "Mars", "tropicalLongitude": 10.7075, "sign": "Aries" },
+        { "body": "Jupiter", "tropicalLongitude": 17.4244, "sign": "Aries" },
+        { "body": "Saturn", "tropicalLongitude": 107.3867, "sign": "Cancer" },
+        { "body": "Uranus", "tropicalLongitude": 208.8, "sign": "Libra" },
+        { "body": "Neptune", "tropicalLongitude": 250.3397, "sign": "Sagittarius" },
+        { "body": "Pluto", "tropicalLongitude": 186.5236, "sign": "Libra" }
+      ],
+      "factors": [
+        "Moon square Saturn",
+        "Jupiter square Saturn"
+      ]
+    }
+  },
+  {
+    "id": "reference.mandela-1918-astrotheme-southern",
+    "status": "reference",
+    "purpose": "External Ascendant and tropical luminary-position check for a southern-hemisphere chart.",
+    "source": {
+      "type": "external-chart-page",
+      "label": "Astrotheme chart page for Nelson Mandela",
+      "url": "https://www.astrotheme.com/astrology/Nelson_Mandela",
+      "notes": "Page chart data lists Jul 18 1918 2:54 PM, Mvezo, South Africa, Sun Cancer 25°04', Moon Scorpio 20°15', Ascendant Sagittarius 23°41', MC Virgo 5°44'. MC tolerance is wider because public place coordinates for Mvezo vary by source."
+    },
+    "args": {
+      "datetime": "1918-07-18T12:54:00Z",
+      "place": "Mvezo, South Africa",
+      "latitude": -31.59,
+      "longitude": 28.78,
+      "name": "Nelson Mandela Reference",
+      "mode": "both",
+      "language": "en",
+      "houseSystem": "equal-from-ascendant"
+    },
+    "tolerances": {
+      "ascendantDeg": 0.12,
+      "midheavenDeg": 0.35,
+      "positionDeg": 0.12
+    },
+    "expected": {
+      "datetimeUtc": "1918-07-18T12:54:00Z",
+      "ascendant": {
+        "longitude": 263.6833,
+        "sign": "Sagittarius",
+        "degreeInSign": 23.6833
+      },
+      "midheaven": {
+        "longitude": 155.7333,
+        "sign": "Virgo",
+        "degreeInSign": 5.7333
+      },
+      "positions": [
+        { "body": "Sun", "tropicalLongitude": 115.0667, "sign": "Cancer" },
+        { "body": "Moon", "tropicalLongitude": 230.25, "sign": "Scorpio" }
+      ],
+      "factors": [
+        "Moon square Saturn"
+      ]
+    }
+  },
+  {
+    "id": "candidate.chisinau-1990-equal-from-ascendant",
+    "status": "candidate",
+    "purpose": "Internal baseline for local-time conversion, prototype Ascendant, Equal Houses, and matched factors. Candidate only; replace or supplement with externally verified reference values before treating it as a true accuracy certificate.",
+    "source": {
+      "type": "internal-prototype-baseline",
+      "label": "Codex Goroskop calculated profile",
+      "notes": "Generated by the current astronomy-engine prototype; useful for regression, not independent verification."
+    },
+    "args": {
+      "localDate": "1990-04-10",
+      "localTime": "08:30",
+      "placeKey": "chisinau-md",
+      "name": "House Rules Demo",
+      "mode": "both",
+      "language": "ru",
+      "houseSystem": "equal-from-ascendant"
+    },
+    "tolerances": {
+      "ascendantDeg": 0.02,
+      "houseCuspDeg": 0.02,
+      "positionDeg": 0.001
+    },
+    "expected": {
+      "datetimeUtc": "1990-04-10T04:30:00.000Z",
+      "houseSystem": "equal-from-ascendant",
+      "ascendant": {
+        "longitude": 45.47773,
+        "sign": "Taurus",
+        "degreeInSign": 15.47773
+      },
+      "houses": [
+        { "house": 1, "cuspLongitude": 45.47773, "sign": "Taurus", "degreeInSign": 15.47773 },
+        { "house": 10, "cuspLongitude": 315.47773, "sign": "Aquarius", "degreeInSign": 15.47773 }
+      ],
+      "positions": [
+        { "body": "Sun", "tropicalLongitude": 20.049569, "sign": "Aries", "house": 12 },
+        { "body": "Venus", "tropicalLongitude": 333.93945, "sign": "Pisces", "house": 10 },
+        { "body": "Mars", "tropicalLongitude": 321.972744, "sign": "Aquarius", "house": 10 }
+      ],
+      "factors": [
+        "Sun square Neptune",
+        "Moon square Saturn",
+        "Venus trine Jupiter",
+        "Venus in 10th house",
+        "Mars in 10th house"
+      ]
+    }
+  },
+  {
+    "id": "candidate.chisinau-1990-whole-sign",
+    "status": "candidate",
+    "purpose": "Internal baseline for Whole Sign house assignment from the Ascendant sign. Candidate only; use externally verified chart data for production confidence.",
+    "source": {
+      "type": "internal-prototype-baseline",
+      "label": "Codex Goroskop calculated profile",
+      "notes": "Generated by the current astronomy-engine prototype; useful for regression, not independent verification."
+    },
+    "args": {
+      "localDate": "1990-04-10",
+      "localTime": "08:30",
+      "placeKey": "chisinau-md",
+      "name": "Whole Sign Demo",
+      "mode": "both",
+      "language": "ru",
+      "houseSystem": "whole-sign"
+    },
+    "tolerances": {
+      "ascendantDeg": 0.02,
+      "houseCuspDeg": 0.001,
+      "positionDeg": 0.001
+    },
+    "expected": {
+      "datetimeUtc": "1990-04-10T04:30:00.000Z",
+      "houseSystem": "whole-sign",
+      "ascendant": {
+        "longitude": 45.47773,
+        "sign": "Taurus",
+        "degreeInSign": 15.47773
+      },
+      "houses": [
+        { "house": 1, "cuspLongitude": 30, "sign": "Taurus", "degreeInSign": 0 },
+        { "house": 10, "cuspLongitude": 300, "sign": "Aquarius", "degreeInSign": 0 }
+      ],
+      "positions": [
+        { "body": "Mercury", "tropicalLongitude": 38.957533, "sign": "Taurus", "house": 1 },
+        { "body": "Venus", "tropicalLongitude": 333.93945, "sign": "Pisces", "house": 11 },
+        { "body": "Mars", "tropicalLongitude": 321.972744, "sign": "Aquarius", "house": 10 }
+      ],
+      "factors": [
+        "Sun square Neptune",
+        "Moon square Saturn",
+        "Venus trine Jupiter",
+        "Mars in 10th house"
+      ]
+    }
+  }
+]

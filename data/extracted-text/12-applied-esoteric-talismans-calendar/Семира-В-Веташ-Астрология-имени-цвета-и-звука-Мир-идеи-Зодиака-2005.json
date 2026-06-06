@@ -1,0 +1,35 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\12-applied-esoteric-talismans-calendar\\Семира, В.Веташ . - Астрология имени, цвета и звука.(Мир идей Зодиака). - 2005.pdf",
+  "category": "12-applied-esoteric-talismans-calendar",
+  "pages": 322,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20120902143655Z",
+    "ModDate": "D:20120902150241Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2012-09-02T14:36:55Z",
+      "xmp:modifydate": "2012-09-02T15:02:41Z",
+      "xmp:metadatadate": "2012-09-02T15:02:41Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:030c0488-68c9-4ac8-818e-f41d788f938c"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:26.121Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\12-applied-esoteric-talismans-calendar\\Семира-В-Веташ-Астрология-имени-цвета-и-звука-Мир-идеи-Зодиака-2005.txt",
+  "charCount": 522191,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T12:43:46.980Z",
+    "finishedAt": "2026-06-06T13:22:10.199Z",
+    "errors": []
+  }
+}

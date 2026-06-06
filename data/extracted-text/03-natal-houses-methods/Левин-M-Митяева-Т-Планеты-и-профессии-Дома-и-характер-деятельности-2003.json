@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\03-natal-houses-methods\\Левин M., Митяева Т. - Планеты и профессии. Дома и характер деятельности. – 2003.pdf",
+  "category": "03-natal-houses-methods",
+  "pages": 50,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140623174954Z",
+    "ModDate": "D:20140623175115"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-06-23T17:49:54Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-06-23T17:51:38Z",
+      "xmp:metadatadate": "2014-06-23T17:51:38Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:a166b2f3-c52b-4538-9108-67e253e7b278"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:25.186Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\03-natal-houses-methods\\Левин-M-Митяева-Т-Планеты-и-профессии-Дома-и-характер-деятельности-2003.txt",
+  "charCount": 73797,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T12:27:32.416Z",
+    "finishedAt": "2026-06-06T12:31:40.691Z",
+    "errors": []
+  }
+}

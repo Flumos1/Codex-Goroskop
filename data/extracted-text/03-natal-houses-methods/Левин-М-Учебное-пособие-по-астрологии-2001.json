@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\03-natal-houses-methods\\Левин М. - Учебное пособие по астрологии. - 2001.pdf",
+  "category": "03-natal-houses-methods",
+  "pages": 144,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140623170621Z",
+    "ModDate": "D:20140623171217"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-06-23T17:06:21Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-06-23T17:15:00Z",
+      "xmp:metadatadate": "2014-06-23T17:15:00Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:6269b77d-6575-49c5-a22e-d644884d6ac1"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:25.596Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\03-natal-houses-methods\\Левин-М-Учебное-пособие-по-астрологии-2001.txt",
+  "charCount": 250571,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T11:42:29.547Z",
+    "finishedAt": "2026-06-06T11:57:52.325Z",
+    "errors": []
+  }
+}

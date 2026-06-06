@@ -1,0 +1,151 @@
+[
+  {
+    "id": "rule-instance.western.moon-square-saturn",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Moon", "aspect": "square", "planetB": "Saturn" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["emotion", "need", "boundary", "maturity", "emotional self-support"],
+    "themesRu": ["эмоции", "потребность", "границы", "зрелость", "эмоциональная самоподдержка"],
+    "simple": {
+      "summary": "A part of you may be careful with need, tenderness, and emotional dependency.",
+      "pattern": "You may expect warmth to come with distance, effort, conditions, or responsibility.",
+      "growth": "The growth path is to build trust slowly and give your emotional life structure, patience, and protection.",
+      "reflection": "Where do you still treat your own needs as something that must be earned?"
+    },
+    "simpleRu": {
+      "summary": "Часть вашей эмоциональной природы может осторожно обращаться с потребностью в тепле, нежности и близости.",
+      "pattern": "Может быть ожидание, что забота приходит вместе с дистанцией, усилием, условиями или ответственностью.",
+      "growth": "Путь роста здесь в том, чтобы строить доверие постепенно и давать чувствам структуру, терпение и защиту.",
+      "reflection": "Где вы до сих пор относитесь к собственным потребностям так, будто их надо заслужить?"
+    },
+    "advanced": {
+      "technical": "Moon square Saturn is interpreted as tension between the lunar principle of need, memory, and emotional containment and the Saturnian principle of limit, restraint, maturity, and effort.",
+      "method": "The psychological-archetypal method renders the aspect as an inner expectation or life statement, not as a guaranteed event.",
+      "caution": "This should not be read as proof that the mother was cold or that emotional deprivation definitely occurred. It describes a possible inner image and perceptual pattern.",
+      "constructiveChannel": "The constructive expression is emotional mastery through patient self-support rather than emotional denial."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Луны и Сатурна читается как напряжение между лунным принципом потребности, памяти и эмоционального контейнирования и сатурнианским принципом границы, сдержанности, зрелости и усилия.",
+      "method": "Психолого-архетипический метод рассматривает аспект как внутреннее ожидание или жизненную формулу, а не как гарантированное событие.",
+      "caution": "Это не следует читать как доказательство холодной матери или обязательной эмоциональной депривации. Правило описывает возможный внутренний образ и способ восприятия.",
+      "constructiveChannel": "Конструктивное выражение — эмоциональная зрелость через терпеливую самоподдержку, а не через отрицание чувств."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-square-saturn",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Venus", "aspect": "square", "planetB": "Saturn" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["love", "value", "boundary", "worthiness", "commitment"],
+    "simple": {
+      "summary": "Love, trust, and receiving may be areas where you become serious early.",
+      "pattern": "You may expect affection to require effort, proof, restraint, or emotional caution.",
+      "growth": "The gift of this pattern is the ability to build love with integrity, patience, and real responsibility.",
+      "reflection": "Where do you confuse being loved with having to prove your value?"
+    },
+    "advanced": {
+      "technical": "Venus square Saturn is read as friction between the Venusian principle of affection, pleasure, attraction, and value and the Saturnian principle of limitation, fear, duty, and maturation.",
+      "method": "This rule treats the aspect as an inner belief around relationship and self-worth rather than as a fixed relationship outcome.",
+      "caution": "Do not read this as a prediction of lovelessness or failed partnership. It indicates a developmental task around value, trust, and boundaries.",
+      "constructiveChannel": "The constructive expression is mature love: affection that can hold limits, commitments, and honest standards without closing the heart."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-trine-jupiter",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Venus", "aspect": "trine", "planetB": "Jupiter" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["love", "generosity", "abundance", "harmony", "pleasure"],
+    "themesRu": ["любовь", "щедрость", "изобилие", "гармония", "удовольствие"],
+    "simple": {
+      "summary": "You may have an inner expectation that connection, beauty, and generosity can open life.",
+      "pattern": "Affection and opportunity may naturally reinforce each other, making it easier to trust pleasure, goodwill, and shared joy.",
+      "growth": "The growth task is to enjoy abundance without becoming careless, indulgent, or dependent on everything feeling easy.",
+      "reflection": "Where does generosity support your life, and where does it need wiser boundaries?"
+    },
+    "simpleRu": {
+      "summary": "Внутри может жить ожидание, что связь, красота и щедрость способны раскрывать жизнь.",
+      "pattern": "Тепло и возможности могут естественно усиливать друг друга, помогая легче доверять удовольствию, доброй воле и совместной радости.",
+      "growth": "Задача роста — наслаждаться изобилием, не становясь беспечным, чрезмерно уступчивым или зависимым от легкости.",
+      "reflection": "Где щедрость действительно поддерживает вашу жизнь, а где ей нужны более мудрые границы?"
+    },
+    "advanced": {
+      "technical": "Venus trine Jupiter is read as a flowing relationship between the Venusian principle of attraction, pleasure, and value and the Jupiterian principle of expansion, faith, and meaning.",
+      "method": "Soft aspects are rendered as available resources rather than guaranteed success.",
+      "caution": "This should not be read as automatic luck in love or money. It describes a supportive symbolic pattern that still needs conscious use.",
+      "constructiveChannel": "The constructive expression is generous relating, aesthetic confidence, and values guided by meaning."
+    },
+    "advancedRu": {
+      "technical": "Трин Венеры и Юпитера читается как текучая связь между венерианским принципом притяжения, удовольствия и ценности и юпитерианским принципом расширения, веры и смысла.",
+      "method": "Гармоничные аспекты здесь описываются как доступные ресурсы, а не как гарантированный успех.",
+      "caution": "Это не следует читать как автоматическую удачу в любви или деньгах. Аспект описывает поддерживающий символический рисунок, которому все равно нужна сознательная форма.",
+      "constructiveChannel": "Конструктивное выражение — щедрый способ строить отношения, эстетическая уверенность и ценности, направляемые смыслом."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-square-neptune",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Sun", "aspect": "square", "planetB": "Neptune" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["identity", "idealization", "father-image", "sacrifice", "spiritualization"],
+    "themesRu": ["идентичность", "идеализация", "образ отца", "жертвенность", "одухотворение"],
+    "simple": {
+      "summary": "Your identity may be shaped by sensitivity, imagination, longing, or an ideal that is hard to fully define.",
+      "pattern": "There may be a tendency to idealize, dissolve, sacrifice, or search for something larger than ordinary self-definition.",
+      "growth": "The growth path is to give imagination and compassion a clear form, so sensitivity becomes vision rather than confusion.",
+      "reflection": "Where do you need a clearer boundary between inspiration and self-erasure?"
+    },
+    "simpleRu": {
+      "summary": "Ваше чувство себя может быть связано с чувствительностью, воображением, тоской по идеалу или образом, который трудно полностью определить.",
+      "pattern": "Может проявляться склонность идеализировать, растворяться, жертвовать собой или искать нечто большее, чем обычное самоопределение.",
+      "growth": "Путь роста — дать воображению и состраданию ясную форму, чтобы чувствительность становилась видением, а не путаницей.",
+      "reflection": "Где вам нужна более ясная граница между вдохновением и самоисчезновением?"
+    },
+    "advanced": {
+      "technical": "Sun square Neptune is read as tension between the solar principle of identity, will, and self-expression and the Neptunian principle of dissolution, idealization, sacrifice, and transcendence.",
+      "method": "The psychological method may include father-image symbolism, but only as an inner image or expectation, not as a factual biography.",
+      "caution": "Do not treat this as proof of an absent, weak, or deceptive father. It describes a symbolic filter around identity and the solar image.",
+      "constructiveChannel": "The constructive expression is creative vision, spiritual sensitivity, and compassionate selfhood with stronger boundaries."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Солнца и Нептуна читается как напряжение между солнечным принципом идентичности, воли и самовыражения и нептунианским принципом растворения, идеализации, жертвы и трансценденции.",
+      "method": "Психологический метод может включать символику образа отца, но только как внутренний образ или ожидание, а не как фактическую биографию.",
+      "caution": "Не следует считать это доказательством отсутствующего, слабого или обманчивого отца. Правило описывает символический фильтр вокруг идентичности и солнечного образа.",
+      "constructiveChannel": "Конструктивное выражение — творческое видение, духовная чувствительность и сострадательное чувство себя с более крепкими границами."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.jupiter-square-saturn",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Jupiter", "aspect": "square", "planetB": "Saturn" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["expansion", "limit", "faith", "discipline", "inner conflict"],
+    "simple": {
+      "summary": "One part of you may want growth, freedom, and possibility, while another part asks for caution, proof, and structure.",
+      "pattern": "You may alternate between optimism and restraint, expansion and contraction, risk and control.",
+      "growth": "The task is to build a life where hope has structure and discipline still leaves room for meaning.",
+      "reflection": "Where can you make your dream practical without making it smaller than it needs to be?"
+    },
+    "advanced": {
+      "technical": "Jupiter square Saturn is read as friction between expansion and limitation, faith and realism, possibility and structure.",
+      "method": "This follows the conflict-as-subpersonalities model: two archetypal parts need coordination rather than victory of one over the other.",
+      "caution": "Avoid framing this as permanent failure or blocked luck. It is a developmental pattern around timing, judgment, and disciplined growth.",
+      "constructiveChannel": "The constructive expression is mature ambition: a philosophy of growth that can survive reality testing."
+    },
+    "confidence": "medium"
+  }
+]

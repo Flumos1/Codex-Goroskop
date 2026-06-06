@@ -1,0 +1,138 @@
+[
+  {
+    "id": "rule-instance.western.saturn-in-7th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 7 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["partnership", "boundary", "commitment", "maturity", "relational responsibility"],
+    "simple": {
+      "summary": "Partnership may be an area where you learn seriousness, patience, boundaries, and emotional maturity.",
+      "pattern": "Relationships may not feel light or casual; they may ask you to define commitment, responsibility, and the kind of bond that can endure pressure.",
+      "growth": "The growth task is to avoid turning caution into isolation, and instead build agreements that are honest, stable, and mutual.",
+      "reflection": "Where do you protect yourself so strongly that real partnership has no room to breathe?"
+    },
+    "advanced": {
+      "technical": "The 7th house is read as the field of partnership and the encounter with the other. Saturn brings limit, commitment, duty, fear, maturity, and long-term structure into that field.",
+      "method": "This combines the house-topic layer with the psychological meaning of Saturn. The house describes the life arena; Saturn describes the developmental pressure and potential mastery.",
+      "caution": "This should not be read as a fixed prediction of loneliness, divorce, or difficult marriage. It describes relationship as a serious developmental arena.",
+      "constructiveChannel": "The constructive expression is stable commitment, mature boundaries, and partnership based on mutual responsibility."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-in-10th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Venus", "house": 10 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["career", "beauty", "public role", "recognition", "values"],
+    "themesRu": ["карьера", "красота", "публичная роль", "признание", "ценности"],
+    "simple": {
+      "summary": "Career and public visibility may be connected with beauty, harmony, taste, diplomacy, or work that you genuinely enjoy.",
+      "pattern": "You may seek a public role where appreciation, aesthetics, relationship skills, or a pleasant atmosphere matter.",
+      "growth": "The growth task is to let your values shape your work without depending entirely on approval from others.",
+      "reflection": "Where does your public life need more beauty, and where does it need more backbone?"
+    },
+    "simpleRu": {
+      "summary": "Карьера и публичная видимость могут быть связаны с красотой, гармонией, вкусом, дипломатией или делом, которое вам действительно приятно.",
+      "pattern": "Вы можете искать такую общественную роль, где важны эстетика, умение выстраивать отношения, атмосфера и способность создавать согласие.",
+      "growth": "Задача роста — позволить ценностям формировать вашу работу, не становясь полностью зависимым от одобрения окружающих.",
+      "reflection": "Где вашей публичной жизни нужно больше красоты, а где — больше внутреннего стержня?"
+    },
+    "advanced": {
+      "technical": "The 10th house is the field of career, public role, reputation, and social achievement. Venus brings values, attraction, harmony, aesthetics, and relational skill into that field.",
+      "method": "This is a house-topic interpretation: the house describes the arena, while Venus describes the active force within it.",
+      "caution": "Do not read this as guaranteed career success, fame, or easy support from authority figures.",
+      "constructiveChannel": "The constructive expression is work shaped by values, taste, diplomacy, and the ability to create a more harmonious public presence."
+    },
+    "advancedRu": {
+      "technical": "10-й дом описывает сферу карьеры, публичной роли, репутации и социального достижения. Венера привносит туда ценности, притяжение, гармонию, эстетику и навык отношений.",
+      "method": "Это интерпретация по теме дома: дом задает жизненную арену, а Венера описывает действующую силу внутри нее.",
+      "caution": "Это не следует читать как гарантированный карьерный успех, славу или легкую поддержку со стороны авторитетов.",
+      "constructiveChannel": "Конструктивное выражение — работа, сформированная ценностями, вкусом, дипломатией и способностью создавать более гармоничное публичное присутствие."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-in-10th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mars", "house": 10 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["career", "drive", "ambition", "conflict", "public action"],
+    "themesRu": ["карьера", "воля", "амбиция", "конфликт", "публичное действие"],
+    "simple": {
+      "summary": "Public life and career may be arenas where your will, courage, and competitive energy become visible.",
+      "pattern": "You may push toward goals directly and dislike being controlled, especially when your work or status is involved.",
+      "growth": "The growth task is to turn raw ambition into disciplined action that can lead without burning bridges.",
+      "reflection": "Where can your drive serve a clear purpose instead of becoming a fight for position?"
+    },
+    "simpleRu": {
+      "summary": "Публичная жизнь и карьера могут быть ареной, где становятся заметны ваша воля, смелость и соревновательная энергия.",
+      "pattern": "Вы можете двигаться к целям напрямую и остро реагировать на контроль, особенно когда дело касается работы, статуса или признания.",
+      "growth": "Задача роста — превратить сырую амбицию в дисциплинированное действие, которое умеет вести, не разрушая связи.",
+      "reflection": "Где ваш напор может служить ясной цели, а не превращаться в борьбу за позицию?"
+    },
+    "advanced": {
+      "technical": "The 10th house is the field of career, public status, and visible achievement. Mars brings force, initiative, conflict, work capacity, and direct action into that field.",
+      "method": "This is a house-topic interpretation based on planet-in-house visibility.",
+      "caution": "Do not read this as guaranteed power, promotion, conflict, or public victory.",
+      "constructiveChannel": "The constructive expression is courageous professional initiative, strategic effort, and the ability to act decisively under pressure."
+    },
+    "advancedRu": {
+      "technical": "10-й дом связан с карьерой, публичным статусом и видимыми достижениями. Марс приносит в эту сферу силу, инициативу, конфликтность, работоспособность и прямое действие.",
+      "method": "Это интерпретация планеты в доме: положение Марса показывает, где энергия действия становится особенно видимой.",
+      "caution": "Это не следует читать как гарантированную власть, повышение, конфликт или публичную победу.",
+      "constructiveChannel": "Конструктивное выражение — смелая профессиональная инициатива, стратегическое усилие и способность действовать решительно под давлением."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-in-11th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 11 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["friendship", "groups", "responsibility", "future plans", "belonging"],
+    "simple": {
+      "summary": "Friendship, groups, and future plans may be areas where you seek seriousness, loyalty, and long-term reliability.",
+      "pattern": "You may trust slowly, prefer fewer but stronger bonds, or feel responsible inside collective settings.",
+      "growth": "The growth task is to build belonging without letting caution harden into isolation.",
+      "reflection": "Where do you need a real community rather than only a role of responsibility?"
+    },
+    "advanced": {
+      "technical": "The 11th house is the field of friends, groups, hopes, plans, and collective projects. Saturn brings structure, caution, responsibility, and endurance into that field.",
+      "method": "This combines house-topic interpretation with Saturn as boundary, maturity, and long-term commitment.",
+      "caution": "Do not read this as a fixed prediction of loneliness, rejection, or lack of friends.",
+      "constructiveChannel": "The constructive expression is durable friendship, serious collective work, and realistic long-term planning."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-in-4th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Moon", "house": 4 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.parent-symbol-care"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["home", "roots", "memory", "emotional foundation", "family"],
+    "simple": {
+      "summary": "Home, roots, memory, and inner safety may be central to your emotional life.",
+      "pattern": "You may be deeply affected by atmosphere, family patterns, and the private world that supports or unsettles you.",
+      "growth": "The growth task is to create an inner home that can hold your changing feelings without being ruled by the past.",
+      "reflection": "What helps you feel emotionally rooted without becoming trapped in old patterns?"
+    },
+    "advanced": {
+      "technical": "The 4th house is the field of home, roots, family base, and inner foundation. The Moon brings emotional memory, need, receptivity, and containment into that field.",
+      "method": "This combines the house-topic layer with the psychological Moon as emotional need and inner image.",
+      "caution": "Do not read this as a factual claim about the mother or a guaranteed family story. It describes a symbolic emotional foundation.",
+      "constructiveChannel": "The constructive expression is emotional rootedness, care for private life, and conscious relationship to ancestral or family patterns."
+    },
+    "confidence": "medium"
+  }
+]

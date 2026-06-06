@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\05-vedic-jyotish\\Рао К. - Уроки Мастера - 2. Учебный семинар по ведической астрологии. – 2012.pdf",
+  "category": "05-vedic-jyotish",
+  "pages": 234,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140702172024Z",
+    "ModDate": "D:20140702172625"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-07-02T17:20:24Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-07-02T17:30:11Z",
+      "xmp:metadatadate": "2014-07-02T17:30:11Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:6fb0ab2f-c01d-4882-a373-d2a1b70ba280"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:53.346Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\05-vedic-jyotish\\Рао-К-Уроки-Мастера-2-Учебныи-семинар-по-ведическои-астрологии-2012.txt",
+  "charCount": 341456,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T10:37:09.163Z",
+    "finishedAt": "2026-06-06T11:02:33.170Z",
+    "errors": []
+  }
+}

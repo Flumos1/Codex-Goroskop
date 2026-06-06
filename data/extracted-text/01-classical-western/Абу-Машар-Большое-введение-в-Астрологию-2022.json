@@ -1,0 +1,30 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\01-classical-western\\Абу Машар - Большое введение в Астрологию - 2022.pdf",
+  "category": "01-classical-western",
+  "pages": 618,
+  "info": {
+    "PDFFormatVersion": "1.6",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Title": "",
+    "Creator": "Adobe Acrobat 11.0.15",
+    "Producer": "Adobe Acrobat Pro (64-bit) 24 Paper Capture Plug-in",
+    "CreationDate": "D:20221105061921+03'00'",
+    "ModDate": "D:20250514172211+10'00'"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:modifydate": "2025-05-14T17:22:11+10:00",
+      "xmp:createdate": "2022-11-05T06:19:21+03:00",
+      "xmp:metadatadate": "2025-05-14T17:22:11+10:00",
+      "xmp:creatortool": "Adobe Acrobat 11.0.15",
+      "dc:format": "application/pdf",
+      "xmpmm:documentid": "uuid:829e5eb9-c7b5-4241-a518-b2191d5efe45",
+      "xmpmm:instanceid": "uuid:cf1c5eb3-893c-4c24-9196-2256796411b6",
+      "pdf:producer": "Adobe Acrobat Pro (64-bit) 24 Paper Capture Plug-in"
+    }
+  },
+  "extractedAt": "2026-06-05T08:11:47.522Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\01-classical-western\\Абу-Машар-Большое-введение-в-Астрологию-2022.txt",
+  "charCount": 1505060
+}

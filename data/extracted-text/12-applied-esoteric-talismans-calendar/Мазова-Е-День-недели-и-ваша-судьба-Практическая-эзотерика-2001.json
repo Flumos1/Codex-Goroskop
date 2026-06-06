@@ -1,0 +1,25 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\12-applied-esoteric-talismans-calendar\\Мазова Е. - День недели и ваша судьба. (Практическая эзотерика) -  2001 .pdf",
+  "category": "12-applied-esoteric-talismans-calendar",
+  "pages": 188,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Producer": "ABBYY FineReader 10",
+    "CreationDate": "D:20101106224736+07'00'",
+    "ModDate": "D:20101106224736+07'00'"
+  },
+  "metadata": null,
+  "extractedAt": "2026-06-05T08:13:21.508Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\12-applied-esoteric-talismans-calendar\\Мазова-Е-День-недели-и-ваша-судьба-Практическая-эзотерика-2001.txt",
+  "charCount": 248346,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T09:25:48.396Z",
+    "finishedAt": "2026-06-06T09:42:24.471Z",
+    "errors": []
+  }
+}

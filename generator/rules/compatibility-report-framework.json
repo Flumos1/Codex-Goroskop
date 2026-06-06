@@ -1,0 +1,84 @@
+[
+  {
+    "id": "rule-instance.compatibility.relationship-type-declaration",
+    "system": "shared",
+    "methodFamily": "compatibility-report-framework",
+    "factor": {
+      "reportType": "compatibility-relationship-type-declaration",
+      "relationshipContext": "required"
+    },
+    "sourceRules": [
+      "rule.compatibility.relationship-type-declaration"
+    ],
+    "sourceIds": ["source.goldschneider-complete-compatibility"],
+    "themes": ["compatibility", "relationship type", "context", "roles"],
+    "simple": {
+      "summary": "A compatibility report should first name what kind of relationship is being interpreted.",
+      "pattern": "Romantic partners, spouses, parents and children, friends, coworkers, and business partners need different language because the same tension can mean different things in different roles.",
+      "growth": "This keeps the report practical and humane: it does not treat every comparison as romance or reduce a family relationship to a single compatibility label.",
+      "reflection": "What relationship context is being asked about before any interpretation is generated?"
+    },
+    "advanced": {
+      "technical": "The compatibility domain requires an explicit relationshipContext field before output. Supported initial contexts include romantic, marriage-long-term, parent-child, mother-child, father-child, friendship, work-business, and family-social.",
+      "method": "The generator should select language and axes according to the relationship context, then mark which source system is speaking: Western, personology, Jyotish, Chinese/Eastern, or another source-backed layer.",
+      "caution": "Do not silently reuse romantic compatibility wording for children, parents, friends, or work relationships.",
+      "constructiveChannel": "The public report should translate relationship context into useful questions about care, communication, boundaries, cooperation, and mutual expectations."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.compatibility.multi-axis-compatibility",
+    "system": "shared",
+    "methodFamily": "compatibility-report-framework",
+    "factor": {
+      "reportType": "compatibility-multi-axis-output",
+      "relationshipContext": "required"
+    },
+    "sourceRules": [
+      "rule.compatibility.multi-axis-compatibility"
+    ],
+    "sourceIds": ["source.goldschneider-complete-compatibility"],
+    "themes": ["compatibility", "ease", "friction", "communication", "growth", "boundaries"],
+    "simple": {
+      "summary": "Compatibility should be described across several axes instead of as one verdict.",
+      "pattern": "A pair can have easy attraction but difficult communication, strong practical cooperation but emotional friction, or useful growth potential that still needs clear boundaries.",
+      "growth": "Multi-axis output gives people something they can actually work with rather than a flat yes or no.",
+      "reflection": "Which axis is strongest here: ease, friction, emotional needs, communication, practical cooperation, growth, or boundaries?"
+    },
+    "advanced": {
+      "technical": "The report framework should expose multiple interpretation axes: ease, friction, emotional needs, communication, family and care, practical cooperation, growth, and boundaries.",
+      "method": "Each axis should be supported by the relevant source layer and should remain separable in the output so later systems can add Western synastry, personology, Jyotish matching, or Chinese/Eastern compatibility without merging methods.",
+      "caution": "Do not compress all axes into a single compatibility score unless the score is clearly secondary and explained as a rough interface aid.",
+      "constructiveChannel": "The best public output helps users notice what works, what needs care, and where a relationship benefits from explicit agreements."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.compatibility.no-verdict-compatibility",
+    "system": "shared",
+    "methodFamily": "compatibility-safety",
+    "factor": {
+      "reportType": "compatibility-no-final-verdict",
+      "relationshipContext": "required"
+    },
+    "sourceRules": [
+      "rule.compatibility.no-verdict-compatibility",
+      "caution.no-guaranteed-prediction"
+    ],
+    "sourceIds": ["source.goldschneider-complete-compatibility"],
+    "themes": ["compatibility", "safety", "non-determinism", "relationships"],
+    "simple": {
+      "summary": "The project should avoid saying that a relationship is guaranteed, doomed, perfect, or impossible.",
+      "pattern": "Compatibility language should describe patterns of interaction, not decide what people must do.",
+      "growth": "This protects the user and keeps the system aligned with reflective astrology rather than relationship determinism.",
+      "reflection": "Does this wording help people understand a pattern, or does it pretend to decide the relationship for them?"
+    },
+    "advanced": {
+      "technical": "Compatibility output must pass a safety filter that removes final verdicts, blame labels, inevitability claims, and deterministic relationship instructions.",
+      "method": "When the source uses stronger compatibility framing, transform it into tendency language with uncertainty and practical reflection.",
+      "caution": "Avoid claims such as perfect match, doomed relationship, bad parent, bad child, must marry, must separate, or guaranteed betrayal.",
+      "constructiveChannel": "Use compatibility as a reflective map for attention, communication, care, boundaries, and repair."
+    },
+    "confidence": "medium"
+  }
+]

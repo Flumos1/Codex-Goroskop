@@ -1,0 +1,77 @@
+[
+  {
+    "name": "chisinau-local-equal-houses",
+    "args": {
+      "localDate": "1990-04-10",
+      "localTime": "08:30",
+      "placeKey": "chisinau-md",
+      "name": "House Rules Demo",
+      "mode": "both",
+      "language": "ru",
+      "houseSystem": "equal-from-ascendant"
+    },
+    "expected": {
+      "datetimeUtc": "1990-04-10T04:30:00.000Z",
+      "houseSystem": "equal-from-ascendant",
+      "ascendant": {
+        "sign": "Taurus",
+        "degreeInSign": 15.47773,
+        "toleranceDeg": 0.02
+      },
+      "firstHouseCusp": {
+        "sign": "Taurus",
+        "degreeInSign": 15.47773,
+        "toleranceDeg": 0.02
+      },
+      "positions": [
+        { "body": "Sun", "sign": "Aries", "house": 12 },
+        { "body": "Venus", "sign": "Pisces", "house": 10 },
+        { "body": "Mars", "sign": "Aquarius", "house": 10 }
+      ],
+      "factors": [
+        "Sun square Neptune",
+        "Moon square Saturn",
+        "Venus trine Jupiter",
+        "Venus in 10th house",
+        "Mars in 10th house"
+      ]
+    }
+  },
+  {
+    "name": "chisinau-local-whole-sign-houses",
+    "args": {
+      "localDate": "1990-04-10",
+      "localTime": "08:30",
+      "placeKey": "chisinau-md",
+      "name": "Whole Sign Demo",
+      "mode": "both",
+      "language": "ru",
+      "houseSystem": "whole-sign"
+    },
+    "expected": {
+      "datetimeUtc": "1990-04-10T04:30:00.000Z",
+      "houseSystem": "whole-sign",
+      "ascendant": {
+        "sign": "Taurus",
+        "degreeInSign": 15.47773,
+        "toleranceDeg": 0.02
+      },
+      "firstHouseCusp": {
+        "sign": "Taurus",
+        "degreeInSign": 0,
+        "toleranceDeg": 0.001
+      },
+      "positions": [
+        { "body": "Sun", "sign": "Aries", "house": 12 },
+        { "body": "Venus", "sign": "Pisces", "house": 11 },
+        { "body": "Mars", "sign": "Aquarius", "house": 10 }
+      ],
+      "factors": [
+        "Sun square Neptune",
+        "Moon square Saturn",
+        "Venus trine Jupiter",
+        "Mars in 10th house"
+      ]
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "rule-instance.vedic.report-framework",
+    "system": "vedic",
+    "methodFamily": "jyotish-foundation",
+    "factor": {
+      "reportType": "vedic-framework",
+      "referencePoint": "Lagna",
+      "zodiacMode": "sidereal-nirayana"
+    },
+    "sourceRules": [
+      "rule.vedic.system-declaration",
+      "rule.vedic.four-pillar-context",
+      "rule.vedic.reference-point-discipline",
+      "rule.vedic.timing-safety"
+    ],
+    "sourceIds": ["source.narasimha-rao-vedic-integrated-approach"],
+    "themes": ["jyotish", "lagna", "graha", "rashi", "bhava", "varga", "dasha"],
+    "simple": {
+      "summary": "The Vedic branch reads the chart through a separate symbolic and calculation system.",
+      "pattern": "The first anchor is Lagna, the rising point, which becomes the main reference for houses. From there, planets, signs, houses, divisional charts, lunar mansions, and timing periods are considered as connected layers.",
+      "growth": "This report should be read as a structured map of tendencies and timing themes, not as a fixed sentence about fate.",
+      "reflection": "Which life area are you asking about: self, relationships, work, resources, family, spiritual practice, or timing?"
+    },
+    "advanced": {
+      "technical": "This Jyotish framework uses grahas, rashis, bhavas, and vargas as core pillars. Unless otherwise stated, houses are counted from Lagna and the zodiac mode is sidereal / nirayana.",
+      "method": "Vedic interpretation must state its reference point and chart layer. A house read from Lagna is not the same as a house read from Chandra Lagna or another special Lagna.",
+      "caution": "Dashas and transits are treated as timing themes. The public product should not generate death prediction, medical certainty, or guaranteed events.",
+      "constructiveChannel": "The constructive use of Jyotish in this project is self-understanding, timing awareness, and reflective planning with clear uncertainty language."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.vedic.functional-role-declaration",
+    "system": "vedic",
+    "methodFamily": "jyotish-foundation",
+    "factor": {
+      "reportType": "vedic-functional-role-declaration",
+      "referencePoint": "Lagna",
+      "zodiacMode": "sidereal-nirayana"
+    },
+    "sourceRules": [
+      "rule.vedic.functional-role-declaration",
+      "rule.vedic.reference-point-discipline"
+    ],
+    "sourceIds": ["source.agarwal-vedic-principles-dashas", "source.narasimha-rao-vedic-integrated-approach"],
+    "themes": ["jyotish", "lagna", "graha", "house lordship", "functional role"],
+    "simple": {
+      "summary": "In Jyotish, a planet is not interpreted only by its general symbolic nature.",
+      "pattern": "Its role changes according to the Lagna and the houses it owns. The same graha can act as supportive, challenging, mixed, or context-dependent in different charts.",
+      "growth": "A careful Vedic report should first identify the reference point and the planet's functional role before turning it into advice or timing language.",
+      "reflection": "Which reference point is being used for this statement: Lagna, Moon, Sun, or another special reference?"
+    },
+    "advanced": {
+      "technical": "This rule follows the Jyotish principle that functional benefic and malefic roles depend on Lagna and house ownership, not only on natural graha status.",
+      "method": "Before a graha interpretation is generated, the system should record Lagna, houses owned by the graha, placement, and whether the source framework treats the role as supportive, challenging, mixed, or context-dependent.",
+      "caution": "Do not equate this with Western planetary dignity or psychological planet meaning. Do not generate a Jyotish planet claim when Lagna and house ownership are unknown.",
+      "constructiveChannel": "The useful public form is transparent method language: 'in this Jyotish framework, from this reference point, this graha is being treated as...'"
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.vedic.dasha-context-before-timing",
+    "system": "vedic",
+    "methodFamily": "jyotish-timing-safety",
+    "factor": {
+      "reportType": "vedic-dasha-context-before-timing",
+      "referencePoint": "Lagna",
+      "zodiacMode": "sidereal-nirayana"
+    },
+    "sourceRules": [
+      "rule.vedic.dasha-context-before-timing",
+      "rule.vedic.timing-safety"
+    ],
+    "sourceIds": ["source.agarwal-vedic-principles-dashas", "source.narasimha-rao-vedic-integrated-approach"],
+    "themes": ["jyotish", "dasha", "timing", "context", "uncertainty"],
+    "simple": {
+      "summary": "A Vedic timing period should be read as a context-rich theme, not as a guaranteed event.",
+      "pattern": "The meaning of a dasha depends on the period planet's house ownership, placement, condition, dispositor, and whether other chart factors repeat the same theme.",
+      "growth": "This makes timing language more useful and less fatalistic: it can describe what becomes emphasized without pretending to know exactly what must happen.",
+      "reflection": "What theme is repeated by the natal chart, the period ruler, and any current transits?"
+    },
+    "advanced": {
+      "technical": "This rule treats dasha interpretation as a layered assessment: mahadasha, antardasha, house ownership, placement, condition, dispositor, and reinforcing or contradicting transit context.",
+      "method": "The generator should not output a dasha claim until it can name the period ruler and the chart logic used to support the timing statement.",
+      "caution": "Do not use dashas for death prediction, medical certainty, financial certainty, or unavoidable event claims in the public product.",
+      "constructiveChannel": "The constructive use is thematic timing awareness: a period may invite attention, preparation, reflection, or disciplined effort around a repeated chart topic."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.vedic.sensitive-bhava-safety-filter",
+    "system": "vedic",
+    "methodFamily": "jyotish-safety",
+    "factor": {
+      "reportType": "vedic-sensitive-bhava-safety-filter",
+      "referencePoint": "Lagna",
+      "zodiacMode": "sidereal-nirayana"
+    },
+    "sourceRules": [
+      "rule.vedic.sensitive-bhava-safety-filter",
+      "rule.vedic.timing-safety"
+    ],
+    "sourceIds": ["source.agarwal-vedic-principles-dashas", "source.narasimha-rao-vedic-integrated-approach"],
+    "themes": ["jyotish", "bhava", "health", "marriage", "children", "longevity", "safety"],
+    "simple": {
+      "summary": "Some Vedic topics require extra care because they touch health, marriage, children, crisis, or longevity.",
+      "pattern": "The project can preserve symbolic and traditional context without turning it into diagnosis, fear, or certainty.",
+      "growth": "A safe report should translate sensitive material into reflective themes, practical awareness, and uncertainty-aware language.",
+      "reflection": "Is this statement helping the user reflect, or is it making a frightening claim that cannot be responsibly guaranteed?"
+    },
+    "advanced": {
+      "technical": "This rule applies a public-product safety filter to Jyotish material involving sensitive bhavas and topics, especially 6th, 8th, 12th, health, children, marriage, and longevity.",
+      "method": "The system may retain the traditional category internally, but public wording must avoid diagnosis, death timing, pregnancy certainty, and relationship determinism.",
+      "caution": "Medical, longevity, and highly deterministic claims are not allowed in public output. They can remain as research annotations only if clearly segregated.",
+      "constructiveChannel": "The constructive channel is cautious symbolic framing: themes of care, responsibility, resilience, boundaries, and support-seeking."
+    },
+    "confidence": "medium"
+  }
+]

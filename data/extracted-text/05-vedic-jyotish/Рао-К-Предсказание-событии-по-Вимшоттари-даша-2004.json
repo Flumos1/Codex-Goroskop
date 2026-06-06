@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\05-vedic-jyotish\\Рао К. - Предсказание событий по Вимшоттари-даша. - 2004.pdf",
+  "category": "05-vedic-jyotish",
+  "pages": 146,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140702114548Z",
+    "ModDate": "D:20140702114937"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-07-02T11:45:48Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-07-02T11:50:28Z",
+      "xmp:metadatadate": "2014-07-02T11:50:28Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:785f22f2-0c2b-4239-9996-6b65609fe351"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:52.014Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\05-vedic-jyotish\\Рао-К-Предсказание-событии-по-Вимшоттари-даша-2004.txt",
+  "charCount": 217011,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T09:31:48.251Z",
+    "finishedAt": "2026-06-06T09:46:36.266Z",
+    "errors": []
+  }
+}

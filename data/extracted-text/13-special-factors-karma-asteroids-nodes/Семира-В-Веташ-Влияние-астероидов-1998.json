@@ -1,0 +1,35 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\13-special-factors-karma-asteroids-nodes\\Семира, В.Веташ - Влияние астероидов — 1998.pdf",
+  "category": "13-special-factors-karma-asteroids-nodes",
+  "pages": 483,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20120903192712Z",
+    "ModDate": "D:20120903200103Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2012-09-03T19:27:12Z",
+      "xmp:modifydate": "2012-09-03T20:01:03Z",
+      "xmp:metadatadate": "2012-09-03T20:01:03Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:b44f6100-6cb1-403f-b6c3-f4a9fa903960"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:28.703Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\13-special-factors-karma-asteroids-nodes\\Семира-В-Веташ-Влияние-астероидов-1998.txt",
+  "charCount": 724489,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T10:48:13.938Z",
+    "finishedAt": "2026-06-06T11:20:12.214Z",
+    "errors": []
+  }
+}

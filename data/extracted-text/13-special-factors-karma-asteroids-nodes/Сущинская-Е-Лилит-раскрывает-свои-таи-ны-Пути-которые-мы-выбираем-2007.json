@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\13-special-factors-karma-asteroids-nodes\\Сущинская Е. – Лилит раскрывает свои тайны. Пути, которые мы выбираем. – 2007.pdf",
+  "category": "13-special-factors-karma-asteroids-nodes",
+  "pages": 194,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20131015153053Z",
+    "ModDate": "D:20131015153831"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-10-15T15:30:53Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2013-10-15T15:40:55Z",
+      "xmp:metadatadate": "2013-10-15T15:40:55Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:eed1c226-4baa-40ee-90e1-0c81eaa10507"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:30.974Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\13-special-factors-karma-asteroids-nodes\\Сущинская-Е-Лилит-раскрывает-свои-таи-ны-Пути-которые-мы-выбираем-2007.txt",
+  "charCount": 462380,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T13:11:15.573Z",
+    "finishedAt": "2026-06-06T13:36:47.232Z",
+    "errors": []
+  }
+}

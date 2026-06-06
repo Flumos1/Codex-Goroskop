@@ -1,0 +1,38 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\11-rectification-birth-time\\Агафонов А. – Ректификация. – 2008 .pdf",
+  "category": "11-rectification-birth-time",
+  "pages": 334,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid PDF Tools  (7.3.2024.0)",
+    "Producer": "Solid PDF Tools  (7.3.2024.0)",
+    "CreationDate": "D:20130706180920Z",
+    "ModDate": "D:20130706184805Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-07-06T18:09:20Z",
+      "xmp:creatortool": "Solid PDF Tools  (7.3.2024.0)",
+      "xmp:modifydate": "2013-07-06T18:48:05Z",
+      "xmp:metadatadate": "2013-07-06T18:48:05Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid PDF Tools  (7.3.2024.0)",
+      "xmpmm:documentid": "uuid:392030d6-905e-46cc-8e7e-731a93d84f2e",
+      "pdfaid:conformance": "B",
+      "pdfaid:part": "1"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:20.428Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\11-rectification-birth-time\\Агафонов-А-Ректификация-2008.txt",
+  "charCount": 433719,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T18:15:12.068Z",
+    "finishedAt": "2026-06-05T18:45:04.507Z",
+    "errors": []
+  }
+}

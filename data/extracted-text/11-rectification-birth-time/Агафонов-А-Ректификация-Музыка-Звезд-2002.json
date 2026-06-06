@@ -1,0 +1,38 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\11-rectification-birth-time\\Агафонов А. – Ректификация.( Музыка Звезд).-  2002 .pdf",
+  "category": "11-rectification-birth-time",
+  "pages": 58,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid PDF Tools  (7.3.2024.0)",
+    "Producer": "Solid PDF Tools  (7.3.2024.0)",
+    "CreationDate": "D:20130706172316Z",
+    "ModDate": "D:20130706172748Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-07-06T17:23:16Z",
+      "xmp:creatortool": "Solid PDF Tools  (7.3.2024.0)",
+      "xmp:modifydate": "2013-07-06T17:27:48Z",
+      "xmp:metadatadate": "2013-07-06T17:27:48Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid PDF Tools  (7.3.2024.0)",
+      "xmpmm:documentid": "uuid:07beb552-33a7-425d-b166-9d0e2610cc52",
+      "pdfaid:conformance": "B",
+      "pdfaid:part": "1"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:20.616Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\11-rectification-birth-time\\Агафонов-А-Ректификация-Музыка-Звезд-2002.txt",
+  "charCount": 89165,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T08:25:04.059Z",
+    "finishedAt": "2026-06-05T08:29:59.651Z",
+    "errors": []
+  }
+}

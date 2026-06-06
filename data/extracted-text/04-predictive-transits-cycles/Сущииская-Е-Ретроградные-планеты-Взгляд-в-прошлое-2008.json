@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\04-predictive-transits-cycles\\Сущииская Е. -  Ретроградные планеты. Взгляд в прошлое.  – 2008.pdf",
+  "category": "04-predictive-transits-cycles",
+  "pages": 349,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20131015192223Z",
+    "ModDate": "D:20131015193210"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-10-15T19:22:23Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2013-10-15T19:36:25Z",
+      "xmp:metadatadate": "2013-10-15T19:36:25Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:89cd89a9-241b-4a15-a883-6ee9c7650ad0"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:37.919Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\04-predictive-transits-cycles\\Сущииская-Е-Ретроградные-планеты-Взгляд-в-прошлое-2008.txt",
+  "charCount": 550490,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T08:37:36.956Z",
+    "finishedAt": "2026-06-06T09:15:50.797Z",
+    "errors": []
+  }
+}

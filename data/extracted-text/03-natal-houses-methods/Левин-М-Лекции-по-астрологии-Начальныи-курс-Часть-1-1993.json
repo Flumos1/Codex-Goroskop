@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\03-natal-houses-methods\\Левин М. – Лекции по астрологии. Начальный курс. Часть 1. – 1993.pdf",
+  "category": "03-natal-houses-methods",
+  "pages": 79,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140623092347Z",
+    "ModDate": "D:20140623092537"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-06-23T09:23:47Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-06-23T09:26:07Z",
+      "xmp:metadatadate": "2014-06-23T09:26:07Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:4c7b585a-39b3-4553-a3c7-d0b9ff3a5453"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:25.705Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\03-natal-houses-methods\\Левин-М-Лекции-по-астрологии-Начальныи-курс-Часть-1-1993.txt",
+  "charCount": 124824,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T11:58:05.499Z",
+    "finishedAt": "2026-06-06T12:05:42.804Z",
+    "errors": []
+  }
+}

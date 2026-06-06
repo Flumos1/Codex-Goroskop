@@ -1,0 +1,26 @@
+{
+  "name": "codex-goroskop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Research, knowledge graph, and generator tooling for Codex Goroskop.",
+  "scripts": {
+    "inventory": "powershell -ExecutionPolicy Bypass -File ./tools/inventory-books.ps1",
+    "extract:pdf": "node ./tools/extract-pdf-text.cjs",
+    "ocr:pdf": "node ./tools/ocr-pdf-text.cjs",
+    "ocr:status": "node ./tools/ocr-status.cjs",
+    "profile:text": "node ./tools/profile-extracted-text.cjs",
+    "graph:seed": "node ./tools/seed-knowledge-graph.cjs",
+    "sample:report": "node ./tools/generate-sample-report.cjs",
+    "generate": "node ./tools/generate-report.cjs",
+    "calculate": "node ./tools/calculate-chart.cjs",
+    "trace:rule": "node ./tools/trace-rule.cjs",
+    "validate:calculations": "node ./tools/validate-calculations.cjs",
+    "verify:references": "node ./tools/verify-reference-charts.cjs --include-candidates",
+    "verify:references:strict": "node ./tools/verify-reference-charts.cjs --include-candidates --strict-references",
+    "validate": "node ./tools/validate-project.cjs && node ./tools/validate-calculations.cjs && node ./tools/verify-reference-charts.cjs --include-candidates --strict-references"
+  },
+  "dependencies": {
+    "astronomy-engine": "^2.1.19",
+    "pdf-parse": "^1.1.1"
+  }
+}

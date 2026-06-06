@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\10-compatibility-relationships\\Голдшнайдер  Г., Элфферс Д. - 48 кармических путей личности. Астрология и психология. — 2009.pdf",
+  "category": "10-compatibility-relationships",
+  "pages": 821,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20121005144712Z",
+    "ModDate": "D:20141107095151Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2012-10-05T14:47:12Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-11-07T09:51:51Z",
+      "xmp:metadatadate": "2014-11-07T09:51:51Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:e5f82ca2-5870-4f88-b248-b39732c95968"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:15.867Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\10-compatibility-relationships\\Голдшнаи-дер-Г-Элфферс-Д-48-кармических-путеи-личности-Астрология-и-психология-2009.txt",
+  "charCount": 2905150,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T16:31:46.388Z",
+    "finishedAt": "2026-06-05T17:08:26.593Z",
+    "errors": []
+  }
+}

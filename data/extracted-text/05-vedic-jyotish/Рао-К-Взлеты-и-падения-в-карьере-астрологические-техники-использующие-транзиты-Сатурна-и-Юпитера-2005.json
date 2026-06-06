@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\05-vedic-jyotish\\Рао К. – Взлеты и падения в карьере, астрологические техники , использующие транзиты Сатурна и  Юпитера.  – 2005.pdf",
+  "category": "05-vedic-jyotish",
+  "pages": 178,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140630191252Z",
+    "ModDate": "D:20140630192448"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-06-30T19:12:52Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-06-30T19:33:52Z",
+      "xmp:metadatadate": "2014-06-30T19:33:52Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:c3b5ee12-7ac5-40ed-946f-720a9137427f"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:53.871Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\05-vedic-jyotish\\Рао-К-Взлеты-и-падения-в-карьере-астрологические-техники-использующие-транзиты-Сатурна-и-Юпитера-2005.txt",
+  "charCount": 206130,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T08:28:23.319Z",
+    "finishedAt": "2026-06-06T08:43:46.895Z",
+    "errors": []
+  }
+}

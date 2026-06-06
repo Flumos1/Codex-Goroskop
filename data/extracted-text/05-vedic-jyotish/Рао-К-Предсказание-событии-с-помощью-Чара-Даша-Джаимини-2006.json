@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\05-vedic-jyotish\\Рао К. - Предсказание событий с помощью Чара Даша Джаимини. – 2006.pdf",
+  "category": "05-vedic-jyotish",
+  "pages": 189,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140702110845Z",
+    "ModDate": "D:20140702111344"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-07-02T11:08:45Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-07-02T11:14:55Z",
+      "xmp:metadatadate": "2014-07-02T11:14:55Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:4d5c820d-8028-4ed8-8d75-67a146441b04"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:52.205Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\05-vedic-jyotish\\Рао-К-Предсказание-событии-с-помощью-Чара-Даша-Джаимини-2006.txt",
+  "charCount": 215192,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T09:47:01.892Z",
+    "finishedAt": "2026-06-06T10:02:17.415Z",
+    "errors": []
+  }
+}

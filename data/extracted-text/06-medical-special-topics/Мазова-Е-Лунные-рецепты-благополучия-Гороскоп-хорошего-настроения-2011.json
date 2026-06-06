@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\06-medical-special-topics\\Мазова Е. - Лунные рецепты благополучия (Гороскоп хорошего настроения) – 2011.pdf",
+  "category": "06-medical-special-topics",
+  "pages": 146,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20110729102036Z",
+    "ModDate": "D:20110729102614"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2011-07-29T10:20:36Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2011-07-29T10:28:00Z",
+      "xmp:metadatadate": "2011-07-29T10:28:00Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:6a8f8e7c-b3f7-4375-bcfd-587c23a0113c"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:08.944Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\06-medical-special-topics\\Мазова-Е-Лунные-рецепты-благополучия-Гороскоп-хорошего-настроения-2011.txt",
+  "charCount": 249714,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T09:32:48.020Z",
+    "finishedAt": "2026-06-06T09:46:46.689Z",
+    "errors": []
+  }
+}

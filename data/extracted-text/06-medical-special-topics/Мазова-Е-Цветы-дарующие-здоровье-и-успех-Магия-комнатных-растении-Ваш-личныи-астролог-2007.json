@@ -1,0 +1,35 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\06-medical-special-topics\\Мазова Е. - Цветы, дарующие здоровье и успех. Магия комнатных растений.( Ваш личный астролог ) – 2007 .pdf",
+  "category": "06-medical-special-topics",
+  "pages": 276,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20120503193515Z",
+    "ModDate": "D:20120503195806Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2012-05-03T19:35:15Z",
+      "xmp:modifydate": "2012-05-03T19:58:06Z",
+      "xmp:metadatadate": "2012-05-03T19:58:06Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:66ca4ad3-dc27-4275-9dfb-cd460fb2da83"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:09.764Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\06-medical-special-topics\\Мазова-Е-Цветы-дарующие-здоровье-и-успех-Магия-комнатных-растении-Ваш-личныи-астролог-2007.txt",
+  "charCount": 447148,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T09:03:19.787Z",
+    "finishedAt": "2026-06-06T09:08:28.581Z",
+    "errors": []
+  }
+}

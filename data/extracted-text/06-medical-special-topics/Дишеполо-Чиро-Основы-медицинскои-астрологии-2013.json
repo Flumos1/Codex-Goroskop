@@ -1,0 +1,38 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\06-medical-special-topics\\Дишеполо Чиро - Основы медицинской астрологии - 2013.pdf",
+  "category": "06-medical-special-topics",
+  "pages": 322,
+  "info": {
+    "PDFFormatVersion": "1.6",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Title": "",
+    "Creator": "Adobe Acrobat 11.0.12",
+    "Producer": "Adobe Acrobat Pro (64-bit) 23 Paper Capture Plug-in",
+    "CreationDate": "D:20160330000722+03'00'",
+    "ModDate": "D:20240508091122+10'00'"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:modifydate": "2024-05-08T09:11:22+10:00",
+      "xmp:createdate": "2016-03-30T00:07:22+03:00",
+      "xmp:metadatadate": "2024-05-08T09:11:22+10:00",
+      "xmp:creatortool": "Adobe Acrobat 11.0.12",
+      "dc:format": "application/pdf",
+      "xmpmm:documentid": "uuid:37bb5afc-11d2-4041-b29f-7e2ce356aeb3",
+      "xmpmm:instanceid": "uuid:540c6411-e49e-450f-ba30-90c2af0ba41d",
+      "pdf:producer": "Adobe Acrobat Pro (64-bit) 23 Paper Capture Plug-in"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:08.413Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\06-medical-special-topics\\Дишеполо-Чиро-Основы-медицинскои-астрологии-2013.txt",
+  "charCount": 407319,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T10:08:30.922Z",
+    "finishedAt": "2026-06-06T10:40:47.552Z",
+    "errors": []
+  }
+}

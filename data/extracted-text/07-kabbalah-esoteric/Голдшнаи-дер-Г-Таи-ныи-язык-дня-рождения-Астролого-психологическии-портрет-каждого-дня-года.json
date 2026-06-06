@@ -1,0 +1,23 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\07-kabbalah-esoteric\\Голдшнайдер Г. - Тайный язык дня рождения. Астролого-психологический портрет каждого дня года.pdf",
+  "category": "07-kabbalah-esoteric",
+  "pages": 728,
+  "info": {
+    "PDFFormatVersion": "1.5",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Producer": "djvutopdf"
+  },
+  "metadata": null,
+  "extractedAt": "2026-06-05T08:13:10.351Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\07-kabbalah-esoteric\\Голдшнаи-дер-Г-Таи-ныи-язык-дня-рождения-Астролого-психологическии-портрет-каждого-дня-года.txt",
+  "charCount": 1234172,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T09:37:47.030Z",
+    "finishedAt": "2026-06-05T09:42:30.329Z",
+    "errors": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\13-special-factors-karma-asteroids-nodes\\Семира, В.Веташ .  – Астероиды и мировая астрология – 1994 .pdf",
+  "category": "13-special-factors-karma-asteroids-nodes",
+  "pages": 193,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20120902163909Z",
+    "ModDate": "D:20120902164853Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2012-09-02T16:39:09Z",
+      "xmp:modifydate": "2012-09-02T16:48:53Z",
+      "xmp:metadatadate": "2012-09-02T16:48:53Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:2e8a2f4f-d262-4aab-91dd-604da8072401"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:28.898Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\13-special-factors-karma-asteroids-nodes\\Семира-В-Веташ-Астероиды-и-мировая-астрология-1994.txt",
+  "charCount": 304277,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T11:20:46.336Z",
+    "finishedAt": "2026-06-06T11:44:56.295Z",
+    "errors": []
+  }
+}

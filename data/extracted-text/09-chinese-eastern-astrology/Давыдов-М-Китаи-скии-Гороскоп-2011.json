@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\09-chinese-eastern-astrology\\Давыдов М. – Китайский  Гороскоп -  2011.pdf",
+  "category": "09-chinese-eastern-astrology",
+  "pages": 370,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20110713203744Z",
+    "ModDate": "D:20110725163414"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2011-07-13T20:37:44Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2011-07-25T16:34:16Z",
+      "xmp:metadatadate": "2011-07-25T16:34:16Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:e2ae2844-e060-4e3f-89c2-79ea4b0a5487"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:13.675Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\09-chinese-eastern-astrology\\Давыдов-М-Китаи-скии-Гороскоп-2011.txt",
+  "charCount": 594468,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T23:04:41.331Z",
+    "finishedAt": "2026-06-05T23:38:35.505Z",
+    "errors": []
+  }
+}

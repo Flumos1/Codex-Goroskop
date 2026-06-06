@@ -1,0 +1,35 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\12-applied-esoteric-talismans-calendar\\Мазова Е. - Адрес вашего Ангела-Хранителя. Пособие по общению.( Ваш личный астролог) – 2007 .pdf",
+  "category": "12-applied-esoteric-talismans-calendar",
+  "pages": 147,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20111231191501Z",
+    "ModDate": "D:20111231193536Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2011-12-31T19:15:01Z",
+      "xmp:modifydate": "2011-12-31T19:35:36Z",
+      "xmp:metadatadate": "2011-12-31T19:35:36Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:4d5428c2-c34c-4705-ba91-193eb7f5654c"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:21.057Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\12-applied-esoteric-talismans-calendar\\Мазова-Е-Адрес-вашего-Ангела-Хранителя-Пособие-по-общению-Ваш-личныи-астролог-2007.txt",
+  "charCount": 205584,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T08:54:20.352Z",
+    "finishedAt": "2026-06-06T09:06:15.440Z",
+    "errors": []
+  }
+}

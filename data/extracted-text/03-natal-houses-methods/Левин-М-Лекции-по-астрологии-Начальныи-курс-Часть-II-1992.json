@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\03-natal-houses-methods\\Левин М. – Лекции по астрологии. Начальный курс. Часть II. – 1992.pdf",
+  "category": "03-natal-houses-methods",
+  "pages": 111,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140623093335Z",
+    "ModDate": "D:20140623093619"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-06-23T09:33:35Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-06-23T09:36:57Z",
+      "xmp:metadatadate": "2014-06-23T09:36:57Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:1aa300fb-42a8-4049-a91b-e38b00da9707"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:25.845Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\03-natal-houses-methods\\Левин-М-Лекции-по-астрологии-Начальныи-курс-Часть-II-1992.txt",
+  "charCount": 215341,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T12:06:17.739Z",
+    "finishedAt": "2026-06-06T12:17:14.495Z",
+    "errors": []
+  }
+}

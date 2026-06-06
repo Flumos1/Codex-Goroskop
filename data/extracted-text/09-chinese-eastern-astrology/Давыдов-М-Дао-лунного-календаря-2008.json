@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\09-chinese-eastern-astrology\\Давыдов М. - Дао лунного календаря. – 2008.pdf",
+  "category": "09-chinese-eastern-astrology",
+  "pages": 330,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140818102721Z",
+    "ModDate": "D:20140818103947"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-08-18T10:27:21Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-08-18T10:42:15Z",
+      "xmp:metadatadate": "2014-08-18T10:42:15Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:ec5b4a01-4823-424c-ae30-37f49e6124d0"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:12.818Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\09-chinese-eastern-astrology\\Давыдов-М-Дао-лунного-календаря-2008.txt",
+  "charCount": 390258,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T22:14:45.888Z",
+    "finishedAt": "2026-06-05T22:40:22.188Z",
+    "errors": []
+  }
+}

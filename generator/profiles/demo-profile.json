@@ -1,0 +1,30 @@
+{
+  "title": "Demo Natal Reflection",
+  "mode": "both",
+  "language": "en",
+  "systems": ["western", "vedic"],
+  "subject": {
+    "nickname": "Demo User"
+  },
+  "birthData": {
+    "date": "1990-01-01",
+    "time": "12:00",
+    "place": "Chisinau, Moldova",
+    "quality": "demo"
+  },
+  "context": "Prototype profile for testing multi-factor report generation. Birth data is not calculated yet; factors are selected manually from available rules.",
+  "factors": [
+    {
+      "query": "Moon square Saturn"
+    },
+    {
+      "query": "Saturn in 7th house"
+    },
+    {
+      "query": "Venus in 10th house"
+    },
+    {
+      "query": "vedic framework"
+    }
+  ]
+}

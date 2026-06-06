@@ -1,0 +1,38 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\04-predictive-transits-cycles\\Агафонов А. - Прогностическая астрология. Том 3. Практика. Часть 2. Брак и рождение детей. – 2008 .pdf",
+  "category": "04-predictive-transits-cycles",
+  "pages": 227,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid PDF Tools  (7.3.2024.0)",
+    "Producer": "Solid PDF Tools  (7.3.2024.0)",
+    "CreationDate": "D:20130706152902Z",
+    "ModDate": "D:20130706155120Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-07-06T15:29:02Z",
+      "xmp:creatortool": "Solid PDF Tools  (7.3.2024.0)",
+      "xmp:modifydate": "2013-07-06T15:51:20Z",
+      "xmp:metadatadate": "2013-07-06T15:51:20Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid PDF Tools  (7.3.2024.0)",
+      "xmpmm:documentid": "uuid:d86cbad0-6d78-48e1-8ae6-c1611089aad2",
+      "pdfaid:conformance": "B",
+      "pdfaid:part": "1"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:34.243Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\04-predictive-transits-cycles\\Агафонов-А-Прогностическая-астрология-Том-3-Практика-Часть-2-Брак-и-рождение-детеи-2008.txt",
+  "charCount": 248186,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T19:11:51.537Z",
+    "finishedAt": "2026-06-05T19:28:56.090Z",
+    "errors": []
+  }
+}

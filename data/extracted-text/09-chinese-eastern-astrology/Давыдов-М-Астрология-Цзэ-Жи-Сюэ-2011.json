@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\09-chinese-eastern-astrology\\Давыдов М. -  Астрология Цзэ Жи Сюэ - 2011.pdf",
+  "category": "09-chinese-eastern-astrology",
+  "pages": 354,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20110806185332Z",
+    "ModDate": "D:20110806205950"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2011-08-06T18:53:32Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2011-08-06T20:59:50Z",
+      "xmp:metadatadate": "2011-08-06T20:59:50Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:4ef99350-86ad-45e4-98db-f94cae783b43"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:12.011Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\09-chinese-eastern-astrology\\Давыдов-М-Астрология-Цзэ-Жи-Сюэ-2011.txt",
+  "charCount": 506250,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T21:06:50.157Z",
+    "finishedAt": "2026-06-05T21:38:12.034Z",
+    "errors": []
+  }
+}

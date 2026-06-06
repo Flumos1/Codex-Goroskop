@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\05-vedic-jyotish\\Pao К. - Астрология, Судьба и Колесо Времени.Техники и предсказания. – 2004.pdf",
+  "category": "05-vedic-jyotish",
+  "pages": 274,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20110404180530Z",
+    "ModDate": "D:20110404181436"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2011-04-04T18:05:30Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2011-04-04T18:18:07Z",
+      "xmp:metadatadate": "2011-04-04T18:18:07Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:bdaadd32-3901-4526-95ce-57ff300b52a8"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:39.129Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\05-vedic-jyotish\\Pao-К-Астрология-Судьба-и-Колесо-Времени-Техники-и-предсказания-2004.txt",
+  "charCount": 333011,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T11:12:58.439Z",
+    "finishedAt": "2026-06-06T11:37:50.593Z",
+    "errors": []
+  }
+}

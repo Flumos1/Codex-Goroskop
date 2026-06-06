@@ -1,0 +1,37 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\04-predictive-transits-cycles\\Блект Рами - Волшебный ключ к 12 домам судьбы - 2013.pdf",
+  "category": "04-predictive-transits-cycles",
+  "pages": 401,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140105162431Z",
+    "ModDate": "D:20240901082502+10'00'"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-01-05T16:24:31Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2024-09-01T08:25:02+10:00",
+      "xmp:metadatadate": "2024-09-01T08:25:02+10:00",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:59bf241b-8b95-4d3c-a408-865b2a6c3484",
+      "xmpmm:instanceid": "uuid:93d465ad-77f3-4090-aaec-16fa13b08dc5"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:37.137Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\04-predictive-transits-cycles\\Блект-Рами-Волшебныи-ключ-к-12-домам-судьбы-2013.txt",
+  "charCount": 6884,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T08:27:40.734Z",
+    "finishedAt": "2026-06-06T08:37:13.877Z",
+    "errors": []
+  }
+}

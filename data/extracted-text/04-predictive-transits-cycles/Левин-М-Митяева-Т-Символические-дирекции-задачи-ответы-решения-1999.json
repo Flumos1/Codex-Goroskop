@@ -1,0 +1,37 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\04-predictive-transits-cycles\\Левин М.,Митяева Т. – Символические дирекции – задачи,ответы,решения. – 1999.pdf",
+  "category": "04-predictive-transits-cycles",
+  "pages": 103,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140622183501Z",
+    "ModDate": "D:20140622215118+03'00'"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-06-22T18:35:01Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-06-22T21:51:18+03:00",
+      "xmp:metadatadate": "2014-06-22T21:51:18+03:00",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:c0987ce6-ad2a-4727-86aa-1bd7a9e3e037",
+      "xmpmm:instanceid": "uuid:cdaba0b5-0c3f-43bf-bed5-ae643b1f5cac"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:37.381Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\04-predictive-transits-cycles\\Левин-М-Митяева-Т-Символические-дирекции-задачи-ответы-решения-1999.txt",
+  "charCount": 149803,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T20:59:13.085Z",
+    "finishedAt": "2026-06-05T21:06:27.260Z",
+    "errors": []
+  }
+}

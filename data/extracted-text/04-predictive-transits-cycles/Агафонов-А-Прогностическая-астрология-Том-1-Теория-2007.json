@@ -1,0 +1,38 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\04-predictive-transits-cycles\\Агафонов А. – Прогностическая астрология. Том 1. Теория. – 2007 .pdf",
+  "category": "04-predictive-transits-cycles",
+  "pages": 356,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid PDF Tools  (7.3.2024.0)",
+    "Producer": "Solid PDF Tools  (7.3.2024.0)",
+    "CreationDate": "D:20130706113152Z",
+    "ModDate": "D:20130706121014Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-07-06T11:31:52Z",
+      "xmp:creatortool": "Solid PDF Tools  (7.3.2024.0)",
+      "xmp:modifydate": "2013-07-06T12:10:14Z",
+      "xmp:metadatadate": "2013-07-06T12:10:14Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid PDF Tools  (7.3.2024.0)",
+      "xmpmm:documentid": "uuid:dd20606e-4494-4ec0-975c-be736976c4cf",
+      "pdfaid:conformance": "B",
+      "pdfaid:part": "1"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:36.345Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\04-predictive-transits-cycles\\Агафонов-А-Прогностическая-астрология-Том-1-Теория-2007.txt",
+  "charCount": 466257,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T20:11:12.274Z",
+    "finishedAt": "2026-06-05T20:43:24.323Z",
+    "errors": []
+  }
+}

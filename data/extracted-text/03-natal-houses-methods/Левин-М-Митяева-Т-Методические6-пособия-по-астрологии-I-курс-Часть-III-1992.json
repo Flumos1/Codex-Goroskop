@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\03-natal-houses-methods\\Левин М.. Митяева Т. -  Методические6 пособия по астрологии   I курс Часть III – 1992.pdf",
+  "category": "03-natal-houses-methods",
+  "pages": 132,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140624091326Z",
+    "ModDate": "D:20140624092236"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-06-24T09:13:26Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-06-24T09:29:33Z",
+      "xmp:metadatadate": "2014-06-24T09:29:33Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:176a27f2-745d-4088-8d24-a638abe816fe"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:26.441Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\03-natal-houses-methods\\Левин-М-Митяева-Т-Методические6-пособия-по-астрологии-I-курс-Часть-III-1992.txt",
+  "charCount": 93823,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T12:17:37.638Z",
+    "finishedAt": "2026-06-06T12:27:03.664Z",
+    "errors": []
+  }
+}

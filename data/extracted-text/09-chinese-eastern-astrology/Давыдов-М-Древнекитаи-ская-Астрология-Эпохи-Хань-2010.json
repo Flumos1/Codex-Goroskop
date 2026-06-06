@@ -1,0 +1,35 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\09-chinese-eastern-astrology\\Давыдов М. – Древнекитайская Астрология Эпохи Хань. - 2010.pdf",
+  "category": "09-chinese-eastern-astrology",
+  "pages": 310,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20120822085535Z",
+    "ModDate": "D:20120822093043Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2012-08-22T08:55:35Z",
+      "xmp:modifydate": "2012-08-22T09:30:43Z",
+      "xmp:metadatadate": "2012-08-22T09:30:43Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:fe6c4244-3591-461f-a984-5e127758c603"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:13.235Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\09-chinese-eastern-astrology\\Давыдов-М-Древнекитаи-ская-Астрология-Эпохи-Хань-2010.txt",
+  "charCount": 379151,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T22:40:40.787Z",
+    "finishedAt": "2026-06-05T23:04:16.741Z",
+    "errors": []
+  }
+}

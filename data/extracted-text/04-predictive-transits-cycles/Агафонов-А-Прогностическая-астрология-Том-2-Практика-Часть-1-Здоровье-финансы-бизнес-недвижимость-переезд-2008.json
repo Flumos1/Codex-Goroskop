@@ -1,0 +1,38 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\04-predictive-transits-cycles\\Агафонов А. - Прогностическая астрология. Том 2. Практика. Часть 1. Здоровье,финансы,бизнес,недвижимость,переезд. – 2008 .pdf",
+  "category": "04-predictive-transits-cycles",
+  "pages": 315,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid PDF Tools  (7.3.2024.0)",
+    "Producer": "Solid PDF Tools  (7.3.2024.0)",
+    "CreationDate": "D:20130706142225Z",
+    "ModDate": "D:20130706145349Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-07-06T14:22:25Z",
+      "xmp:creatortool": "Solid PDF Tools  (7.3.2024.0)",
+      "xmp:modifydate": "2013-07-06T14:53:49Z",
+      "xmp:metadatadate": "2013-07-06T14:53:49Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid PDF Tools  (7.3.2024.0)",
+      "xmpmm:documentid": "uuid:291a97f1-cfe0-41af-8d4c-4eab79920802",
+      "pdfaid:conformance": "B",
+      "pdfaid:part": "1"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:33.680Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\04-predictive-transits-cycles\\Агафонов-А-Прогностическая-астрология-Том-2-Практика-Часть-1-Здоровье-финансы-бизнес-недвижимость-переезд-2008.txt",
+  "charCount": 354237,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T18:45:25.512Z",
+    "finishedAt": "2026-06-05T19:11:35.727Z",
+    "errors": []
+  }
+}

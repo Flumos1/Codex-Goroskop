@@ -1,0 +1,35 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\12-applied-esoteric-talismans-calendar\\Мазова Е. - Самоцветы  для счастливой жизни (Практическая эзотерика). —  2001.pdf",
+  "category": "12-applied-esoteric-talismans-calendar",
+  "pages": 192,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20120707144814Z",
+    "ModDate": "D:20120707150102Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2012-07-07T14:48:14Z",
+      "xmp:modifydate": "2012-07-07T15:01:02Z",
+      "xmp:metadatadate": "2012-07-07T15:01:02Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:d7108e84-532d-4967-b50e-4b667774e2a0"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:23.272Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\12-applied-esoteric-talismans-calendar\\Мазова-Е-Самоцветы-для-счастливои-жизни-Практическая-эзотерика-2001.txt",
+  "charCount": 263981,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T11:41:44.864Z",
+    "finishedAt": "2026-06-06T12:00:58.277Z",
+    "errors": []
+  }
+}

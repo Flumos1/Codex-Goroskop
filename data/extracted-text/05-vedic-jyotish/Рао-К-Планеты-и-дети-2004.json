@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\05-vedic-jyotish\\Рао К. - Планеты и дети. - 2004.pdf",
+  "category": "05-vedic-jyotish",
+  "pages": 180,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140702083216Z",
+    "ModDate": "D:20140702083659"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-07-02T08:32:16Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-07-02T08:38:22Z",
+      "xmp:metadatadate": "2014-07-02T08:38:22Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:baa44c3e-2491-4cd9-a7a7-235868ee2668"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:51.820Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\05-vedic-jyotish\\Рао-К-Планеты-и-дети-2004.txt",
+  "charCount": 228426,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T09:13:11.590Z",
+    "finishedAt": "2026-06-06T09:31:22.659Z",
+    "errors": []
+  }
+}

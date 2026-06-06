@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\05-vedic-jyotish\\Рао К., Рао А. - Изучаем индийскую астрологию... с легкостью! - 2003.pdf",
+  "category": "05-vedic-jyotish",
+  "pages": 188,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20140701114408Z",
+    "ModDate": "D:20140701114858"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2014-07-01T11:44:08Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2014-07-01T11:50:07Z",
+      "xmp:metadatadate": "2014-07-01T11:50:07Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:53d2ed0f-884f-4fff-9edb-846e136162a8"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:54.728Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\05-vedic-jyotish\\Рао-К-Рао-А-Изучаем-индии-скую-астрологию-с-легкостью-2003.txt",
+  "charCount": 230154,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T10:02:47.409Z",
+    "finishedAt": "2026-06-06T10:18:49.745Z",
+    "errors": []
+  }
+}

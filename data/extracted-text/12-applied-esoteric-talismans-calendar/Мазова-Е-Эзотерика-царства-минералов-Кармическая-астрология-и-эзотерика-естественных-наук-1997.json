@@ -1,0 +1,24 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\12-applied-esoteric-talismans-calendar\\Мазова Е. - Эзотерика царства минералов.( Кармическая астрология и эзотерика естественных наук). - 1997.pdf",
+  "category": "12-applied-esoteric-talismans-calendar",
+  "pages": 228,
+  "info": {
+    "PDFFormatVersion": "1.3",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "CreationDate": "D:20110624215501+04'00'",
+    "ModDate": "D:20110624215501+04'00'"
+  },
+  "metadata": null,
+  "extractedAt": "2026-06-05T08:13:24.875Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\12-applied-esoteric-talismans-calendar\\Мазова-Е-Эзотерика-царства-минералов-Кармическая-астрология-и-эзотерика-естественных-наук-1997.txt",
+  "charCount": 259402,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T13:31:32.321Z",
+    "finishedAt": "2026-06-06T13:32:41.076Z",
+    "errors": []
+  }
+}

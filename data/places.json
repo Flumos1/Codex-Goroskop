@@ -1,0 +1,98 @@
+[
+  {
+    "key": "chisinau-md",
+    "name": "Chisinau, Moldova",
+    "aliases": ["chisinau", "kishinev", "кишинев", "кишинёв", "кишинеу"],
+    "latitude": 47.0105,
+    "longitude": 28.8638,
+    "timeZone": "Europe/Chisinau"
+  },
+  {
+    "key": "kyiv-ua",
+    "name": "Kyiv, Ukraine",
+    "aliases": ["kyiv", "kiev", "киев", "київ"],
+    "latitude": 50.4501,
+    "longitude": 30.5234,
+    "timeZone": "Europe/Kyiv"
+  },
+  {
+    "key": "odesa-ua",
+    "name": "Odesa, Ukraine",
+    "aliases": ["odesa", "odessa", "одесса", "одеса"],
+    "latitude": 46.4825,
+    "longitude": 30.7233,
+    "timeZone": "Europe/Kyiv"
+  },
+  {
+    "key": "moscow-ru",
+    "name": "Moscow, Russia",
+    "aliases": ["moscow", "москва"],
+    "latitude": 55.7558,
+    "longitude": 37.6173,
+    "timeZone": "Europe/Moscow"
+  },
+  {
+    "key": "london-uk",
+    "name": "London, United Kingdom",
+    "aliases": ["london", "лондон"],
+    "latitude": 51.5072,
+    "longitude": -0.1276,
+    "timeZone": "Europe/London"
+  },
+  {
+    "key": "new-york-us",
+    "name": "New York, United States",
+    "aliases": ["new york", "nyc", "нью-йорк"],
+    "latitude": 40.7128,
+    "longitude": -74.006,
+    "timeZone": "America/New_York"
+  },
+  {
+    "key": "los-angeles-us",
+    "name": "Los Angeles, United States",
+    "aliases": ["los angeles", "la", "лос-анджелес"],
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "timeZone": "America/Los_Angeles"
+  },
+  {
+    "key": "honolulu-us",
+    "name": "Honolulu, Hawaii, United States",
+    "aliases": ["honolulu", "honolulu hawaii", "гонолулу"],
+    "latitude": 21.3069,
+    "longitude": -157.8583,
+    "timeZone": "Pacific/Honolulu"
+  },
+  {
+    "key": "tengster-village-tibet",
+    "name": "Tengster Village, Tibet",
+    "aliases": ["tengster", "tengster village", "taktser", "такцер"],
+    "latitude": 36.5333,
+    "longitude": 101.2,
+    "timeZone": "Asia/Shanghai"
+  },
+  {
+    "key": "mvezo-za",
+    "name": "Mvezo, South Africa",
+    "aliases": ["mvezo", "мвезо"],
+    "latitude": -31.59,
+    "longitude": 28.78,
+    "timeZone": "Africa/Johannesburg"
+  },
+  {
+    "key": "berlin-de",
+    "name": "Berlin, Germany",
+    "aliases": ["berlin", "берлин"],
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "timeZone": "Europe/Berlin"
+  },
+  {
+    "key": "paris-fr",
+    "name": "Paris, France",
+    "aliases": ["paris", "париж"],
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "timeZone": "Europe/Paris"
+  }
+]

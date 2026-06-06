@@ -1,0 +1,35 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\10-compatibility-relationships\\Голдшнайдер Г. - Астрология успеха (2004).pdf",
+  "category": "10-compatibility-relationships",
+  "pages": 594,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20111114234747Z",
+    "ModDate": "D:20111115002209Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2011-11-14T23:47:47Z",
+      "xmp:modifydate": "2011-11-15T00:22:09Z",
+      "xmp:metadatadate": "2011-11-15T00:22:09Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:232c8e45-7809-4393-b577-2137c9829e93"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:16.365Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\10-compatibility-relationships\\Голдшнаи-дер-Г-Астрология-успеха-2004.txt",
+  "charCount": 523485,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T17:44:03.639Z",
+    "finishedAt": "2026-06-05T18:14:50.793Z",
+    "errors": []
+  }
+}

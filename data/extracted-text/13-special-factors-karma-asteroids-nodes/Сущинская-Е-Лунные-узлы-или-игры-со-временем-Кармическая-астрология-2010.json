@@ -1,0 +1,35 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\13-special-factors-karma-asteroids-nodes\\Сущинская Е. - Лунные узлы, или игры со временем. (Кармическая астрология). - 2010.pdf",
+  "category": "13-special-factors-karma-asteroids-nodes",
+  "pages": 234,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20110702064410Z",
+    "ModDate": "D:20110702065936Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2011-07-02T06:44:10Z",
+      "xmp:modifydate": "2011-07-02T06:59:36Z",
+      "xmp:metadatadate": "2011-07-02T06:59:36Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:465be448-5e50-4050-a246-774b6bbe553b"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:30.329Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\13-special-factors-karma-asteroids-nodes\\Сущинская-Е-Лунные-узлы-или-игры-со-временем-Кармическая-астрология-2010.txt",
+  "charCount": 467401,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T12:49:38.538Z",
+    "finishedAt": "2026-06-06T13:17:11.681Z",
+    "errors": []
+  }
+}

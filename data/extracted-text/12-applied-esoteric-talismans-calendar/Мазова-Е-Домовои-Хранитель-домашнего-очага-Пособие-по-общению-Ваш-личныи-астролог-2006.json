@@ -1,0 +1,35 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\12-applied-esoteric-talismans-calendar\\Мазова Е. - Домовой. Хранитель домашнего очага. Пособие по общению (Ваш личный астролог). —  2006.pdf",
+  "category": "12-applied-esoteric-talismans-calendar",
+  "pages": 142,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20120815104515Z",
+    "ModDate": "D:20120815104830Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2012-08-15T10:45:15Z",
+      "xmp:modifydate": "2012-08-15T10:48:30Z",
+      "xmp:metadatadate": "2012-08-15T10:48:30Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:79981b95-a256-4135-94b1-6322d8c8542f"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:21.652Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\12-applied-esoteric-talismans-calendar\\Мазова-Е-Домовои-Хранитель-домашнего-очага-Пособие-по-общению-Ваш-личныи-астролог-2006.txt",
+  "charCount": 203469,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T09:42:39.929Z",
+    "finishedAt": "2026-06-06T09:54:20.198Z",
+    "errors": []
+  }
+}

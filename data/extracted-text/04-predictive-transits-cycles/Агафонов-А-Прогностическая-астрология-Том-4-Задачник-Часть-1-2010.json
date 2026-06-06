@@ -1,0 +1,38 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\04-predictive-transits-cycles\\Агафонов А. - Прогностическая астрология. Том 4. Задачник. Часть 1. — 2010.pdf",
+  "category": "04-predictive-transits-cycles",
+  "pages": 403,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid PDF Tools  (7.3.2024.0)",
+    "Producer": "Solid PDF Tools  (7.3.2024.0)",
+    "CreationDate": "D:20130706090233Z",
+    "ModDate": "D:20130706094342Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-07-06T09:02:33Z",
+      "xmp:creatortool": "Solid PDF Tools  (7.3.2024.0)",
+      "xmp:modifydate": "2013-07-06T09:43:42Z",
+      "xmp:metadatadate": "2013-07-06T09:43:42Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid PDF Tools  (7.3.2024.0)",
+      "xmpmm:documentid": "uuid:c0f29b70-2bd8-4125-ac29-46d0eda5bec7",
+      "pdfaid:conformance": "B",
+      "pdfaid:part": "1"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:35.076Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\04-predictive-transits-cycles\\Агафонов-А-Прогностическая-астрология-Том-4-Задачник-Часть-1-2010.txt",
+  "charCount": 486117,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T19:29:12.241Z",
+    "finishedAt": "2026-06-05T20:02:28.845Z",
+    "errors": []
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "title": "Calculated Natal Prototype",
+  "mode": "both",
+  "language": "ru",
+  "systems": [
+    "western"
+  ],
+  "subject": {
+    "nickname": "Demo User"
+  },
+  "birthData": {
+    "datetimeUtc": "1990-04-10T12:00:00Z",
+    "localDate": null,
+    "localTime": null,
+    "timeZone": "Europe/Chisinau",
+    "place": "Chisinau, Moldova",
+    "placeKey": "chisinau-md",
+    "latitude": 47.0105,
+    "longitude": 28.8638,
+    "quality": "prototype-utc-equal-from-ascendant"
+  },
+  "calculation": {
+    "engine": "astronomy-engine",
+    "zodiac": "tropical",
+    "assumptions": [
+      "Input datetime is treated as UTC.",
+      "Place lookup is limited to data/places.json unless latitude, longitude, and timezone are provided manually.",
+      "No external geocoding yet.",
+      "Ascendant and houses use a prototype Equal House system from the Ascendant.",
+      "House cusps are not Placidus, Koch, Regiomontanus, or Vedic bhava calculations.",
+      "No Vedic sidereal ayanamsa yet."
+    ],
+    "positions": [
+      {
+        "body": "Sun",
+        "tropicalLongitude": 20.356259,
+        "sign": "Aries",
+        "degreeInSign": 20.356259,
+        "house": 8
+      },
+      {
+        "body": "Moon",
+        "tropicalLongitude": 204.357296,
+        "sign": "Libra",
+        "degreeInSign": 24.357296,
+        "house": 2
+      },
+      {
+        "body": "Mercury",
+        "tropicalLongitude": 39.356268,
+        "sign": "Taurus",
+        "degreeInSign": 9.356268,
+        "house": 9
+      },
+      {
+        "body": "Venus",
+        "tropicalLongitude": 334.266094,
+        "sign": "Pisces",
+        "degreeInSign": 4.266094,
+        "house": 7
+      },
+      {
+        "body": "Mars",
+        "tropicalLongitude": 322.206245,
+        "sign": "Aquarius",
+        "degreeInSign": 22.206245,
+        "house": 6
+      },
+      {
+        "body": "Jupiter",
+        "tropicalLongitude": 93.875918,
+        "sign": "Cancer",
+        "degreeInSign": 3.875918,
+        "house": 11
+      },
+      {
+        "body": "Saturn",
+        "tropicalLongitude": 294.851423,
+        "sign": "Capricorn",
+        "degreeInSign": 24.851423,
+        "house": 5
+      },
+      {
+        "body": "Uranus",
+        "tropicalLongitude": 279.582962,
+        "sign": "Capricorn",
+        "degreeInSign": 9.582962,
+        "house": 5
+      },
+      {
+        "body": "Neptune",
+        "tropicalLongitude": 284.564187,
+        "sign": "Capricorn",
+        "degreeInSign": 14.564187,
+        "house": 5
+      },
+      {
+        "body": "Pluto",
+        "tropicalLongitude": 227.11498,
+        "sign": "Scorpio",
+        "degreeInSign": 17.11498,
+        "house": 3
+      }
+    ],
+    "aspects": [
+      {
+        "bodyA": "Sun",
+        "aspect": "opposition",
+        "bodyB": "Moon",
+        "orb": 4.001,
+        "exactAngle": 180,
+        "query": "Sun opposition Moon",
+        "matchedRuleQuery": null
+      },
+      {
+        "bodyA": "Sun",
+        "aspect": "sextile",
+        "bodyB": "Mars",
+        "orb": 1.85,
+        "exactAngle": 60,
+        "query": "Sun sextile Mars",
+        "matchedRuleQuery": null
+      },
+      {
+        "bodyA": "Sun",
+        "aspect": "square",
+        "bodyB": "Saturn",
+        "orb": 4.495,
+        "exactAngle": 90,
+        "query": "Sun square Saturn",
+        "matchedRuleQuery": null
+      },
+      {
+        "bodyA": "Sun",
+        "aspect": "square",
+        "bodyB": "Neptune",
+        "orb": 5.792,
+        "exactAngle": 90,
+        "query": "Sun square Neptune",
+        "matchedRuleQuery": "Sun square Neptune"
+      },
+      {
+        "bodyA": "Moon",
+        "aspect": "trine",
+        "bodyB": "Mars",
+        "orb": 2.151,
+        "exactAngle": 120,
+        "query": "Moon trine Mars",
+        "matchedRuleQuery": null
+      },
+      {
+        "bodyA": "Moon",
+        "aspect": "square",
+        "bodyB": "Saturn",
+        "orb": 0.494,
+        "exactAngle": 90,
+        "query": "Moon square Saturn",
+        "matchedRuleQuery": "Moon square Saturn"
+      },
+      {
+        "bodyA": "Mercury",
+        "aspect": "trine",
+        "bodyB": "Uranus",
+        "orb": 0.227,
+        "exactAngle": 120,
+        "query": "Mercury trine Uranus",
+        "matchedRuleQuery": null
+      },
+      {
+        "bodyA": "Mercury",
+        "aspect": "trine",
+        "bodyB": "Neptune",
+        "orb": 5.208,
+        "exactAngle": 120,
+        "query": "Mercury trine Neptune",
+        "matchedRuleQuery": null
+      },
+      {
+        "bodyA": "Mercury",
+        "aspect": "opposition",
+        "bodyB": "Pluto",
+        "orb": 7.759,
+        "exactAngle": 180,
+        "query": "Mercury opposition Pluto",
+        "matchedRuleQuery": null
+      },
+      {
+        "bodyA": "Venus",
+        "aspect": "trine",
+        "bodyB": "Jupiter",
+        "orb": 0.39,
+        "exactAngle": 120,
+        "query": "Venus trine Jupiter",
+        "matchedRuleQuery": "Venus trine Jupiter"
+      },
+      {
+        "bodyA": "Mars",
+        "aspect": "square",
+        "bodyB": "Pluto",
+        "orb": 5.091,
+        "exactAngle": 90,
+        "query": "Mars square Pluto",
+        "matchedRuleQuery": null
+      },
+      {
+        "bodyA": "Jupiter",
+        "aspect": "opposition",
+        "bodyB": "Uranus",
+        "orb": 5.707,
+        "exactAngle": 180,
+        "query": "Jupiter opposition Uranus",
+        "matchedRuleQuery": null
+      },
+      {
+        "bodyA": "Uranus",
+        "aspect": "conjunction",
+        "bodyB": "Neptune",
+        "orb": 4.981,
+        "exactAngle": 0,
+        "query": "Uranus conjunction Neptune",
+        "matchedRuleQuery": null
+      },
+      {
+        "bodyA": "Neptune",
+        "aspect": "sextile",
+        "bodyB": "Pluto",
+        "orb": 2.551,
+        "exactAngle": 60,
+        "query": "Neptune sextile Pluto",
+        "matchedRuleQuery": null
+      }
+    ],
+    "houseSystem": "equal-from-ascendant",
+    "housePlacementStartLongitude": 148.385262,
+    "angles": {
+      "ascendant": {
+        "longitude": 148.385262,
+        "sign": "Leo",
+        "degreeInSign": 28.385262,
+        "localSiderealDegrees": 47.32228
+      },
+      "descendant": {
+        "longitude": 328.385262,
+        "sign": "Aquarius",
+        "degreeInSign": 28.385262
+      },
+      "midheaven": {
+        "longitude": 49.769856,
+        "sign": "Taurus",
+        "degreeInSign": 19.769856,
+        "localSiderealDegrees": 47.32228
+      },
+      "imumCoeli": {
+        "longitude": 229.769856,
+        "sign": "Scorpio",
+        "degreeInSign": 19.769856
+      }
+    },
+    "houses": [
+      {
+        "house": 1,
+        "cuspLongitude": 148.385262,
+        "sign": "Leo",
+        "degreeInSign": 28.385262
+      },
+      {
+        "house": 2,
+        "cuspLongitude": 178.385262,
+        "sign": "Virgo",
+        "degreeInSign": 28.385262
+      },
+      {
+        "house": 3,
+        "cuspLongitude": 208.385262,
+        "sign": "Libra",
+        "degreeInSign": 28.385262
+      },
+      {
+        "house": 4,
+        "cuspLongitude": 238.385262,
+        "sign": "Scorpio",
+        "degreeInSign": 28.385262
+      },
+      {
+        "house": 5,
+        "cuspLongitude": 268.385262,
+        "sign": "Sagittarius",
+        "degreeInSign": 28.385262
+      },
+      {
+        "house": 6,
+        "cuspLongitude": 298.385262,
+        "sign": "Capricorn",
+        "degreeInSign": 28.385262
+      },
+      {
+        "house": 7,
+        "cuspLongitude": 328.385262,
+        "sign": "Aquarius",
+        "degreeInSign": 28.385262
+      },
+      {
+        "house": 8,
+        "cuspLongitude": 358.385262,
+        "sign": "Pisces",
+        "degreeInSign": 28.385262
+      },
+      {
+        "house": 9,
+        "cuspLongitude": 28.385262,
+        "sign": "Aries",
+        "degreeInSign": 28.385262
+      },
+      {
+        "house": 10,
+        "cuspLongitude": 58.385262,
+        "sign": "Taurus",
+        "degreeInSign": 28.385262
+      },
+      {
+        "house": 11,
+        "cuspLongitude": 88.385262,
+        "sign": "Gemini",
+        "degreeInSign": 28.385262
+      },
+      {
+        "house": 12,
+        "cuspLongitude": 118.385262,
+        "sign": "Cancer",
+        "degreeInSign": 28.385262
+      }
+    ]
+  },
+  "context": "Прототип расчетного профиля. Факторы выбраны только из тех правил генератора, которые уже есть в базе.",
+  "factors": [
+    {
+      "query": "Sun square Neptune",
+      "calculated": {
+        "bodyA": "Sun",
+        "aspect": "square",
+        "bodyB": "Neptune",
+        "orb": 5.792
+      }
+    },
+    {
+      "query": "Moon square Saturn",
+      "calculated": {
+        "bodyA": "Moon",
+        "aspect": "square",
+        "bodyB": "Saturn",
+        "orb": 0.494
+      }
+    },
+    {
+      "query": "Venus trine Jupiter",
+      "calculated": {
+        "bodyA": "Venus",
+        "aspect": "trine",
+        "bodyB": "Jupiter",
+        "orb": 0.39
+      }
+    }
+  ]
+}

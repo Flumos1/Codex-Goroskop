@@ -1,0 +1,38 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\03-natal-houses-methods\\Агафонов А. - Курс астрологии. Часть 2 .Аспекты. Цикличность. (Заочная астрологическая школа Урании). - 2005.pdf",
+  "category": "03-natal-houses-methods",
+  "pages": 132,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid PDF Tools  (7.3.2024.0)",
+    "Producer": "Solid PDF Tools  (7.3.2024.0)",
+    "CreationDate": "D:20130704193626Z",
+    "ModDate": "D:20130704195006Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-07-04T19:36:26Z",
+      "xmp:creatortool": "Solid PDF Tools  (7.3.2024.0)",
+      "xmp:modifydate": "2013-07-04T19:50:06Z",
+      "xmp:metadatadate": "2013-07-04T19:50:06Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid PDF Tools  (7.3.2024.0)",
+      "xmpmm:documentid": "uuid:14c02ba5-b132-4122-958e-041f7821c5de",
+      "pdfaid:conformance": "B",
+      "pdfaid:part": "1"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:17.304Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\03-natal-houses-methods\\Агафонов-А-Курс-астрологии-Часть-2-Аспекты-Цикличность-Заочная-астрологическая-школа-Урании-2005.txt",
+  "charCount": 86580,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T10:07:22.363Z",
+    "finishedAt": "2026-06-06T10:16:26.227Z",
+    "errors": []
+  }
+}

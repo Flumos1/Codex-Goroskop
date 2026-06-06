@@ -1,0 +1,35 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\02-psychological-archetypal\\Семира, В.Веташ . – Пути Зодиака или эволюция характера – 1993.pdf",
+  "category": "02-psychological-archetypal",
+  "pages": 67,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20120902151213Z",
+    "ModDate": "D:20120902151622Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2012-09-02T15:12:13Z",
+      "xmp:modifydate": "2012-09-02T15:16:22Z",
+      "xmp:metadatadate": "2012-09-02T15:16:22Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:29c203e6-de85-455f-ac1c-178a4080900c"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:11.912Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\02-psychological-archetypal\\Семира-В-Веташ-Пути-Зодиака-или-эволюция-характера-1993.txt",
+  "charCount": 164183,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T10:27:49.586Z",
+    "finishedAt": "2026-06-06T10:38:24.548Z",
+    "errors": []
+  }
+}

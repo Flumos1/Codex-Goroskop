@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\13-special-factors-karma-asteroids-nodes\\Сущинская Е. – Лилит раскрывает свои тайны. Возвращение Черной Луны. Независимое расследование. - 2005.pdf",
+  "category": "13-special-factors-karma-asteroids-nodes",
+  "pages": 108,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20131015080019Z",
+    "ModDate": "D:20131015080546"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-10-15T08:00:19Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2013-10-15T08:08:00Z",
+      "xmp:metadatadate": "2013-10-15T08:08:00Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:15c08585-456b-4d97-8319-f0e389590e58"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:30.619Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\13-special-factors-karma-asteroids-nodes\\Сущинская-Е-Лилит-раскрывает-свои-таи-ны-Возвращение-Чернои-Луны-Независимое-расследование-2005.txt",
+  "charCount": 236288,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T13:14:34.151Z",
+    "finishedAt": "2026-06-06T13:29:19.665Z",
+    "errors": []
+  }
+}

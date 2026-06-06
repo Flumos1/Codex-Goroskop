@@ -1,0 +1,38 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\06-medical-special-topics\\Мазова Е. - Растения-талисманы для здоровья и благополу¬чия. Практическое пособие. (Ваш личный астролог). — 2006.pdf",
+  "category": "06-medical-special-topics",
+  "pages": 242,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid PDF Tools  (7.3.2024.0)",
+    "Producer": "Solid PDF Tools  (7.3.2024.0)",
+    "CreationDate": "D:20130723152847Z",
+    "ModDate": "D:20130723154950Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-07-23T15:28:47Z",
+      "xmp:creatortool": "Solid PDF Tools  (7.3.2024.0)",
+      "xmp:modifydate": "2013-07-23T15:49:50Z",
+      "xmp:metadatadate": "2013-07-23T15:49:50Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid PDF Tools  (7.3.2024.0)",
+      "xmpmm:documentid": "uuid:6b7ef63f-0295-4f3f-b7e0-75cdf9b5727a",
+      "pdfaid:conformance": "B",
+      "pdfaid:part": "1"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:09.459Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\06-medical-special-topics\\Мазова-Е-Растения-талисманы-для-здоровья-и-благополу-чия-Практическое-пособие-Ваш-личныи-астролог-2006.txt",
+  "charCount": 402320,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T09:08:44.892Z",
+    "finishedAt": "2026-06-06T09:32:32.233Z",
+    "errors": []
+  }
+}

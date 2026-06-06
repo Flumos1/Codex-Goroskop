@@ -1,0 +1,35 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\09-chinese-eastern-astrology\\Давыдов М. -  Восточный Зодиак - 2011.pdf",
+  "category": "09-chinese-eastern-astrology",
+  "pages": 418,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20111118204848Z",
+    "ModDate": "D:20111118212307Z"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2011-11-18T20:48:48Z",
+      "xmp:modifydate": "2011-11-18T21:23:07Z",
+      "xmp:metadatadate": "2011-11-18T21:23:07Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:f0ab3dd5-e776-4797-80b4-bfeb2eb2d7a2"
+    }
+  },
+  "extractedAt": "2026-06-05T08:13:12.451Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\09-chinese-eastern-astrology\\Давыдов-М-Восточныи-Зодиак-2011.txt",
+  "charCount": 603953,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-05T21:38:30.869Z",
+    "finishedAt": "2026-06-05T22:14:19.802Z",
+    "errors": []
+  }
+}

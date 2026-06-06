@@ -1,0 +1,36 @@
+{
+  "sourcePdf": "G:\\Codex Goroskop\\sources\\books\\library\\04-predictive-transits-cycles\\Сущинская Е. – Высшие планеты. Размышления о пространстве и времени, а также о высших ретроградных планетах. – 2006 .pdf",
+  "category": "04-predictive-transits-cycles",
+  "pages": 179,
+  "info": {
+    "PDFFormatVersion": "1.4",
+    "IsAcroFormPresent": false,
+    "IsXFAPresent": false,
+    "Creator": "Solid Converter PDF  (6.0.664.0)",
+    "Producer": "Solid Converter PDF  (6.0.664.0)",
+    "CreationDate": "D:20131015163458Z",
+    "ModDate": "D:20131015164304"
+  },
+  "metadata": {
+    "_metadata": {
+      "xmp:createdate": "2013-10-15T16:34:58Z",
+      "xmp:creatortool": "Solid Converter PDF  (6.0.664.0)",
+      "xmp:modifydate": "2013-10-15T16:47:00Z",
+      "xmp:metadatadate": "2013-10-15T16:47:00Z",
+      "dc:format": "application/pdf",
+      "pdf:producer": "Solid Converter PDF  (6.0.664.0)",
+      "xmpmm:documentid": "uuid:94bf15b7-71cc-4acf-a8b1-977b3d36d51d"
+    }
+  },
+  "extractedAt": "2026-06-05T08:12:38.619Z",
+  "textFile": "G:\\Codex Goroskop\\data\\extracted-text\\04-predictive-transits-cycles\\Сущинская-Е-Высшие-планеты-Размышления-о-пространстве-и-времени-а-также-о-высших-ретроградных-планетах-2006.txt",
+  "charCount": 425847,
+  "ocr": {
+    "engine": "tesseract",
+    "language": "rus+eng",
+    "dpi": 220,
+    "startedAt": "2026-06-06T09:26:59.406Z",
+    "finishedAt": "2026-06-06T09:51:44.297Z",
+    "errors": []
+  }
+}
