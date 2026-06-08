@@ -297,6 +297,29 @@ tr:last-child td { border-bottom: none; }
 }
 .transit-stat span { color: var(--text); font-weight: 600; }
 
+/* Factor groups and significance */
+.factors-stat {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+.factors-stat-note { opacity: 0.6; }
+
+.factor-group { margin-bottom: 6px; }
+.factor-group-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  padding: 10px 0 6px;
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
+}
+.factor-group:first-of-type .factor-group-label { border-top: none; margin-top: 0; }
+
+.factor-item.factor-top { border-left: 2px solid var(--accent); }
+.factor-item.factor-top .factor-title { color: var(--text); }
+
 /* Mode tabs */
 .mode-tabs {
   display: flex;

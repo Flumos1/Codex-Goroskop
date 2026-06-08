@@ -80,12 +80,61 @@ function findRuleForFactor(factor, idx) {
   return null;
 }
 
+// Significance scoring — higher = show first
+const PLANET_WEIGHT = {
+  Sun: 3.0, Moon: 3.0, Mercury: 2.0, Venus: 2.0, Mars: 2.0,
+  Jupiter: 1.5, Saturn: 1.5, Uranus: 1.0, Neptune: 1.0, Pluto: 1.0,
+};
+const ANGULAR_HOUSES  = new Set([1, 4, 7, 10]);
+const SUCCEDENT_HOUSES = new Set([2, 5, 8, 11]);
+const ASPECT_WEIGHT = { conjunction: 1.4, opposition: 1.3, square: 1.2, trine: 1.1, sextile: 1.0 };
+const DIGNITY_BONUS = { exalted: 0.8, "own sign": 0.5, friendly: 0.2, neutral: 0, inimical: -0.1, debilitated: -0.2 };
+
+function scoreFactors(factor) {
+  const c = factor.calculated || {};
+  const rule = factor.rule || {};
+  const system = rule.system || "western";
+  let score = 1.0;
+
+  if (c.bodyA && c.aspect) {
+    // aspect rule
+    const pa = PLANET_WEIGHT[c.bodyA] || 1;
+    const pb = PLANET_WEIGHT[c.bodyB] || 1;
+    const aw = ASPECT_WEIGHT[c.aspect] || 1;
+    const orbPenalty = c.orb ? Math.max(0, 1 - c.orb / 10) : 0.8;
+    score = (pa + pb) / 2 * aw * (0.7 + 0.3 * orbPenalty) + 2.0;
+  } else if (c.body && c.house) {
+    // house rule
+    const pw = PLANET_WEIGHT[c.body] || 1;
+    const hw = ANGULAR_HOUSES.has(c.house) ? 1.5 : SUCCEDENT_HOUSES.has(c.house) ? 1.2 : 1.0;
+    score = pw * hw + 1.5;
+  } else if (c.body && !c.graha) {
+    // western sign rule
+    const pw = PLANET_WEIGHT[c.body] || 1;
+    score = pw + 1.0;
+  } else if (c.graha) {
+    // vedic rashi rule
+    const pw = PLANET_WEIGHT[c.graha] || 1;
+    const dignity = rule.dignity?.status || "neutral";
+    const db = DIGNITY_BONUS[dignity] || 0;
+    score = pw * 1.2 + db + 1.5;
+  } else {
+    // ruler-pipeline
+    score = 1.2;
+  }
+  return score;
+}
+
 function mergeRules(profile, idx) {
   const factors = Array.isArray(profile.factors) ? profile.factors : [];
-  return factors.map(factor => {
-    const rule = findRuleForFactor(factor, idx);
-    return { ...factor, rule: rule || null };
-  }).filter(f => f.rule); // only return factors with a matched rule
+  return factors
+    .map(factor => {
+      const rule = findRuleForFactor(factor, idx);
+      return { ...factor, rule: rule || null };
+    })
+    .filter(f => f.rule)
+    .map(f => ({ ...f, significance: scoreFactors(f) }))
+    .sort((a, b) => b.significance - a.significance);
 }
 
 // Load places

@@ -114,6 +114,22 @@ function renderPlanets(profile) {
   }
 }
 
+function factorTitle(item) {
+  const r = item.rule || {};
+  const f = r.factor || {};
+  if (f.graha && f.rashi)
+    return { title: `${GRAHA_RU[f.graha] || f.graha} в ${RASHI_RU[f.rashi] || f.rashi}`, typeKey: "vedic" };
+  if (f.planetA && f.aspect && f.planetB)
+    return { title: `${PLANET_RU[f.planetA] || f.planetA} — ${ASPECT_RU[f.aspect] || f.aspect} — ${PLANET_RU[f.planetB] || f.planetB}`, typeKey: "aspect" };
+  if (f.planet && f.house)
+    return { title: `${PLANET_RU[f.planet] || f.planet} в ${f.house} доме`, typeKey: "house" };
+  if (f.planet && f.sign)
+    return { title: `${PLANET_RU[f.planet] || f.planet} в ${SIGN_RU[f.sign] || f.sign}`, typeKey: "sign" };
+  if (f.rulerOfHouse && f.placedInHouse)
+    return { title: `Управитель ${f.rulerOfHouse} дома в ${f.placedInHouse} доме`, typeKey: "ruler" };
+  return { title: item.query || r.id || "Правило", typeKey: "sign" };
+}
+
 function renderFactors(profile) {
   const container = document.getElementById("factors-list");
   container.innerHTML = "";
@@ -124,35 +140,39 @@ function renderFactors(profile) {
     return;
   }
 
-  for (const item of matched) {
-    // item = { query, calculated, rule: { id, factor, simpleRu, ... } }
-    const r = item.rule || {};
-    const f = r.factor || {};
-    let title = "";
-    let typeKey = "sign";
+  // Split into Western and Vedic groups
+  const western = matched.filter(i => (i.rule?.system || "western") !== "vedic");
+  const vedic   = matched.filter(i => i.rule?.system === "vedic");
+  const topN    = 5;
 
-    if (f.graha && f.rashi) {
-      title   = `${GRAHA_RU[f.graha] || f.graha} в ${RASHI_RU[f.rashi] || f.rashi}`;
-      typeKey = "vedic";
-    } else if (f.planetA && f.aspect && f.planetB) {
-      title   = `${PLANET_RU[f.planetA] || f.planetA} — ${ASPECT_RU[f.aspect] || f.aspect} — ${PLANET_RU[f.planetB] || f.planetB}`;
-      typeKey = "aspect";
-    } else if (f.planet && f.house) {
-      title   = `${PLANET_RU[f.planet] || f.planet} в ${f.house} доме`;
-      typeKey = "house";
-    } else if (f.planet && f.sign) {
-      title   = `${PLANET_RU[f.planet] || f.planet} в ${SIGN_RU[f.sign] || f.sign}`;
-      typeKey = "sign";
-    } else if (f.rulerOfHouse && f.placedInHouse) {
-      title   = `Управитель ${f.rulerOfHouse} дома в ${f.placedInHouse} доме`;
-      typeKey = "ruler";
-    } else {
-      title = item.query || r.id || "Правило";
+  function renderGroup(items, groupLabel, isTop) {
+    if (!items.length) return;
+    const groupEl = document.createElement("div");
+    groupEl.className = "factor-group";
+    if (groupLabel) {
+      const lbl = document.createElement("div");
+      lbl.className = "factor-group-label";
+      lbl.textContent = groupLabel;
+      groupEl.appendChild(lbl);
     }
-
-    const texts = r.simpleRu || r.simple;
-    container.appendChild(makeFactorItem(title, typeKey, texts));
+    items.forEach((item, idx) => {
+      const { title, typeKey } = factorTitle(item);
+      const texts = item.rule?.simpleRu || item.rule?.simple;
+      const el = makeFactorItem(title, typeKey, texts);
+      if (isTop && idx < topN) el.classList.add("factor-top");
+      groupEl.appendChild(el);
+    });
+    container.appendChild(groupEl);
   }
+
+  // Show stat line
+  const stat = document.createElement("div");
+  stat.className = "factors-stat";
+  stat.innerHTML = `<span>${matched.length} интерпретаций</span> <span class="factors-stat-note">· топ-${topN} выделены · отсортировано по значимости</span>`;
+  container.appendChild(stat);
+
+  renderGroup(western, western.length && vedic.length ? "Западная астрология" : null, true);
+  renderGroup(vedic,   vedic.length   ? "Джйотиш (ведическая)" : null, false);
 }
 
 function renderVedic(profile) {
