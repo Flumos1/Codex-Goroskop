@@ -25,6 +25,7 @@ function buildRuleIndex(rules) {
   const byHouse   = new Map(); // "Sun 10" → rule
   const bySign    = new Map(); // "Sun Gemini" → rule
   const byRulerId = new Map(); // "rule-instance.western.ruler-of-1st-in-9th" → rule
+  const byVedic   = new Map(); // "Sun:Mesha" → rule
 
   for (const rule of rules) {
     const f = rule.factor || {};
@@ -39,9 +40,11 @@ function buildRuleIndex(rules) {
       bySign.set(`${f.planet} ${f.sign}`, rule);
     } else if (f.rulerOfHouse && f.placedInHouse) {
       byRulerId.set(rule.id, rule);
+    } else if (f.graha && f.rashi) {
+      byVedic.set(`${f.graha}:${f.rashi}`, rule);
     }
   }
-  return { byAspect, byHouse, bySign, byRulerId };
+  return { byAspect, byHouse, bySign, byRulerId, byVedic };
 }
 
 function findRuleForFactor(factor, idx) {
@@ -66,6 +69,10 @@ function findRuleForFactor(factor, idx) {
   if (q.startsWith("ruler-of-")) {
     const id = `rule-instance.western.${q}`;
     return idx.byRulerId.get(id);
+  }
+  // Vedic: "vedic:Sun:Mesha"
+  if (q.startsWith("vedic:") && c.graha && c.rashi) {
+    return idx.byVedic.get(`${c.graha}:${c.rashi}`);
   }
   return null;
 }

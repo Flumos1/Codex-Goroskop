@@ -212,6 +212,7 @@ tr:last-child td { border-bottom: none; }
 .type-sign    { background: #2d261a; color: #c4a45c; }
 .type-ruler   { background: #2d1a22; color: #e07090; }
 .type-transit { background: #1a2040; color: #7090e0; }
+.type-vedic   { background: #1a2a1a; color: #7ecb7e; }
 
 .factor-body {
   padding: 14px 16px;

@@ -42,6 +42,8 @@ for (const ruleFile of fs.readdirSync(rulesDir).filter(f => f.endsWith(".json"))
       availableRuleQueries.add(`${f.planet} in ${f.sign}`);
     } else if (f.rulerOfHouse && f.placedInHouse) {
       availableRuleQueries.add(`rule-instance.western.ruler-of-${f.rulerOfHouse}-in-${f.placedInHouse}`);
+    } else if (f.graha && f.rashi) {
+      availableRuleQueries.add(`vedic:${f.graha}:${f.rashi}`);
     }
   }
 }
@@ -551,7 +553,15 @@ function buildProfile(args, positions, aspects, anglesAndHouses, birthDate) {
       }
     });
   }
-  const factors = [...aspectFactors, ...houseFactors, ...signFactors, ...rulerFactors];
+  const CLASSICAL_GRAHAS = new Set(["Sun","Moon","Mars","Mercury","Jupiter","Venus","Saturn"]);
+  const vedicRashiFactors = positions
+    .filter(p => CLASSICAL_GRAHAS.has(p.body) && p.vedic?.rashi)
+    .filter(p => availableRuleQueries.has(`vedic:${p.body}:${p.vedic.rashi}`))
+    .map(p => ({
+      query: `vedic:${p.body}:${p.vedic.rashi}`,
+      calculated: { graha: p.body, rashi: p.vedic.rashi, system: "vedic" },
+    }));
+  const factors = [...aspectFactors, ...houseFactors, ...signFactors, ...rulerFactors, ...vedicRashiFactors];
 
   function buildVedicSummary(positions, birthDate, anglesAndHouses) {
     const ayanamsha = lahiriAyanamsha(birthDate);

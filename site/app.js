@@ -20,6 +20,18 @@ const ASPECT_RU = {
 };
 const TYPE_LABEL = {
   aspect: "Аспект", house: "Дом", sign: "Знак", ruler: "Управитель", transit: "Транзит",
+  vedic: "Джйотиш",
+};
+
+const RASHI_RU = {
+  Mesha: "Меша (Овен)", Vrishabha: "Вришабха (Телец)", Mithuna: "Митхуна (Близнецы)",
+  Karka: "Карка (Рак)", Simha: "Симха (Лев)", Kanya: "Канья (Дева)",
+  Tula: "Тула (Весы)", Vrishchika: "Вришчика (Скорпион)", Dhanu: "Дхану (Стрелец)",
+  Makara: "Макара (Козерог)", Kumbha: "Кумбха (Водолей)", Meena: "Меена (Рыбы)",
+};
+const GRAHA_RU = {
+  Sun: "Сурья", Moon: "Чандра", Mars: "Мангал", Mercury: "Будха",
+  Jupiter: "Гуру", Venus: "Шукра", Saturn: "Шани",
 };
 
 // Load places into select
@@ -119,7 +131,10 @@ function renderFactors(profile) {
     let title = "";
     let typeKey = "sign";
 
-    if (f.planetA && f.aspect && f.planetB) {
+    if (f.graha && f.rashi) {
+      title   = `${GRAHA_RU[f.graha] || f.graha} в ${RASHI_RU[f.rashi] || f.rashi}`;
+      typeKey = "vedic";
+    } else if (f.planetA && f.aspect && f.planetB) {
       title   = `${PLANET_RU[f.planetA] || f.planetA} — ${ASPECT_RU[f.aspect] || f.aspect} — ${PLANET_RU[f.planetB] || f.planetB}`;
       typeKey = "aspect";
     } else if (f.planet && f.house) {
