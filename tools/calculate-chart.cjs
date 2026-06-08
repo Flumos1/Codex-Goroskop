@@ -698,4 +698,18 @@ if (require.main === module) {
 module.exports = {
   calculateProfile,
   parseArgs,
+  resolveInput,
+  calculatePositions,
+  angularDistance,
+  normalizeDegrees,
+  signForLongitude,
+  lahiriAyanamsha,
+  siderealLongitude,
+  nakshatraForLongitude,
+  siderealSignForLongitude,
+  aspectDefinitions,
+  bodies,
+  signs,
+  signRuler,
+  availableRuleQueries,
 };
