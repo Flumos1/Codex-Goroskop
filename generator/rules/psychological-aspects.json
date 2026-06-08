@@ -147,5 +147,530 @@
       "constructiveChannel": "The constructive expression is mature ambition: a philosophy of growth that can survive reality testing."
     },
     "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-conjunct-saturn",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Sun", "aspect": "conjunction", "planetB": "Saturn" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["identity", "authority", "seriousness", "self-demand", "father-image"],
+    "themesRu": ["идентичность", "авторитет", "серьёзность", "самотребовательность", "образ отца"],
+    "simple": {
+      "summary": "Your sense of self may be closely shaped by seriousness, responsibility, and a need to earn your place.",
+      "pattern": "You may carry an inner expectation that full self-expression requires effort, justification, or proof of worth.",
+      "growth": "The growth path is to discover that maturity and lightness can coexist, and that your identity does not always need to be earned.",
+      "reflection": "Where do you demand more from yourself than the situation actually requires?"
+    },
+    "simpleRu": {
+      "summary": "Ваше ощущение себя может быть тесно связано с серьёзностью, ответственностью и потребностью заслужить своё место.",
+      "pattern": "Внутри может жить ожидание, что полноценное самовыражение требует усилия, обоснования или доказательства собственной ценности.",
+      "growth": "Путь роста — обнаружить, что зрелость и лёгкость могут сосуществовать, и что вашу идентичность не всегда нужно заслуживать.",
+      "reflection": "Где вы требуете от себя больше, чем этого действительно требует ситуация?"
+    },
+    "advanced": {
+      "technical": "Sun conjunct Saturn fuses the solar principle of identity, will, and self-expression with the Saturnian principle of limitation, authority, maturity, and sustained effort.",
+      "method": "The conjunction in the psychological-archetypal method is read as an inner fusion: both principles operate through the same channel, intensifying themes of achievement and self-definition.",
+      "caution": "This should not be read as proof of a cold or absent father, or as a guarantee of a limited life. It describes a possible inner image where self-expression and self-demand are tightly linked.",
+      "constructiveChannel": "The constructive expression is gravitas, long-term commitment, and the capacity to build a durable identity through consistent and meaningful work."
+    },
+    "advancedRu": {
+      "technical": "Соединение Солнца и Сатурна объединяет солнечный принцип идентичности, воли и самовыражения с сатурнианским принципом ограничения, авторитета, зрелости и устойчивого усилия.",
+      "method": "Соединение в психолого-архетипическом методе читается как внутренний синтез: оба принципа действуют через один канал, усиливая темы достижения и самоопределения.",
+      "caution": "Это не следует читать как доказательство холодного или отсутствующего отца, или как гарантию ограниченной жизни. Речь идёт о возможном внутреннем образе, где самовыражение и требования к себе тесно переплетены.",
+      "constructiveChannel": "Конструктивное выражение — основательность, долгосрочные обязательства и способность строить устойчивую идентичность через последовательный и осмысленный труд."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-square-saturn",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Sun", "aspect": "square", "planetB": "Saturn" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["identity", "self-criticism", "authority", "maturation", "inner block"],
+    "themesRu": ["идентичность", "самокритика", "авторитет", "взросление", "внутренний блок"],
+    "simple": {
+      "summary": "Self-expression and inner authority may feel in friction — one part wants to shine, another pulls toward caution or restraint.",
+      "pattern": "You may find it difficult to simply enjoy being yourself, as if an inner critic monitors whether you have earned the right to take up space.",
+      "growth": "The growth task is to build a solid identity that does not require constant justification or the approval of authority figures.",
+      "reflection": "Where does your inner critic prevent you from acting from your own center?"
+    },
+    "simpleRu": {
+      "summary": "Самовыражение и внутренний авторитет могут ощущаться в трении — одна часть хочет выделиться, другая тянет к осторожности или сдержанности.",
+      "pattern": "Вам может быть трудно просто наслаждаться тем, что вы есть вы, — как если бы внутренний критик проверял, заслужили ли вы право занимать своё место.",
+      "growth": "Задача роста — выстроить устойчивую идентичность, которой не нужно постоянное обоснование или одобрение авторитетных фигур.",
+      "reflection": "Где внутренний критик мешает вам действовать из собственного центра?"
+    },
+    "advanced": {
+      "technical": "Sun square Saturn creates tension between the solar drive for self-expression and the Saturnian imperative toward limitation, restraint, and conformity to structure or authority.",
+      "method": "The square is read as a developmental pressure: two principles in friction that require active integration work rather than victory of one over the other.",
+      "caution": "Do not read this as a permanent block on achievement. Many productive people carry this pattern as an engine of sustained effort and self-mastery.",
+      "constructiveChannel": "The constructive expression is disciplined self-definition: an identity built through work, endurance, and genuine authority that does not require external validation."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Солнца и Сатурна создаёт напряжение между солнечным стремлением к самовыражению и сатурнианским требованием ограничения, сдержанности и соответствия структуре или авторитету.",
+      "method": "Квадрат читается как давление развития: два принципа в трении требуют активной интеграционной работы, а не победы одного над другим.",
+      "caution": "Не следует читать это как постоянный блок на пути к достижениям. Многие продуктивные люди несут этот рисунок как двигатель устойчивых усилий и самодисциплины.",
+      "constructiveChannel": "Конструктивное выражение — дисциплинированное самоопределение: идентичность, построенная через труд, выносливость и подлинный авторитет, которому не нужна внешняя валидация."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-opposite-moon",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Sun", "aspect": "opposition", "planetB": "Moon" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["inner polarity", "feeling vs. will", "integration", "relationship mirror"],
+    "themesRu": ["внутренняя полярность", "чувства против воли", "интеграция", "зеркало в отношениях"],
+    "simple": {
+      "summary": "Conscious will and emotional nature may pull in different directions, creating a recurring inner tension.",
+      "pattern": "You may feel pulled between what you want and what you feel, between self-assertion and sensitivity, between your public and private self.",
+      "growth": "The growth task is to hold both poles — will and feeling — without sacrificing one to the other.",
+      "reflection": "Where do your mind and your heart point in opposite directions, and what happens when you honor both?"
+    },
+    "simpleRu": {
+      "summary": "Сознательная воля и эмоциональная природа могут тянуть в разные стороны, создавая повторяющееся внутреннее напряжение.",
+      "pattern": "Вы можете переживать притяжение между тем, чего хотите, и тем, что чувствуете, между самоутверждением и чуткостью, между публичным и частным «я».",
+      "growth": "Задача роста — удерживать оба полюса — волю и чувства — не жертвуя одним ради другого.",
+      "reflection": "Где ваш ум и сердце указывают в противоположных направлениях, и что происходит, когда вы чтите оба?"
+    },
+    "advanced": {
+      "technical": "Sun opposite Moon places the solar principle of conscious identity and will in direct tension with the lunar principle of emotional need, memory, and instinctual response.",
+      "method": "The opposition is read as a polarity requiring dialogue: both principles are equally real, and the developmental task is to integrate them rather than split them across inner and outer domains.",
+      "caution": "This should not be read as a fixed inner split or as emotional instability. The tension itself can become a source of psychological richness when consciously engaged.",
+      "constructiveChannel": "The constructive expression is inner dialogue: a self that can hold both will and feeling and bring both to conscious relationships."
+    },
+    "advancedRu": {
+      "technical": "Оппозиция Солнца и Луны ставит солнечный принцип сознательной идентичности и воли в прямое напряжение с лунным принципом эмоциональной потребности, памяти и инстинктивного отклика.",
+      "method": "Оппозиция читается как полярность, требующая диалога: оба принципа одинаково реальны, а задача развития — интегрировать их, а не расщеплять на внутреннее/внешнее или публичное/личное.",
+      "caution": "Это не следует читать как фиксированный раскол или эмоциональную нестабильность. Само напряжение может стать источником психологического богатства, когда оно осознанно принято.",
+      "constructiveChannel": "Конструктивное выражение — внутренний диалог: самость, способная удерживать и волю, и чувства, и привносить их оба в осознанные отношения."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-trine-jupiter",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Sun", "aspect": "trine", "planetB": "Jupiter" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["identity", "expansion", "faith", "generosity", "meaning"],
+    "themesRu": ["идентичность", "расширение", "вера", "щедрость", "смысл"],
+    "simple": {
+      "summary": "Your sense of self may be supported by natural optimism, generosity, and a capacity to find meaning in what you do.",
+      "pattern": "Identity and growth may reinforce each other — a natural confidence that life can expand and that self-expression can carry purpose.",
+      "growth": "The growth task is to ground inspiration in practical form and to let enthusiasm deepen into genuine wisdom rather than remaining comfortable.",
+      "reflection": "Where does your faith in yourself and life need to be tested in order to become real wisdom?"
+    },
+    "simpleRu": {
+      "summary": "Ваше ощущение себя может поддерживаться природным оптимизмом, щедростью и способностью находить смысл в том, что вы делаете.",
+      "pattern": "Идентичность и рост могут усиливать друг друга — природная уверенность в том, что жизнь способна расширяться и самовыражение может нести цель.",
+      "growth": "Задача роста — дать вдохновению практическую форму и позволить энтузиазму углубиться в подлинную мудрость, а не оставаться в зоне комфорта.",
+      "reflection": "Где ваша вера в себя и жизнь нуждается в испытании, чтобы стать настоящей мудростью?"
+    },
+    "advanced": {
+      "technical": "Sun trine Jupiter is read as a flowing alignment between the solar principle of identity and will and the Jupiterian principle of expansion, meaning, and faith.",
+      "method": "Soft aspects are treated as available psychological resources, not as guaranteed external outcomes. The trine describes an inner ease of access.",
+      "caution": "Do not read this as automatic success, public recognition, or permanent optimism. The resource still requires conscious direction.",
+      "constructiveChannel": "The constructive expression is generous selfhood, purposeful ambition, and the ability to inspire others through authentic confidence."
+    },
+    "advancedRu": {
+      "technical": "Трин Солнца и Юпитера читается как текучее согласование солнечного принципа идентичности и воли с юпитерианским принципом расширения, смысла и веры.",
+      "method": "Гармоничные аспекты рассматриваются как доступные психологические ресурсы, а не как гарантированные внешние результаты. Трин описывает внутреннюю лёгкость доступа.",
+      "caution": "Это не следует читать как автоматический успех, публичное признание или неизменный оптимизм. Ресурс по-прежнему требует осознанного направления.",
+      "constructiveChannel": "Конструктивное выражение — щедрая самость, целеустремлённая амбиция и способность вдохновлять других через подлинную уверенность."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-conjunct-neptune",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Sun", "aspect": "conjunction", "planetB": "Neptune" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["identity", "transcendence", "sensitivity", "creative vision", "idealization"],
+    "themesRu": ["идентичность", "трансценденция", "чувствительность", "творческое видение", "идеализация"],
+    "simple": {
+      "summary": "Your identity may be deeply intertwined with imagination, sensitivity, compassion, or a search for something beyond the ordinary.",
+      "pattern": "There may be a strong pull toward ideals, creative or spiritual worlds, and a tendency for the edges of self to feel fluid or undefined.",
+      "growth": "The growth task is to give this sensitivity a concrete channel so that vision becomes form and compassion does not dissolve your boundaries.",
+      "reflection": "What would it look like to be both fully sensitive and fully present at the same time?"
+    },
+    "simpleRu": {
+      "summary": "Ваша идентичность может быть глубоко переплетена с воображением, чувствительностью, состраданием или поиском чего-то, выходящего за рамки обычного.",
+      "pattern": "Может быть сильное притяжение к идеалам, творческому или духовному миру, и склонность к тому, что границы собственного «я» ощущаются текучими или неопределёнными.",
+      "growth": "Задача роста — дать этой чувствительности конкретный канал, чтобы видение обрело форму, а сострадание не растворяло ваши границы.",
+      "reflection": "Как выглядело бы состояние, когда вы одновременно полностью чуткие и полностью присутствующие?"
+    },
+    "advanced": {
+      "technical": "Sun conjunct Neptune fuses the solar principle of identity and will with the Neptunian principle of dissolution, transcendence, idealization, and spiritual openness.",
+      "method": "The conjunction creates a tight blend: solar self-definition is permeated by Neptunian porousness, producing either inspired creativity or difficulty with self-assertion and clear boundaries.",
+      "caution": "Do not interpret this as weakness or confusion as such. This aspect appears in many artists, healers, and spiritually oriented individuals who channel dissolution into form.",
+      "constructiveChannel": "The constructive expression is visionary sensitivity: a self that can hold both presence and permeability, turning imagination into meaningful work."
+    },
+    "advancedRu": {
+      "technical": "Соединение Солнца и Нептуна сливает солнечный принцип идентичности и воли с нептунианским принципом растворения, трансценденции, идеализации и духовной открытости.",
+      "method": "Соединение создаёт тесный синтез: солнечное самоопределение пронизано нептунианской пористостью, порождая либо вдохновенное творчество, либо затруднение с самоутверждением и ясными границами.",
+      "caution": "Не следует трактовать это как слабость или путаницу как таковые. Этот аспект встречается у многих художников, целителей и духовно ориентированных людей, которые превращают растворение в форму.",
+      "constructiveChannel": "Конструктивное выражение — провидческая чувствительность: самость, способная удерживать и присутствие, и проницаемость, превращая воображение в осмысленный труд."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-conjunct-saturn",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Moon", "aspect": "conjunction", "planetB": "Saturn" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["emotion", "structure", "inner containment", "emotional maturity", "self-sufficiency"],
+    "themesRu": ["эмоции", "структура", "внутренняя сдержанность", "эмоциональная зрелость", "самодостаточность"],
+    "simple": {
+      "summary": "Your emotional nature and inner sense of structure may be closely fused, making your feeling life serious, controlled, or self-contained.",
+      "pattern": "You may have learned early to contain your own feelings, to manage emotion quietly, or to present a composed face even under inner pressure.",
+      "growth": "The growth path is to discover that emotional security can be built from within, without requiring constant containment or proving that feelings are under control.",
+      "reflection": "Where do you still not allow yourself to simply feel without immediately managing or judging what arises?"
+    },
+    "simpleRu": {
+      "summary": "Ваша эмоциональная природа и внутреннее чувство структуры могут быть тесно слиты, делая вашу чувственную жизнь серьёзной, контролируемой или самодостаточной.",
+      "pattern": "Вы могли рано научиться сдерживать собственные чувства, управлять эмоциями тихо или сохранять собранный вид даже под внутренним давлением.",
+      "growth": "Путь роста — обнаружить, что эмоциональная безопасность может строиться изнутри, без постоянного сдерживания или доказательства того, что чувства под контролем.",
+      "reflection": "Где вы до сих пор не позволяете себе просто чувствовать — без немедленного управления или суждения о том, что возникает?"
+    },
+    "advanced": {
+      "technical": "Moon conjunct Saturn fuses the lunar principle of emotional need, vulnerability, and containment with the Saturnian principle of structure, limit, and disciplined restraint.",
+      "method": "The conjunction in the psychological-archetypal method reads both principles as operating through the same channel, creating an emotional world that is deeply shaped by the need for control, order, or emotional sufficiency.",
+      "caution": "This should not be read as emotional coldness or deprivation as fixed traits. It may describe an inner image where feeling and restraint are fused rather than in conflict.",
+      "constructiveChannel": "The constructive expression is emotional reliability, inner strength, and the capacity to hold steady through difficulty without losing access to genuine feeling."
+    },
+    "advancedRu": {
+      "technical": "Соединение Луны и Сатурна сливает лунный принцип эмоциональной потребности, уязвимости и контейнирования с сатурнианским принципом структуры, предела и дисциплинированной сдержанности.",
+      "method": "Соединение в психолого-архетипическом методе читается как оба принципа, действующие через один канал, создающие эмоциональный мир, глубоко сформированный потребностью в контроле, порядке или эмоциональной достаточности.",
+      "caution": "Это не следует читать как эмоциональную холодность или депривацию как фиксированные черты. Это может описывать внутренний образ, где чувство и сдержанность слиты, а не находятся в конфликте.",
+      "constructiveChannel": "Конструктивное выражение — эмоциональная надёжность, внутренняя сила и способность оставаться устойчивым в трудности, не теряя доступа к подлинному чувству."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-opposite-saturn",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Moon", "aspect": "opposition", "planetB": "Saturn" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["emotion", "distance", "separation", "emotional responsibility", "longing"],
+    "themesRu": ["эмоции", "дистанция", "разлука", "эмоциональная ответственность", "тоска"],
+    "simple": {
+      "summary": "Emotional openness and the need for structure or distance may feel like opposing pulls, creating a pattern of closeness followed by withdrawal.",
+      "pattern": "You may feel responsible for others' feelings while struggling to honor your own, or alternate between emotional openness and protective distance.",
+      "growth": "The growth task is to let emotional need and responsible structure support each other rather than cancel each other out.",
+      "reflection": "Where do you use distance or duty to protect yourself from allowing real closeness?"
+    },
+    "simpleRu": {
+      "summary": "Эмоциональная открытость и потребность в структуре или дистанции могут ощущаться как противоположные притяжения, создавая рисунок близости, за которой следует отстранение.",
+      "pattern": "Вы можете чувствовать ответственность за чувства других, с трудом почитая собственные, или чередовать эмоциональную открытость и защитную дистанцию.",
+      "growth": "Задача роста — позволить эмоциональной потребности и ответственной структуре поддерживать друг друга, а не нейтрализовать.",
+      "reflection": "Где вы используете дистанцию или долг, чтобы защититься от подлинной близости?"
+    },
+    "advanced": {
+      "technical": "Moon opposite Saturn places the lunar principle of emotional need, vulnerability, and openness in direct polarity with the Saturnian principle of limit, restraint, duty, and emotional economy.",
+      "method": "The opposition is read as a polarity requiring integration: both needs are real — the need for feeling and the need for structure — and both collapse without the other.",
+      "caution": "Do not read this as guaranteed emotional coldness or a history of difficult parenting. It describes a possible inner tension between closeness and distance.",
+      "constructiveChannel": "The constructive expression is emotional responsibility that does not deny need: building structures that protect without preventing intimacy."
+    },
+    "advancedRu": {
+      "technical": "Оппозиция Луны и Сатурна ставит лунный принцип эмоциональной потребности, уязвимости и открытости в прямую полярность с сатурнианским принципом предела, сдержанности, долга и эмоциональной экономии.",
+      "method": "Оппозиция читается как полярность, требующая интеграции: обе потребности реальны — потребность в чувстве и потребность в структуре — и обе рушатся без другой.",
+      "caution": "Не следует читать это как гарантированную эмоциональную холодность или историю сложного воспитания. Это описывает возможное внутреннее напряжение между близостью и дистанцией.",
+      "constructiveChannel": "Конструктивное выражение — эмоциональная ответственность, не отрицающая потребность: построение структур, которые защищают, не предотвращая близость."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-trine-saturn",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Moon", "aspect": "trine", "planetB": "Saturn" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["emotional stability", "inner structure", "reliability", "patience", "self-containment"],
+    "themesRu": ["эмоциональная устойчивость", "внутренняя структура", "надёжность", "терпение", "самодостаточность"],
+    "simple": {
+      "summary": "Your emotional life may have a natural steadiness — a capacity to stay grounded and reliable even under emotional pressure.",
+      "pattern": "You may instinctively give feelings structure, allowing yourself to process difficult emotions without being overwhelmed by them.",
+      "growth": "The growth task is to allow this inner stability to coexist with genuine warmth and openness, not only with self-sufficiency.",
+      "reflection": "Where does your emotional steadiness protect you, and where does it need to open toward more vulnerability?"
+    },
+    "simpleRu": {
+      "summary": "Ваша эмоциональная жизнь может обладать природной устойчивостью — способностью оставаться приземлённым и надёжным даже под эмоциональным давлением.",
+      "pattern": "Вы можете инстинктивно придавать чувствам структуру, позволяя себе перерабатывать трудные эмоции, не захлёстываясь ими.",
+      "growth": "Задача роста — позволить этой внутренней стабильности сосуществовать с подлинной теплотой и открытостью, а не только с самодостаточностью.",
+      "reflection": "Где ваша эмоциональная устойчивость защищает вас, а где ей нужно открыться навстречу большей уязвимости?"
+    },
+    "advanced": {
+      "technical": "Moon trine Saturn describes a flowing alignment between the lunar principle of emotional need and the Saturnian principle of structure, patience, and containment.",
+      "method": "Soft aspects are read as psychological resources: here, the resource is the natural ability to give feelings form, time, and container without suppression.",
+      "caution": "Do not assume this eliminates emotional difficulty. The resource is the ease of structuring emotion, not the absence of emotional depth.",
+      "constructiveChannel": "The constructive expression is emotional resilience: a steady inner ground that can hold complex feelings without collapse or rigidity."
+    },
+    "advancedRu": {
+      "technical": "Трин Луны и Сатурна описывает текучее согласование лунного принципа эмоциональной потребности с сатурнианским принципом структуры, терпения и контейнирования.",
+      "method": "Гармоничные аспекты читаются как психологические ресурсы: здесь ресурс — природная способность придавать чувствам форму, время и контейнер без подавления.",
+      "caution": "Не следует предполагать, что это устраняет эмоциональную трудность. Ресурс — это лёгкость структурирования эмоций, а не отсутствие эмоциональной глубины.",
+      "constructiveChannel": "Конструктивное выражение — эмоциональная устойчивость: твёрдая внутренняя почва, способная удерживать сложные чувства без краха или жёсткости."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-conjunct-neptune",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Moon", "aspect": "conjunction", "planetB": "Neptune" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["emotion", "imagination", "empathy", "dissolution", "idealization"],
+    "themesRu": ["эмоции", "воображение", "эмпатия", "растворение", "идеализация"],
+    "simple": {
+      "summary": "Your emotional world may be deeply imaginative, empathic, and porous — easily touched by the feelings of others and by invisible currents of mood.",
+      "pattern": "You may experience feelings that are larger than personal life: a longing for beauty, connection, or meaning that ordinary experience cannot fully satisfy.",
+      "growth": "The growth path is to channel this emotional depth into creative, spiritual, or caring work with enough inner boundary to know where your feelings end and others' begin.",
+      "reflection": "Where do you absorb others' emotional states as if they were your own?"
+    },
+    "simpleRu": {
+      "summary": "Ваш эмоциональный мир может быть глубоко воображаемым, эмпатическим и пористым — легко затрагиваемым чувствами других и невидимыми течениями настроения.",
+      "pattern": "Вы можете переживать чувства, выходящие за рамки личной жизни: тоску по красоте, связи или смыслу, который обычный опыт не способен полностью удовлетворить.",
+      "growth": "Путь роста — направить эту эмоциональную глубину в творческую, духовную или заботливую работу с достаточной внутренней границей, чтобы знать, где заканчиваются ваши чувства и начинаются чужие.",
+      "reflection": "Где вы поглощаете эмоциональные состояния других так, словно они ваши собственные?"
+    },
+    "advanced": {
+      "technical": "Moon conjunct Neptune fuses the lunar principle of emotional need, memory, and responsiveness with the Neptunian principle of dissolution, idealization, imagination, and boundlessness.",
+      "method": "The conjunction creates a tight blend: emotional life is permeated by Neptunian openness, producing both deep empathy and potential difficulty in maintaining emotional distinction.",
+      "caution": "This should not be read as emotional weakness or as a fixed pattern of victimhood. The same openness that makes boundaries difficult also enables genuine compassion and artistic sensitivity.",
+      "constructiveChannel": "The constructive expression is imaginative empathy: feeling that can hold the complexity of others' experience without losing its own center."
+    },
+    "advancedRu": {
+      "technical": "Соединение Луны и Нептуна сливает лунный принцип эмоциональной потребности, памяти и отзывчивости с нептунианским принципом растворения, идеализации, воображения и безграничности.",
+      "method": "Соединение создаёт тесный синтез: эмоциональная жизнь пронизана нептунианской открытостью, производя как глубокую эмпатию, так и возможное затруднение с сохранением эмоциональных различий.",
+      "caution": "Это не следует читать как эмоциональную слабость или фиксированный рисунок виктимности. Та же самая открытость, которая затрудняет границы, также обеспечивает подлинное сострадание и художественную чуткость.",
+      "constructiveChannel": "Конструктивное выражение — воображаемая эмпатия: чувство, способное удерживать сложность опыта других, не теряя собственного центра."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-square-neptune",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Moon", "aspect": "square", "planetB": "Neptune" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["emotion", "idealization", "longing", "emotional boundary", "fantasy vs. reality"],
+    "themesRu": ["эмоции", "идеализация", "тоска", "эмоциональная граница", "фантазия против реальности"],
+    "simple": {
+      "summary": "Your emotional world may be colored by longing, idealization, or a pull toward something beautiful that ordinary life cannot fully satisfy.",
+      "pattern": "You may sometimes mistake the image of a feeling for the feeling itself, or confuse compassion with emotional merger with others.",
+      "growth": "The growth path is to keep the richness of imagination while building enough clarity to see relationships and situations as they actually are.",
+      "reflection": "Where are you loving the idea of something more than the actual thing?"
+    },
+    "simpleRu": {
+      "summary": "Ваш эмоциональный мир может быть окрашен тоской, идеализацией или притяжением к чему-то прекрасному, что обычная жизнь не может полностью удовлетворить.",
+      "pattern": "Вы можете иногда принимать образ чувства за само чувство или путать сострадание с эмоциональным слиянием с другими.",
+      "growth": "Путь роста — сохранить богатство воображения, выстроив достаточно ясности, чтобы видеть отношения и ситуации такими, какие они есть на самом деле.",
+      "reflection": "Где вы любите идею чего-то больше, чем само это нечто?"
+    },
+    "advanced": {
+      "technical": "Moon square Neptune creates tension between the lunar principle of emotional need and reality-based responsiveness and the Neptunian principle of dissolving boundaries, idealization, and longing for the ineffable.",
+      "method": "The square is read as a developmental friction: emotional life is pushed toward clearer boundary-setting by the force of Neptunian dissolution working against rather than through the lunar function.",
+      "caution": "This should not be read as a permanent tendency to delusion or victimhood. It may describe a rich inner imaginative life that needs conscious grounding in reality.",
+      "constructiveChannel": "The constructive expression is emotional imagination with honest grounding: a feeling world that can dream and also see clearly when clarity is needed."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Луны и Нептуна создаёт напряжение между лунным принципом эмоциональной потребности и реальностно-ориентированной отзывчивостью и нептунианским принципом растворения границ, идеализации и тоски по невыразимому.",
+      "method": "Квадрат читается как давление развития: эмоциональная жизнь вынуждена к более чёткому выстраиванию границ под воздействием нептунианского растворения, работающего против, а не через лунную функцию.",
+      "caution": "Это не следует читать как постоянную склонность к иллюзиям или виктимности. Это может описывать богатый внутренний мир воображения, которому нужно осознанное заземление в реальности.",
+      "constructiveChannel": "Конструктивное выражение — эмоциональное воображение с честным заземлением: чувственный мир, способный мечтать и видеть ясно, когда ясность необходима."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mercury-square-saturn",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Mercury", "aspect": "square", "planetB": "Saturn" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["mind", "self-criticism", "learning", "depth", "intellectual discipline"],
+    "themesRu": ["ум", "самокритика", "обучение", "глубина", "интеллектуальная дисциплина"],
+    "simple": {
+      "summary": "Your thinking may be shaped by seriousness, self-criticism, and a drive to be precise, correct, or certain before speaking.",
+      "pattern": "You may apply high standards to your own ideas, worry about being wrong, or experience learning as a test you must pass rather than a pleasure.",
+      "growth": "The growth task is to let the gift of careful thinking coexist with permission to be wrong, uncertain, or still developing.",
+      "reflection": "Where does your inner critic interrupt your thinking before it has had a chance to fully form?"
+    },
+    "simpleRu": {
+      "summary": "Ваше мышление может быть сформировано серьёзностью, самокритикой и стремлением быть точным, правильным или уверенным перед тем, как говорить.",
+      "pattern": "Вы можете предъявлять высокие требования к собственным идеям, беспокоиться об ошибке или переживать обучение как экзамен, который нужно сдать, а не как удовольствие.",
+      "growth": "Задача роста — позволить дару осторожного мышления сосуществовать с правом ошибаться, сомневаться или ещё развиваться.",
+      "reflection": "Где внутренний критик прерывает ваше мышление до того, как оно успело полностью сформироваться?"
+    },
+    "advanced": {
+      "technical": "Mercury square Saturn creates friction between the Mercurial principle of quick learning, communication, and mental exploration and the Saturnian principle of rigour, caution, fear of error, and demand for mastery.",
+      "method": "The square produces a developmental pressure on the mental function: thinking is pushed toward self-criticism and precision by the force of Saturnian evaluation.",
+      "caution": "Do not read this as fixed intellectual limitation. Mercury square Saturn often produces exceptional depth of thought, technical skill, and analytical precision through consistent effort.",
+      "constructiveChannel": "The constructive expression is careful, deep thinking: a mind that can hold complexity, build rigorous understanding, and communicate with precision and authority."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Меркурия и Сатурна создаёт трение между меркурианским принципом быстрого обучения, общения и ментальной исследовательности и сатурнианским принципом строгости, осторожности, страха ошибки и требования мастерства.",
+      "method": "Квадрат создаёт давление развития на ментальную функцию: мышление подталкивается к самокритике и точности силой сатурнианской оценки.",
+      "caution": "Не следует читать это как фиксированное интеллектуальное ограничение. Квадрат Меркурия и Сатурна часто порождает исключительную глубину мысли, техническое мастерство и аналитическую точность через последовательные усилия.",
+      "constructiveChannel": "Конструктивное выражение — осторожное, глубокое мышление: ум, способный удерживать сложность, выстраивать строгое понимание и общаться с точностью и авторитетом."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mercury-square-neptune",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Mercury", "aspect": "square", "planetB": "Neptune" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["mind", "imagination", "intuition", "mental blur", "symbolic thinking"],
+    "themesRu": ["ум", "воображение", "интуиция", "ментальная расплывчатость", "символическое мышление"],
+    "simple": {
+      "summary": "Your thinking may be richly imaginative, intuitive, and associative — easily pulled by symbols, images, and suggestions rather than linear logic.",
+      "pattern": "You may find it harder to hold to precise facts or clear conclusions, as the mind drifts toward metaphor, feeling-tone, or the possibility behind things.",
+      "growth": "The growth task is to channel imagination into creative, spiritual, or artistic work while building enough practical clarity for daily communication.",
+      "reflection": "Where does your mind need more grounding, and where does it need more freedom to roam?"
+    },
+    "simpleRu": {
+      "summary": "Ваше мышление может быть богато воображаемым, интуитивным и ассоциативным — легко притягиваемым символами, образами и подсказками, а не линейной логикой.",
+      "pattern": "Вам может быть труднее удерживаться на точных фактах или ясных выводах, поскольку ум дрейфует к метафоре, эмоциональному тону или возможности за вещами.",
+      "growth": "Задача роста — направить воображение в творческую, духовную или художественную работу, выстроив достаточно практической ясности для повседневного общения.",
+      "reflection": "Где вашему уму нужно больше заземления, а где — больше свободы для странствий?"
+    },
+    "advanced": {
+      "technical": "Mercury square Neptune places the Mercurial function of precise thinking and logical communication under the disruptive influence of the Neptunian principle of dissolution, imagination, and symbolic perception.",
+      "method": "The square produces friction: the need for mental clarity is challenged by the Neptunian pull toward intuition, image, and boundary-dissolving association.",
+      "caution": "Do not read this as intellectual confusion or weakness. This aspect appears in many artists, writers, and visionaries who turn mental permeability into creative strength.",
+      "constructiveChannel": "The constructive expression is symbolic intelligence: a mind that thinks in images, patterns, and meanings, and communicates from a place of genuine inner vision."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Меркурия и Нептуна ставит меркурианскую функцию точного мышления и логического общения под дезорганизующее влияние нептунианского принципа растворения, воображения и символического восприятия.",
+      "method": "Квадрат производит трение: потребность в ментальной ясности оспаривается нептунианским притяжением к интуиции, образу и растворяющей границы ассоциации.",
+      "caution": "Не следует читать это как интеллектуальную путаницу или слабость. Этот аспект встречается у многих художников, писателей и провидцев, превращающих ментальную проницаемость в творческую силу.",
+      "constructiveChannel": "Конструктивное выражение — символический интеллект: ум, думающий образами, паттернами и смыслами, и общающийся из места подлинного внутреннего видения."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-square-saturn",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Mars", "aspect": "square", "planetB": "Saturn" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["drive", "resistance", "endurance", "discipline", "blocked energy"],
+    "themesRu": ["воля", "сопротивление", "выносливость", "дисциплина", "заблокированная энергия"],
+    "simple": {
+      "summary": "Action and drive may feel like they run into inner resistance or caution — a part of you moves forward while another part holds back or demands more preparation.",
+      "pattern": "You may experience anger, frustration, or a sense of being blocked in situations where you want to act but feel restrained by fear, duty, or circumstance.",
+      "growth": "The growth task is to transform the energy of resistance into focused, sustained effort — turning the inner block into a training ground for mastery.",
+      "reflection": "Where does holding back serve you, and where does it need to yield to decisive action?"
+    },
+    "simpleRu": {
+      "summary": "Действие и воля могут ощущаться наталкивающимися на внутреннее сопротивление или осторожность — одна часть вас движется вперёд, другая сдерживает или требует большей подготовки.",
+      "pattern": "Вы можете переживать гнев, разочарование или ощущение заблокированности в ситуациях, когда хотите действовать, но чувствуете себя сдерживаемым страхом, долгом или обстоятельствами.",
+      "growth": "Задача роста — превратить энергию сопротивления в сфокусированное, устойчивое усилие, превращая внутренний блок в тренировочную площадку для мастерства.",
+      "reflection": "Где сдерживание служит вам, а где ему нужно уступить решительному действию?"
+    },
+    "advanced": {
+      "technical": "Mars square Saturn creates friction between the Martian principle of assertive drive, anger, and direct action and the Saturnian principle of caution, delay, constraint, and long-term discipline.",
+      "method": "The square creates a developmental pressure: Martian energy cannot discharge freely but must instead pass through Saturnian scrutiny, producing either mastery through effort or chronic frustration.",
+      "caution": "Do not read this as a permanent block on will or as guaranteed conflict. This aspect often produces extraordinary endurance, technical mastery, and strategic discipline when consciously worked with.",
+      "constructiveChannel": "The constructive expression is disciplined initiative: a drive that has been tempered by patience into something durable and precise."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Марса и Сатурна создаёт трение между марсианским принципом напористой воли, гнева и прямого действия и сатурнианским принципом осторожности, задержки, ограничения и долгосрочной дисциплины.",
+      "method": "Квадрат создаёт давление развития: марсианская энергия не может свободно разряжаться, а должна проходить через сатурнианское испытание, производя либо мастерство через усилие, либо хроническую фрустрацию.",
+      "caution": "Не следует читать это как постоянный блок воли или как гарантированный конфликт. Этот аспект часто производит исключительную выносливость, техническое мастерство и стратегическую дисциплину при осознанной работе с ним.",
+      "constructiveChannel": "Конструктивное выражение — дисциплинированная инициатива: воля, закалённая терпением во что-то прочное и точное."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-trine-saturn",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Mars", "aspect": "trine", "planetB": "Saturn" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["disciplined drive", "endurance", "strategic action", "focused effort", "mastery"],
+    "themesRu": ["дисциплинированная воля", "выносливость", "стратегическое действие", "сфокусированное усилие", "мастерство"],
+    "simple": {
+      "summary": "Drive and structure may work well together in you — a natural capacity to apply energy in a focused, patient, and strategic way.",
+      "pattern": "You may be able to sustain effort over long periods, work through obstacles without losing momentum, and build real skill through consistent practice.",
+      "growth": "The growth task is to ensure that this disciplined energy also leaves room for spontaneity, play, and the kind of action that does not need to be strategic.",
+      "reflection": "Where can you allow yourself to act without planning, just to experience what is possible?"
+    },
+    "simpleRu": {
+      "summary": "Воля и структура могут хорошо работать вместе в вас — природная способность прикладывать энергию сфокусированным, терпеливым и стратегическим образом.",
+      "pattern": "Вы можете поддерживать усилие в течение длительных периодов, преодолевать препятствия, не теряя импульса, и строить реальное мастерство через последовательную практику.",
+      "growth": "Задача роста — убедиться, что эта дисциплинированная энергия также оставляет место для спонтанности, игры и того вида действия, которому не нужно быть стратегическим.",
+      "reflection": "Где вы можете позволить себе действовать без планирования, просто чтобы ощутить, что возможно?"
+    },
+    "advanced": {
+      "technical": "Mars trine Saturn describes a flowing alignment between the Martian principle of drive and action and the Saturnian principle of discipline, patience, and sustained effort.",
+      "method": "Soft aspects are read as available psychological resources: here, the natural integration of drive and structure produces strategic capacity and endurance.",
+      "caution": "Do not treat this as immunity to failure or conflict. The resource is the ease of channelling drive into structure, not the guaranteed outcome of every effort.",
+      "constructiveChannel": "The constructive expression is sustained mastery: the ability to apply consistent effort over time and build durable skill, achievement, and professional credibility."
+    },
+    "advancedRu": {
+      "technical": "Трин Марса и Сатурна описывает текучее согласование марсианского принципа воли и действия с сатурнианским принципом дисциплины, терпения и устойчивого усилия.",
+      "method": "Гармоничные аспекты читаются как доступные психологические ресурсы: здесь природная интеграция воли и структуры производит стратегические способности и выносливость.",
+      "caution": "Не следует считать это иммунитетом от неудачи или конфликта. Ресурс — это лёгкость направления воли в структуру, а не гарантированный результат каждого усилия.",
+      "constructiveChannel": "Конструктивное выражение — устойчивое мастерство: способность применять последовательное усилие со временем и строить прочные умения, достижения и профессиональный авторитет."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-opposite-saturn",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Venus", "aspect": "opposition", "planetB": "Saturn" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.greene-sasportas-development-personality-v1"],
+    "themes": ["love", "separation", "longing", "worthiness", "relational endurance"],
+    "themesRu": ["любовь", "разлука", "тоска", "достоинство", "выносливость в отношениях"],
+    "simple": {
+      "summary": "Love and distance may feel like recurring poles — a longing for real connection that encounters restraint, testing, or emotional caution.",
+      "pattern": "You may find that intimacy is experienced as something to be earned, tested, or protected rather than freely given or received.",
+      "growth": "The growth task is to discover that commitment can be a form of presence rather than only endurance, and that love does not always need to prove itself.",
+      "reflection": "Where do you create distance in love to test whether the other will stay?"
+    },
+    "simpleRu": {
+      "summary": "Любовь и дистанция могут ощущаться повторяющимися полюсами — тоска по подлинной связи, которая встречает сдержанность, испытание или эмоциональную осторожность.",
+      "pattern": "Вы можете обнаруживать, что близость переживается как нечто, что нужно заслужить, проверить или защитить, а не свободно дарить или получать.",
+      "growth": "Задача роста — обнаружить, что обязательство может быть формой присутствия, а не только выносливости, и что любви не всегда нужно доказывать себя.",
+      "reflection": "Где вы создаёте дистанцию в любви, чтобы проверить, останется ли другой?"
+    },
+    "advanced": {
+      "technical": "Venus opposite Saturn places the Venusian principle of affection, pleasure, and receptivity in direct polarity with the Saturnian principle of limit, withholding, duty, and emotional economy.",
+      "method": "The opposition is read as a polarity requiring integration: both poles are real — the need for warmth and the need for structure — and they collapse without each other.",
+      "caution": "Do not read this as a guaranteed pattern of lonely or failed love. It describes a developmental task around the relationship between love, worth, and endurance.",
+      "constructiveChannel": "The constructive expression is mature love: affection that can endure time, commitment, and real-world pressure without losing its fundamental warmth."
+    },
+    "advancedRu": {
+      "technical": "Оппозиция Венеры и Сатурна ставит венерианский принцип привязанности, удовольствия и восприимчивости в прямую полярность с сатурнианским принципом предела, сдерживания, долга и эмоциональной экономии.",
+      "method": "Оппозиция читается как полярность, требующая интеграции: оба полюса реальны — потребность в тепле и потребность в структуре — и оба рушатся без другого.",
+      "caution": "Не следует читать это как гарантированный рисунок одинокой или несостоявшейся любви. Это описывает задачу развития вокруг отношений между любовью, достоинством и выносливостью.",
+      "constructiveChannel": "Конструктивное выражение — зрелая любовь: привязанность, способная выдержать время, обязательства и реальное давление жизни, не теряя своей фундаментальной теплоты."
+    },
+    "confidence": "medium"
   }
 ]

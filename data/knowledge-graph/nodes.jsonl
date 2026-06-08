@@ -146,3 +146,45 @@
 {"id":"concept.lilith-black-moon","type":"concept","label":"Lilith / Black Moon","system":"western","status":"draft"}
 {"id":"concept.lunar-nodes","type":"concept","label":"Lunar Nodes","system":"western","status":"draft"}
 {"id":"concept.talisman-calendar-overlay","type":"concept","label":"Talisman And Calendar Overlay","system":"shared","status":"draft"}
+{"id":"western.planet.mercury","type":"concept","label":"Mercury","system":"western","status":"draft"}
+{"id":"western.planet.venus","type":"concept","label":"Venus","system":"western","status":"draft"}
+{"id":"western.planet.mars","type":"concept","label":"Mars","system":"western","status":"draft"}
+{"id":"western.planet.jupiter","type":"concept","label":"Jupiter","system":"western","status":"draft"}
+{"id":"western.planet.neptune","type":"concept","label":"Neptune","system":"western","status":"draft"}
+{"id":"western.planet.uranus","type":"concept","label":"Uranus","system":"western","status":"draft"}
+{"id":"rule-instance.western.sun-conjunct-saturn","type":"rule","label":"Sun conjunct Saturn","system":"western","status":"draft"}
+{"id":"rule-instance.western.sun-square-saturn","type":"rule","label":"Sun square Saturn","system":"western","status":"draft"}
+{"id":"rule-instance.western.sun-opposite-moon","type":"rule","label":"Sun opposite Moon","system":"western","status":"draft"}
+{"id":"rule-instance.western.sun-trine-jupiter","type":"rule","label":"Sun trine Jupiter","system":"western","status":"draft"}
+{"id":"rule-instance.western.sun-conjunct-neptune","type":"rule","label":"Sun conjunct Neptune","system":"western","status":"draft"}
+{"id":"rule-instance.western.moon-conjunct-saturn","type":"rule","label":"Moon conjunct Saturn","system":"western","status":"draft"}
+{"id":"rule-instance.western.moon-opposite-saturn","type":"rule","label":"Moon opposite Saturn","system":"western","status":"draft"}
+{"id":"rule-instance.western.moon-trine-saturn","type":"rule","label":"Moon trine Saturn","system":"western","status":"draft"}
+{"id":"rule-instance.western.moon-conjunct-neptune","type":"rule","label":"Moon conjunct Neptune","system":"western","status":"draft"}
+{"id":"rule-instance.western.moon-square-neptune","type":"rule","label":"Moon square Neptune","system":"western","status":"draft"}
+{"id":"rule-instance.western.mercury-square-saturn","type":"rule","label":"Mercury square Saturn","system":"western","status":"draft"}
+{"id":"rule-instance.western.mercury-square-neptune","type":"rule","label":"Mercury square Neptune","system":"western","status":"draft"}
+{"id":"rule-instance.western.mars-square-saturn","type":"rule","label":"Mars square Saturn","system":"western","status":"draft"}
+{"id":"rule-instance.western.mars-trine-saturn","type":"rule","label":"Mars trine Saturn","system":"western","status":"draft"}
+{"id":"rule-instance.western.venus-opposite-saturn","type":"rule","label":"Venus opposite Saturn","system":"western","status":"draft"}
+{"id":"rule-instance.western.saturn-in-1st-house","type":"rule","label":"Saturn in 1st house","system":"western","status":"draft"}
+{"id":"rule-instance.western.saturn-in-4th-house","type":"rule","label":"Saturn in 4th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.saturn-in-10th-house","type":"rule","label":"Saturn in 10th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.saturn-in-12th-house","type":"rule","label":"Saturn in 12th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.moon-in-1st-house","type":"rule","label":"Moon in 1st house","system":"western","status":"draft"}
+{"id":"rule-instance.western.moon-in-7th-house","type":"rule","label":"Moon in 7th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.moon-in-10th-house","type":"rule","label":"Moon in 10th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.sun-in-1st-house","type":"rule","label":"Sun in 1st house","system":"western","status":"draft"}
+{"id":"rule-instance.western.sun-in-7th-house","type":"rule","label":"Sun in 7th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.sun-in-10th-house","type":"rule","label":"Sun in 10th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.mars-in-1st-house","type":"rule","label":"Mars in 1st house","system":"western","status":"draft"}
+{"id":"rule-instance.western.mars-in-4th-house","type":"rule","label":"Mars in 4th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.mars-in-7th-house","type":"rule","label":"Mars in 7th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.mars-in-12th-house","type":"rule","label":"Mars in 12th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.venus-in-1st-house","type":"rule","label":"Venus in 1st house","system":"western","status":"draft"}
+{"id":"rule-instance.western.venus-in-4th-house","type":"rule","label":"Venus in 4th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.venus-in-12th-house","type":"rule","label":"Venus in 12th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.jupiter-in-1st-house","type":"rule","label":"Jupiter in 1st house","system":"western","status":"draft"}
+{"id":"rule-instance.western.jupiter-in-9th-house","type":"rule","label":"Jupiter in 9th house","system":"western","status":"draft"}
+{"id":"rule-instance.western.mercury-in-3rd-house","type":"rule","label":"Mercury in 3rd house","system":"western","status":"draft"}
+{"id":"rule-instance.western.mercury-in-9th-house","type":"rule","label":"Mercury in 9th house","system":"western","status":"draft"}

@@ -134,5 +134,740 @@
       "constructiveChannel": "The constructive expression is emotional rootedness, care for private life, and conscious relationship to ancestral or family patterns."
     },
     "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-in-1st-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 1 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["self-image", "reserve", "seriousness", "inner authority", "self-discipline"],
+    "themesRu": ["образ себя", "сдержанность", "серьёзность", "внутренний авторитет", "самодисциплина"],
+    "simple": {
+      "summary": "Your outward presence and sense of self may be shaped by seriousness, caution, and a quiet inner authority.",
+      "pattern": "You may come across as reserved, careful, or self-contained, and may set high standards for your own behavior and appearance.",
+      "growth": "The growth task is to let your genuine authority emerge without self-suppression, and to allow lightness and spontaneity alongside discipline.",
+      "reflection": "Where do you present a more guarded version of yourself than you need to?"
+    },
+    "simpleRu": {
+      "summary": "Ваше внешнее присутствие и ощущение себя могут быть сформированы серьёзностью, осторожностью и тихим внутренним авторитетом.",
+      "pattern": "Вы можете производить впечатление сдержанного, осторожного или самодостаточного человека и предъявлять высокие требования к собственному поведению и внешности.",
+      "growth": "Задача роста — позволить вашему подлинному авторитету проявиться без самоподавления и допустить лёгкость и спонтанность рядом с дисциплиной.",
+      "reflection": "Где вы представляете более закрытую версию себя, чем это необходимо?"
+    },
+    "advanced": {
+      "technical": "The 1st house is the field of self, body, immediate presence, and first impression. Saturn in the 1st brings gravity, reserve, self-discipline, and the expectation of effort into the arena of identity itself.",
+      "method": "This combines house-topic interpretation with Saturn as the force shaping how identity is presented and experienced.",
+      "caution": "Do not read this as guaranteed social difficulty, physical burden, or permanent heaviness. Many people with this placement carry quiet authority and earn trust through consistency.",
+      "constructiveChannel": "The constructive expression is grounded self-presence: an identity that conveys reliability, depth, and genuine inner authority without pretense."
+    },
+    "advancedRu": {
+      "technical": "1-й дом — поле самости, тела, непосредственного присутствия и первого впечатления. Сатурн в 1-м доме привносит в арену идентичности тяжесть, сдержанность, самодисциплину и ожидание усилия.",
+      "method": "Это интерпретация по теме дома с Сатурном как силой, формирующей то, как идентичность представляется и переживается.",
+      "caution": "Не следует читать это как гарантированные социальные трудности, физическую нагрузку или постоянную тяжесть. Многие с этим положением несут тихий авторитет и завоёвывают доверие через последовательность.",
+      "constructiveChannel": "Конструктивное выражение — приземлённое самоприсутствие: идентичность, передающая надёжность, глубину и подлинный внутренний авторитет без притворства."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-in-4th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 4 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["home", "family base", "inner foundation", "roots", "ancestral weight"],
+    "themesRu": ["дом", "семейная основа", "внутренний фундамент", "корни", "вес предков"],
+    "simple": {
+      "summary": "Home, family, and inner roots may be areas where you feel a particular weight, seriousness, or responsibility.",
+      "pattern": "The private world may have felt demanding, structured, or emotionally formal — perhaps a family where duty mattered more than warmth.",
+      "growth": "The growth task is to build a solid inner foundation that belongs to you rather than to old family patterns.",
+      "reflection": "What part of your inner home still belongs to your family of origin, and what part is truly yours?"
+    },
+    "simpleRu": {
+      "summary": "Дом, семья и внутренние корни могут быть сферами, где вы ощущаете особую тяжесть, серьёзность или ответственность.",
+      "pattern": "Частный мир мог ощущаться требовательным, структурированным или эмоционально формальным — возможно, семья, где долг имел большее значение, чем тепло.",
+      "growth": "Задача роста — выстроить устойчивый внутренний фундамент, принадлежащий вам, а не старым семейным рисункам.",
+      "reflection": "Какая часть вашего внутреннего дома до сих пор принадлежит семье происхождения, а какая — подлинно ваша?"
+    },
+    "advanced": {
+      "technical": "The 4th house is the field of home, family base, psychological roots, and inner foundation. Saturn in the 4th brings structure, restraint, emotional formality, and a sense of duty into the arena of origin and belonging.",
+      "method": "This combines house-topic interpretation with Saturn as the force shaping the foundational experience of home and family.",
+      "caution": "Do not read this as a factual claim about parenting or family hardship. It describes a possible symbolic experience of the home arena as demanding or serious rather than freely nurturing.",
+      "constructiveChannel": "The constructive expression is a consciously built inner foundation: a private life structured by intention, endurance, and values rather than by inherited patterns."
+    },
+    "advancedRu": {
+      "technical": "4-й дом — поле дома, семейной основы, психологических корней и внутреннего фундамента. Сатурн в 4-м доме привносит структуру, сдержанность, эмоциональную формальность и чувство долга в арену происхождения и принадлежности.",
+      "method": "Это интерпретация по теме дома с Сатурном как силой, формирующей основополагающий опыт дома и семьи.",
+      "caution": "Не следует читать это как фактическое утверждение о воспитании или семейных трудностях. Это описывает возможный символический опыт домашней сферы как требовательной или серьёзной, а не свободно питающей.",
+      "constructiveChannel": "Конструктивное выражение — сознательно выстроенный внутренний фундамент: частная жизнь, структурированная намерением, выносливостью и ценностями, а не унаследованными рисунками."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-in-10th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 10 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["career", "authority", "long-term ambition", "public discipline", "earned recognition"],
+    "themesRu": ["карьера", "авторитет", "долгосрочная амбиция", "публичная дисциплина", "заслуженное признание"],
+    "simple": {
+      "summary": "Career and public achievement may be areas where you work hard and expect to earn recognition slowly and through consistent effort.",
+      "pattern": "You may feel a serious inner pressure around professional life — a drive to do things properly, reach lasting results, and meet high standards.",
+      "growth": "The growth task is to pursue genuine professional mastery without turning work into the only source of your sense of worth.",
+      "reflection": "Where does your career feel like a test of your value rather than an expression of it?"
+    },
+    "simpleRu": {
+      "summary": "Карьера и публичные достижения могут быть сферами, где вы работаете усердно и ожидаете заслужить признание медленно, через последовательные усилия.",
+      "pattern": "Вы можете ощущать серьёзное внутреннее давление вокруг профессиональной жизни — стремление делать всё должным образом, достигать долгосрочных результатов и соответствовать высоким стандартам.",
+      "growth": "Задача роста — стремиться к подлинному профессиональному мастерству, не превращая работу в единственный источник ощущения собственной ценности.",
+      "reflection": "Где ваша карьера ощущается как проверка вашей ценности, а не её выражение?"
+    },
+    "advanced": {
+      "technical": "The 10th house is the field of career, public role, authority, and social achievement. Saturn in the 10th intensifies the demand for achievement, discipline, and long-term credibility in this arena.",
+      "method": "This combines house-topic interpretation with Saturn as the force making the 10th house arena feel both important and demanding.",
+      "caution": "Do not read this as delayed failure or permanent underachievement. Saturn in the 10th is historically associated with late-developing but highly durable professional standing.",
+      "constructiveChannel": "The constructive expression is earned authority: a professional reputation built through sustained effort, integrity, and the patient acceptance of long-term results."
+    },
+    "advancedRu": {
+      "technical": "10-й дом — поле карьеры, публичной роли, авторитета и социального достижения. Сатурн в 10-м доме усиливает требование достижения, дисциплины и долгосрочной надёжности в этой арене.",
+      "method": "Это интерпретация по теме дома с Сатурном как силой, делающей арену 10-го дома и важной, и требовательной.",
+      "caution": "Не следует читать это как отсроченную неудачу или постоянное недостижение. Сатурн в 10-м доме исторически связан с поздно развивающимся, но высоко прочным профессиональным положением.",
+      "constructiveChannel": "Конструктивное выражение — заслуженный авторитет: профессиональная репутация, построенная через устойчивые усилия, честность и терпеливое принятие долгосрочных результатов."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-in-12th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 12 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["solitude", "inner structure", "hidden discipline", "self-isolation", "spiritual work"],
+    "themesRu": ["одиночество", "внутренняя структура", "скрытая дисциплина", "самоизоляция", "духовная работа"],
+    "simple": {
+      "summary": "Solitude, inner work, and the unseen dimensions of life may carry a special weight for you — a seriousness around what is hidden, private, or difficult to name.",
+      "pattern": "You may do your deepest work alone, carry responsibilities that are not visible to others, or feel a quiet burden that is hard to share.",
+      "growth": "The growth task is to use solitude consciously — as a source of genuine inner development rather than as a place of isolation or hidden fear.",
+      "reflection": "What discipline or inner work have you kept hidden that deserves to be named?"
+    },
+    "simpleRu": {
+      "summary": "Одиночество, внутренняя работа и невидимые измерения жизни могут нести для вас особую тяжесть — серьёзность вокруг того, что скрыто, приватно или трудно назвать.",
+      "pattern": "Вы можете выполнять самую глубокую работу в одиночестве, нести ответственность, которая не видна другим, или ощущать тихое бремя, которым трудно поделиться.",
+      "growth": "Задача роста — использовать одиночество сознательно — как источник подлинного внутреннего развития, а не как место изоляции или скрытого страха.",
+      "reflection": "Какую дисциплину или внутреннюю работу вы держали в тайне, хотя она заслуживает быть названной?"
+    },
+    "advanced": {
+      "technical": "The 12th house is the field of solitude, the hidden, the collective unconscious, and the threshold between individual and transpersonal. Saturn in the 12th brings structure, discipline, and gravity into this unseen arena.",
+      "method": "This combines house-topic interpretation with Saturn as the force shaping the private and unconscious dimensions of life.",
+      "caution": "Do not read this as hidden shame, self-imprisonment, or a life of burden. It describes a possible orientation toward serious inner work in private or spiritual domains.",
+      "constructiveChannel": "The constructive expression is invisible discipline: inner work that does not need public recognition but builds genuine spiritual depth and character."
+    },
+    "advancedRu": {
+      "technical": "12-й дом — поле одиночества, скрытого, коллективного бессознательного и порога между индивидуальным и транспersональным. Сатурн в 12-м доме привносит структуру, дисциплину и тяжесть в эту невидимую арену.",
+      "method": "Это интерпретация по теме дома с Сатурном как силой, формирующей частные и бессознательные измерения жизни.",
+      "caution": "Не следует читать это как скрытый стыд, самоизоляцию или жизнь в тяжести. Это описывает возможную ориентацию на серьёзную внутреннюю работу в приватных или духовных сферах.",
+      "constructiveChannel": "Конструктивное выражение — невидимая дисциплина: внутренняя работа, которой не нужно публичного признания, но которая строит подлинную духовную глубину и характер."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-in-1st-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Moon", "house": 1 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["emotional expressiveness", "receptivity", "changeable identity", "empathy", "public feeling"],
+    "themesRu": ["эмоциональная выразительность", "восприимчивость", "изменчивая идентичность", "эмпатия", "публичное чувство"],
+    "simple": {
+      "summary": "Your emotional world may be easily visible to others — your moods, sensitivities, and reactions may form a natural part of your first impression.",
+      "pattern": "You may be highly responsive to the atmosphere around you and naturally absorb the feelings of others, sometimes before you recognize it is happening.",
+      "growth": "The growth task is to honor emotional sensitivity as a genuine intelligence without losing the sense of a stable, defined self beneath it.",
+      "reflection": "How do you know when a feeling is yours and when it belongs to the room around you?"
+    },
+    "simpleRu": {
+      "summary": "Ваш эмоциональный мир может быть легко виден окружающим — ваши настроения, чуткости и реакции могут естественно составлять часть первого впечатления.",
+      "pattern": "Вы можете быть высоко восприимчивы к атмосфере вокруг вас и естественно впитывать чувства других, иногда до того, как осознаёте, что это происходит.",
+      "growth": "Задача роста — чтить эмоциональную чуткость как подлинный интеллект, не теряя ощущения устойчивого, определённого себя под ней.",
+      "reflection": "Как вы узнаёте, когда чувство ваше, а когда оно принадлежит пространству вокруг вас?"
+    },
+    "advanced": {
+      "technical": "The 1st house is the field of self, body, and immediate presence. The Moon brings emotional sensitivity, receptivity, changeability, and the lunar principle of need and memory into the arena of identity.",
+      "method": "This combines house-topic interpretation with the psychological Moon as the force shaping the quality and texture of first presence.",
+      "caution": "Do not read this as emotional instability or lack of identity. Emotional expressiveness in the first house can be a powerful form of genuine presence.",
+      "constructiveChannel": "The constructive expression is emotionally authentic presence: a self that meets the world with genuine sensitivity and natural empathy."
+    },
+    "advancedRu": {
+      "technical": "1-й дом — поле самости, тела и непосредственного присутствия. Луна привносит в арену идентичности эмоциональную чуткость, восприимчивость, изменчивость и лунный принцип потребности и памяти.",
+      "method": "Это интерпретация по теме дома с психологической Луной как силой, формирующей качество и текстуру первого присутствия.",
+      "caution": "Не следует читать это как эмоциональную нестабильность или отсутствие идентичности. Эмоциональная выразительность в первом доме может быть мощной формой подлинного присутствия.",
+      "constructiveChannel": "Конструктивное выражение — эмоционально аутентичное присутствие: самость, встречающая мир с подлинной чуткостью и природной эмпатией."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-in-7th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Moon", "house": 7 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["partnership", "emotional need", "mirroring", "care in relationship", "dependency"],
+    "themesRu": ["партнёрство", "эмоциональная потребность", "зеркало", "забота в отношениях", "зависимость"],
+    "simple": {
+      "summary": "Partnership and close relationships may be central to your emotional life — a place where you seek mirroring, care, and a sense of inner safety.",
+      "pattern": "You may find it difficult to feel emotionally settled without a close relationship, and may naturally move toward nurturing others or seeking their nurture.",
+      "growth": "The growth task is to build enough inner home so that partnership can be chosen freely rather than needed for emotional survival.",
+      "reflection": "Where do you look to others to provide the emotional ground you have not yet found within yourself?"
+    },
+    "simpleRu": {
+      "summary": "Партнёрство и близкие отношения могут быть центральными для вашей эмоциональной жизни — местом, где вы ищете зеркало, заботу и ощущение внутренней безопасности.",
+      "pattern": "Вам может быть трудно чувствовать себя эмоционально устроенным без близких отношений, и вы можете естественно тяготеть к заботе о других или поиску их заботы.",
+      "growth": "Задача роста — выстроить достаточно внутреннего дома, чтобы партнёрство могло выбираться свободно, а не требоваться для эмоционального выживания.",
+      "reflection": "Где вы смотрите на других, чтобы они дали ту эмоциональную почву, которую вы ещё не нашли внутри себя?"
+    },
+    "advanced": {
+      "technical": "The 7th house is the field of partnership and encounter with the other. The Moon brings emotional need, receptivity, mirroring, and the lunar principle of containment into the arena of relationship.",
+      "method": "This combines house-topic interpretation with the psychological Moon as the force shaping how emotional needs are projected into and met through partnership.",
+      "caution": "Do not read this as a fixed pattern of emotional dependency or as a guaranteed family pattern around relationship. It describes a developmental theme around emotional autonomy and genuine partnership.",
+      "constructiveChannel": "The constructive expression is emotionally generous partnership: the ability to bring genuine care, empathy, and attunement to close relationship without losing one's own emotional center."
+    },
+    "advancedRu": {
+      "technical": "7-й дом — поле партнёрства и встречи с другим. Луна привносит в арену отношений эмоциональную потребность, восприимчивость, зеркальность и лунный принцип контейнирования.",
+      "method": "Это интерпретация по теме дома с психологической Луной как силой, формирующей то, как эмоциональные потребности проецируются в партнёрство и удовлетворяются через него.",
+      "caution": "Не следует читать это как фиксированный рисунок эмоциональной зависимости или гарантированный семейный рисунок вокруг отношений. Это описывает тему развития вокруг эмоциональной автономии и подлинного партнёрства.",
+      "constructiveChannel": "Конструктивное выражение — эмоционально щедрое партнёрство: способность привносить подлинную заботу, эмпатию и настроенность в близкие отношения, не теряя собственного эмоционального центра."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-in-10th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Moon", "house": 10 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["career", "public nurturing", "emotional visibility", "public role", "mother-image"],
+    "themesRu": ["карьера", "публичная забота", "эмоциональная видимость", "публичная роль", "образ матери"],
+    "simple": {
+      "summary": "Career and public life may be shaped by your emotional nature — a pull toward work that involves care, connection, or emotional responsiveness.",
+      "pattern": "Your moods and emotional state may be more visible in public than you intend, and you may be drawn to roles that allow nurturing, creativity, or emotional engagement.",
+      "growth": "The growth task is to channel emotional intelligence into public work without losing the distinction between your private feelings and your professional role.",
+      "reflection": "Where does your public role need more emotional depth, and where does it need clearer professional distance?"
+    },
+    "simpleRu": {
+      "summary": "Карьера и публичная жизнь могут быть сформированы вашей эмоциональной природой — притяжением к работе, включающей заботу, связь или эмоциональную отзывчивость.",
+      "pattern": "Ваши настроения и эмоциональное состояние могут быть более заметны в публичном пространстве, чем вы намереваетесь, и вас может привлекать к ролям, позволяющим питать, творить или эмоционально вовлекаться.",
+      "growth": "Задача роста — направить эмоциональный интеллект в публичную работу, не теряя различия между вашими частными чувствами и профессиональной ролью.",
+      "reflection": "Где вашей публичной роли нужно больше эмоциональной глубины, а где — более чёткая профессиональная дистанция?"
+    },
+    "advanced": {
+      "technical": "The 10th house is the field of career, public role, and reputation. The Moon brings emotional responsiveness, nurturing instinct, and lunar sensitivity into the arena of public achievement.",
+      "method": "This combines house-topic interpretation with the Moon as the force shaping how public identity is experienced and expressed.",
+      "caution": "Do not read this as guaranteed popularity or as a fixed pattern of emotional volatility in public. It describes emotional life as naturally connected to professional purpose.",
+      "constructiveChannel": "The constructive expression is emotionally intelligent public work: a career shaped by genuine care, attunement to the needs of others, and emotional honesty in leadership."
+    },
+    "advancedRu": {
+      "technical": "10-й дом — поле карьеры, публичной роли и репутации. Луна привносит эмоциональную отзывчивость, инстинкт заботы и лунную чуткость в арену публичного достижения.",
+      "method": "Это интерпретация по теме дома с Луной как силой, формирующей то, как публичная идентичность переживается и выражается.",
+      "caution": "Не следует читать это как гарантированную популярность или фиксированный рисунок эмоциональной непостоянности в публичном пространстве. Это описывает эмоциональную жизнь как естественно связанную с профессиональной целью.",
+      "constructiveChannel": "Конструктивное выражение — эмоционально интеллектуальная публичная работа: карьера, сформированная подлинной заботой, настроенностью на потребности других и эмоциональной честностью в руководстве."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-in-1st-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Sun", "house": 1 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["self-expression", "vitality", "identity", "presence", "visibility"],
+    "themesRu": ["самовыражение", "жизненная сила", "идентичность", "присутствие", "видимость"],
+    "simple": {
+      "summary": "Your identity, vitality, and will may be naturally forward-facing — a strong sense of self that tends to be visible and expressive.",
+      "pattern": "You may feel most alive when you can express yourself directly and be seen, and may find it draining when your individuality goes unrecognized.",
+      "growth": "The growth task is to let your natural energy and self-expression serve a genuine purpose rather than becoming the need to always be at the center.",
+      "reflection": "Where does your sense of self grow stronger through what you contribute rather than through the attention you receive?"
+    },
+    "simpleRu": {
+      "summary": "Ваша идентичность, жизненная сила и воля могут быть естественно обращены вперёд — сильное ощущение себя, которое обычно заметно и выразительно.",
+      "pattern": "Вы можете чувствовать себя наиболее живым, когда можете выражать себя прямо и быть увиденным, и может ощущаться опустошительным, когда ваша индивидуальность не признаётся.",
+      "growth": "Задача роста — позволить вашей природной энергии и самовыражению служить подлинной цели, а не становиться потребностью всегда быть в центре.",
+      "reflection": "Где ваше ощущение себя крепнет через то, что вы вносите, а не через внимание, которое получаете?"
+    },
+    "advanced": {
+      "technical": "The 1st house is the field of self, body, and first impression. The Sun in the 1st brings the full solar principle of will, identity, and life-force directly into the arena of self-presentation.",
+      "method": "This is a house-topic interpretation where the Sun as the central archetype of identity is placed in the house most directly associated with selfhood.",
+      "caution": "Do not read this as guaranteed fame or as fixed self-centeredness. It describes a natural orientation toward self-expression that still requires development and direction.",
+      "constructiveChannel": "The constructive expression is authentic vitality: a strong, visible self that can lead, inspire, and express itself in ways that serve both self and others."
+    },
+    "advancedRu": {
+      "technical": "1-й дом — поле самости, тела и первого впечатления. Солнце в 1-м доме привносит полный солнечный принцип воли, идентичности и жизненной силы непосредственно в арену самопредставления.",
+      "method": "Это интерпретация по теме дома, где Солнце как центральный архетип идентичности помещается в дом, наиболее непосредственно связанный с самостью.",
+      "caution": "Не следует читать это как гарантированную известность или фиксированный эгоцентризм. Это описывает природную ориентацию на самовыражение, которая всё же требует развития и направления.",
+      "constructiveChannel": "Конструктивное выражение — аутентичная витальность: сильная, заметная самость, способная вести, вдохновлять и выражать себя способами, служащими как себе, так и другим."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-in-7th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Sun", "house": 7 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["partnership", "identity through the other", "relating", "encounter", "self-definition"],
+    "themesRu": ["партнёрство", "идентичность через другого", "отношения", "встреча", "самоопределение"],
+    "simple": {
+      "summary": "Partnership and relationship may be central arenas where your sense of self becomes clear and finds its fullest expression.",
+      "pattern": "You may define yourself in relation to others — finding out who you are through the encounter with a significant other, a close ally, or even an opponent.",
+      "growth": "The growth task is to develop a solid sense of self that does not disappear in relationship but grows through it.",
+      "reflection": "What do you know about yourself that you can only discover through how you relate to others?"
+    },
+    "simpleRu": {
+      "summary": "Партнёрство и отношения могут быть центральными аренами, где ваше ощущение себя становится ясным и находит своё наиболее полное выражение.",
+      "pattern": "Вы можете определять себя в отношении других — узнавая, кто вы, через встречу со значимым другим, близким союзником или даже оппонентом.",
+      "growth": "Задача роста — развить устойчивое ощущение себя, которое не исчезает в отношениях, а растёт через них.",
+      "reflection": "Что вы знаете о себе, что можно открыть только через то, как вы относитесь к другим?"
+    },
+    "advanced": {
+      "technical": "The 7th house is the field of partnership and the encounter with the other. The Sun brings the full weight of identity, will, and self-definition into this arena, suggesting that selfhood is substantially developed through relationship.",
+      "method": "This combines house-topic interpretation with the solar archetype of identity as the force active in the 7th house domain.",
+      "caution": "Do not read this as a fixed dependency on partnership for self-worth. It describes relationship as a primary developmental field for identity, not as the only source of selfhood.",
+      "constructiveChannel": "The constructive expression is self-defining relationship: partnership that allows both people to become more fully themselves."
+    },
+    "advancedRu": {
+      "technical": "7-й дом — поле партнёрства и встречи с другим. Солнце привносит полный вес идентичности, воли и самоопределения в эту арену, предполагая, что самость в значительной мере развивается через отношения.",
+      "method": "Это интерпретация по теме дома с солнечным архетипом идентичности как силой, действующей в сфере 7-го дома.",
+      "caution": "Не следует читать это как фиксированную зависимость от партнёрства для самооценки. Это описывает отношения как первичное поле развития идентичности, а не как единственный источник самости.",
+      "constructiveChannel": "Конструктивное выражение — самоопределяющее партнёрство: отношения, позволяющие обоим людям стать более полностью собой."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-in-10th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Sun", "house": 10 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["career", "public identity", "achievement", "authority", "calling"],
+    "themesRu": ["карьера", "публичная идентичность", "достижение", "авторитет", "призвание"],
+    "simple": {
+      "summary": "Career, public role, and visible achievement may be central to your sense of identity and purpose.",
+      "pattern": "You may feel most yourself when your work is recognized and when you can bring your genuine will and individuality into your professional and public life.",
+      "growth": "The growth task is to ensure that public success serves your inner purpose rather than replacing it.",
+      "reflection": "What would your sense of self look like if all professional recognition disappeared tomorrow?"
+    },
+    "simpleRu": {
+      "summary": "Карьера, публичная роль и видимые достижения могут быть центральными для вашего ощущения идентичности и цели.",
+      "pattern": "Вы можете чувствовать себя наиболее собой, когда ваша работа признаётся и когда вы можете привнести свою подлинную волю и индивидуальность в профессиональную и публичную жизнь.",
+      "growth": "Задача роста — убедиться, что публичный успех служит вашей внутренней цели, а не заменяет её.",
+      "reflection": "Как выглядело бы ваше ощущение себя, если бы завтра исчезло всё профессиональное признание?"
+    },
+    "advanced": {
+      "technical": "The 10th house is the field of career, public role, authority, and reputation. The Sun in the 10th brings the solar principle of identity, will, and self-definition into the arena of public achievement and social recognition.",
+      "method": "This is a house-topic interpretation where the Sun's need for self-expression is directed toward the visible, professional, and social domain.",
+      "caution": "Do not read this as guaranteed fame or as an obligation to become publicly prominent. It describes a natural orientation toward meaningful work and visible contribution.",
+      "constructiveChannel": "The constructive expression is purposeful public life: a career that functions as genuine self-expression and contributes something real to the wider world."
+    },
+    "advancedRu": {
+      "technical": "10-й дом — поле карьеры, публичной роли, авторитета и репутации. Солнце в 10-м доме привносит солнечный принцип идентичности, воли и самоопределения в арену публичного достижения и социального признания.",
+      "method": "Это интерпретация по теме дома, где потребность Солнца в самовыражении направлена к видимой, профессиональной и социальной сфере.",
+      "caution": "Не следует читать это как гарантированную известность или обязательство стать публично заметным. Это описывает природную ориентацию на осмысленную работу и видимый вклад.",
+      "constructiveChannel": "Конструктивное выражение — целеустремлённая публичная жизнь: карьера, функционирующая как подлинное самовыражение и вносящая нечто реальное в более широкий мир."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-in-1st-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mars", "house": 1 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["drive", "assertiveness", "direct energy", "initiative", "physical vitality"],
+    "themesRu": ["воля", "напористость", "прямая энергия", "инициатива", "физическая витальность"],
+    "simple": {
+      "summary": "Energy, directness, and initiative may be natural parts of how you present yourself to the world.",
+      "pattern": "You may come across as assertive, energetic, or competitive, and tend to act quickly and directly rather than waiting for permission.",
+      "growth": "The growth task is to direct this strong energy purposefully so that drive becomes initiative rather than aggression or compulsion.",
+      "reflection": "Where does your directness open doors, and where does it create unnecessary friction?"
+    },
+    "simpleRu": {
+      "summary": "Энергия, прямота и инициатива могут быть природными частями того, как вы представляете себя миру.",
+      "pattern": "Вы можете производить впечатление напористого, энергичного или соревновательного человека и, как правило, действовать быстро и прямо, не ожидая разрешения.",
+      "growth": "Задача роста — направлять эту сильную энергию целеустремлённо, чтобы воля становилась инициативой, а не агрессией или компульсией.",
+      "reflection": "Где ваша прямота открывает двери, а где создаёт ненужное трение?"
+    },
+    "advanced": {
+      "technical": "The 1st house is the field of self, body, and first impression. Mars in the 1st brings the Martian principle of drive, assertiveness, and direct action into the arena of identity and self-presentation.",
+      "method": "This is a house-topic interpretation where Martian energy is expressed primarily through the domain of self-definition and outward manner.",
+      "caution": "Do not read this as a fixed pattern of aggression or conflict. Mars in the 1st describes the energy of the self, which can be disciplined into courage, initiative, and genuine leadership.",
+      "constructiveChannel": "The constructive expression is courageous self-presence: an identity that can act decisively, take the initiative, and face challenge without flinching."
+    },
+    "advancedRu": {
+      "technical": "1-й дом — поле самости, тела и первого впечатления. Марс в 1-м доме привносит марсианский принцип воли, напористости и прямого действия в арену идентичности и самопредставления.",
+      "method": "Это интерпретация по теме дома, где марсианская энергия выражается прежде всего через область самоопределения и внешней манеры.",
+      "caution": "Не следует читать это как фиксированный рисунок агрессии или конфликта. Марс в 1-м доме описывает энергию самости, которая может быть дисциплинирована в смелость, инициативу и подлинное лидерство.",
+      "constructiveChannel": "Конструктивное выражение — смелое самоприсутствие: идентичность, способная действовать решительно, брать инициативу и встречать вызов без колебаний."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-in-4th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mars", "house": 4 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["home", "family", "inner conflict", "drive for roots", "domestic energy"],
+    "themesRu": ["дом", "семья", "внутренний конфликт", "воля к корням", "домашняя энергия"],
+    "simple": {
+      "summary": "Home, family, and private life may be arenas where strong feelings, drive, or conflict are most openly expressed.",
+      "pattern": "You may feel an intense sense of ownership or protectiveness around your home or family roots, and may find it difficult to feel at peace in domestic settings.",
+      "growth": "The growth task is to use the energy of this placement to actively build the inner home you want, rather than fighting to defend it.",
+      "reflection": "What are you actually protecting when conflict arises in your most private sphere?"
+    },
+    "simpleRu": {
+      "summary": "Дом, семья и частная жизнь могут быть аренами, где сильные чувства, воля или конфликт выражаются наиболее открыто.",
+      "pattern": "Вы можете ощущать интенсивное чувство собственности или защитности вокруг вашего дома или семейных корней, и может быть трудно чувствовать покой в домашней обстановке.",
+      "growth": "Задача роста — использовать энергию этого положения для активного строительства внутреннего дома, которого вы хотите, а не для борьбы за его защиту.",
+      "reflection": "Что вы на самом деле защищаете, когда конфликт возникает в вашей наиболее приватной сфере?"
+    },
+    "advanced": {
+      "technical": "The 4th house is the field of home, roots, family base, and inner foundation. Mars in the 4th brings drive, assertiveness, conflict, and Martian intensity into the arena of private life and belonging.",
+      "method": "This combines house-topic interpretation with Mars as the force shaping the dynamics of the private and foundational domain.",
+      "caution": "Do not read this as a fixed prediction of family conflict or domestic violence. It describes Martian energy as active in the private sphere, which can take many constructive forms.",
+      "constructiveChannel": "The constructive expression is active home-building: using energy and initiative to create a genuine and well-defended private foundation."
+    },
+    "advancedRu": {
+      "technical": "4-й дом — поле дома, корней, семейной основы и внутреннего фундамента. Марс в 4-м доме привносит волю, напористость, конфликт и марсианскую интенсивность в арену частной жизни и принадлежности.",
+      "method": "Это интерпретация по теме дома с Марсом как силой, формирующей динамику приватной и основополагающей сферы.",
+      "caution": "Не следует читать это как фиксированное предсказание семейного конфликта или домашнего насилия. Это описывает марсианскую энергию как активную в приватной сфере, которая может принимать многие конструктивные формы.",
+      "constructiveChannel": "Конструктивное выражение — активное строительство дома: использование энергии и инициативы для создания подлинного и хорошо защищённого частного фундамента."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-in-7th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mars", "house": 7 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["partnership", "conflict in relationship", "attraction to strong others", "assertive relating", "negotiation"],
+    "themesRu": ["партнёрство", "конфликт в отношениях", "притяжение к сильным другим", "напористые отношения", "переговоры"],
+    "simple": {
+      "summary": "Partnerships and close relationships may be arenas where strong will, conflict, or fierce attraction play a significant role.",
+      "pattern": "You may be drawn to partners who are direct, assertive, or challenging, or may find that the energy in close relationships tends to be intense and competitive.",
+      "growth": "The growth task is to learn how to negotiate and collaborate honestly, using the energy of conflict as a means to genuine understanding rather than domination.",
+      "reflection": "Where in relationship are you fighting to win rather than working to understand?"
+    },
+    "simpleRu": {
+      "summary": "Партнёрства и близкие отношения могут быть аренами, где сильная воля, конфликт или острое притяжение играют значительную роль.",
+      "pattern": "Вас может привлекать к прямым, напористым или вызывающим партнёрам, или вы можете обнаруживать, что энергия в близких отношениях обычно интенсивна и соревновательна.",
+      "growth": "Задача роста — научиться честно договариваться и сотрудничать, используя энергию конфликта как средство подлинного понимания, а не доминирования.",
+      "reflection": "Где в отношениях вы боретесь за победу, а не работаете для понимания?"
+    },
+    "advanced": {
+      "technical": "The 7th house is the field of partnership and the encounter with the other. Mars in the 7th brings the Martian principle of drive, conflict, assertion, and competitive energy into the arena of relationship.",
+      "method": "This combines house-topic interpretation with Mars as the force shaping the texture and dynamics of close encounter.",
+      "caution": "Do not read this as a guaranteed pattern of relationship conflict or as attracting harmful partners. It describes Martian energy as active in the relational domain, which can produce both passion and conflict.",
+      "constructiveChannel": "The constructive expression is honest engagement: the ability to bring directness, passion, and courageous honesty into partnership as genuine presence rather than as combat."
+    },
+    "advancedRu": {
+      "technical": "7-й дом — поле партнёрства и встречи с другим. Марс в 7-м доме привносит марсианский принцип воли, конфликта, утверждения и соревновательной энергии в арену отношений.",
+      "method": "Это интерпретация по теме дома с Марсом как силой, формирующей текстуру и динамику близкой встречи.",
+      "caution": "Не следует читать это как гарантированный рисунок конфликта в отношениях или как притяжение к вредоносным партнёрам. Это описывает марсианскую энергию как активную в реляционной сфере, которая может порождать как страсть, так и конфликт.",
+      "constructiveChannel": "Конструктивное выражение — честное вовлечение: способность привносить прямоту, страсть и смелую честность в партнёрство как подлинное присутствие, а не как борьбу."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-in-12th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mars", "house": 12 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["hidden drive", "suppressed energy", "spiritual action", "invisible initiative", "service"],
+    "themesRu": ["скрытая воля", "подавленная энергия", "духовное действие", "невидимая инициатива", "служение"],
+    "simple": {
+      "summary": "Your drive and initiative may often work best behind the scenes — in private, creative, or service-oriented contexts rather than in obvious public assertion.",
+      "pattern": "You may find it difficult to act on your own behalf directly, or may feel that your drive has no clear outlet, emerging instead through unexpected channels.",
+      "growth": "The growth task is to find conscious channels for energy so that it does not become frustration, hidden aggression, or compulsive action.",
+      "reflection": "What would it look like to act powerfully on your own behalf without needing anyone to see it?"
+    },
+    "simpleRu": {
+      "summary": "Ваша воля и инициатива могут часто работать лучше всего за кулисами — в приватных, творческих или служебно-ориентированных контекстах, а не в очевидном публичном утверждении.",
+      "pattern": "Вам может быть трудно действовать непосредственно в своих интересах, или вы можете чувствовать, что вашей воле нет ясного выхода, и она проявляется через неожиданные каналы.",
+      "growth": "Задача роста — найти сознательные каналы для энергии, чтобы она не становилась фрустрацией, скрытой агрессией или компульсивным действием.",
+      "reflection": "Как выглядело бы мощное действие в ваших собственных интересах без потребности, чтобы кто-то это видел?"
+    },
+    "advanced": {
+      "technical": "The 12th house is the field of solitude, the hidden, the collective unconscious, and dissolution. Mars in the 12th brings drive, assertiveness, and Martian energy into an arena where direct expression is difficult or invisible.",
+      "method": "This combines house-topic interpretation with Mars as the force that is redirected inward or expressed in subtle, private, or service-oriented ways.",
+      "caution": "Do not read this as guaranteed suppression, victim dynamics, or hidden violence. It describes a developmental task around consciously directing energy that may not have obvious public outlets.",
+      "constructiveChannel": "The constructive expression is purposeful inner action: drive channelled into creative work, spiritual practice, research, or service that does not require public recognition."
+    },
+    "advancedRu": {
+      "technical": "12-й дом — поле одиночества, скрытого, коллективного бессознательного и растворения. Марс в 12-м доме привносит волю, напористость и марсианскую энергию в арену, где прямое выражение затруднено или невидимо.",
+      "method": "Это интерпретация по теме дома с Марсом как силой, перенаправляемой внутрь или выражаемой тонкими, приватными или служебно-ориентированными способами.",
+      "caution": "Не следует читать это как гарантированное подавление, динамику жертвы или скрытое насилие. Это описывает задачу развития вокруг сознательного направления энергии, у которой может не быть очевидных публичных выходов.",
+      "constructiveChannel": "Конструктивное выражение — целеустремлённое внутреннее действие: воля, направленная в творческую работу, духовную практику, исследование или служение, которому не нужно публичного признания."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-in-1st-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Venus", "house": 1 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["beauty", "charm", "relational identity", "aesthetics", "social ease"],
+    "themesRu": ["красота", "обаяние", "реляционная идентичность", "эстетика", "социальная лёгкость"],
+    "simple": {
+      "summary": "Beauty, charm, and the capacity to attract and connect may be natural parts of how you meet the world.",
+      "pattern": "You may naturally seek harmony in your appearance and manner, and find it uncomfortable when conflict or ugliness is unavoidable.",
+      "growth": "The growth task is to let genuine authenticity accompany your natural grace — so that your real self is present, not only a pleasing surface.",
+      "reflection": "Where do you rely on charm or pleasantness to avoid something more honest or difficult?"
+    },
+    "simpleRu": {
+      "summary": "Красота, обаяние и способность привлекать и соединяться могут быть природными частями того, как вы встречаете мир.",
+      "pattern": "Вы можете естественно искать гармонию во внешности и манере поведения, и вам может быть неудобно, когда конфликт или уродство неизбежны.",
+      "growth": "Задача роста — позволить подлинной аутентичности сопровождать вашу природную грацию — чтобы ваше настоящее «я» присутствовало, а не только приятная поверхность.",
+      "reflection": "Где вы полагаетесь на обаяние или приятность, чтобы избежать чего-то более честного или трудного?"
+    },
+    "advanced": {
+      "technical": "The 1st house is the field of self, body, and first impression. Venus in the 1st brings the Venusian principle of beauty, harmony, attraction, and relational skill into the arena of identity and self-presentation.",
+      "method": "This is a house-topic interpretation where the Venusian principle shapes how the self is experienced and presented.",
+      "caution": "Do not read this as guaranteed beauty or social popularity. It describes a natural orientation toward harmony and connection as core elements of self-expression.",
+      "constructiveChannel": "The constructive expression is graceful authentic presence: the ability to bring genuine warmth, aesthetic sensitivity, and relational skill to every encounter."
+    },
+    "advancedRu": {
+      "technical": "1-й дом — поле самости, тела и первого впечатления. Венера в 1-м доме привносит венерианский принцип красоты, гармонии, притяжения и реляционного мастерства в арену идентичности и самопредставления.",
+      "method": "Это интерпретация по теме дома, где венерианский принцип формирует то, как самость переживается и представляется.",
+      "caution": "Не следует читать это как гарантированную красоту или социальную популярность. Это описывает природную ориентацию на гармонию и связь как основные элементы самовыражения.",
+      "constructiveChannel": "Конструктивное выражение — изящное аутентичное присутствие: способность привносить подлинную теплоту, эстетическую чуткость и реляционное мастерство в каждую встречу."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-in-4th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Venus", "house": 4 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["home", "beauty", "private harmony", "family warmth", "inner peace"],
+    "themesRu": ["дом", "красота", "приватная гармония", "семейное тепло", "внутренний покой"],
+    "simple": {
+      "summary": "Home and private life may be especially important sources of beauty, comfort, and emotional warmth for you.",
+      "pattern": "You may have a strong need for a pleasant, harmonious domestic environment and may invest considerable energy in making your private world feel welcoming and beautiful.",
+      "growth": "The growth task is to ensure that the search for domestic harmony does not avoid the difficult emotional work that genuine home life sometimes requires.",
+      "reflection": "Where does your need for a beautiful private world prevent you from engaging with its more challenging dimensions?"
+    },
+    "simpleRu": {
+      "summary": "Дом и частная жизнь могут быть особенно важными источниками красоты, уюта и эмоциональной теплоты для вас.",
+      "pattern": "У вас может быть сильная потребность в приятной, гармоничной домашней обстановке, и вы можете вкладывать значительную энергию в то, чтобы ваш частный мир был уютным и прекрасным.",
+      "growth": "Задача роста — убедиться, что поиск домашней гармонии не избегает трудной эмоциональной работы, которую подлинная домашняя жизнь иногда требует.",
+      "reflection": "Где ваша потребность в прекрасном частном мире мешает вам вовлечься в его более сложные измерения?"
+    },
+    "advanced": {
+      "technical": "The 4th house is the field of home, family base, and inner foundation. Venus in the 4th brings the Venusian principle of beauty, harmony, and affection into the arena of private life and psychological roots.",
+      "method": "This is a house-topic interpretation where Venusian values shape the experience and expression of private life and family.",
+      "caution": "Do not read this as a guaranteed pleasant family history or as avoidance of all domestic difficulty. It describes a natural orientation toward beauty and warmth in the private sphere.",
+      "constructiveChannel": "The constructive expression is a consciously beautiful inner home: a private world made welcoming, harmonious, and nourishing through genuine care and aesthetic investment."
+    },
+    "advancedRu": {
+      "technical": "4-й дом — поле дома, семейной основы и внутреннего фундамента. Венера в 4-м доме привносит венерианский принцип красоты, гармонии и привязанности в арену частной жизни и психологических корней.",
+      "method": "Это интерпретация по теме дома, где венерианские ценности формируют переживание и выражение частной жизни и семьи.",
+      "caution": "Не следует читать это как гарантированную приятную семейную историю или как избегание всех домашних трудностей. Это описывает природную ориентацию на красоту и тепло в приватной сфере.",
+      "constructiveChannel": "Конструктивное выражение — сознательно прекрасный внутренний дом: частный мир, сделанный гостеприимным, гармоничным и питающим через подлинную заботу и эстетическую вложенность."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-in-12th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Venus", "house": 12 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["hidden love", "compassionate feeling", "spiritual affection", "private beauty", "self-sacrifice in love"],
+    "themesRu": ["скрытая любовь", "сострадательное чувство", "духовная привязанность", "приватная красота", "самопожертвование в любви"],
+    "simple": {
+      "summary": "Love, beauty, and affection may have a quiet, private, or inward quality — expressed through care, art, spiritual longing, or devotion that does not always seek the spotlight.",
+      "pattern": "You may love deeply but quietly, or may feel that real affection must remain somewhat hidden or sacrificial to feel genuine.",
+      "growth": "The growth task is to let love become both deeply felt and openly expressed — to allow what you feel privately to also become present and named.",
+      "reflection": "Where do you keep your deepest affections invisible, and what would it cost to let them be seen?"
+    },
+    "simpleRu": {
+      "summary": "Любовь, красота и привязанность могут иметь тихое, приватное или внутреннее качество — выражаясь через заботу, искусство, духовную тоску или преданность, которая не всегда ищет внимания.",
+      "pattern": "Вы можете любить глубоко, но тихо, или можете чувствовать, что настоящая привязанность должна оставаться в какой-то мере скрытой или жертвенной, чтобы ощущаться подлинной.",
+      "growth": "Задача роста — позволить любви стать и глубоко прочувствованной, и открыто выраженной — позволить тому, что вы чувствуете в частности, также стать присутствующим и названным.",
+      "reflection": "Где вы держите свои глубочайшие привязанности невидимыми, и чего бы стоило позволить им быть увиденными?"
+    },
+    "advanced": {
+      "technical": "The 12th house is the field of solitude, the hidden, spiritual openness, and what lies beyond ordinary perception. Venus in the 12th brings the Venusian principle of love, beauty, and affection into this realm of invisibility and transcendence.",
+      "method": "This combines house-topic interpretation with Venus as the force expressing love and value in the unseen or private domain.",
+      "caution": "Do not read this as a fixed pattern of secret love or romantic secrecy. It describes a natural orientation toward deeper or more inward forms of affection.",
+      "constructiveChannel": "The constructive expression is compassionate beauty: love that is both deeply felt and capable of expressing itself, and an aesthetic sensibility drawn to what is subtle, mysterious, or spiritually resonant."
+    },
+    "advancedRu": {
+      "technical": "12-й дом — поле одиночества, скрытого, духовной открытости и того, что лежит за пределами обычного восприятия. Венера в 12-м доме привносит венерианский принцип любви, красоты и привязанности в эту сферу невидимости и трансценденции.",
+      "method": "Это интерпретация по теме дома с Венерой как силой, выражающей любовь и ценность в невидимой или приватной области.",
+      "caution": "Не следует читать это как фиксированный рисунок тайной любви или романтической секретности. Это описывает природную ориентацию на более глубокие или внутренние формы привязанности.",
+      "constructiveChannel": "Конструктивное выражение — сострадательная красота: любовь, которая и глубоко прочувствована, и способна выразить себя, и эстетическая чуткость, привлечённая к тому, что тонко, таинственно или духовно резонирует."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.jupiter-in-1st-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Jupiter", "house": 1 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["optimism", "expansive self", "generosity", "confidence", "natural presence"],
+    "themesRu": ["оптимизм", "расширяющаяся самость", "щедрость", "уверенность", "природное присутствие"],
+    "simple": {
+      "summary": "Generosity, optimism, and a broad, expansive sense of self may be natural parts of your presence in the world.",
+      "pattern": "You may naturally inspire confidence and goodwill in others, and feel most yourself when life feels open to possibility and growth.",
+      "growth": "The growth task is to ensure that natural confidence remains grounded and that generosity of spirit does not become overextension or avoidance of limitation.",
+      "reflection": "Where does your natural optimism need to be balanced by a more honest encounter with limitation?"
+    },
+    "simpleRu": {
+      "summary": "Щедрость, оптимизм и широкое, расширяющееся ощущение себя могут быть природными частями вашего присутствия в мире.",
+      "pattern": "Вы можете естественно вдохновлять уверенность и доброжелательность в других и чувствовать себя наиболее собой, когда жизнь открыта возможностям и росту.",
+      "growth": "Задача роста — убедиться, что природная уверенность остаётся приземлённой и что щедрость духа не становится чрезмерным расширением или избеганием ограничения.",
+      "reflection": "Где ваш природный оптимизм нуждается в балансировании более честной встречей с ограничением?"
+    },
+    "advanced": {
+      "technical": "The 1st house is the field of self, body, and first impression. Jupiter in the 1st brings the Jupiterian principle of expansion, faith, generosity, and meaning into the arena of identity and self-presentation.",
+      "method": "This is a house-topic interpretation where Jupiter as the archetype of expansion and faith shapes how self is experienced and expressed.",
+      "caution": "Do not read this as guaranteed external success, physical expansion, or boundless confidence. It describes a natural orientation toward growth and possibility as features of identity.",
+      "constructiveChannel": "The constructive expression is generous selfhood: an identity that carries natural faith, openness to growth, and the capacity to inspire and encourage others."
+    },
+    "advancedRu": {
+      "technical": "1-й дом — поле самости, тела и первого впечатления. Юпитер в 1-м доме привносит юпитерианский принцип расширения, веры, щедрости и смысла в арену идентичности и самопредставления.",
+      "method": "Это интерпретация по теме дома, где Юпитер как архетип расширения и веры формирует то, как самость переживается и выражается.",
+      "caution": "Не следует читать это как гарантированный внешний успех, физическое расширение или беспредельную уверенность. Это описывает природную ориентацию на рост и возможности как черты идентичности.",
+      "constructiveChannel": "Конструктивное выражение — щедрая самость: идентичность, несущая природную веру, открытость к росту и способность вдохновлять и воодушевлять других."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.jupiter-in-9th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Jupiter", "house": 9 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["philosophy", "higher learning", "meaning", "travel", "belief", "expansion of worldview"],
+    "themesRu": ["философия", "высшее образование", "смысл", "путешествия", "убеждения", "расширение мировоззрения"],
+    "simple": {
+      "summary": "Philosophy, higher learning, travel, and the search for meaning may feel natural and essential to who you are.",
+      "pattern": "You may have a strong orientation toward broad understanding — a need to find a framework that makes sense of experience and connects individual life to something larger.",
+      "growth": "The growth task is to let genuine wisdom include doubt, uncertainty, and the experience of others whose worldview differs from your own.",
+      "reflection": "Where does your search for meaning open you, and where does it close you to what you have not yet considered?"
+    },
+    "simpleRu": {
+      "summary": "Философия, высшее образование, путешествия и поиск смысла могут ощущаться естественными и существенными для того, кто вы есть.",
+      "pattern": "У вас может быть сильная ориентация на широкое понимание — потребность найти фреймворк, придающий смысл опыту и связывающий индивидуальную жизнь с чем-то большим.",
+      "growth": "Задача роста — позволить подлинной мудрости включить сомнение, неопределённость и опыт других, чьё мировоззрение отличается от вашего.",
+      "reflection": "Где ваш поиск смысла открывает вас, а где закрывает для того, что вы ещё не рассматривали?"
+    },
+    "advanced": {
+      "technical": "The 9th house is the field of higher learning, philosophy, belief, travel, and the search for meaning. Jupiter in the 9th brings its own natural principle of expansion, faith, and broad understanding into the arena most associated with those same principles.",
+      "method": "This is a house-topic interpretation where Jupiter as the archetype of meaning and expansion is placed in the house most closely aligned with its own domain.",
+      "caution": "Do not read this as guaranteed wisdom, academic success, or spiritual certainty. It describes a strong orientation toward the expansion of understanding, which still requires disciplined engagement.",
+      "constructiveChannel": "The constructive expression is genuine philosophical breadth: a life shaped by curiosity, meaningful learning, and the ongoing search for a framework that can hold experience with honesty and depth."
+    },
+    "advancedRu": {
+      "technical": "9-й дом — поле высшего образования, философии, убеждений, путешествий и поиска смысла. Юпитер в 9-м доме привносит собственный природный принцип расширения, веры и широкого понимания в арену, наиболее связанную с теми же принципами.",
+      "method": "Это интерпретация по теме дома, где Юпитер как архетип смысла и расширения помещается в дом, наиболее тесно связанный с его собственной сферой.",
+      "caution": "Не следует читать это как гарантированную мудрость, академический успех или духовную определённость. Это описывает сильную ориентацию на расширение понимания, которое всё же требует дисциплинированного вовлечения.",
+      "constructiveChannel": "Конструктивное выражение — подлинная философская широта: жизнь, сформированная любопытством, осмысленным обучением и непрекращающимся поиском фреймворка, способного удерживать опыт с честностью и глубиной."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mercury-in-3rd-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mercury", "house": 3 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["communication", "learning", "local environment", "curiosity", "mental activity"],
+    "themesRu": ["общение", "обучение", "локальная среда", "любопытство", "ментальная активность"],
+    "simple": {
+      "summary": "Communication, learning, and mental activity may feel natural and essential to how you engage with everyday life.",
+      "pattern": "You may have a quick, curious mind that moves easily between topics, enjoys conversation, and learns best through active exchange rather than solitary study.",
+      "growth": "The growth task is to bring depth and sustained attention alongside the natural breadth of curiosity, so that ideas can be followed to where they lead.",
+      "reflection": "Where does your quickness of mind serve you well, and where does it need to slow down and go deeper?"
+    },
+    "simpleRu": {
+      "summary": "Общение, обучение и ментальная активность могут ощущаться естественными и существенными для того, как вы вовлекаетесь в повседневную жизнь.",
+      "pattern": "У вас может быть быстрый, любопытный ум, легко перемещающийся между темами, наслаждающийся разговором и обучающийся лучше всего через активный обмен, а не через одиночное изучение.",
+      "growth": "Задача роста — привнести глубину и устойчивое внимание наряду с природной широтой любопытства, чтобы идеи можно было следовать туда, куда они ведут.",
+      "reflection": "Где быстрота вашего ума хорошо служит вам, а где ей нужно замедлиться и углубиться?"
+    },
+    "advanced": {
+      "technical": "The 3rd house is the field of communication, learning, local environment, siblings, and immediate mental exchange. Mercury in the 3rd brings its own natural principle of thought, communication, and exchange into the arena most closely associated with those same principles.",
+      "method": "This is a house-topic interpretation where Mercury as the archetype of mind and communication is placed in its own natural domain.",
+      "caution": "Do not read this as guaranteed intelligence or communication skill. It describes a natural orientation toward mental exchange and learning that still requires practice and direction.",
+      "constructiveChannel": "The constructive expression is alert, versatile intelligence: a mind that can learn quickly, communicate clearly, and navigate the immediate environment with wit and adaptability."
+    },
+    "advancedRu": {
+      "technical": "3-й дом — поле общения, обучения, локальной среды, братьев и сестёр и непосредственного ментального обмена. Меркурий в 3-м доме привносит собственный природный принцип мысли, общения и обмена в арену, наиболее тесно связанную с теми же принципами.",
+      "method": "Это интерпретация по теме дома, где Меркурий как архетип ума и общения помещается в свою собственную природную сферу.",
+      "caution": "Не следует читать это как гарантированный интеллект или навык общения. Это описывает природную ориентацию на ментальный обмен и обучение, которые всё же требуют практики и направления.",
+      "constructiveChannel": "Конструктивное выражение — бдительный, разносторонний интеллект: ум, способный быстро учиться, ясно общаться и ориентироваться в непосредственной среде с остроумием и адаптивностью."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mercury-in-9th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mercury", "house": 9 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["philosophy", "broad thinking", "higher education", "belief systems", "teaching"],
+    "themesRu": ["философия", "широкое мышление", "высшее образование", "системы убеждений", "преподавание"],
+    "simple": {
+      "summary": "Philosophical thinking, broad learning, and the search for meaningful ideas may come naturally and feel central to your mental life.",
+      "pattern": "You may be drawn to big questions, wide perspectives, and ideas that connect individual experience to larger patterns of meaning or truth.",
+      "growth": "The growth task is to ensure that philosophical breadth includes genuine precision and that the love of big ideas does not become a way of avoiding the concrete and particular.",
+      "reflection": "Where does your love of broad ideas need to come back down to earth and meet specific reality?"
+    },
+    "simpleRu": {
+      "summary": "Философское мышление, широкое обучение и поиск осмысленных идей могут даваться естественно и ощущаться центральными для вашей ментальной жизни.",
+      "pattern": "Вас может притягивать к большим вопросам, широким перспективам и идеям, связывающим индивидуальный опыт с более широкими паттернами смысла или истины.",
+      "growth": "Задача роста — убедиться, что философская широта включает подлинную точность и что любовь к большим идеям не становится способом избегания конкретного и частного.",
+      "reflection": "Где ваша любовь к широким идеям нуждается в том, чтобы вернуться на землю и встретить конкретную реальность?"
+    },
+    "advanced": {
+      "technical": "The 9th house is the field of higher learning, philosophy, belief systems, and the search for broader meaning. Mercury in the 9th brings the Mercurial principle of thought, communication, and analysis into the arena of philosophy, belief, and higher understanding.",
+      "method": "This combines house-topic interpretation with Mercury as the force bringing mental activity and intellectual exchange into the 9th house domain.",
+      "caution": "Do not read this as guaranteed academic success or religious certainty. It describes a natural orientation toward philosophical thinking that still requires discipline, humility, and intellectual honesty.",
+      "constructiveChannel": "The constructive expression is philosophically grounded thinking: the ability to move between abstract principle and concrete application, and to communicate broad ideas with clarity and genuine understanding."
+    },
+    "advancedRu": {
+      "technical": "9-й дом — поле высшего образования, философии, систем убеждений и поиска более широкого смысла. Меркурий в 9-м доме привносит меркурианский принцип мысли, общения и анализа в арену философии, убеждений и высшего понимания.",
+      "method": "Это интерпретация по теме дома с Меркурием как силой, привносящей ментальную активность и интеллектуальный обмен в сферу 9-го дома.",
+      "caution": "Не следует читать это как гарантированный академический успех или религиозную определённость. Это описывает природную ориентацию на философское мышление, которое всё же требует дисциплины, скромности и интеллектуальной честности.",
+      "constructiveChannel": "Конструктивное выражение — философски укоренённое мышление: способность перемещаться между абстрактным принципом и конкретным применением, и передавать широкие идеи с ясностью и подлинным пониманием."
+    },
+    "confidence": "medium"
   }
 ]
