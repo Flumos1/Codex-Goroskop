@@ -18,18 +18,25 @@ const nakshatraRulers = ["Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Sa
   "Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Saturn","Mercury",
   "Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Saturn","Mercury"];
 const vimshottariYears = { Sun:6, Moon:10, Mars:7, Rahu:18, Jupiter:16, Saturn:19, Mercury:17, Ketu:7, Venus:20 };
-const availableRuleQueries = new Set([
-  "Moon square Saturn",
-  "Venus square Saturn",
-  "Venus trine Jupiter",
-  "Sun square Neptune",
-  "Jupiter square Saturn",
-  "Saturn in 7th house",
-  "Venus in 10th house",
-  "Mars in 10th house",
-  "Saturn in 11th house",
-  "Moon in 4th house",
-]);
+// Build available rule query set dynamically from all rule files
+const rulesDir = path.join(projectRoot, "generator", "rules");
+const availableRuleQueries = new Set();
+for (const ruleFile of fs.readdirSync(rulesDir).filter(f => f.endsWith(".json"))) {
+  let rules;
+  try { rules = JSON.parse(fs.readFileSync(path.join(rulesDir, ruleFile), "utf8")); } catch { continue; }
+  if (!Array.isArray(rules)) { rules = rules.rules || []; }
+  for (const rule of rules) {
+    const f = rule.factor || {};
+    if (f.planetA && f.aspect && f.planetB) {
+      availableRuleQueries.add(`${f.planetA} ${f.aspect} ${f.planetB}`);
+      availableRuleQueries.add(`${f.planetB} ${f.aspect} ${f.planetA}`);
+    } else if (f.planet && f.house) {
+      availableRuleQueries.add(`${f.planet} in ${f.house}th house`);
+    } else if (f.planet && f.sign) {
+      availableRuleQueries.add(`${f.planet} in ${f.sign}`);
+    }
+  }
+}
 const meanObliquityDeg = 23.4392911;
 const supportedHouseSystems = new Set(["equal-from-ascendant", "whole-sign"]);
 
@@ -500,25 +507,63 @@ function buildProfile(args, positions, aspects, anglesAndHouses, birthDate) {
         houseSystem: anglesAndHouses.houseSystem,
       },
     }));
-  const factors = [...aspectFactors, ...houseFactors];
+  const signFactors = positions
+    .map((position) => {
+      const query = `${position.body} in ${position.sign}`;
+      return { position, query };
+    })
+    .filter(({ query }) => availableRuleQueries.has(query))
+    .map(({ position, query }) => ({
+      query,
+      calculated: { body: position.body, sign: position.sign },
+    }));
+  const factors = [...aspectFactors, ...houseFactors, ...signFactors];
 
-  function buildVedicSummary(positions, birthDate) {
+  function buildVedicSummary(positions, birthDate, anglesAndHouses) {
     const ayanamsha = lahiriAyanamsha(birthDate);
     const moon = positions.find(p => p.body === "Moon");
-    const lagna = positions.find(p => p.body === "Sun"); // placeholder until sidereal ASC is calculated
     const dasha = moon ? vimshottariDashaFromMoon(moon.vedic.siderealLongitude, birthDate) : null;
-    return {
-      ayanamsha: { system: "Lahiri", degrees: Number(ayanamsha.toFixed(4)) },
-      grahaPositions: positions.map(p => ({
+
+    // Sidereal Lagna = tropical ASC minus ayanamsha
+    let lagnaLon = null;
+    let lagnaRashi = null;
+    let lagnaRashiIndex = null;
+    let lagnaDeg = null;
+    if (anglesAndHouses.ascendant) {
+      lagnaLon = normalizeDegrees(anglesAndHouses.ascendant.longitude - ayanamsha);
+      const lagnaSign = siderealSignForLongitude(lagnaLon);
+      lagnaRashi = lagnaSign.sign;
+      lagnaRashiIndex = lagnaSign.signIndex;
+      lagnaDeg = Number(lagnaSign.degreeInSign.toFixed(4));
+    }
+
+    // Whole-sign bhavas from Lagna
+    const grahaWithBhava = positions.map(p => {
+      const rashiIndex = p.vedic ? siderealSignForLongitude(p.vedic.siderealLongitude).signIndex : null;
+      const bhava = (lagnaRashiIndex != null && rashiIndex != null)
+        ? ((rashiIndex - lagnaRashiIndex + 12) % 12) + 1
+        : null;
+      return {
         graha: p.body,
         rashi: p.vedic.rashi,
         degreeInRashi: p.vedic.degreeInRashi,
         nakshatra: p.vedic.nakshatra,
         pada: p.vedic.pada,
         nakshatraRuler: p.vedic.nakshatraRuler,
-      })),
+        bhava,
+      };
+    });
+
+    return {
+      ayanamsha: { system: "Lahiri", degrees: Number(ayanamsha.toFixed(4)) },
+      lagna: lagnaRashi ? {
+        rashi: lagnaRashi,
+        longitude: Number(lagnaLon.toFixed(4)),
+        degreeInRashi: lagnaDeg,
+        houseSystem: "whole-sign",
+      } : null,
+      grahaPositions: grahaWithBhava,
       vimshottariDasha: dasha,
-      note: "Lagna (sidereal ASC) requires sidereal house calculation — not yet implemented. Using tropical ASC as placeholder.",
     };
   }
 
@@ -567,7 +612,7 @@ function buildProfile(args, positions, aspects, anglesAndHouses, birthDate) {
         imumCoeli: anglesAndHouses.imumCoeli,
       },
       houses: anglesAndHouses.houses,
-      vedic: buildVedicSummary(positions, birthDate),
+      vedic: buildVedicSummary(positions, birthDate, anglesAndHouses),
     },
     context: args.language === "ru"
       ? "Прототип расчетного профиля. Факторы выбраны только из тех правил генератора, которые уже есть в базе."
