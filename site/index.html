@@ -13,7 +13,13 @@
   </header>
 
   <main>
-    <!-- Input form -->
+    <!-- Mode tabs -->
+    <div class="mode-tabs">
+      <button class="mode-tab active" data-mode="natal">Натальная карта</button>
+      <button class="mode-tab" data-mode="birthday">День рождения</button>
+    </div>
+
+    <!-- Natal form -->
     <section id="form-section" class="card">
       <h2>Натальная карта</h2>
       <form id="chart-form">
@@ -84,6 +90,61 @@
       </div>
 
     </section>
+
+    <!-- Birthday mode form -->
+    <section id="birthday-section" class="card hidden">
+      <h2>Портрет дня рождения</h2>
+      <p class="section-note">Система Гольдшнайдера — астролого-психологический портрет по дате рождения. Не требует времени и места.</p>
+      <form id="birthday-form">
+        <div class="field-row">
+          <label for="bd-name">Имя</label>
+          <input type="text" id="bd-name" placeholder="Необязательно" />
+        </div>
+        <div class="field-row">
+          <label for="bd-date">Дата рождения</label>
+          <input type="date" id="bd-date" required />
+        </div>
+        <button type="submit" id="bd-submit-btn">Получить портрет</button>
+      </form>
+    </section>
+
+    <!-- Birthday results -->
+    <section id="birthday-results" class="hidden">
+      <div class="card">
+        <div class="birthday-header">
+          <div>
+            <h2 id="bd-result-name"></h2>
+            <div id="bd-period-label" class="period-label"></div>
+          </div>
+          <div class="bd-badge-col">
+            <span class="source-badge">Гольдшнайдер · Первичная волна</span>
+          </div>
+        </div>
+
+        <div id="bd-summary" class="bd-summary"></div>
+
+        <div class="bd-traits-row">
+          <div class="bd-trait-box">
+            <div class="label">Сильные стороны</div>
+            <div id="bd-strengths" class="trait-chips"></div>
+          </div>
+          <div class="bd-trait-box">
+            <div class="label">Риски и вызовы</div>
+            <div id="bd-weaknesses" class="trait-chips weakness-chips"></div>
+          </div>
+        </div>
+
+        <div class="bd-advice-box">
+          <div class="label">Направление роста</div>
+          <div id="bd-advice"></div>
+        </div>
+
+        <div class="bd-disclaimer">
+          Это первичная волна — портрет периода по системе Гольдшнайдера. Источник: «Тайный язык дня рождения». Статус: черновой; подлежит сверке с оригинальным текстом источника.
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <script src="app.js"></script>

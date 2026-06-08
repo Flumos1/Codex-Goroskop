@@ -297,6 +297,104 @@ tr:last-child td { border-bottom: none; }
 }
 .transit-stat span { color: var(--text); font-weight: 600; }
 
+/* Mode tabs */
+.mode-tabs {
+  display: flex;
+  gap: 8px;
+}
+.mode-tab {
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-dim);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.mode-tab.active {
+  background: var(--accent-dim);
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+/* Birthday section */
+.section-note {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+.birthday-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.period-label {
+  font-size: 13px;
+  color: var(--accent);
+  margin-top: 4px;
+}
+.source-badge {
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  background: #2a1a30;
+  color: #c090e0;
+  white-space: nowrap;
+}
+.bd-summary {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-dim);
+  margin-bottom: 20px;
+}
+.bd-traits-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.bd-trait-box { }
+.trait-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+.trait-chip {
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  background: #1a2a1a;
+  color: #7ecb7e;
+}
+.weakness-chips .trait-chip {
+  background: #2a1a1a;
+  color: #e07070;
+}
+.bd-advice-box {
+  background: #1c1c2c;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+.bd-advice-box .label { margin-bottom: 6px; }
+.bd-disclaimer {
+  font-size: 12px;
+  color: #555570;
+  line-height: 1.5;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.bd-badge-col { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+
 /* Utilities */
 .hidden { display: none !important; }
 .loading {

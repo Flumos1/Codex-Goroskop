@@ -21,11 +21,12 @@ function loadAllRules() {
 }
 
 function buildRuleIndex(rules) {
-  const byAspect  = new Map(); // "Moon trine Pluto" → rule
-  const byHouse   = new Map(); // "Sun 10" → rule
-  const bySign    = new Map(); // "Sun Gemini" → rule
-  const byRulerId = new Map(); // "rule-instance.western.ruler-of-1st-in-9th" → rule
-  const byVedic   = new Map(); // "Sun:Mesha" → rule
+  const byAspect   = new Map(); // "Moon trine Pluto" → rule
+  const byHouse    = new Map(); // "Sun 10" → rule
+  const bySign     = new Map(); // "Sun Gemini" → rule
+  const byRulerId  = new Map(); // "rule-instance.western.ruler-of-1st-in-9th" → rule
+  const byVedic    = new Map(); // "Sun:Mesha" → rule
+  const byBirthday = new Map(); // "5:15" → rule (month:day)
 
   for (const rule of rules) {
     const f = rule.factor || {};
@@ -42,9 +43,11 @@ function buildRuleIndex(rules) {
       byRulerId.set(rule.id, rule);
     } else if (f.graha && f.rashi) {
       byVedic.set(`${f.graha}:${f.rashi}`, rule);
+    } else if (f.month && f.day) {
+      byBirthday.set(`${f.month}:${f.day}`, rule);
     }
   }
-  return { byAspect, byHouse, bySign, byRulerId, byVedic };
+  return { byAspect, byHouse, bySign, byRulerId, byVedic, byBirthday };
 }
 
 function findRuleForFactor(factor, idx) {
@@ -154,6 +157,21 @@ app.post("/api/transits", (req, res) => {
       return res.status(500).json({ error: result.stderr || "Transit calculation failed" });
     }
     res.json(JSON.parse(result.stdout));
+  } catch (e) {
+    res.status(500).json({ error: e.message });
+  }
+});
+
+app.get("/api/birthday/:month/:day", (req, res) => {
+  try {
+    const month = parseInt(req.params.month, 10);
+    const day   = parseInt(req.params.day,   10);
+    if (!month || !day || month < 1 || month > 12 || day < 1 || day > 31) {
+      return res.status(400).json({ error: "Invalid month or day" });
+    }
+    const rule = ruleIndex.byBirthday.get(`${month}:${day}`);
+    if (!rule) return res.status(404).json({ error: "No birthday rule found for this date" });
+    res.json({ month, day, rule });
   } catch (e) {
     res.status(500).json({ error: e.message });
   }

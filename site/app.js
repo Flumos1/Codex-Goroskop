@@ -332,7 +332,83 @@ async function loadTransits() {
   }
 }
 
+// ── Birthday mode ──────────────────────────────────────────────────────────────
+const MONTH_RU = ["","января","февраля","марта","апреля","мая","июня",
+                   "июля","августа","сентября","октября","ноября","декабря"];
+
+async function loadBirthdayPortrait(e) {
+  e.preventDefault();
+  const btn  = document.getElementById("bd-submit-btn");
+  btn.disabled = true;
+  btn.textContent = "Загрузка…";
+
+  const dateStr = document.getElementById("bd-date").value;
+  const name    = document.getElementById("bd-name").value;
+  if (!dateStr) { btn.disabled = false; btn.textContent = "Получить портрет"; return; }
+
+  const [year, month, day] = dateStr.split("-").map(Number);
+  try {
+    const res = await fetch(`/api/birthday/${month}/${day}`);
+    if (!res.ok) { const e = await res.json(); throw new Error(e.error || res.statusText); }
+    const data = await res.json();
+    const rule = data.rule;
+    const ru   = rule.simpleRu || {};
+    const period = rule.period || {};
+
+    document.getElementById("bd-result-name").textContent =
+      name ? `${name} — ${day} ${MONTH_RU[month]}` : `${day} ${MONTH_RU[month]}`;
+    document.getElementById("bd-period-label").textContent =
+      `${period.titleRu || ""} · ${period.sign || ""}`;
+
+    document.getElementById("bd-summary").textContent  = ru.summary || "";
+
+    const mkChips = (arr, containerId) => {
+      const el = document.getElementById(containerId);
+      el.innerHTML = (arr || []).map(t =>
+        `<span class="trait-chip">${t}</span>`
+      ).join("");
+    };
+    mkChips(ru.strengths,  "bd-strengths");
+    mkChips(ru.weaknesses, "bd-weaknesses");
+
+    document.getElementById("bd-advice").textContent = ru.advice || "";
+
+    document.getElementById("birthday-results").classList.remove("hidden");
+  } catch (err) {
+    alert(`Ошибка: ${err.message}`);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = "Получить портрет";
+  }
+}
+
+// ── Mode switching ─────────────────────────────────────────────────────────────
+function switchMode(mode) {
+  const natalForm    = document.getElementById("form-section");
+  const natalResults = document.getElementById("results");
+  const bdForm       = document.getElementById("birthday-section");
+  const bdResults    = document.getElementById("birthday-results");
+
+  document.querySelectorAll(".mode-tab").forEach(t =>
+    t.classList.toggle("active", t.dataset.mode === mode)
+  );
+
+  if (mode === "natal") {
+    natalForm.classList.remove("hidden");
+    bdForm.classList.add("hidden");
+    bdResults.classList.add("hidden");
+  } else {
+    natalForm.classList.add("hidden");
+    natalResults.classList.add("hidden");
+    bdForm.classList.remove("hidden");
+  }
+}
+
 // Init
 loadPlaces();
 document.getElementById("chart-form").addEventListener("submit", loadProfile);
 document.getElementById("transit-btn").addEventListener("click", loadTransits);
+document.getElementById("birthday-form").addEventListener("submit", loadBirthdayPortrait);
+document.querySelectorAll(".mode-tab").forEach(tab =>
+  tab.addEventListener("click", () => switchMode(tab.dataset.mode))
+);
