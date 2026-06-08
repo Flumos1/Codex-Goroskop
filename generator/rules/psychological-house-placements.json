@@ -869,5 +869,635 @@
       "constructiveChannel": "Конструктивное выражение — философски укоренённое мышление: способность перемещаться между абстрактным принципом и конкретным применением, и передавать широкие идеи с ясностью и подлинным пониманием."
     },
     "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-in-2nd-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 2 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["values", "resources", "caution", "security", "self-worth through effort"],
+    "themesRu": ["ценности", "ресурсы", "осторожность", "безопасность", "самооценка через усилие"],
+    "simple": {
+      "summary": "Your relationship with money, possessions, and what you truly value may be shaped by caution, restraint, and a drive to build security slowly.",
+      "pattern": "You may worry about scarcity, hold resources carefully, or apply strict standards to how and when you spend, give, or trust material stability.",
+      "growth": "The growth task is to discover that genuine security can coexist with generosity, and that your worth does not rest entirely on what you have accumulated.",
+      "reflection": "Where does fear of not having enough prevent you from enjoying what you have already built?"
+    },
+    "simpleRu": {
+      "summary": "Ваше отношение к деньгам, имуществу и тому, что вы действительно цените, может быть сформировано осторожностью, сдержанностью и стремлением строить безопасность постепенно.",
+      "pattern": "Вы можете беспокоиться о нехватке, бережно хранить ресурсы или применять строгие стандарты к тому, как и когда тратите, отдаёте или доверяете материальной стабильности.",
+      "growth": "Задача роста — обнаружить, что подлинная безопасность может сосуществовать с щедростью, и что ваша ценность не зависит целиком от того, что вы накопили.",
+      "reflection": "Где страх нехватки мешает вам наслаждаться тем, что вы уже выстроили?"
+    },
+    "advanced": {
+      "technical": "The 2nd house is the field of values, material resources, and self-worth. Saturn in the 2nd brings caution, restraint, delayed accumulation, and a drive for material security into this arena.",
+      "method": "This combines house-topic interpretation with Saturn as the force shaping the experience of worth and material stability.",
+      "caution": "Do not read this as guaranteed poverty or financial difficulty. Saturn in the 2nd often produces genuine material security through discipline, patience, and realistic management.",
+      "constructiveChannel": "The constructive expression is earned material security: values and resources built slowly through genuine effort, integrity, and careful stewardship."
+    },
+    "advancedRu": {
+      "technical": "2-й дом — поле ценностей, материальных ресурсов и самооценки. Сатурн в 2-м доме привносит осторожность, сдержанность, отложенное накопление и стремление к материальной безопасности в эту арену.",
+      "method": "Это интерпретация по теме дома с Сатурном как силой, формирующей переживание достоинства и материальной стабильности.",
+      "caution": "Не следует читать это как гарантированную бедность или финансовые трудности. Сатурн в 2-м доме часто производит подлинную материальную безопасность через дисциплину, терпение и реалистичное управление.",
+      "constructiveChannel": "Конструктивное выражение — заработанная материальная безопасность: ценности и ресурсы, построенные медленно через подлинные усилия, честность и тщательное управление."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-in-2nd-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Moon", "house": 2 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["emotional security", "resources", "comfort", "material needs", "self-worth"],
+    "themesRu": ["эмоциональная безопасность", "ресурсы", "уют", "материальные потребности", "самооценка"],
+    "simple": {
+      "summary": "Emotional wellbeing and a sense of inner safety may be closely connected to your material world — to what you own, what you feel secure in, and the comfort of the familiar.",
+      "pattern": "You may find it difficult to feel emotionally settled without adequate resources, and may seek emotional comfort through food, home, familiar objects, or financial cushioning.",
+      "growth": "The growth task is to build enough inner security that emotional stability does not depend entirely on what is present in the external material world.",
+      "reflection": "Where do you look to your material circumstances to provide what you actually need emotionally?"
+    },
+    "simpleRu": {
+      "summary": "Эмоциональное благополучие и ощущение внутренней безопасности могут быть тесно связаны с вашим материальным миром — с тем, чем вы владеете, что даёт вам стабильность и уют привычного.",
+      "pattern": "Вам может быть трудно чувствовать себя эмоционально устроенным без достаточных ресурсов, и вы можете искать эмоциональный комфорт в еде, доме, привычных вещах или финансовой подушке.",
+      "growth": "Задача роста — выстроить достаточно внутренней безопасности, чтобы эмоциональная стабильность не зависела целиком от того, что присутствует во внешнем материальном мире.",
+      "reflection": "Где вы смотрите на свои материальные обстоятельства, ожидая от них того, что вам на самом деле нужно эмоционально?"
+    },
+    "advanced": {
+      "technical": "The 2nd house is the field of values, resources, and self-worth. The Moon in the 2nd brings emotional need, changeability, and the lunar principle of comfort and security into the arena of material life.",
+      "method": "This combines house-topic interpretation with the psychological Moon as the force shaping how emotional needs are met through material and sensory channels.",
+      "caution": "Do not read this as materialism or as guaranteed financial instability. The Moon's presence in the 2nd describes an emotional relationship to material security, which can be consciously worked with.",
+      "constructiveChannel": "The constructive expression is emotionally grounded values: a relationship to material life that honors both genuine emotional needs and the practical requirements of sustainable living."
+    },
+    "advancedRu": {
+      "technical": "2-й дом — поле ценностей, ресурсов и самооценки. Луна в 2-м доме привносит эмоциональную потребность, изменчивость и лунный принцип уюта и безопасности в арену материальной жизни.",
+      "method": "Это интерпретация по теме дома с психологической Луной как силой, формирующей то, как эмоциональные потребности удовлетворяются через материальные и чувственные каналы.",
+      "caution": "Не следует читать это как материализм или гарантированную финансовую нестабильность. Присутствие Луны в 2-м доме описывает эмоциональное отношение к материальной безопасности, с которым можно сознательно работать.",
+      "constructiveChannel": "Конструктивное выражение — эмоционально укоренённые ценности: отношение к материальной жизни, уважающее и подлинные эмоциональные потребности, и практические требования устойчивого существования."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-in-2nd-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Venus", "house": 2 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["values", "beauty", "pleasure in resources", "aesthetic worth", "natural abundance"],
+    "themesRu": ["ценности", "красота", "удовольствие от ресурсов", "эстетическая ценность", "природное изобилие"],
+    "simple": {
+      "summary": "Your sense of what is beautiful, valuable, and worth having may be naturally developed — a genuine ability to recognize quality, attract resources, and enjoy what you have.",
+      "pattern": "You may gravitate toward beauty, comfort, and quality in what you own, and may have a natural ease in attracting resources through your skills, taste, or relational charm.",
+      "growth": "The growth task is to ensure that genuine values — not just pleasure or comfort — guide what you accumulate, and that your sense of worth extends beyond what you can afford.",
+      "reflection": "Where does your love of beauty or comfort shape what you value beyond material things?"
+    },
+    "simpleRu": {
+      "summary": "Ваше ощущение того, что красиво, ценно и достойно обладания, может быть естественно развито — подлинная способность распознавать качество, привлекать ресурсы и наслаждаться тем, что у вас есть.",
+      "pattern": "Вас может тянуть к красоте, уюту и качеству в том, чем вы владеете, и у вас может быть природная лёгкость в привлечении ресурсов через ваши навыки, вкус или реляционное обаяние.",
+      "growth": "Задача роста — убедиться, что подлинные ценности — а не только удовольствие или уют — направляют то, что вы накапливаете, и что ваше ощущение достоинства выходит за рамки того, что вы можете позволить себе.",
+      "reflection": "Где ваша любовь к красоте или уюту формирует то, что вы цените помимо материальных вещей?"
+    },
+    "advanced": {
+      "technical": "The 2nd house is the field of values, resources, and self-worth. Venus in the 2nd brings the Venusian principle of beauty, pleasure, attraction, and genuine appreciation into the arena of material life and personal values.",
+      "method": "This is a house-topic interpretation where Venus as the archetype of value and beauty shapes the experience of what is worth having and how resources are related to.",
+      "caution": "Do not read this as guaranteed wealth or as passive materialism. It describes a natural orientation toward quality, beauty, and authentic value.",
+      "constructiveChannel": "The constructive expression is value-aligned abundance: resources accumulated through genuine taste, skill, and the ability to attract and appreciate what is truly worth having."
+    },
+    "advancedRu": {
+      "technical": "2-й дом — поле ценностей, ресурсов и самооценки. Венера в 2-м доме привносит венерианский принцип красоты, удовольствия, притяжения и подлинной оценки в арену материальной жизни и личных ценностей.",
+      "method": "Это интерпретация по теме дома, где Венера как архетип ценности и красоты формирует переживание того, что стоит иметь, и того, как выстраивается отношение к ресурсам.",
+      "caution": "Не следует читать это как гарантированное богатство или пассивный материализм. Это описывает природную ориентацию на качество, красоту и аутентичную ценность.",
+      "constructiveChannel": "Конструктивное выражение — изобилие, согласованное с ценностями: ресурсы, накопленные через подлинный вкус, мастерство и способность привлекать и ценить то, что действительно стоит иметь."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.jupiter-in-2nd-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Jupiter", "house": 2 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["abundance", "generosity", "expanding resources", "optimism around values", "broad worth"],
+    "themesRu": ["изобилие", "щедрость", "расширяющиеся ресурсы", "оптимизм вокруг ценностей", "широкое достоинство"],
+    "simple": {
+      "summary": "Resources, values, and material life may feel naturally expansive — a generous relationship with what you have and a sense that abundance is possible when approached with faith.",
+      "pattern": "You may attract resources through optimism, generosity, and broad thinking, or believe that the world can provide what is genuinely needed when you align with your real values.",
+      "growth": "The growth task is to ground this natural ease with resources in practical responsibility, so that abundance does not become carelessness, excess, or overconfidence.",
+      "reflection": "Where does your natural optimism about resources need to meet more careful and honest management?"
+    },
+    "simpleRu": {
+      "summary": "Ресурсы, ценности и материальная жизнь могут ощущаться естественно расширяющимися — щедрое отношение к тому, что у вас есть, и ощущение, что изобилие возможно при подходе с верой.",
+      "pattern": "Вы можете привлекать ресурсы через оптимизм, щедрость и широкое мышление, или верить, что мир может дать то, что действительно необходимо, когда вы согласованы с подлинными ценностями.",
+      "growth": "Задача роста — заземлить эту природную лёгкость с ресурсами в практической ответственности, чтобы изобилие не становилось беспечностью, избытком или самонадеянностью.",
+      "reflection": "Где ваш природный оптимизм в отношении ресурсов нуждается в более тщательном и честном управлении?"
+    },
+    "advanced": {
+      "technical": "The 2nd house is the field of values and material resources. Jupiter in the 2nd brings the Jupiterian principle of expansion, faith, and generosity into the arena of material life, often creating a broad, optimistic relationship with money and worth.",
+      "method": "This is a house-topic interpretation where Jupiter as the archetype of expansion shapes the quality and scope of one's relationship to resources and values.",
+      "caution": "Do not read this as guaranteed financial success. Jupiter in the 2nd can also produce overspending, overconfidence about resources, or a tendency to expect the world to provide without practical effort.",
+      "constructiveChannel": "The constructive expression is generous material intelligence: the ability to attract, multiply, and share resources through genuine faith, broad values, and wise stewardship."
+    },
+    "advancedRu": {
+      "technical": "2-й дом — поле ценностей и материальных ресурсов. Юпитер в 2-м доме привносит юпитерианский принцип расширения, веры и щедрости в арену материальной жизни, часто создавая широкое, оптимистичное отношение к деньгам и достоинству.",
+      "method": "Это интерпретация по теме дома, где Юпитер как архетип расширения формирует качество и масштаб отношения к ресурсам и ценностям.",
+      "caution": "Не следует читать это как гарантированный финансовый успех. Юпитер в 2-м доме также может производить расточительность, самонадеянность относительно ресурсов или склонность ожидать, что мир обеспечит без практических усилий.",
+      "constructiveChannel": "Конструктивное выражение — щедрый материальный интеллект: способность привлекать, умножать и делиться ресурсами через подлинную веру, широкие ценности и мудрое управление."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-in-2nd-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mars", "house": 2 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["drive for resources", "protection of values", "competitive earning", "material energy", "assertive self-worth"],
+    "themesRu": ["стремление к ресурсам", "защита ценностей", "конкурентный заработок", "материальная энергия", "напористая самооценка"],
+    "simple": {
+      "summary": "Drive and assertiveness may show up strongly in how you pursue, earn, protect, or compete for material resources and financial independence.",
+      "pattern": "You may work hard and push actively to build your own financial base, feel strongly about protecting what belongs to you, or experience the pursuit of resources as energizing rather than draining.",
+      "growth": "The growth task is to channel this strong material energy into sustained, purposeful building rather than reactive protection or impulsive acquisition.",
+      "reflection": "Where does your energy around resources come from genuine confidence rather than fear of not having enough?"
+    },
+    "simpleRu": {
+      "summary": "Воля и напористость могут ярко проявляться в том, как вы преследуете, зарабатываете, защищаете или конкурируете за материальные ресурсы и финансовую независимость.",
+      "pattern": "Вы можете работать усердно и активно толкать себя к построению собственной финансовой базы, остро реагировать на нарушение того, что вам принадлежит, или переживать стремление к ресурсам как энергизирующее, а не истощающее.",
+      "growth": "Задача роста — направить эту сильную материальную энергию в устойчивое, целеустремлённое строительство, а не в реактивную защиту или импульсивное приобретение.",
+      "reflection": "Где ваша энергия вокруг ресурсов исходит из подлинной уверенности, а не из страха иметь недостаточно?"
+    },
+    "advanced": {
+      "technical": "The 2nd house is the field of values and material resources. Mars in the 2nd brings the Martian principle of drive, initiative, and assertive energy into the arena of earning, owning, and valuing.",
+      "method": "This is a house-topic interpretation where Mars as the archetype of drive shapes how material resources are pursued and protected.",
+      "caution": "Do not read this as financial conflict or reckless spending. Mars in the 2nd can produce genuine financial drive and the ability to act decisively around material matters.",
+      "constructiveChannel": "The constructive expression is decisive material initiative: the energy and courage to build financial independence through sustained effort and clear, values-aligned action."
+    },
+    "advancedRu": {
+      "technical": "2-й дом — поле ценностей и материальных ресурсов. Марс в 2-м доме привносит марсианский принцип воли, инициативы и напористой энергии в арену зарабатывания, владения и оценки.",
+      "method": "Это интерпретация по теме дома, где Марс как архетип воли формирует то, как преследуются и защищаются материальные ресурсы.",
+      "caution": "Не следует читать это как финансовый конфликт или безрассудные траты. Марс в 2-м доме может производить подлинную финансовую волю и способность решительно действовать в материальных вопросах.",
+      "constructiveChannel": "Конструктивное выражение — решительная материальная инициатива: энергия и смелость для построения финансовой независимости через устойчивые усилия и ясные, согласованные с ценностями действия."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-in-5th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 5 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["creativity", "serious play", "earned joy", "discipline in self-expression", "children"],
+    "themesRu": ["творчество", "серьёзная игра", "заработанная радость", "дисциплина в самовыражении", "дети"],
+    "simple": {
+      "summary": "Creativity, play, and joy may be arenas where you feel a particular seriousness — a sense that pleasure must be earned or that creative work must meet high standards.",
+      "pattern": "You may find spontaneous playfulness difficult, approach creative work with perfectionism, or feel that allowing yourself genuine joy requires justification.",
+      "growth": "The growth task is to discover that creativity and play are genuine necessities, not rewards to be earned once all the serious work is done.",
+      "reflection": "Where do you postpone joy or creative expression until you have proven you deserve it?"
+    },
+    "simpleRu": {
+      "summary": "Творчество, игра и радость могут быть аренами, где вы ощущаете особую серьёзность — чувство, что удовольствие нужно заслужить или что творческая работа должна соответствовать высоким стандартам.",
+      "pattern": "Вам может быть трудна спонтанная игривость, вы можете подходить к творческой работе с перфекционизмом или чувствовать, что позволить себе подлинную радость требует обоснования.",
+      "growth": "Задача роста — обнаружить, что творчество и игра являются подлинными потребностями, а не наградами, которые нужно заработать, когда вся серьёзная работа сделана.",
+      "reflection": "Где вы откладываете радость или творческое выражение, пока не докажете, что заслуживаете их?"
+    },
+    "advanced": {
+      "technical": "The 5th house is the field of creativity, play, romance, joy, and self-expression. Saturn in the 5th brings restraint, discipline, and the demand for seriousness into the arena most associated with spontaneous pleasure and creative freedom.",
+      "method": "This combines house-topic interpretation with Saturn as the force creating developmental pressure around creativity and joy.",
+      "caution": "Do not read this as a fixed block on creativity or guaranteed difficulty with children. Saturn in the 5th often produces exceptional creative discipline and the ability to build lasting artistic work.",
+      "constructiveChannel": "The constructive expression is disciplined creativity: a commitment to creative work serious enough to produce lasting beauty, genuine craft, and art that endures."
+    },
+    "advancedRu": {
+      "technical": "5-й дом — поле творчества, игры, романтики, радости и самовыражения. Сатурн в 5-м доме привносит сдержанность, дисциплину и требование серьёзности в арену, наиболее связанную со спонтанным удовольствием и творческой свободой.",
+      "method": "Это интерпретация по теме дома с Сатурном как силой, создающей давление развития вокруг творчества и радости.",
+      "caution": "Не следует читать это как фиксированный блок творчества или гарантированные трудности с детьми. Сатурн в 5-м доме часто производит исключительную творческую дисциплину и способность создавать долговечные художественные работы.",
+      "constructiveChannel": "Конструктивное выражение — дисциплинированное творчество: приверженность творческой работе, достаточно серьёзная для создания долговечной красоты, подлинного мастерства и искусства, которое выдерживает время."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-in-5th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Moon", "house": 5 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["emotional creativity", "play as feeling", "children", "romantic feeling", "creative joy"],
+    "themesRu": ["эмоциональное творчество", "игра как чувство", "дети", "романтическое чувство", "творческая радость"],
+    "simple": {
+      "summary": "Creativity, play, and romantic feeling may be naturally connected to your emotional life — a rich inner world that wants expression through imagination, art, or joyful connection.",
+      "pattern": "You may be drawn to creative and playful expression as ways of processing feelings, and may find that children or romantic relationships touch you more deeply than you expect.",
+      "growth": "The growth task is to trust emotional expressiveness as genuine creative fuel rather than something to be managed or contained.",
+      "reflection": "Where does your emotional depth enrich your creative life, and where does it need clearer boundaries to flow freely?"
+    },
+    "simpleRu": {
+      "summary": "Творчество, игра и романтическое чувство могут быть естественно связаны с вашей эмоциональной жизнью — богатым внутренним миром, который хочет выражаться через воображение, искусство или радостную связь.",
+      "pattern": "Вас может тянуть к творческому и игровому выражению как к способам переработки чувств, и вы можете обнаруживать, что дети или романтические отношения касаются вас глубже, чем вы ожидаете.",
+      "growth": "Задача роста — доверять эмоциональной выразительности как подлинному творческому топливу, а не чему-то, что нужно управлять или сдерживать.",
+      "reflection": "Где ваша эмоциональная глубина обогащает вашу творческую жизнь, а где ей нужны более чёткие границы, чтобы течь свободно?"
+    },
+    "advanced": {
+      "technical": "The 5th house is the field of creativity, joy, play, romance, and self-expression. The Moon in the 5th brings emotional responsiveness, imagination, and the lunar principle of feeling and expressiveness into this arena.",
+      "method": "This combines house-topic interpretation with the psychological Moon as the force that infuses creative self-expression with emotional richness.",
+      "caution": "Do not read this as guaranteed emotional difficulty in romance or with children. The Moon in the 5th describes a natural orientation toward emotionally authentic creative expression.",
+      "constructiveChannel": "The constructive expression is emotionally alive creativity: the ability to make art, play, and connection from a place of genuine feeling rather than performance."
+    },
+    "advancedRu": {
+      "technical": "5-й дом — поле творчества, радости, игры, романтики и самовыражения. Луна в 5-м доме привносит эмоциональную отзывчивость, воображение и лунный принцип чувства и выразительности в эту арену.",
+      "method": "Это интерпретация по теме дома с психологической Луной как силой, наполняющей творческое самовыражение эмоциональным богатством.",
+      "caution": "Не следует читать это как гарантированные эмоциональные трудности в романтике или с детьми. Луна в 5-м доме описывает природную ориентацию на эмоционально аутентичное творческое выражение.",
+      "constructiveChannel": "Конструктивное выражение — эмоционально живое творчество: способность создавать искусство, играть и строить связь из места подлинного чувства, а не исполнения."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-in-5th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Venus", "house": 5 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["pleasure", "aesthetic creativity", "romance", "beauty in self-expression", "joyful relating"],
+    "themesRu": ["удовольствие", "эстетическое творчество", "романтика", "красота в самовыражении", "радостные отношения"],
+    "simple": {
+      "summary": "Creativity, beauty, and romantic pleasure may feel natural and deeply important to your sense of aliveness — what brings genuine joy and meaning to self-expression.",
+      "pattern": "You may be drawn to aesthetic work, warm romantic connection, and forms of creative expression that feel genuinely pleasurable rather than merely productive.",
+      "growth": "The growth task is to let natural joy in beauty and pleasure include the more demanding side of creative work — discipline, patience, and the willingness to endure difficulty for genuine mastery.",
+      "reflection": "Where does your love of pleasure and beauty shape the creative choices you make, and where does it need to be balanced by more sustained effort?"
+    },
+    "simpleRu": {
+      "summary": "Творчество, красота и романтическое удовольствие могут ощущаться естественными и глубоко важными для вашего ощущения живости — того, что приносит подлинную радость и смысл самовыражению.",
+      "pattern": "Вас может тянуть к эстетической работе, тёплой романтической связи и формам творческого выражения, которые ощущаются подлинно приятными, а не просто продуктивными.",
+      "growth": "Задача роста — позволить природной радости в красоте и удовольствии включить более требовательную сторону творческой работы — дисциплину, терпение и готовность выдержать трудности ради подлинного мастерства.",
+      "reflection": "Где ваша любовь к удовольствию и красоте формирует творческие выборы, которые вы делаете, а где её нужно уравновесить более устойчивыми усилиями?"
+    },
+    "advanced": {
+      "technical": "The 5th house is the field of creativity, play, romance, and joy. Venus in the 5th brings the Venusian principle of beauty, pleasure, attraction, and aesthetic appreciation into the arena of self-expression and creative engagement.",
+      "method": "This is a house-topic interpretation where the Venusian archetype infuses creative and romantic life with natural grace, pleasure-seeking, and aesthetic sensitivity.",
+      "caution": "Do not read this as guaranteed creative talent or romantic ease. It describes a natural orientation toward beauty and pleasure as the motivating forces of creative self-expression.",
+      "constructiveChannel": "The constructive expression is beautiful self-expression: creativity and romance shaped by genuine aesthetic sensitivity, warmth, and the willingness to share what is lovely with others."
+    },
+    "advancedRu": {
+      "technical": "5-й дом — поле творчества, игры, романтики и радости. Венера в 5-м доме привносит венерианский принцип красоты, удовольствия, притяжения и эстетической оценки в арену самовыражения и творческого вовлечения.",
+      "method": "Это интерпретация по теме дома, где венерианский архетип наполняет творческую и романтическую жизнь природной грацией, стремлением к удовольствию и эстетической чуткостью.",
+      "caution": "Не следует читать это как гарантированный творческий талант или романтическую лёгкость. Это описывает природную ориентацию на красоту и удовольствие как движущие силы творческого самовыражения.",
+      "constructiveChannel": "Конструктивное выражение — прекрасное самовыражение: творчество и романтика, сформированные подлинной эстетической чуткостью, теплотой и готовностью делиться прекрасным с другими."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-in-5th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mars", "house": 5 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["passionate creativity", "competitive play", "intense romance", "bold self-expression", "creative drive"],
+    "themesRu": ["страстное творчество", "соревновательная игра", "интенсивная романтика", "смелое самовыражение", "творческая воля"],
+    "simple": {
+      "summary": "Creativity, play, and romance may carry a strong, passionate energy — a drive to express yourself boldly and feel most alive when genuinely challenged.",
+      "pattern": "You may throw yourself into creative work with intensity, approach romance with directness and passion, and feel most yourself when competing creatively or expressing something real.",
+      "growth": "The growth task is to sustain creative passion without burning out, and to bring genuine warmth alongside intensity in romantic and creative encounters.",
+      "reflection": "Where does your drive for bold expression serve your creativity, and where does it push others away or exhaust itself too quickly?"
+    },
+    "simpleRu": {
+      "summary": "Творчество, игра и романтика могут нести сильную, страстную энергию — волю выражать себя смело и чувствовать себя наиболее живым, когда по-настоящему бросают вызов.",
+      "pattern": "Вы можете бросаться в творческую работу с интенсивностью, подходить к романтике с прямотой и страстью и чувствовать себя наиболее собой, когда творчески соревнуетесь или выражаете нечто настоящее.",
+      "growth": "Задача роста — поддерживать творческую страсть, не истощаясь, и привносить подлинное тепло наряду с интенсивностью в романтические и творческие встречи.",
+      "reflection": "Где ваше стремление к смелому выражению служит вашему творчеству, а где отталкивает других или слишком быстро истощает себя?"
+    },
+    "advanced": {
+      "technical": "The 5th house is the field of creativity, play, romance, and self-expression. Mars in the 5th brings the Martian principle of drive, passion, courage, and competitive energy into the arena of joyful creation and romantic encounter.",
+      "method": "This combines house-topic interpretation with Mars as the force energizing creative self-expression with boldness and intensity.",
+      "caution": "Do not read this as aggression in romance or compulsive creative behavior. Mars in the 5th describes a natural orientation toward passionate, courageous self-expression.",
+      "constructiveChannel": "The constructive expression is passionate creative initiative: the drive to make something bold and real, and to bring genuine energy and courage to both creative work and romantic life."
+    },
+    "advancedRu": {
+      "technical": "5-й дом — поле творчества, игры, романтики и самовыражения. Марс в 5-м доме привносит марсианский принцип воли, страсти, смелости и соревновательной энергии в арену радостного творчества и романтической встречи.",
+      "method": "Это интерпретация по теме дома с Марсом как силой, заряжающей творческое самовыражение смелостью и интенсивностью.",
+      "caution": "Не следует читать это как агрессию в романтике или компульсивное творческое поведение. Марс в 5-м доме описывает природную ориентацию на страстное, смелое самовыражение.",
+      "constructiveChannel": "Конструктивное выражение — страстная творческая инициатива: воля создавать нечто смелое и настоящее, и привносить подлинную энергию и смелость как в творческую работу, так и в романтическую жизнь."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-in-6th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 6 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["work ethic", "discipline", "health habits", "perfectionism in service", "duty in daily routine"],
+    "themesRu": ["трудовая этика", "дисциплина", "привычки здоровья", "перфекционизм в служении", "долг в ежедневном распорядке"],
+    "simple": {
+      "summary": "Daily work, service, and health routines may be areas where you hold high standards, apply consistent discipline, and feel a serious sense of responsibility.",
+      "pattern": "You may be a reliable, careful worker who pushes hard to meet or exceed standards, but may also carry chronic tension or health concerns when sustained stress is not balanced by rest.",
+      "growth": "The growth task is to discover that genuine service includes consistent self-care, and that discipline without recovery creates fragility rather than enduring strength.",
+      "reflection": "Where do you demand a level of perfection from your daily work or body that undermines rather than supports you?"
+    },
+    "simpleRu": {
+      "summary": "Ежедневная работа, служение и распорядок здоровья могут быть областями, где вы придерживаетесь высоких стандартов, применяете последовательную дисциплину и ощущаете серьёзное чувство ответственности.",
+      "pattern": "Вы можете быть надёжным, тщательным работником, усердно стремящимся соответствовать стандартам или превышать их, но также можете нести хроническое напряжение или проблемы со здоровьем, когда длительный стресс не уравновешен отдыхом.",
+      "growth": "Задача роста — обнаружить, что подлинное служение включает последовательную заботу о себе, и что дисциплина без восстановления создаёт хрупкость, а не длительную силу.",
+      "reflection": "Где вы требуете от вашей ежедневной работы или тела уровня совершенства, который подрывает, а не поддерживает вас?"
+    },
+    "advanced": {
+      "technical": "The 6th house is the field of daily work, service, health, and routine. Saturn in the 6th brings discipline, high standards, duty, and the demand for precision into the arena of everyday practice and physical wellbeing.",
+      "method": "This combines house-topic interpretation with Saturn as the force shaping the quality and pressure of daily work and bodily self-care.",
+      "caution": "Do not read this as guaranteed illness or chronic overwork. Saturn in the 6th often produces exceptional professional reliability and skill through sustained disciplined practice.",
+      "constructiveChannel": "The constructive expression is masterful daily practice: work done with genuine care, precision, and sustained discipline that creates reliable excellence over time."
+    },
+    "advancedRu": {
+      "technical": "6-й дом — поле ежедневной работы, служения, здоровья и распорядка. Сатурн в 6-м доме привносит дисциплину, высокие стандарты, долг и требование точности в арену повседневной практики и физического благополучия.",
+      "method": "Это интерпретация по теме дома с Сатурном как силой, формирующей качество и давление ежедневной работы и телесной заботы о себе.",
+      "caution": "Не следует читать это как гарантированную болезнь или хроническую перегрузку. Сатурн в 6-м доме часто производит исключительную профессиональную надёжность и мастерство через устойчивую дисциплинированную практику.",
+      "constructiveChannel": "Конструктивное выражение — мастерская ежедневная практика: работа, выполненная с подлинной тщательностью, точностью и устойчивой дисциплиной, создающей надёжное превосходство со временем."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-in-6th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Moon", "house": 6 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["emotional approach to work", "health connected to feelings", "care through service", "body-emotion link", "nurturing in routine"],
+    "themesRu": ["эмоциональный подход к работе", "здоровье, связанное с чувствами", "забота через служение", "связь тело-эмоция", "питание в рутине"],
+    "simple": {
+      "summary": "Your daily work and physical health may be closely connected to your emotional world — how you feel often shapes how you work, and how you work can shape how you feel.",
+      "pattern": "You may be naturally caring in service contexts and have a strong instinct to help others through practical attention, but may find that emotional stress shows up in physical symptoms over time.",
+      "growth": "The growth task is to build daily habits that acknowledge both practical requirements and emotional ones, treating health as a whole-person concern rather than just a physical one.",
+      "reflection": "Where does your body signal something that your thinking has not yet named?"
+    },
+    "simpleRu": {
+      "summary": "Ваша ежедневная работа и физическое здоровье могут быть тесно связаны с вашим эмоциональным миром — то, как вы себя чувствуете, часто формирует то, как вы работаете, и то, как вы работаете, может формировать то, как вы себя чувствуете.",
+      "pattern": "Вы можете быть естественно заботливым в контекстах служения и иметь сильный инстинкт помогать другим через практическое внимание, но можете обнаруживать, что эмоциональный стресс со временем проявляется в физических симптомах.",
+      "growth": "Задача роста — выстроить ежедневные привычки, признающие и практические, и эмоциональные потребности, рассматривая здоровье как целостную, а не только физическую проблему.",
+      "reflection": "Где ваше тело сигнализирует о чём-то, что ваше мышление ещё не назвало?"
+    },
+    "advanced": {
+      "technical": "The 6th house is the field of daily work, service, and health. The Moon in the 6th brings emotional responsiveness, caring instinct, and the body-feeling connection into the arena of routine, service, and physical wellbeing.",
+      "method": "This combines house-topic interpretation with the psychological Moon as the force connecting emotional life to the daily practical domain.",
+      "caution": "Do not read this as guaranteed psychosomatic illness. The Moon in the 6th describes an emotional attunement to work and body that can be a rich source of caring skill and practical empathy.",
+      "constructiveChannel": "The constructive expression is emotionally intelligent service: daily work and health habits that honor both the body's needs and the emotional conditions that make sustained wellbeing possible."
+    },
+    "advancedRu": {
+      "technical": "6-й дом — поле ежедневной работы, служения и здоровья. Луна в 6-м доме привносит эмоциональную отзывчивость, инстинкт заботы и связь тело-чувство в арену распорядка, служения и физического благополучия.",
+      "method": "Это интерпретация по теме дома с психологической Луной как силой, связывающей эмоциональную жизнь с ежедневной практической сферой.",
+      "caution": "Не следует читать это как гарантированное психосоматическое заболевание. Луна в 6-м доме описывает эмоциональную настроенность на работу и тело, которая может быть богатым источником навыка заботы и практической эмпатии.",
+      "constructiveChannel": "Конструктивное выражение — эмоционально интеллектуальное служение: ежедневная работа и привычки здоровья, уважающие и потребности тела, и эмоциональные условия, делающие устойчивое благополучие возможным."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mercury-in-6th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mercury", "house": 6 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["analytical work", "detail in service", "mental health habits", "precision in routine", "thoughtful care"],
+    "themesRu": ["аналитическая работа", "детальность в служении", "ментальные привычки здоровья", "точность в рутине", "вдумчивая забота"],
+    "simple": {
+      "summary": "Mental activity, analysis, and communication may be central to how you approach daily work, service, and the management of practical routines.",
+      "pattern": "You may excel in work that requires careful thought, precision, or clear communication, and tend to bring a questioning, problem-solving quality to everyday tasks.",
+      "growth": "The growth task is to ensure that analytical precision serves genuine purpose rather than becoming anxiety, over-thinking, or criticism of what is not perfect.",
+      "reflection": "Where does your precision in daily work become a source of satisfaction rather than a standard impossible to meet?"
+    },
+    "simpleRu": {
+      "summary": "Ментальная активность, анализ и общение могут быть центральными для того, как вы подходите к ежедневной работе, служению и управлению практическими рутинами.",
+      "pattern": "Вы можете преуспевать в работе, требующей тщательного мышления, точности или ясной коммуникации, и склонны привносить вопрошающее, решающее проблемы качество в повседневные задачи.",
+      "growth": "Задача роста — убедиться, что аналитическая точность служит подлинной цели, а не становится тревогой, чрезмерным обдумыванием или критикой того, что не идеально.",
+      "reflection": "Где ваша точность в ежедневной работе становится источником удовлетворения, а не стандартом, невозможным для достижения?"
+    },
+    "advanced": {
+      "technical": "The 6th house is the field of daily work, service, and practical routine. Mercury in the 6th brings the Mercurial principle of analysis, communication, and mental precision into the arena of work, health management, and everyday problem-solving.",
+      "method": "This is a house-topic interpretation where Mercury as the archetype of mind shapes the quality and approach of daily practical engagement.",
+      "caution": "Do not read this as guaranteed anxiety or excessive worry about health. Mercury in the 6th describes a natural orientation toward mentally active, precise work that can be a source of genuine skill.",
+      "constructiveChannel": "The constructive expression is precise practical intelligence: the ability to analyze daily situations clearly, communicate in service contexts effectively, and bring genuine mental skill to the management of health and routine."
+    },
+    "advancedRu": {
+      "technical": "6-й дом — поле ежедневной работы, служения и практической рутины. Меркурий в 6-м доме привносит меркурианский принцип анализа, коммуникации и ментальной точности в арену работы, управления здоровьем и повседневного решения проблем.",
+      "method": "Это интерпретация по теме дома, где Меркурий как архетип ума формирует качество и подход к ежедневному практическому вовлечению.",
+      "caution": "Не следует читать это как гарантированную тревогу или чрезмерное беспокойство о здоровье. Меркурий в 6-м доме описывает природную ориентацию на ментально активную, точную работу, которая может быть источником подлинного мастерства.",
+      "constructiveChannel": "Конструктивное выражение — точный практический интеллект: способность ясно анализировать ежедневные ситуации, эффективно общаться в контекстах служения и привносить подлинный ментальный навык в управление здоровьем и рутиной."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-in-6th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mars", "house": 6 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["energetic work", "drive in service", "conflict in daily routine", "health through action", "assertive care"],
+    "themesRu": ["энергичная работа", "воля в служении", "конфликт в ежедневной рутине", "здоровье через действие", "напористая забота"],
+    "simple": {
+      "summary": "Energy, drive, and physical engagement may be natural parts of how you approach daily work and service — most alive when there is something concrete to tackle and finish.",
+      "pattern": "You may work with intensity, dislike sluggish or inefficient environments, and need regular physical activity as part of maintaining genuine health and daily wellbeing.",
+      "growth": "The growth task is to channel this energy constructively in service, while managing the tendency to create friction through impatience with ordinary routine.",
+      "reflection": "Where can your drive for efficiency and completion genuinely improve the situation rather than create unnecessary pressure?"
+    },
+    "simpleRu": {
+      "summary": "Энергия, воля и физическое вовлечение могут быть природными частями того, как вы подходите к ежедневной работе и служению — наиболее живой, когда есть что-то конкретное для преодоления и завершения.",
+      "pattern": "Вы можете работать с интенсивностью, не любить вялые или неэффективные среды и нуждаться в регулярной физической активности как части поддержания подлинного здоровья и ежедневного благополучия.",
+      "growth": "Задача роста — направлять эту энергию конструктивно в служении, управляя при этом склонностью создавать трение через нетерпение с обычной рутиной.",
+      "reflection": "Где ваше стремление к эффективности и завершённости может подлинно улучшить ситуацию, а не создать ненужное давление?"
+    },
+    "advanced": {
+      "technical": "The 6th house is the field of daily work, service, health, and routine. Mars in the 6th brings the Martian principle of drive, physical energy, and direct action into the arena of everyday practical engagement.",
+      "method": "This combines house-topic interpretation with Mars as the force energizing the daily work domain with drive and physical vitality.",
+      "caution": "Do not read this as guaranteed workplace conflict or chronic inflammation. Mars in the 6th describes a natural orientation toward active, driven, physically engaged work.",
+      "constructiveChannel": "The constructive expression is energetic practical mastery: the ability to work hard, sustain physical effort, and bring decisive initiative to service in ways that create real and lasting results."
+    },
+    "advancedRu": {
+      "technical": "6-й дом — поле ежедневной работы, служения, здоровья и рутины. Марс в 6-м доме привносит марсианский принцип воли, физической энергии и прямого действия в арену повседневного практического вовлечения.",
+      "method": "Это интерпретация по теме дома с Марсом как силой, заряжающей область ежедневной работы волей и физической витальностью.",
+      "caution": "Не следует читать это как гарантированный конфликт на рабочем месте или хроническое воспаление. Марс в 6-м доме описывает природную ориентацию на активную, движимую, физически вовлечённую работу.",
+      "constructiveChannel": "Конструктивное выражение — энергичное практическое мастерство: способность упорно работать, поддерживать физические усилия и привносить решительную инициативу в служение способами, создающими реальные и долговечные результаты."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-in-8th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 8 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["transformation", "control in depth", "shared resources", "structured crisis", "cautious intimacy"],
+    "themesRu": ["трансформация", "контроль в глубине", "общие ресурсы", "структурированный кризис", "осторожная близость"],
+    "simple": {
+      "summary": "Deep change, shared resources, and the experience of loss or crisis may be areas where you approach things carefully, slowly, and with a need to retain some sense of control.",
+      "pattern": "You may find it difficult to fully surrender or trust in contexts of deep intimacy or significant loss, preferring to manage transformation consciously rather than submit to it.",
+      "growth": "The growth task is to discover that genuine depth sometimes requires releasing control, and that crisis can be a structured teacher when approached with both honesty and courage.",
+      "reflection": "Where do you use careful management to avoid the kind of vulnerability that real transformation actually requires?"
+    },
+    "simpleRu": {
+      "summary": "Глубокие изменения, общие ресурсы и опыт потери или кризиса могут быть сферами, где вы подходите к вещам осторожно, медленно и с потребностью сохранить некоторое ощущение контроля.",
+      "pattern": "Вам может быть трудно полностью сдаться или доверять в контекстах глубокой близости или значительной потери, предпочитая сознательно управлять трансформацией, а не подчиняться ей.",
+      "growth": "Задача роста — обнаружить, что подлинная глубина иногда требует отпускания контроля, и что кризис может быть структурированным учителем при подходе с честностью и смелостью.",
+      "reflection": "Где вы используете тщательное управление, чтобы избежать уязвимости, которую подлинная трансформация на самом деле требует?"
+    },
+    "advanced": {
+      "technical": "The 8th house is the field of shared resources, deep transformation, intimacy, and encounter with crisis. Saturn in the 8th brings restraint, control, and the demand for conscious structure into the arena of depth and fundamental change.",
+      "method": "This combines house-topic interpretation with Saturn as the force managing the 8th house's naturally intense developmental territory.",
+      "caution": "Do not read this as a prediction of significant loss, financial crisis, or unavoidable trauma. Saturn in the 8th describes a careful, controlled approach to the domain of depth and transformation.",
+      "constructiveChannel": "The constructive expression is mastered depth: the ability to navigate transformation, shared power, and crisis with honesty, patience, and the willingness to release what genuinely must go."
+    },
+    "advancedRu": {
+      "technical": "8-й дом — поле общих ресурсов, глубокой трансформации, близости и встречи с кризисом. Сатурн в 8-м доме привносит сдержанность, контроль и требование сознательной структуры в арену глубины и фундаментального изменения.",
+      "method": "Это интерпретация по теме дома с Сатурном как силой, управляющей интенсивной территорией развития 8-го дома.",
+      "caution": "Не следует читать это как предсказание значительной потери, финансового кризиса или неизбежной травмы. Сатурн в 8-м доме описывает осторожный, контролируемый подход к области глубины и трансформации.",
+      "constructiveChannel": "Конструктивное выражение — освоенная глубина: способность navigating transformation, shared power, and crisis with honesty, patience, and the willingness to release what genuinely must go."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-in-8th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Moon", "house": 8 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["emotional depth", "transformation through feeling", "hidden emotional life", "intimacy", "psychological intensity"],
+    "themesRu": ["эмоциональная глубина", "трансформация через чувства", "скрытая эмоциональная жизнь", "близость", "психологическая интенсивность"],
+    "simple": {
+      "summary": "Your emotional world may be particularly deep, intense, and capable of sensing what is hidden or unspoken — a feeling life that touches the psychologically complex.",
+      "pattern": "You may be strongly affected by loss, hidden undercurrents in relationships, or what others leave unacknowledged, and may have a powerful instinct for the emotional truth beneath the surface.",
+      "growth": "The growth task is to allow emotional depth to become a resource for genuine intimacy and psychological insight rather than a source of crisis, secrecy, or overwhelming intensity.",
+      "reflection": "Where does your awareness of what is unspoken help you connect more deeply, and where does it pull you into unnecessary complexity?"
+    },
+    "simpleRu": {
+      "summary": "Ваш эмоциональный мир может быть особенно глубоким, интенсивным и способным ощущать то, что скрыто или невысказано — чувственная жизнь, касающаяся психологически сложного.",
+      "pattern": "Вы можете быть сильно затронуты потерей, скрытыми течениями в отношениях или тем, что другие оставляют непризнанным, и иметь мощный инстинкт на эмоциональную правду под поверхностью.",
+      "growth": "Задача роста — позволить эмоциональной глубине стать ресурсом для подлинной близости и психологического понимания, а не источником кризиса, секретности или подавляющей интенсивности.",
+      "reflection": "Где ваше осознание невысказанного помогает вам соединиться более глубоко, а где тянет вас в ненужную сложность?"
+    },
+    "advanced": {
+      "technical": "The 8th house is the field of depth, transformation, shared resources, and the encounter with what is hidden. The Moon in the 8th brings emotional intensity, deep feeling, and the lunar principle of memory and instinct into this arena.",
+      "method": "This combines house-topic interpretation with the psychological Moon as the force shaping emotional life through the domain of depth and transformation.",
+      "caution": "Do not read this as a fixed pattern of emotional crisis or manipulation. The Moon in the 8th describes a natural orientation toward psychological depth and emotional honesty.",
+      "constructiveChannel": "The constructive expression is psychologically deep empathy: emotional intelligence that can hold what is hidden, complex, and transformative in both self and others."
+    },
+    "advancedRu": {
+      "technical": "8-й дом — поле глубины, трансформации, общих ресурсов и встречи с тем, что скрыто. Луна в 8-м доме привносит эмоциональную интенсивность, глубокое чувство и лунный принцип памяти и инстинкта в эту арену.",
+      "method": "Это интерпретация по теме дома с психологической Луной как силой, формирующей эмоциональную жизнь через область глубины и трансформации.",
+      "caution": "Не следует читать это как фиксированный рисунок эмоционального кризиса или манипуляции. Луна в 8-м доме описывает природную ориентацию на психологическую глубину и эмоциональную честность.",
+      "constructiveChannel": "Конструктивное выражение — психологически глубокая эмпатия: эмоциональный интеллект, способный удерживать то, что скрыто, сложно и трансформативно — в себе и в других."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-in-8th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mars", "house": 8 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["intense drive", "transformation through conflict", "shared resources", "psychological intensity", "power"],
+    "themesRu": ["интенсивная воля", "трансформация через конфликт", "общие ресурсы", "психологическая интенсивность", "власть"],
+    "simple": {
+      "summary": "Drive and intensity may be particularly powerful in situations involving shared resources, deep change, or significant stakes — most alive when something fundamental is on the line.",
+      "pattern": "You may be drawn to intense or challenging experiences, push hard in matters involving shared power or intimate encounter, and feel the most energy when genuinely tested at a deep level.",
+      "growth": "The growth task is to channel this intensity into genuine transformation rather than power struggles, compulsive patterns, or unnecessary conflict in the domains of depth and intimacy.",
+      "reflection": "Where does your intensity serve real transformation and where does it create unnecessary crisis or drama?"
+    },
+    "simpleRu": {
+      "summary": "Воля и интенсивность могут быть особенно мощными в ситуациях, связанных с общими ресурсами, глубокими изменениями или значительными ставками — наиболее живой, когда что-то фундаментальное поставлено на кон.",
+      "pattern": "Вас может тянуть к интенсивным или вызывающим ситуациям, вы можете сильно давить в делах, связанных с общей властью или близкой встречей, и чувствовать наибольшую энергию, когда по-настоящему испытываетесь на глубоком уровне.",
+      "growth": "Задача роста — направить эту интенсивность в подлинную трансформацию, а не в борьбу за власть, компульсивные рисунки или ненужный конфликт в областях глубины и близости.",
+      "reflection": "Где ваша интенсивность служит подлинной трансформации, а где создаёт ненужный кризис или драму?"
+    },
+    "advanced": {
+      "technical": "The 8th house is the field of depth, transformation, shared resources, and fundamental change. Mars in the 8th brings the Martian principle of drive, assertion, and intensity into this arena of power and transformation.",
+      "method": "This combines house-topic interpretation with Mars as the force energizing the 8th house domain with passionate directness and transformative drive.",
+      "caution": "Do not read this as guaranteed violence, sexual compulsion, or financial conflict. Mars in the 8th describes powerful energy in the domain of depth that can be consciously directed toward genuine transformation.",
+      "constructiveChannel": "The constructive expression is transformative courage: the ability to face what is most challenging, push through resistance in depth-level encounters, and use intensity as fuel for genuine regeneration."
+    },
+    "advancedRu": {
+      "technical": "8-й дом — поле глубины, трансформации, общих ресурсов и фундаментального изменения. Марс в 8-м доме привносит марсианский принцип воли, утверждения и интенсивности в эту арену власти и трансформации.",
+      "method": "Это интерпретация по теме дома с Марсом как силой, заряжающей область 8-го дома страстной прямотой и трансформативной волей.",
+      "caution": "Не следует читать это как гарантированное насилие, сексуальную компульсию или финансовый конфликт. Марс в 8-м доме описывает мощную энергию в области глубины, которую можно сознательно направить к подлинной трансформации.",
+      "constructiveChannel": "Конструктивное выражение — трансформативная смелость: способность встречать наиболее сложное, преодолевать сопротивление в глубинных встречах и использовать интенсивность как топливо для подлинного возрождения."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.pluto-in-8th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Pluto", "house": 8 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["deep transformation", "power", "regeneration", "depth", "shadow integration"],
+    "themesRu": ["глубокая трансформация", "власть", "возрождение", "глубина", "интеграция тени"],
+    "simple": {
+      "summary": "Transformation, depth, and confronting what is most powerful or hidden may be recurring themes in how you experience life at its most fundamental.",
+      "pattern": "You may have a natural instinct for what lies beneath the surface, experience significant life changes that require completely releasing old structures, and be strongly drawn to questions of power, depth, and regeneration.",
+      "growth": "The growth task is to use depth and intensity as sources of genuine regeneration rather than control, obsession, or the compulsive need to transform others.",
+      "reflection": "What have you been most completely transformed by, and what is still asking to be consciously released?"
+    },
+    "simpleRu": {
+      "summary": "Трансформация, глубина и столкновение с наиболее мощным или скрытым могут быть повторяющимися темами в том, как вы переживаете жизнь на самом фундаментальном уровне.",
+      "pattern": "У вас может быть природный инстинкт того, что лежит под поверхностью, вы можете переживать значительные жизненные изменения, требующие полного отпускания старых структур, и быть сильно притянуты к вопросам власти, глубины и возрождения.",
+      "growth": "Задача роста — использовать глубину и интенсивность как источники подлинного возрождения, а не контроля, одержимости или компульсивной потребности трансформировать других.",
+      "reflection": "Чем вы были наиболее полно трансформированы, и что ещё просит быть сознательно отпущенным?"
+    },
+    "advanced": {
+      "technical": "The 8th house is the field of depth, transformation, shared resources, and the encounter with fundamental change. Pluto's presence in the 8th creates a natural resonance between the planet of transformation and the house most associated with those same themes.",
+      "method": "This combines house-topic interpretation with Pluto as the force of deep transformation, shadow integration, and regeneration through release.",
+      "caution": "Do not read this as a prediction of death, extreme trauma, or forced crisis. Pluto in the 8th describes a fundamental orientation toward depth and transformation that must be approached without determinism or fear-based framing.",
+      "constructiveChannel": "The constructive expression is regenerative depth: the ability to meet what is most fundamental and powerful with consciousness, courage, and the willingness to be profoundly changed by genuine encounter."
+    },
+    "advancedRu": {
+      "technical": "8-й дом — поле глубины, трансформации, общих ресурсов и встречи с фундаментальным изменением. Присутствие Плутона в 8-м доме создаёт природный резонанс между планетой трансформации и домом, наиболее связанным с теми же темами.",
+      "method": "Это интерпретация по теме дома с Плутоном как силой глубокой трансформации, интеграции тени и возрождения через отпускание.",
+      "caution": "Не следует читать это как предсказание смерти, крайней травмы или вынужденного кризиса. Плутон в 8-м доме описывает фундаментальную ориентацию на глубину и трансформацию, к которой нужно подходить без детерминизма или страхового фрейминга.",
+      "constructiveChannel": "Конструктивное выражение — возрождающая глубина: способность встречать наиболее фундаментальное и мощное с сознанием, смелостью и готовностью быть глубоко изменённым подлинной встречей."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.jupiter-in-8th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Jupiter", "house": 8 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["expansion through depth", "meaning in transformation", "generous approach to crisis", "abundance in shared resources", "philosophical depth"],
+    "themesRu": ["расширение через глубину", "смысл в трансформации", "щедрый подход к кризису", "изобилие в общих ресурсах", "философская глубина"],
+    "simple": {
+      "summary": "Depth, transformation, and significant life changes may carry a sense of larger meaning or potential for growth — a philosophical orientation toward what is most fundamental.",
+      "pattern": "You may find that periods of real loss or significant change ultimately open life in unexpected ways, and may approach the domain of shared resources and deep intimacy with natural generosity.",
+      "growth": "The growth task is to ensure that philosophical optimism around transformation does not minimize the genuine difficulty of deep change, and that generosity with shared resources remains grounded in honest mutual agreement.",
+      "reflection": "Where has genuine crisis or loss expanded your sense of what life can hold and who you can become?"
+    },
+    "simpleRu": {
+      "summary": "Глубина, трансформация и значительные жизненные изменения могут нести ощущение более широкого смысла или потенциала для роста — философская ориентация на наиболее фундаментальное.",
+      "pattern": "Вы можете обнаруживать, что периоды подлинной потери или значительного изменения в конечном счёте открывают жизнь неожиданными способами, и можете подходить к области общих ресурсов и глубокой близости с природной щедростью.",
+      "growth": "Задача роста — убедиться, что философский оптимизм вокруг трансформации не минимизирует подлинной трудности глубоких изменений, и что щедрость с общими ресурсами остаётся укоренённой в честном взаимном соглашении.",
+      "reflection": "Где подлинный кризис или потеря расширили ваше ощущение того, что жизнь может вместить, и кем вы можете стать?"
+    },
+    "advanced": {
+      "technical": "The 8th house is the field of depth, transformation, and shared resources. Jupiter in the 8th brings the Jupiterian principle of expansion, meaning, and faith into the arena of depth, crisis, and fundamental change.",
+      "method": "This is a house-topic interpretation where Jupiter as the archetype of meaning and growth shapes how the domain of transformation and shared power is approached.",
+      "caution": "Do not read this as immunity from loss or as guaranteed inheritance or financial gain. Jupiter in the 8th describes a philosophical orientation toward depth that may also manifest as overconfidence with shared resources.",
+      "constructiveChannel": "The constructive expression is meaningful transformation: the ability to find genuine growth and expanded understanding in life's most significant crises and to share resources with generous integrity."
+    },
+    "advancedRu": {
+      "technical": "8-й дом — поле глубины, трансформации и общих ресурсов. Юпитер в 8-м доме привносит юпитерианский принцип расширения, смысла и веры в арену глубины, кризиса и фундаментального изменения.",
+      "method": "Это интерпретация по теме дома, где Юпитер как архетип смысла и роста формирует то, как подходят к области трансформации и общей власти.",
+      "caution": "Не следует читать это как иммунитет от потери или гарантированное наследство или финансовый выигрыш. Юпитер в 8-м доме описывает философскую ориентацию на глубину, которая также может проявляться как самонадеянность с общими ресурсами.",
+      "constructiveChannel": "Конструктивное выражение — осмысленная трансформация: способность находить подлинный рост и расширенное понимание в наиболее значительных кризисах жизни и делиться ресурсами с щедрой честностью."
+    },
+    "confidence": "medium"
   }
 ]

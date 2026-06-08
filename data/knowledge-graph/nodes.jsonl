@@ -188,3 +188,23 @@
 {"id":"rule-instance.western.jupiter-in-9th-house","type":"rule","label":"Jupiter in 9th house","system":"western","status":"draft"}
 {"id":"rule-instance.western.mercury-in-3rd-house","type":"rule","label":"Mercury in 3rd house","system":"western","status":"draft"}
 {"id":"rule-instance.western.mercury-in-9th-house","type":"rule","label":"Mercury in 9th house","system":"western","status":"draft"}
+{"id": "rule-instance.western.saturn-in-2nd-house", "type": "rule", "label": "Saturn in 2nd House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.moon-in-2nd-house", "type": "rule", "label": "Moon in 2nd House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-in-2nd-house", "type": "rule", "label": "Venus in 2nd House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-in-2nd-house", "type": "rule", "label": "Jupiter in 2nd House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-in-2nd-house", "type": "rule", "label": "Mars in 2nd House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-in-5th-house", "type": "rule", "label": "Saturn in 5th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.moon-in-5th-house", "type": "rule", "label": "Moon in 5th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-in-5th-house", "type": "rule", "label": "Venus in 5th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-in-5th-house", "type": "rule", "label": "Mars in 5th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-in-6th-house", "type": "rule", "label": "Saturn in 6th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.moon-in-6th-house", "type": "rule", "label": "Moon in 6th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-in-6th-house", "type": "rule", "label": "Mercury in 6th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-in-6th-house", "type": "rule", "label": "Mars in 6th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-in-8th-house", "type": "rule", "label": "Saturn in 8th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.moon-in-8th-house", "type": "rule", "label": "Moon in 8th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-in-8th-house", "type": "rule", "label": "Mars in 8th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.pluto-in-8th-house", "type": "rule", "label": "Pluto in 8th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-in-8th-house", "type": "rule", "label": "Jupiter in 8th House", "system": "western", "status": "draft"}
+{"id": "source.sasportas-gods-of-change-v1", "type": "source", "label": "Sasportas - Gods of Change Vol. 1", "system": "western", "status": "active"}
+{"id": "western.planet.pluto", "type": "planet", "label": "Pluto", "system": "western", "status": "active"}
