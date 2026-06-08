@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codex Goroskop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Codex Goroskop</div>
+    <div class="logo-sub">Психологическая астрология</div>
+  </header>
+
+  <main>
+    <!-- Input form -->
+    <section id="form-section" class="card">
+      <h2>Натальная карта</h2>
+      <form id="chart-form">
+        <div class="field-row">
+          <label for="name">Имя</label>
+          <input type="text" id="name" placeholder="Необязательно" />
+        </div>
+        <div class="field-row">
+          <label for="local-date">Дата рождения</label>
+          <input type="date" id="local-date" required />
+        </div>
+        <div class="field-row">
+          <label for="local-time">Время рождения</label>
+          <input type="time" id="local-time" value="12:00" />
+        </div>
+        <div class="field-row">
+          <label for="place">Место рождения</label>
+          <select id="place" required>
+            <option value="">— выберите город —</option>
+          </select>
+        </div>
+        <button type="submit" id="submit-btn">Рассчитать карту</button>
+      </form>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="hidden">
+
+      <!-- Planet positions -->
+      <div class="card">
+        <h2>Планеты <span id="chart-name"></span></h2>
+        <table id="planets-table">
+          <thead>
+            <tr>
+              <th>Планета</th>
+              <th>Знак</th>
+              <th>°</th>
+              <th>Дом</th>
+            </tr>
+          </thead>
+          <tbody id="planets-body"></tbody>
+        </table>
+        <div id="angles-row" class="angles-row"></div>
+      </div>
+
+      <!-- Interpretations -->
+      <div class="card" id="factors-card">
+        <h2>Интерпретации</h2>
+        <div id="factors-list"></div>
+      </div>
+
+      <!-- Vedic -->
+      <div class="card" id="vedic-card">
+        <h2>Ведическая карта (Джйотиш)</h2>
+        <div id="vedic-content"></div>
+      </div>
+
+      <!-- Transits -->
+      <div class="card" id="transits-card">
+        <div class="card-header-row">
+          <h2>Транзиты</h2>
+          <div class="transit-controls">
+            <input type="date" id="transit-date" />
+            <button id="transit-btn">Рассчитать</button>
+          </div>
+        </div>
+        <div id="transits-content"></div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

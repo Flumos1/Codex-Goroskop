@@ -18,10 +18,12 @@
     "verify:references": "node ./tools/verify-reference-charts.cjs --include-candidates",
     "verify:references:strict": "node ./tools/verify-reference-charts.cjs --include-candidates --strict-references",
     "validate": "node ./tools/validate-project.cjs && node ./tools/validate-calculations.cjs && node ./tools/verify-reference-charts.cjs --include-candidates --strict-references",
-    "transits": "node ./tools/calculate-transits.cjs"
+    "transits": "node ./tools/calculate-transits.cjs",
+    "site": "node ./site/server.cjs"
   },
   "dependencies": {
     "astronomy-engine": "^2.1.19",
+    "express": "^5.2.1",
     "pdf-parse": "^1.1.1"
   }
 }

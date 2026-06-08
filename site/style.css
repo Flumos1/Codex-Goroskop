@@ -1,0 +1,310 @@
+:root {
+  --bg: #0f0f14;
+  --surface: #16161e;
+  --border: #2a2a38;
+  --accent: #8b7cf8;
+  --accent-dim: #5c4fd6;
+  --text: #e2e2f0;
+  --text-dim: #8888a8;
+  --gold: #c9a84c;
+  --green: #4caf7d;
+  --red: #e05c6a;
+  --radius: 10px;
+  --font: 'Segoe UI', system-ui, sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+header {
+  padding: 24px 32px 20px;
+  border-bottom: 1px solid var(--border);
+}
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+.logo-sub {
+  font-size: 12px;
+  color: var(--text-dim);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+main {
+  max-width: 860px;
+  margin: 32px auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+
+.card h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 18px;
+  letter-spacing: 0.02em;
+}
+
+.card-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.card-header-row h2 { margin-bottom: 0; }
+
+/* Form */
+.field-row {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.field-row label {
+  color: var(--text-dim);
+  font-size: 13px;
+}
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  padding: 8px 12px;
+  width: 100%;
+  outline: none;
+  transition: border-color 0.15s;
+}
+input:focus, select:focus { border-color: var(--accent); }
+select option { background: var(--surface); }
+
+button {
+  background: var(--accent-dim);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+button:hover { background: var(--accent); }
+button:disabled { opacity: 0.5; cursor: default; }
+
+#submit-btn {
+  margin-top: 8px;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+}
+
+/* Planet table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+th {
+  color: var(--text-dim);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+}
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #1e1e2a;
+}
+tr:last-child td { border-bottom: none; }
+.planet-glyph { font-size: 16px; margin-right: 4px; }
+.sign-badge {
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: #20203a;
+  color: var(--text-dim);
+}
+.house-num {
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.angles-row {
+  display: flex;
+  gap: 16px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+.angle-chip {
+  background: #1c1c2c;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 13px;
+}
+.angle-chip span { color: var(--accent); font-weight: 600; }
+
+/* Factors / interpretations */
+.factor-item {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+.factor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  cursor: pointer;
+  user-select: none;
+  background: #1a1a26;
+  transition: background 0.1s;
+}
+.factor-header:hover { background: #1e1e2e; }
+.factor-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+.factor-type {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+.type-aspect  { background: #2a1f4a; color: #a990ff; }
+.type-house   { background: #1a2d2a; color: #5cc49a; }
+.type-sign    { background: #2d261a; color: #c4a45c; }
+.type-ruler   { background: #2d1a22; color: #e07090; }
+.type-transit { background: #1a2040; color: #7090e0; }
+
+.factor-body {
+  padding: 14px 16px;
+  display: none;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.factor-body.open { display: block; }
+.factor-body p { margin-bottom: 10px; color: var(--text-dim); }
+.factor-body p:last-child { margin-bottom: 0; }
+.factor-body strong { color: var(--text); }
+.factor-body .label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-dim);
+  margin-bottom: 4px;
+}
+
+.phase-badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.phase-exact     { background: #1a3a20; color: #5cdf8a; }
+.phase-applying  { background: #1a2040; color: #7090e0; }
+.phase-separating{ background: #2a2020; color: #a08060; }
+
+/* Vedic */
+.vedic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.vedic-planet {
+  background: #1a1a26;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 13px;
+}
+.vedic-planet .vp-name { font-weight: 600; color: var(--accent); margin-bottom: 4px; }
+.vedic-planet .vp-detail { color: var(--text-dim); font-size: 12px; line-height: 1.5; }
+.dasha-box {
+  background: #1c1c2c;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+.dasha-box strong { color: var(--text); }
+
+/* Transit controls */
+.transit-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.transit-controls input[type="date"] {
+  width: auto;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+.transit-controls button {
+  padding: 6px 16px;
+  font-size: 13px;
+}
+
+/* Transit summary bar */
+.transit-summary {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.transit-stat {
+  font-size: 13px;
+  color: var(--text-dim);
+}
+.transit-stat span { color: var(--text); font-weight: 600; }
+
+/* Utilities */
+.hidden { display: none !important; }
+.loading {
+  color: var(--text-dim);
+  font-size: 14px;
+  padding: 12px 0;
+}
+.error-msg {
+  color: var(--red);
+  font-size: 14px;
+  padding: 10px 0;
+}
