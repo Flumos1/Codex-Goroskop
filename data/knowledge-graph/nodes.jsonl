@@ -974,3 +974,5 @@
 {"id": "vedic-rule.graha-rashi.saturn-in-makara", "type": "rule", "label": "Шани в Козерог", "system": "vedic", "status": "draft"}
 {"id": "vedic-rule.graha-rashi.saturn-in-kumbha", "type": "rule", "label": "Шани в Водолей", "system": "vedic", "status": "draft"}
 {"id": "vedic-rule.graha-rashi.saturn-in-meena", "type": "rule", "label": "Шани в Рыбы", "system": "vedic", "status": "draft"}
+{"id": "source.narasimha-rao-vedic-integrated", "type": "source", "label": "Нарасимха Рао — Интегральный подход к Ведической астрологии", "system": "vedic", "status": "active"}
+{"id": "source.agarwal-vedic-v2", "type": "source", "label": "Агарвал — Ведическая астрология Том 2", "system": "vedic", "status": "active"}

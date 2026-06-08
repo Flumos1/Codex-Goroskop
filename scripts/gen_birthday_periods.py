@@ -297,8 +297,11 @@ for month in range(1, 13):
             'sourceIds': ['source.goldschneider-secret-language-birthdays'],
             'themes': [sign.lower().split('-')[0], title_en.lower().replace(' ', '-')],
             'simple': {
-                'period': title_en,
+                'summary': f'Birthday period: {title_en}. {growth_en}',
+                'pattern': f'Those born in {title_en} express the archetypal qualities of {sign}: {growth_en}',
                 'growth': growth_en,
+                'reflection': f'How does the quality of {title_en} shape your path of growth?',
+                'period': title_en,
             },
             'simpleRu': {
                 'period': title_ru,
@@ -306,6 +309,12 @@ for month in range(1, 13):
                 'strengths': strengths_ru,
                 'weaknesses': weaknesses_ru,
                 'advice': advice_ru,
+            },
+            'advanced': {
+                'technical': f'Birthday period {pnum}: {title_en} ({sign}). Source: Goldschneider "Secret Language of Birthdays".',
+                'method': 'Birthday-personology (Goldschneider primary wave): day of birth maps to one of 48 personality periods, each with characteristic strengths, challenges, and growth direction.',
+                'caution': 'This is a period-level portrait covering ~7 days. Individual variation within the period is significant. Status: draft pending source-text verification.',
+                'constructiveChannel': f'Channel the characteristic energy of {title_en} toward growth: {growth_en}',
             },
             'confidence': 'draft',
             'status': 'pending-source-verification',
