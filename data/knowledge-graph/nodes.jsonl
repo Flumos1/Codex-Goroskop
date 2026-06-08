@@ -343,3 +343,6 @@
 {"id": "rule-instance.western.pluto-in-10th-house", "type": "rule", "label": "Pluto in 10th House", "system": "western", "status": "draft"}
 {"id": "rule-instance.western.pluto-in-11th-house", "type": "rule", "label": "Pluto in 11th House", "system": "western", "status": "draft"}
 {"id": "rule-instance.western.pluto-in-12th-house", "type": "rule", "label": "Pluto in 12th House", "system": "western", "status": "draft"}
+{"id": "source.agafonov-school-urania", "type": "source", "label": "Agafonov - School Urania Course Set", "system": "western", "status": "active"}
+{"id": "source.semira-vetash-symbolic", "type": "source", "label": "Semira & Vetash - Symbolic Astrology Set", "system": "western", "status": "active"}
+{"id": "source.levin-school-set", "type": "source", "label": "Levin - Astrology School Lectures Set", "system": "western", "status": "active"}
