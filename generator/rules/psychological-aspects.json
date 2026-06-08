@@ -672,5 +672,635 @@
       "constructiveChannel": "Конструктивное выражение — зрелая любовь: привязанность, способная выдержать время, обязательства и реальное давление жизни, не теряя своей фундаментальной теплоты."
     },
     "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-conjunct-uranus",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Sun", "aspect": "conjunction", "planetB": "Uranus" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["authentic identity", "originality", "independence", "awakening", "refusal of false roles"],
+    "themesRu": ["аутентичная идентичность", "оригинальность", "независимость", "пробуждение", "отказ от ложных ролей"],
+    "simple": {
+      "summary": "Your sense of who you are may be naturally original, independent, and resistant to being defined by others — a genuine drive to be authentically yourself rather than what is conventionally expected.",
+      "pattern": "You may feel most alive when expressing something genuinely your own, and most constrained when required to fit into a role that does not reflect your authentic nature.",
+      "growth": "The growth task is to channel this strong drive for authenticity into building something lasting — so that originality becomes creative contribution rather than perpetual disruption.",
+      "reflection": "Where does your need to be genuinely yourself serve real freedom, and where does it resist structure that could actually support you?"
+    },
+    "simpleRu": {
+      "summary": "Ваше ощущение того, кто вы есть, может быть естественно оригинальным, независимым и устойчивым к определению другими — подлинное стремление быть аутентично собой, а не соответствовать ожиданиям.",
+      "pattern": "Вы можете чувствовать себя наиболее живым, выражая что-то подлинно своё, и наиболее стеснённым, когда требуется вписаться в роль, не отражающую вашу аутентичную природу.",
+      "growth": "Задача роста — направить это сильное стремление к аутентичности в построение чего-то прочного, чтобы оригинальность становилась творческим вкладом, а не постоянным разрушением.",
+      "reflection": "Где ваша потребность быть подлинно собой служит реальной свободе, а где сопротивляется структуре, которая могла бы вас поддержать?"
+    },
+    "advanced": {
+      "technical": "Sun conjunct Uranus merges the solar principle of identity and conscious selfhood with the Uranian principle of awakening, liberation, and radical authenticity.",
+      "method": "This is read as an inner statement: identity itself is shaped by the Uranian drive for genuine autonomy and the refusal to be permanently defined by social expectation.",
+      "caution": "Do not frame this as guaranteed eccentricity, unstable identity, or inability to commit. Sun-Uranus conjunction describes a powerful orientation toward authentic self-expression.",
+      "constructiveChannel": "The constructive expression is inspired individuality: a selfhood so genuinely original that it contributes something new to the world rather than merely rejecting what already exists."
+    },
+    "advancedRu": {
+      "technical": "Соединение Солнца и Урана сливает солнечный принцип идентичности и сознательного «я» с уранианским принципом пробуждения, освобождения и радикальной аутентичности.",
+      "method": "Это читается как внутреннее утверждение: сама идентичность сформирована уранианским стремлением к подлинной автономии и отказом быть постоянно определённым социальными ожиданиями.",
+      "caution": "Не следует формулировать это как гарантированную эксцентричность, нестабильную идентичность или неспособность к обязательствам. Соединение Солнца-Урана описывает мощную ориентацию на аутентичное самовыражение.",
+      "constructiveChannel": "Конструктивное выражение — вдохновлённая индивидуальность: «я», настолько подлинно оригинальное, что вносит что-то новое в мир, а не просто отвергает то, что уже существует."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-square-uranus",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Sun", "aspect": "square", "planetB": "Uranus" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["authenticity vs. conformity", "disruption", "identity tension", "rebellion", "awakening through conflict"],
+    "themesRu": ["аутентичность против конформизма", "разрушение", "напряжение идентичности", "бунт", "пробуждение через конфликт"],
+    "simple": {
+      "summary": "There may be a recurring tension between who others expect you to be and who you genuinely need to be — a pressure that can feel like either disruption or necessary awakening.",
+      "pattern": "You may find yourself in situations where expressing your authentic nature comes into conflict with established roles, institutions, or the expectations of those close to you.",
+      "growth": "The growth task is to distinguish between the disruption that serves genuine authenticity and the disruption that is simply reactive — and to find ways to build as well as break.",
+      "reflection": "Where does the tension between your authentic self and what is expected of you feel most alive, and what does it ask you to do?"
+    },
+    "simpleRu": {
+      "summary": "Может существовать повторяющееся напряжение между тем, кем вас ожидают видеть другие, и тем, кем вам действительно нужно быть — давление, которое может ощущаться как разрушение или необходимое пробуждение.",
+      "pattern": "Вы можете оказываться в ситуациях, где выражение вашей аутентичной природы вступает в конфликт с установленными ролями, институтами или ожиданиями близких вам людей.",
+      "growth": "Задача роста — различить разрушение, служащее подлинной аутентичности, и разрушение, которое просто реактивно, — и найти способы строить, а не только разрушать.",
+      "reflection": "Где напряжение между вашим аутентичным «я» и тем, чего от вас ожидают, ощущается наиболее живым, и что оно просит вас делать?"
+    },
+    "advanced": {
+      "technical": "Sun square Uranus creates developmental tension between the solar principle of conscious identity and role, and the Uranian principle of liberation, disruption, and radical authenticity.",
+      "method": "The square is read as an inner conflict requiring resolution: the demand to be genuinely oneself and the demand to function within existing structures cannot both be satisfied simultaneously without conscious work.",
+      "caution": "Do not frame this as guaranteed instability or social alienation. Sun-Uranus square describes a creative developmental tension that can produce genuine originality when worked with consciously.",
+      "constructiveChannel": "The constructive expression is authentic innovation: the ability to bring genuinely new thinking and action into existing structures without destroying everything in the process."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Солнца и Урана создаёт напряжение развития между солнечным принципом сознательной идентичности и роли и уранианским принципом освобождения, разрушения и радикальной аутентичности.",
+      "method": "Квадрат читается как внутренний конфликт, требующий разрешения: требование быть подлинно собой и требование функционировать в существующих структурах не могут быть удовлетворены одновременно без сознательной работы.",
+      "caution": "Не следует формулировать это как гарантированную нестабильность или социальное отчуждение. Квадрат Солнца-Урана описывает творческое напряжение развития, которое может производить подлинную оригинальность при сознательной работе с ним.",
+      "constructiveChannel": "Конструктивное выражение — аутентичная инновация: способность привносить подлинно новое мышление и действие в существующие структуры, не разрушая при этом всего."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-trine-uranus",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Sun", "aspect": "trine", "planetB": "Uranus" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["natural originality", "creative freedom", "visionary quality", "easy authenticity", "innovative expression"],
+    "themesRu": ["природная оригинальность", "творческая свобода", "визионерское качество", "лёгкая аутентичность", "инновационное выражение"],
+    "simple": {
+      "summary": "Your sense of self and how you express it may be naturally original, forward-thinking, and able to move with change rather than against it.",
+      "pattern": "You may find it relatively natural to be your authentic self in most situations, and may have a gift for seeing what is new and bringing creative or unusual perspectives to whatever you engage with.",
+      "growth": "The growth task is to ensure that this natural ease with authenticity and change includes commitment and follow-through, so that originality builds something lasting rather than remaining perpetually open-ended.",
+      "reflection": "Where does your natural ease with being different and forward-thinking most serve those around you?"
+    },
+    "simpleRu": {
+      "summary": "Ваше ощущение себя и то, как вы его выражаете, может быть естественно оригинальным, ориентированным на будущее и способным двигаться вместе с изменениями, а не против них.",
+      "pattern": "Вам может быть относительно естественно быть аутентично собой в большинстве ситуаций, и у вас может быть дар видеть новое и привносить творческие или необычные перспективы в то, чем вы занимаетесь.",
+      "growth": "Задача роста — убедиться, что эта природная лёгкость с аутентичностью и изменениями включает приверженность и доведение до конца, чтобы оригинальность строила нечто долговечное, а не оставалась бесконечно открытой.",
+      "reflection": "Где ваша природная лёгкость с отличием и ориентацией на будущее наиболее служит окружающим вас людям?"
+    },
+    "advanced": {
+      "technical": "Sun trine Uranus creates a naturally flowing connection between the solar principle of identity and conscious selfhood and the Uranian principle of authenticity, innovation, and liberation.",
+      "method": "The trine is read as a resource: the Uranian qualities of originality and genuine autonomy are accessible without the intense developmental pressure of the square.",
+      "caution": "Do not read this as guaranteed creative genius or social ease in all contexts. The trine describes natural access to Uranian qualities, which still requires conscious development.",
+      "constructiveChannel": "The constructive expression is genuinely original contribution: the ability to bring authentic, forward-thinking perspective to whatever domain the person engages with most deeply."
+    },
+    "advancedRu": {
+      "technical": "Трин Солнца и Урана создаёт природно текущую связь между солнечным принципом идентичности и сознательного «я» и уранианским принципом аутентичности, инновации и освобождения.",
+      "method": "Трин читается как ресурс: уранианские качества оригинальности и подлинной автономии доступны без интенсивного давления развития квадрата.",
+      "caution": "Не следует читать это как гарантированный творческий гений или социальную лёгкость во всех контекстах. Трин описывает природный доступ к уранианским качествам, которые всё же требуют сознательного развития.",
+      "constructiveChannel": "Конструктивное выражение — подлинно оригинальный вклад: способность привносить аутентичную, ориентированную на будущее перспективу в ту область, которой человек занимается наиболее глубоко."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-square-uranus",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Moon", "aspect": "square", "planetB": "Uranus" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["emotional independence", "security vs. freedom", "sudden emotional shifts", "restlessness", "resistance to dependency"],
+    "themesRu": ["эмоциональная независимость", "безопасность против свободы", "внезапные эмоциональные сдвиги", "беспокойство", "сопротивление зависимости"],
+    "simple": {
+      "summary": "Emotional security and personal freedom may feel like they pull in opposite directions — a tension between the deep need to belong and the equally deep need to remain genuinely free.",
+      "pattern": "You may find emotional closeness uncomfortable when it feels like it requires giving up your autonomy, or suddenly need distance when intimacy has grown very close.",
+      "growth": "The growth task is to discover that genuine emotional security does not require giving up freedom, and that emotional freedom does not require giving up warmth and belonging.",
+      "reflection": "Where do you create sudden distance when closeness feels like it is asking too much of your independence?"
+    },
+    "simpleRu": {
+      "summary": "Эмоциональная безопасность и личная свобода могут ощущаться тянущими в противоположных направлениях — напряжение между глубокой потребностью принадлежать и столь же глубокой потребностью оставаться подлинно свободным.",
+      "pattern": "Вам может быть неудобна эмоциональная близость, когда она ощущается как требующая отказа от вашей автономии, или вы можете внезапно нуждаться в дистанции, когда близость стала очень тесной.",
+      "growth": "Задача роста — обнаружить, что подлинная эмоциональная безопасность не требует отказа от свободы, а эмоциональная свобода не требует отказа от тепла и принадлежности.",
+      "reflection": "Где вы создаёте внезапную дистанцию, когда близость ощущается как требующая слишком многого от вашей независимости?"
+    },
+    "advanced": {
+      "technical": "Moon square Uranus creates developmental tension between the lunar principle of emotional security, belonging, and continuity and the Uranian principle of liberation, disruption, and radical independence.",
+      "method": "The square is read as an inner conflict: the need for emotional safety and the need for genuine freedom cannot both be satisfied without awareness of how each undermines the other when unconscious.",
+      "caution": "Do not read this as guaranteed emotional instability or inability to form lasting bonds. Moon-Uranus square describes a developmental tension that, when worked with consciously, produces genuine emotional freedom.",
+      "constructiveChannel": "The constructive expression is emotionally free intimacy: the ability to be genuinely close while maintaining authentic independence — relating from real choice rather than fear or compulsion."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Луны и Урана создаёт напряжение развития между лунным принципом эмоциональной безопасности, принадлежности и непрерывности и уранианским принципом освобождения, разрушения и радикальной независимости.",
+      "method": "Квадрат читается как внутренний конфликт: потребность в эмоциональной безопасности и потребность в подлинной свободе не могут быть удовлетворены обе без осознания того, как каждая подрывает другую, когда бессознательна.",
+      "caution": "Не следует читать это как гарантированную эмоциональную нестабильность или неспособность строить прочные связи. Квадрат Луны-Урана описывает напряжение развития, которое при сознательной работе с ним производит подлинную эмоциональную свободу.",
+      "constructiveChannel": "Конструктивное выражение — эмоционально свободная близость: способность быть подлинно близким, сохраняя аутентичную независимость — выстраивать отношения из реального выбора, а не из страха или компульсии."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-opposite-uranus",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Moon", "aspect": "opposition", "planetB": "Uranus" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["emotional freedom", "disruption of security patterns", "polarity of need and autonomy", "awakening in feeling life"],
+    "themesRu": ["эмоциональная свобода", "разрушение паттернов безопасности", "полярность потребности и автономии", "пробуждение в чувственной жизни"],
+    "simple": {
+      "summary": "Emotional security and genuine personal freedom may feel like they belong to different people — a recurring polarity between the pull of attachment and the pull of independence.",
+      "pattern": "You may encounter the need for emotional independence through others — people who trigger your need for space or who themselves seem to embody the freedom you seek.",
+      "growth": "The growth task is to integrate both poles: to find a way of being emotionally present that does not require either giving up your freedom or disrupting every close bond.",
+      "reflection": "Where does the pull toward emotional freedom arrive as disruption, and where does it arrive as genuine liberation?"
+    },
+    "simpleRu": {
+      "summary": "Эмоциональная безопасность и подлинная личная свобода могут ощущаться принадлежащими разным людям — повторяющаяся полярность между притяжением привязанности и притяжением независимости.",
+      "pattern": "Вы можете встречать потребность в эмоциональной независимости через других людей — тех, кто вызывает вашу потребность в пространстве или кто сам, кажется, воплощает свободу, которую вы ищете.",
+      "growth": "Задача роста — интегрировать оба полюса: найти способ эмоционального присутствия, не требующего ни отказа от свободы, ни разрушения каждой близкой связи.",
+      "reflection": "Где притяжение к эмоциональной свободе приходит как разрушение, а где — как подлинное освобождение?"
+    },
+    "advanced": {
+      "technical": "Moon opposite Uranus places the lunar principle of emotional security, attachment, and belonging in direct polarity with the Uranian principle of liberation, disruption, and independence.",
+      "method": "The opposition is read as a polarity requiring integration: both the need for emotional security and the need for genuine freedom are real and neither can be permanently suppressed without the other erupting.",
+      "caution": "Do not read this as guaranteed relational instability or the inability to form lasting bonds. The opposition describes a polarity that can be consciously navigated once both poles are acknowledged.",
+      "constructiveChannel": "The constructive expression is free-standing emotional maturity: the capacity to connect deeply without requiring that connection to restrict genuine freedom, on either side."
+    },
+    "advancedRu": {
+      "technical": "Оппозиция Луны и Урана ставит лунный принцип эмоциональной безопасности, привязанности и принадлежности в прямую полярность с уранианским принципом освобождения, разрушения и независимости.",
+      "method": "Оппозиция читается как полярность, требующая интеграции: и потребность в эмоциональной безопасности, и потребность в подлинной свободе реальны, и ни одну нельзя постоянно подавлять, чтобы другая не вырвалась наружу.",
+      "caution": "Не следует читать это как гарантированную нестабильность отношений или неспособность строить прочные связи. Оппозиция описывает полярность, с которой можно сознательно работать, как только оба полюса признаны.",
+      "constructiveChannel": "Конструктивное выражение — самостоятельная эмоциональная зрелость: способность соединяться глубоко, не требуя, чтобы эта связь ограничивала подлинную свободу — с обеих сторон."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-square-uranus",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Saturn", "aspect": "square", "planetB": "Uranus" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["structure vs. liberation", "tradition vs. change", "responsibility vs. freedom", "generational tension", "breaking and building"],
+    "themesRu": ["структура против освобождения", "традиция против изменения", "ответственность против свободы", "поколенческое напряжение", "разрушение и построение"],
+    "simple": {
+      "summary": "You may feel a recurring tension between the need to build something lasting and stable, and the equally strong drive to break free of what has become too fixed or confining.",
+      "pattern": "You may find yourself caught between the need to honor existing structure — in work, society, or inner discipline — and the pressure to disrupt what no longer serves genuine life.",
+      "growth": "The growth task is to find the places where structure can support genuine freedom, and where freedom can ultimately produce something enduring rather than just breaking what came before.",
+      "reflection": "What structure in your life most needs renewal, and what does genuine renewal look like as distinct from simple rebellion?"
+    },
+    "simpleRu": {
+      "summary": "Вы можете ощущать повторяющееся напряжение между потребностью строить нечто прочное и стабильное и столь же сильным стремлением вырваться из того, что стало слишком фиксированным или ограничивающим.",
+      "pattern": "Вы можете оказываться в ситуации между потребностью уважать существующую структуру — в работе, обществе или внутренней дисциплине — и давлением разрушить то, что больше не служит подлинной жизни.",
+      "growth": "Задача роста — найти места, где структура может поддерживать подлинную свободу, а свобода может в конечном итоге производить нечто долговечное, а не просто разрушать то, что было прежде.",
+      "reflection": "Какая структура в вашей жизни больше всего нуждается в обновлении, и как выглядит подлинное обновление в отличие от простого бунта?"
+    },
+    "advanced": {
+      "technical": "Saturn square Uranus creates developmental tension between the Saturnian principle of structure, discipline, limit, and responsibility and the Uranian principle of liberation, disruption, and radical change.",
+      "method": "This is the core archetypal dilemma: what has been built by Saturn must eventually be disrupted by Uranus, but premature disruption destroys what is still genuinely needed.",
+      "caution": "Do not read this as guaranteed professional upheaval or social alienation. Saturn-Uranus square describes a generational and personal developmental tension that asks for wisdom about when to hold and when to release.",
+      "constructiveChannel": "The constructive expression is revolutionary discipline: the ability to change what genuinely must change while preserving what is actually worth keeping — evolution rather than mere rebellion."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Сатурна и Урана создаёт напряжение развития между сатурнианским принципом структуры, дисциплины, предела и ответственности и уранианским принципом освобождения, разрушения и радикального изменения.",
+      "method": "Это ключевая архетипическая дилемма: то, что было построено Сатурном, в конечном счёте должно быть нарушено Ураном, но преждевременное разрушение уничтожает то, что всё ещё подлинно необходимо.",
+      "caution": "Не следует читать это как гарантированные профессиональные потрясения или социальное отчуждение. Квадрат Сатурна-Урана описывает поколенческое и личное напряжение развития, требующее мудрости о том, когда держаться, а когда отпускать.",
+      "constructiveChannel": "Конструктивное выражение — революционная дисциплина: способность менять то, что действительно должно измениться, сохраняя то, что на самом деле стоит сохранить, — эволюция, а не просто бунт."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-trine-neptune",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Sun", "aspect": "trine", "planetB": "Neptune" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["spiritual identity", "creative imagination", "compassion", "idealism", "inspired selfhood"],
+    "themesRu": ["духовная идентичность", "творческое воображение", "сострадание", "идеализм", "вдохновлённое «я»"],
+    "simple": {
+      "summary": "Your sense of who you are may carry a natural openness to something larger — a spiritual or creative dimension that gives your identity a quality of imagination, compassion, or inspired purpose.",
+      "pattern": "You may find that your most genuine sense of self comes through creative work, compassionate engagement, or moments of transcendence rather than through clearly defined roles and achievements.",
+      "growth": "The growth task is to ground this beautiful openness in enough practical structure so that inspiration becomes contribution rather than remaining in the realm of the ideal or unfinished.",
+      "reflection": "Where does your connection to something larger than the personal give your life its deepest sense of purpose?"
+    },
+    "simpleRu": {
+      "summary": "Ваше ощущение того, кто вы есть, может нести природную открытость к чему-то большему — духовное или творческое измерение, придающее вашей идентичности качество воображения, сострадания или вдохновлённой цели.",
+      "pattern": "Вы можете обнаруживать, что ваше наиболее подлинное ощущение себя приходит через творческую работу, сострадательное вовлечение или моменты трансцендентности, а не через чётко определённые роли и достижения.",
+      "growth": "Задача роста — заземлить эту прекрасную открытость в достаточной практической структуре, чтобы вдохновение становилось вкладом, а не оставалось в сфере идеального или незавершённого.",
+      "reflection": "Где ваша связь с чем-то большим, чем личное, даёт вашей жизни наиболее глубокое ощущение цели?"
+    },
+    "advanced": {
+      "technical": "Sun trine Neptune creates a naturally flowing connection between the solar principle of conscious identity and the Neptunian principle of dissolution, imagination, and transcendence.",
+      "method": "The trine is read as a resource: the Neptunian qualities of spiritual sensitivity and creative imagination are accessible without the confusing pressure of the opposition or square.",
+      "caution": "Do not read this as guaranteed spiritual realization or artistic talent. It describes a natural orientation toward inspired, compassionate selfhood that requires grounding to become effective.",
+      "constructiveChannel": "The constructive expression is inspired service: an identity that draws from imagination, compassion, and spiritual insight to contribute something genuinely meaningful to others."
+    },
+    "advancedRu": {
+      "technical": "Трин Солнца и Нептуна создаёт природно текущую связь между солнечным принципом сознательной идентичности и нептунианским принципом растворения, воображения и трансцендентности.",
+      "method": "Трин читается как ресурс: нептунианские качества духовной чуткости и творческого воображения доступны без сбивающего с толку давления оппозиции или квадрата.",
+      "caution": "Не следует читать это как гарантированную духовную реализацию или художественный талант. Это описывает природную ориентацию на вдохновлённое, сострадательное «я», требующее заземления для эффективности.",
+      "constructiveChannel": "Конструктивное выражение — вдохновлённое служение: идентичность, черпающая из воображения, сострадания и духовного понимания, чтобы вносить нечто подлинно значимое для других."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-conjunct-neptune",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Venus", "aspect": "conjunction", "planetB": "Neptune" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["idealized love", "longing for transcendent union", "romantic imagination", "dissolution in relationship", "inspired beauty"],
+    "themesRu": ["идеализированная любовь", "тоска по трансцендентному союзу", "романтическое воображение", "растворение в отношениях", "вдохновлённая красота"],
+    "simple": {
+      "summary": "In love and beauty, you may carry a deep longing for something that transcends the ordinary — an image of connection or union that feels larger than what everyday life can fully contain.",
+      "pattern": "You may idealize those you love, project a quality of magic onto romantic relationships, or be drawn to love that carries a quality of yearning, inspiration, or artistic beauty.",
+      "growth": "The growth task is to hold the genuine beauty of this longing while also allowing real people and real relationships to be imperfect and still worthy of love.",
+      "reflection": "Where does your longing for transcendent love prevent you from receiving the genuine love that is actually being offered?"
+    },
+    "simpleRu": {
+      "summary": "В любви и красоте вы можете нести глубокую тоску по чему-то, превосходящему обычное — образу связи или единства, ощущающихся большими, чем повседневная жизнь может вполне вместить.",
+      "pattern": "Вы можете идеализировать тех, кого любите, проецировать качество магии на романтические отношения или быть притянуты к любви, несущей качество тоски, вдохновения или художественной красоты.",
+      "growth": "Задача роста — удерживать подлинную красоту этой тоски, одновременно позволяя реальным людям и реальным отношениям быть несовершенными и всё же достойными любви.",
+      "reflection": "Где ваша тоска по трансцендентной любви мешает вам получать подлинную любовь, которая на самом деле предлагается?"
+    },
+    "advanced": {
+      "technical": "Venus conjunct Neptune merges the Venusian principle of love, beauty, and relational value with the Neptunian principle of dissolution, longing, and transcendence.",
+      "method": "This is read as an inner statement: the experience of love and beauty carries a quality of the ideal or transcendent — a longing for union that goes beyond ordinary human connection.",
+      "caution": "Do not predict romantic deception, addiction to unattainable love, or guaranteed disappointment. Venus-Neptune conjunction describes a beautiful but challenging orientation toward love that requires conscious grounding.",
+      "constructiveChannel": "The constructive expression is inspired loving: the ability to bring genuine beauty, compassion, and spiritual openness into relationship — love that serves something larger than the personal."
+    },
+    "advancedRu": {
+      "technical": "Соединение Венеры и Нептуна сливает венерианский принцип любви, красоты и реляционной ценности с нептунианским принципом растворения, тоски и трансцендентности.",
+      "method": "Это читается как внутреннее утверждение: переживание любви и красоты несёт качество идеального или трансцендентного — тоска по союзу, выходящему за пределы обычной человеческой связи.",
+      "caution": "Не предсказывайте романтический обман, зависимость от недостижимой любви или гарантированное разочарование. Соединение Венеры-Нептуна описывает прекрасную, но сложную ориентацию на любовь, требующую сознательного заземления.",
+      "constructiveChannel": "Конструктивное выражение — вдохновлённая любовь: способность привносить подлинную красоту, сострадание и духовную открытость в отношения — любовь, служащую чему-то большему, чем личное."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-square-neptune",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Venus", "aspect": "square", "planetB": "Neptune" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["longing vs. reality in love", "idealization and disappointment", "compassion", "blurred boundaries", "sacrifice in love"],
+    "themesRu": ["тоска против реальности в любви", "идеализация и разочарование", "сострадание", "размытые границы", "жертва в любви"],
+    "simple": {
+      "summary": "In love, there may be a tension between the longing for something ideal or transcendent and the reality of what ordinary human relationships can actually provide.",
+      "pattern": "You may find yourself drawn to people or relationships that feel impossibly beautiful at the start, only to encounter disappointment when reality emerges — or you may give more than is genuinely reciprocated.",
+      "growth": "The growth task is to honor the genuine longing for deep love while learning to recognize real love when it is present, even in its imperfect and ordinary human form.",
+      "reflection": "Where does longing for the perfect prevent you from fully receiving and appreciating what is genuinely good in the love that is actually present?"
+    },
+    "simpleRu": {
+      "summary": "В любви может существовать напряжение между тоской по чему-то идеальному или трансцендентному и реальностью того, что обычные человеческие отношения могут фактически обеспечить.",
+      "pattern": "Вас может тянуть к людям или отношениям, ощущающимся невозможно прекрасными в начале, чтобы затем встретить разочарование, когда появляется реальность, — или вы можете отдавать больше, чем искренне получать в ответ.",
+      "growth": "Задача роста — уважать подлинную тоску по глубокой любви, учась при этом распознавать реальную любовь, когда она присутствует, даже в её несовершенной и обыденной человеческой форме.",
+      "reflection": "Где тоска по совершенному мешает вам полностью получать и ценить то, что подлинно хорошо в любви, которая действительно присутствует?"
+    },
+    "advanced": {
+      "technical": "Venus square Neptune creates developmental tension between the Venusian principle of love, beauty, and relational value and the Neptunian principle of dissolution, longing, and the ideal.",
+      "method": "The square is read as an inner conflict: the longing for transcendent love and the reality of ordinary human relationship cannot both be satisfied simultaneously without the conscious work of releasing idealization.",
+      "caution": "Do not predict guaranteed romantic deception or inability to sustain love. Venus-Neptune square describes a developmental challenge around idealization that, when worked with consciously, produces deep compassion.",
+      "constructiveChannel": "The constructive expression is compassionate realism: the ability to love with genuine openness and sensitivity while remaining grounded in what real human beings can actually offer and receive."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Венеры и Нептуна создаёт напряжение развития между венерианским принципом любви, красоты и реляционной ценности и нептунианским принципом растворения, тоски и идеального.",
+      "method": "Квадрат читается как внутренний конфликт: тоска по трансцендентной любви и реальность обычных человеческих отношений не могут быть удовлетворены одновременно без сознательной работы по освобождению от идеализации.",
+      "caution": "Не предсказывайте гарантированный романтический обман или неспособность поддерживать любовь. Квадрат Венеры-Нептуна описывает задачу развития вокруг идеализации, которая при сознательной работе производит глубокое сострадание.",
+      "constructiveChannel": "Конструктивное выражение — сострадательный реализм: способность любить с подлинной открытостью и чуткостью, оставаясь при этом заземлённым в том, что реальные люди могут фактически предложить и получить."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-trine-neptune",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Venus", "aspect": "trine", "planetB": "Neptune" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["inspired love", "artistic grace", "compassionate relating", "transcendent beauty", "natural sensitivity"],
+    "themesRu": ["вдохновлённая любовь", "художественная грация", "сострадательные отношения", "трансцендентная красота", "природная чуткость"],
+    "simple": {
+      "summary": "Love and beauty may carry a natural quality of grace, inspiration, and genuine sensitivity — an ability to see and create beauty in relationships and art that touches something larger than the everyday.",
+      "pattern": "You may be naturally drawn to beauty in all its forms and may love with an openness and tenderness that can create genuinely beautiful and inspired connections.",
+      "growth": "The growth task is to ensure that this natural grace in love includes enough groundedness that the beauty remains real and lasting rather than remaining in the realm of the imagined or ideal.",
+      "reflection": "Where does your natural sensitivity to beauty enrich your relationships and your creative life most deeply?"
+    },
+    "simpleRu": {
+      "summary": "Любовь и красота могут нести природное качество грации, вдохновения и подлинной чуткости — способность видеть и создавать красоту в отношениях и искусстве, касающуюся чего-то большего, чем повседневное.",
+      "pattern": "Вас может естественно тянуть к красоте во всех её формах, и вы можете любить с открытостью и нежностью, способными создавать подлинно прекрасные и вдохновлённые связи.",
+      "growth": "Задача роста — убедиться, что эта природная грация в любви включает достаточную заземлённость, чтобы красота оставалась реальной и долговечной, а не оставалась в сфере воображаемого или идеального.",
+      "reflection": "Где ваша природная чуткость к красоте наиболее глубоко обогащает ваши отношения и вашу творческую жизнь?"
+    },
+    "advanced": {
+      "technical": "Venus trine Neptune creates a naturally flowing connection between the Venusian principle of love, beauty, and relational value and the Neptunian principle of dissolution, imagination, and transcendence.",
+      "method": "The trine is read as a resource: Neptunian qualities of inspired sensitivity and compassionate relating are accessible in the relational domain without the intense developmental pressure of the square.",
+      "caution": "Do not read this as guaranteed artistic success or perfectly harmonious relationships. Venus-Neptune trine describes a natural orientation toward inspired, sensitive love that still requires grounding to be sustainable.",
+      "constructiveChannel": "The constructive expression is grace in relating: the ability to bring genuine beauty, compassion, and imaginative sensitivity to love and creative work in ways that inspire and sustain those around you."
+    },
+    "advancedRu": {
+      "technical": "Трин Венеры и Нептуна создаёт природно текущую связь между венерианским принципом любви, красоты и реляционной ценности и нептунианским принципом растворения, воображения и трансцендентности.",
+      "method": "Трин читается как ресурс: нептунианские качества вдохновлённой чуткости и сострадательных отношений доступны в реляционной области без интенсивного давления развития квадрата.",
+      "caution": "Не следует читать это как гарантированный художественный успех или идеально гармоничные отношения. Трин Венеры-Нептуна описывает природную ориентацию на вдохновлённую, чуткую любовь, всё же требующую заземления для устойчивости.",
+      "constructiveChannel": "Конструктивное выражение — грация в отношениях: способность привносить подлинную красоту, сострадание и воображательную чуткость в любовь и творческую работу способами, которые вдохновляют и поддерживают окружающих."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-conjunct-pluto",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Sun", "aspect": "conjunction", "planetB": "Pluto" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["depth in identity", "power in self", "transformation of ego", "authentic authority", "regeneration through self"],
+    "themesRu": ["глубина в идентичности", "власть в «я»", "трансформация эго", "аутентичный авторитет", "возрождение через «я»"],
+    "simple": {
+      "summary": "Your sense of who you are may be shaped by an ongoing process of deep transformation — a recurring encounter with what is most fundamental, intense, and genuinely powerful in yourself.",
+      "pattern": "You may feel most yourself when engaging with something at depth, have a natural instinct for what lies beneath the surface, and experience life as requiring periodic fundamental reinvention.",
+      "growth": "The growth task is to use the genuine power in your identity for transformation rather than for control, and to allow the self to be changed by life as much as it changes life.",
+      "reflection": "Where does your depth and intensity serve genuine regeneration, and where does it become pressure that is difficult for you or others to sustain?"
+    },
+    "simpleRu": {
+      "summary": "Ваше ощущение того, кто вы есть, может быть сформировано продолжающимся процессом глубокой трансформации — повторяющейся встречей с тем, что наиболее фундаментально, интенсивно и подлинно мощно в вас самом.",
+      "pattern": "Вы можете чувствовать себя наиболее собой, когда вовлекаетесь во что-то на уровне глубины, иметь природный инстинкт того, что лежит под поверхностью, и переживать жизнь как требующую периодического фундаментального переизобретения.",
+      "growth": "Задача роста — использовать подлинную власть в вашей идентичности для трансформации, а не для контроля, и позволять «я» быть изменённым жизнью так же, как оно изменяет жизнь.",
+      "reflection": "Где ваша глубина и интенсивность служат подлинному возрождению, а где становятся давлением, которое трудно поддерживать вам или другим?"
+    },
+    "advanced": {
+      "technical": "Sun conjunct Pluto merges the solar principle of conscious identity and selfhood with the Plutonian principle of depth, transformation, power, and shadow integration.",
+      "method": "This is read as an inner statement: the experience of identity is inseparable from depth, transformation, and the encounter with what is most powerful and most buried in the psyche.",
+      "caution": "Do not read this as a prediction of trauma, compulsive behavior, or dangerous intensity. Sun-Pluto conjunction describes a powerful orientation toward depth and transformation in the construction of self.",
+      "constructiveChannel": "The constructive expression is authentic power: an identity built from genuine depth and the willingness to be fundamentally transformed by life — producing a self that is real, enduring, and genuinely strong."
+    },
+    "advancedRu": {
+      "technical": "Соединение Солнца и Плутона сливает солнечный принцип сознательной идентичности и «я» с плутонианским принципом глубины, трансформации, власти и интеграции тени.",
+      "method": "Это читается как внутреннее утверждение: переживание идентичности неотделимо от глубины, трансформации и встречи с тем, что наиболее мощно и наиболее погребено в психике.",
+      "caution": "Не следует читать это как предсказание травмы, компульсивного поведения или опасной интенсивности. Соединение Солнца-Плутона описывает мощную ориентацию на глубину и трансформацию в построении «я».",
+      "constructiveChannel": "Конструктивное выражение — аутентичная власть: идентичность, построенная из подлинной глубины и готовности быть фундаментально изменённым жизнью — производящая «я», которое реально, долговечно и подлинно сильно."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-square-pluto",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Sun", "aspect": "square", "planetB": "Pluto" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["identity under pressure", "transformation of self", "power struggles in identity", "confronting shadow", "regeneration through crisis"],
+    "themesRu": ["идентичность под давлением", "трансформация «я»", "борьба за власть в идентичности", "встреча с тенью", "возрождение через кризис"],
+    "simple": {
+      "summary": "There may be a recurring tension between how you understand yourself and deeper forces that want to fundamentally transform that understanding — a pressure to become more real at the cost of what felt certain.",
+      "pattern": "You may encounter situations that require fundamental self-reinvention, feel the pull of power dynamics in your search for identity, or experience crises that function as initiations into greater depth.",
+      "growth": "The growth task is to meet these demands for transformation with courage and honesty rather than resistance or compulsion — to allow genuine change rather than fighting it.",
+      "reflection": "What in your self-understanding has been most fundamentally challenged by life, and what became possible once you let it change?"
+    },
+    "simpleRu": {
+      "summary": "Может существовать повторяющееся напряжение между тем, как вы понимаете себя, и более глубокими силами, желающими фундаментально трансформировать это понимание — давление стать более реальным ценой того, что казалось определённым.",
+      "pattern": "Вы можете встречать ситуации, требующие фундаментального переизобретения себя, ощущать притяжение динамики власти в поиске идентичности или переживать кризисы, функционирующие как инициации в большую глубину.",
+      "growth": "Задача роста — встречать эти требования трансформации с мужеством и честностью, а не с сопротивлением или компульсией — позволять подлинным изменениям происходить, а не бороться с ними.",
+      "reflection": "Что в вашем самопонимании было наиболее фундаментально оспорено жизнью, и что стало возможным, когда вы позволили этому измениться?"
+    },
+    "advanced": {
+      "technical": "Sun square Pluto creates developmental tension between the solar principle of conscious identity and the Plutonian principle of depth, shadow, and transformative power.",
+      "method": "The square is read as a confrontation: what the conscious ego identifies with is periodically challenged by what is buried in the shadow, creating pressure for genuine transformation.",
+      "caution": "Do not predict trauma, power abuse, or catastrophic crisis. Sun-Pluto square describes an intense developmental challenge that, when approached consciously, produces genuine depth, resilience, and authentic power.",
+      "constructiveChannel": "The constructive expression is earned depth: a self forged through genuine confrontation with what is most fundamental — authentic, resilient, and capable of meeting life at its most intense without losing essential integrity."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Солнца и Плутона создаёт напряжение развития между солнечным принципом сознательной идентичности и плутонианским принципом глубины, тени и трансформативной власти.",
+      "method": "Квадрат читается как конфронтация: то, с чем идентифицируется сознательное эго, периодически оспаривается тем, что погребено в тени, создавая давление для подлинной трансформации.",
+      "caution": "Не предсказывайте травму, злоупотребление властью или катастрофический кризис. Квадрат Солнца-Плутона описывает интенсивную задачу развития, которая при сознательном подходе производит подлинную глубину, стойкость и аутентичную власть.",
+      "constructiveChannel": "Конструктивное выражение — заработанная глубина: «я», выкованное через подлинную конфронтацию с наиболее фундаментальным — аутентичное, стойкое и способное встречать жизнь в её наиболее интенсивных моментах, не теряя существенной целостности."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-conjunct-pluto",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Moon", "aspect": "conjunction", "planetB": "Pluto" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["emotional intensity", "depth of feeling", "transformation through emotion", "psychological power", "deep instinct"],
+    "themesRu": ["эмоциональная интенсивность", "глубина чувства", "трансформация через эмоцию", "психологическая власть", "глубинный инстинкт"],
+    "simple": {
+      "summary": "Your emotional life may be particularly deep, powerful, and capable of both great intensity and profound transformation — feeling is not a surface experience but an encounter with what is most fundamental.",
+      "pattern": "You may feel things with great depth and cannot easily let go of emotional experiences that have genuinely moved you — your emotional world carries a quality of depth that others may find intense.",
+      "growth": "The growth task is to allow this emotional depth to become a source of genuine intimacy and psychological wisdom rather than compulsion, overwhelming intensity, or the need to control emotional experience.",
+      "reflection": "Where does your depth of feeling give you access to something true about yourself and others that less intense awareness would miss?"
+    },
+    "simpleRu": {
+      "summary": "Ваша эмоциональная жизнь может быть особенно глубокой, мощной и способной как к великой интенсивности, так и к глубокой трансформации — чувство является не поверхностным переживанием, а встречей с наиболее фундаментальным.",
+      "pattern": "Вы можете чувствовать вещи с большой глубиной и не можете легко отпустить эмоциональные переживания, которые вас по-настоящему тронули — ваш эмоциональный мир несёт качество глубины, которое другие могут находить интенсивным.",
+      "growth": "Задача роста — позволить этой эмоциональной глубине стать источником подлинной близости и психологической мудрости, а не компульсии, подавляющей интенсивности или потребности контролировать эмоциональный опыт.",
+      "reflection": "Где ваша глубина чувства даёт вам доступ к чему-то истинному о себе и других, что менее интенсивное осознание упустило бы?"
+    },
+    "advanced": {
+      "technical": "Moon conjunct Pluto merges the lunar principle of emotional life, memory, and feeling with the Plutonian principle of depth, transformation, power, and the encounter with the shadow.",
+      "method": "This is read as an inner statement: emotional experience is inseparable from depth, intensity, and the ongoing process of transformation — feeling is the site of the most fundamental inner work.",
+      "caution": "Do not predict emotional abuse, compulsive emotional patterns, or psychological instability. Moon-Pluto conjunction describes a powerful orientation toward emotional depth that, when worked with consciously, produces genuine psychological insight.",
+      "constructiveChannel": "The constructive expression is deep emotional intelligence: the capacity to move through intense feeling with courage and awareness — to transform through emotion rather than being overwhelmed by it."
+    },
+    "advancedRu": {
+      "technical": "Соединение Луны и Плутона сливает лунный принцип эмоциональной жизни, памяти и чувства с плутонианским принципом глубины, трансформации, власти и встречи с тенью.",
+      "method": "Это читается как внутреннее утверждение: эмоциональный опыт неотделим от глубины, интенсивности и продолжающегося процесса трансформации — чувство является ареной наиболее фундаментальной внутренней работы.",
+      "caution": "Не предсказывайте эмоциональное насилие, компульсивные эмоциональные паттерны или психологическую нестабильность. Соединение Луны-Плутона описывает мощную ориентацию на эмоциональную глубину, которая при сознательной работе производит подлинное психологическое понимание.",
+      "constructiveChannel": "Конструктивное выражение — глубокий эмоциональный интеллект: способность проходить через интенсивное чувство с мужеством и осознанностью — трансформироваться через эмоцию, а не быть ею захлёстнутым."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-square-pluto",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Moon", "aspect": "square", "planetB": "Pluto" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["emotional intensity", "compulsive feelings", "transformation through crisis", "power in emotional life", "shadow in feeling"],
+    "themesRu": ["эмоциональная интенсивность", "компульсивные чувства", "трансформация через кризис", "власть в эмоциональной жизни", "тень в чувстве"],
+    "simple": {
+      "summary": "Emotional life may carry an intensity that feels almost beyond ordinary containment — a depth of feeling that can transform you when you allow it, or overwhelm when it is resisted.",
+      "pattern": "You may encounter situations that bring powerful emotional demands, feel intense loyalty or intensity in close relationships, or find that emotional experiences tend to have a quality of the all-or-nothing about them.",
+      "growth": "The growth task is to develop the capacity to be fully present with intense emotion without either suppressing it or being driven by it — to feel deeply with awareness.",
+      "reflection": "Where does emotional intensity serve genuine transformation and deep connection, and where does it create unnecessary crisis or control dynamics?"
+    },
+    "simpleRu": {
+      "summary": "Эмоциональная жизнь может нести интенсивность, ощущающуюся почти выходящей за пределы обычного сдерживания — глубину чувства, которая может трансформировать вас, когда вы ей позволяете, или захлёстывать, когда ей сопротивляются.",
+      "pattern": "Вы можете встречать ситуации, предъявляющие мощные эмоциональные требования, ощущать интенсивную лояльность или интенсивность в близких отношениях, или обнаруживать, что эмоциональные переживания, как правило, имеют качество «всё или ничего».",
+      "growth": "Задача роста — развить способность быть полностью присутствующим с интенсивной эмоцией, не подавляя её и не будучи движимым ею — чувствовать глубоко с осознанностью.",
+      "reflection": "Где эмоциональная интенсивность служит подлинной трансформации и глубокой связи, а где создаёт ненужный кризис или динамику контроля?"
+    },
+    "advanced": {
+      "technical": "Moon square Pluto creates developmental tension between the lunar principle of emotional security, belonging, and feeling and the Plutonian principle of depth, transformation, and the shadow.",
+      "method": "The square is read as an inner confrontation: emotional patterns shaped by early experience are periodically challenged by the Plutonian demand to confront what is buried and transform what is no longer genuinely serving life.",
+      "caution": "Do not predict emotional manipulation, compulsive attachment, or psychological abuse. Moon-Pluto square describes a powerful developmental challenge around emotional depth that requires conscious engagement.",
+      "constructiveChannel": "The constructive expression is transformative emotional presence: the ability to move through intense emotional experience with enough awareness to genuinely transform, rather than repeat or deny."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Луны и Плутона создаёт напряжение развития между лунным принципом эмоциональной безопасности, принадлежности и чувства и плутонианским принципом глубины, трансформации и тени.",
+      "method": "Квадрат читается как внутренняя конфронтация: эмоциональные паттерны, сформированные ранним опытом, периодически оспариваются плутонианским требованием встретить то, что погребено, и трансформировать то, что больше не служит жизни.",
+      "caution": "Не предсказывайте эмоциональную манипуляцию, компульсивную привязанность или психологическое насилие. Квадрат Луны-Плутона описывает мощную задачу развития вокруг эмоциональной глубины, требующую сознательного вовлечения.",
+      "constructiveChannel": "Конструктивное выражение — трансформативное эмоциональное присутствие: способность проходить через интенсивный эмоциональный опыт с достаточной осознанностью для подлинной трансформации, а не повторения или отрицания."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-square-pluto",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Venus", "aspect": "square", "planetB": "Pluto" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["intensity in love", "power in relationship", "transformation through relating", "depth of desire", "shadow in love"],
+    "themesRu": ["интенсивность в любви", "власть в отношениях", "трансформация через отношения", "глубина желания", "тень в любви"],
+    "simple": {
+      "summary": "In love and relationship, you may encounter powerful depths — desires that feel overwhelming, connections that demand genuine transformation, or the pull of intensity that ordinary relating does not satisfy.",
+      "pattern": "You may be drawn to profound, intense relationships and may find ordinary or superficial relating deeply unsatisfying — but deep relating can also bring up power dynamics, jealousy, or the need for control.",
+      "growth": "The growth task is to channel the depth and intensity of what you feel in love into genuine transformation rather than into possession, compulsion, or the need to make the other into who you need them to be.",
+      "reflection": "Where has an intensely felt love genuinely transformed you, and what did that transformation ask you to release?"
+    },
+    "simpleRu": {
+      "summary": "В любви и отношениях вы можете встречать мощные глубины — желания, ощущающиеся подавляющими, связи, требующие подлинной трансформации, или притяжение интенсивности, которую обычные отношения не удовлетворяют.",
+      "pattern": "Вас может тянуть к глубоким, интенсивным отношениям, и вы можете находить обычные или поверхностные отношения глубоко неудовлетворительными — но глубокие отношения также могут поднимать динамику власти, ревность или потребность в контроле.",
+      "growth": "Задача роста — направить глубину и интенсивность того, что вы чувствуете в любви, в подлинную трансформацию, а не в обладание, компульсию или потребность сделать другого тем, кем он вам нужен.",
+      "reflection": "Где глубоко прочувствованная любовь подлинно трансформировала вас, и что эта трансформация просила вас отпустить?"
+    },
+    "advanced": {
+      "technical": "Venus square Pluto creates developmental tension between the Venusian principle of love, beauty, and relational harmony and the Plutonian principle of depth, power, transformation, and shadow.",
+      "method": "The square is read as an inner confrontation: the desire for beautiful, harmonious relating is periodically challenged by the Plutonian demand for genuine depth and the transformation of what is hidden in the relational pattern.",
+      "caution": "Do not predict abusive relationships, obsessive jealousy, or guaranteed relational crisis. Venus-Pluto square describes a powerful developmental challenge that, when worked with consciously, produces profound relational maturity.",
+      "constructiveChannel": "The constructive expression is transformative love: the capacity to engage in relationship with enough depth and honesty to genuinely transform both people — love as initiation rather than as comfort."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Венеры и Плутона создаёт напряжение развития между венерианским принципом любви, красоты и реляционной гармонии и плутонианским принципом глубины, власти, трансформации и тени.",
+      "method": "Квадрат читается как внутренняя конфронтация: желание прекрасных, гармоничных отношений периодически оспаривается плутонианским требованием подлинной глубины и трансформации того, что скрыто в реляционном паттерне.",
+      "caution": "Не предсказывайте насильственные отношения, навязчивую ревность или гарантированный реляционный кризис. Квадрат Венеры-Плутона описывает мощную задачу развития, которая при сознательной работе производит глубокую реляционную зрелость.",
+      "constructiveChannel": "Конструктивное выражение — трансформативная любовь: способность вступать в отношения с достаточной глубиной и честностью, чтобы подлинно трансформировать обоих людей — любовь как инициация, а не как утешение."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-conjunct-pluto",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Mars", "aspect": "conjunction", "planetB": "Pluto" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["intense drive", "transformative will", "power in action", "depth of purpose", "regenerative force"],
+    "themesRu": ["интенсивная воля", "трансформативная решимость", "власть в действии", "глубина цели", "возрождающая сила"],
+    "simple": {
+      "summary": "Your drive and will may operate at an unusually deep and intense level — when you act with full commitment, something fundamental moves, and the impact can be transformative rather than merely effective.",
+      "pattern": "You may find that ordinary levels of effort feel insufficient and push to do everything at depth, or find yourself drawn to challenges that require complete and sustained engagement rather than casual action.",
+      "growth": "The growth task is to ensure that this extraordinary drive serves transformation and genuine purpose rather than compulsive action, domination, or the refusal to acknowledge limits.",
+      "reflection": "Where does your capacity to act with unusual depth and sustained force produce something genuinely transformative rather than merely exhausting?"
+    },
+    "simpleRu": {
+      "summary": "Ваша воля и решимость могут действовать на необычно глубоком и интенсивном уровне — когда вы действуете с полной приверженностью, что-то фундаментальное движется, и воздействие может быть трансформативным, а не просто эффективным.",
+      "pattern": "Вы можете обнаруживать, что обычные уровни усилий ощущаются недостаточными, и стремиться делать всё на глубине, или притягиваться к вызовам, требующим полного и устойчивого вовлечения, а не случайного действия.",
+      "growth": "Задача роста — убедиться, что эта чрезвычайная воля служит трансформации и подлинной цели, а не компульсивному действию, господству или отказу признать пределы.",
+      "reflection": "Где ваша способность действовать с необычной глубиной и устойчивой силой производит нечто подлинно трансформативное, а не просто истощающее?"
+    },
+    "advanced": {
+      "technical": "Mars conjunct Pluto merges the Martian principle of drive, will, and direct action with the Plutonian principle of depth, power, and transformative force.",
+      "method": "This is read as an inner statement: will and action operate at the level of fundamental transformation rather than surface effectiveness — the drive is shaped by depth rather than by impulse.",
+      "caution": "Do not predict violence, compulsive aggression, or destructive behavior. Mars-Pluto conjunction describes an extraordinary level of drive and will that, when channeled consciously, produces transformative agency.",
+      "constructiveChannel": "The constructive expression is transformative initiative: the capacity to act with sustained, deep-level commitment that genuinely changes situations, structures, and people — including oneself."
+    },
+    "advancedRu": {
+      "technical": "Соединение Марса и Плутона сливает марсианский принцип воли, решимости и прямого действия с плутонианским принципом глубины, власти и трансформативной силы.",
+      "method": "Это читается как внутреннее утверждение: воля и действие действуют на уровне фундаментальной трансформации, а не поверхностной эффективности — воля сформирована глубиной, а не импульсом.",
+      "caution": "Не предсказывайте насилие, компульсивную агрессию или разрушительное поведение. Соединение Марса-Плутона описывает чрезвычайный уровень воли и решимости, который при сознательном направлении производит трансформативную действенность.",
+      "constructiveChannel": "Конструктивное выражение — трансформативная инициатива: способность действовать с устойчивой, глубинной приверженностью, подлинно изменяющей ситуации, структуры и людей — включая самого себя."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-square-pluto",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Mars", "aspect": "square", "planetB": "Pluto" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["power struggle", "intense drive under pressure", "transformation through conflict", "confronting resistance", "will and shadow"],
+    "themesRu": ["борьба за власть", "интенсивная воля под давлением", "трансформация через конфликт", "встреча с сопротивлением", "воля и тень"],
+    "simple": {
+      "summary": "There may be a recurring tension between the drive to act and the sense of encountering fundamental resistance — a pressure that demands enormous will and yet asks for something deeper than ordinary force.",
+      "pattern": "You may find yourself in situations requiring unusual levels of sustained effort, encounter strong resistance from people or institutions, or experience the pull of power dynamics in your most important drives.",
+      "growth": "The growth task is to distinguish between the resistance that asks you to transform yourself and the resistance that asks you to push forward — and to bring genuine depth of purpose rather than mere force.",
+      "reflection": "Where does your drive encounter resistance that is actually asking you to become something more than you currently are?"
+    },
+    "simpleRu": {
+      "summary": "Может существовать повторяющееся напряжение между волей к действию и ощущением встречи с фундаментальным сопротивлением — давление, требующее огромной воли и всё же просящее нечто более глубокое, чем обычная сила.",
+      "pattern": "Вы можете оказываться в ситуациях, требующих необычного уровня устойчивых усилий, встречать сильное сопротивление со стороны людей или институтов, или переживать притяжение динамики власти в ваших наиболее важных стремлениях.",
+      "growth": "Задача роста — различить сопротивление, просящее вас трансформировать себя, и сопротивление, просящее двигаться вперёд, — и привносить подлинную глубину цели, а не просто силу.",
+      "reflection": "Где ваша воля встречает сопротивление, которое на самом деле просит вас стать чем-то большим, чем вы сейчас являетесь?"
+    },
+    "advanced": {
+      "technical": "Mars square Pluto creates developmental tension between the Martian principle of drive, will, and direct action and the Plutonian principle of depth, power, transformation, and what is hidden.",
+      "method": "The square is read as an inner confrontation: the impulse to act directly is periodically blocked or intensified by the Plutonian demand for deeper purpose and the transformation of what is shadow in the will.",
+      "caution": "Do not predict violence, compulsive conflict, or guaranteed power abuse. Mars-Pluto square describes an intense developmental challenge around will and power that, when worked with consciously, produces genuine transformative courage.",
+      "constructiveChannel": "The constructive expression is deep-purpose action: the ability to act with focused, depth-level intention in a way that genuinely changes something fundamental, rather than simply overpowering what is in the way."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Марса и Плутона создаёт напряжение развития между марсианским принципом воли, решимости и прямого действия и плутонианским принципом глубины, власти, трансформации и того, что скрыто.",
+      "method": "Квадрат читается как внутренняя конфронтация: импульс к прямому действию периодически блокируется или усиливается плутонианским требованием более глубокой цели и трансформации того, что является тенью в воле.",
+      "caution": "Не предсказывайте насилие, компульсивный конфликт или гарантированное злоупотребление властью. Квадрат Марса-Плутона описывает интенсивную задачу развития вокруг воли и власти, которая при сознательной работе производит подлинное трансформативное мужество.",
+      "constructiveChannel": "Конструктивное выражение — действие с глубинной целью: способность действовать с сфокусированным, глубинным намерением способом, подлинно меняющим что-то фундаментальное, а не просто подавляющим то, что стоит на пути."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mercury-square-pluto",
+    "system": "western",
+    "methodFamily": "psychological-archetypal",
+    "factor": { "planetA": "Mercury", "aspect": "square", "planetB": "Pluto" },
+    "sourceRule": "rule.western.aspect-to-inner-statement",
+    "sourceIds": ["source.sasportas-gods-of-change-v1"],
+    "themes": ["depth in thinking", "investigative mind", "compulsive thought", "transformation through understanding", "penetrating analysis"],
+    "themesRu": ["глубина в мышлении", "исследовательский ум", "компульсивная мысль", "трансформация через понимание", "проникающий анализ"],
+    "simple": {
+      "summary": "Your thinking and communication may be naturally drawn to what is hidden, complex, and most fundamental — a mind that does not rest on the surface but wants to know what is actually going on beneath.",
+      "pattern": "You may be drawn to depth research, investigative thinking, or conversations that go beneath the surface — and may find it difficult to let go of an idea or question until you have followed it all the way down.",
+      "growth": "The growth task is to use this penetrating mind as a tool for genuine understanding rather than for obsessive analysis, suspicion, or the need to find the hidden negative in every situation.",
+      "reflection": "Where does your capacity to think deeply and investigatively reveal something genuinely important that more superficial thinking would miss?"
+    },
+    "simpleRu": {
+      "summary": "Ваше мышление и коммуникация могут быть естественно притянуты к тому, что скрыто, сложно и наиболее фундаментально — ум, не остающийся на поверхности, но хотящий знать, что действительно происходит под ней.",
+      "pattern": "Вас может тянуть к глубоким исследованиям, следственному мышлению или разговорам, уходящим под поверхность, — и вам может быть трудно отпустить идею или вопрос, пока вы не последовали за ним до конца.",
+      "growth": "Задача роста — использовать этот проницательный ум как инструмент подлинного понимания, а не навязчивого анализа, подозрительности или потребности находить скрытое негативное в каждой ситуации.",
+      "reflection": "Где ваша способность мыслить глубоко и исследовательски раскрывает нечто подлинно важное, что более поверхностное мышление упустило бы?"
+    },
+    "advanced": {
+      "technical": "Mercury square Pluto creates developmental tension between the Mercurial principle of communication, analysis, and surface understanding and the Plutonian principle of depth, hidden reality, and transformative knowledge.",
+      "method": "The square is read as an inner confrontation: the ordinary communicative mind is periodically challenged by the Plutonian demand to go deeper, to know what is actually true beneath the surface.",
+      "caution": "Do not predict obsessive or paranoid thinking, manipulative communication, or compulsive investigation. Mercury-Pluto square describes a penetrating intellectual orientation that, when worked with consciously, produces deep investigative insight.",
+      "constructiveChannel": "The constructive expression is depth intelligence: the ability to research, investigate, and communicate about what is most fundamentally true — bringing hidden knowledge into the light in ways that genuinely serve understanding."
+    },
+    "advancedRu": {
+      "technical": "Квадрат Меркурия и Плутона создаёт напряжение развития между меркурианским принципом коммуникации, анализа и поверхностного понимания и плутонианским принципом глубины, скрытой реальности и трансформативного знания.",
+      "method": "Квадрат читается как внутренняя конфронтация: обычный коммуникативный ум периодически оспаривается плутонианским требованием идти глубже, знать, что действительно истинно под поверхностью.",
+      "caution": "Не предсказывайте навязчивое или параноидное мышление, манипулятивную коммуникацию или компульсивное исследование. Квадрат Меркурия-Плутона описывает проницательную интеллектуальную ориентацию, которая при сознательной работе производит глубокое следственное понимание.",
+      "constructiveChannel": "Конструктивное выражение — глубинный интеллект: способность исследовать, расследовать и сообщать о наиболее фундаментально истинном — выводить скрытое знание на свет способами, подлинно служащими пониманию."
+    },
+    "confidence": "medium"
   }
 ]

@@ -1499,5 +1499,600 @@
       "constructiveChannel": "Конструктивное выражение — осмысленная трансформация: способность находить подлинный рост и расширенное понимание в наиболее значительных кризисах жизни и делиться ресурсами с щедрой честностью."
     },
     "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.jupiter-in-5th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Jupiter", "house": 5 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["abundant creativity", "generous self-expression", "joyful expansion", "playful optimism", "love of life"],
+    "themesRu": ["обильное творчество", "щедрое самовыражение", "радостное расширение", "игривый оптимизм", "любовь к жизни"],
+    "simple": {
+      "summary": "Creativity, play, and the enjoyment of life may feel naturally expansive — a genuine love of self-expression, romance, and joyful engagement that wants to grow and be shared.",
+      "pattern": "You may have a natural enthusiasm for creative work, romantic adventures, and playful experiences, and may find that joy comes relatively easily when you allow yourself to fully engage with what you love.",
+      "growth": "The growth task is to ensure that this natural expansiveness in self-expression includes realistic commitment — so that love, creativity, and joy produce something enduring as well as exhilarating.",
+      "reflection": "Where does your natural generosity in play and self-expression most enrich the lives of those around you?"
+    },
+    "simpleRu": {
+      "summary": "Творчество, игра и наслаждение жизнью могут ощущаться естественно расширяющимися — подлинная любовь к самовыражению, романтике и радостному вовлечению, желающая расти и делиться собой.",
+      "pattern": "У вас может быть природный энтузиазм в отношении творческой работы, романтических приключений и игровых переживаний, и вы можете обнаруживать, что радость приходит относительно легко, когда вы позволяете себе полностью вовлекаться в то, что любите.",
+      "growth": "Задача роста — убедиться, что эта природная экспансивность в самовыражении включает реалистичную приверженность, чтобы любовь, творчество и радость производили нечто долговечное, а не только волнующее.",
+      "reflection": "Где ваша природная щедрость в игре и самовыражении наиболее обогащает жизнь окружающих вас людей?"
+    },
+    "advanced": {
+      "technical": "The 5th house is the field of creativity, play, romance, and self-expression. Jupiter in the 5th brings the Jupiterian principle of expansion, generosity, and enthusiasm into this arena, creating a naturally optimistic and abundant orientation toward creative self-expression.",
+      "method": "This is a house-topic interpretation where Jupiter as the archetype of expansion shapes how play, creativity, and romantic engagement are approached.",
+      "caution": "Do not read this as guaranteed creative success, romantic ease, or automatic happiness. Jupiter in the 5th describes a naturally expansive orientation toward joy that still requires discipline and realistic grounding to sustain.",
+      "constructiveChannel": "The constructive expression is generous creative contribution: the ability to express, play, and love with such enthusiasm and generosity that it becomes genuinely inspiring to others."
+    },
+    "advancedRu": {
+      "technical": "5-й дом — поле творчества, игры, романтики и самовыражения. Юпитер в 5-м доме привносит юпитерианский принцип расширения, щедрости и энтузиазма в эту арену, создавая природно оптимистичную и обильную ориентацию на творческое самовыражение.",
+      "method": "Это интерпретация по теме дома, где Юпитер как архетип расширения формирует то, как подходят к игре, творчеству и романтическому вовлечению.",
+      "caution": "Не следует читать это как гарантированный творческий успех, романтическую лёгкость или автоматическое счастье. Юпитер в 5-м доме описывает природно экспансивную ориентацию на радость, всё же требующую дисциплины и реалистичного заземления для устойчивости.",
+      "constructiveChannel": "Конструктивное выражение — щедрый творческий вклад: способность выражать, играть и любить с таким энтузиазмом и щедростью, что это становится подлинно вдохновляющим для других."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.jupiter-in-6th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Jupiter", "house": 6 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["broad approach to work", "generous service", "optimism in health", "expanding daily practice", "meaningful routine"],
+    "themesRu": ["широкий подход к работе", "щедрое служение", "оптимизм в отношении здоровья", "расширяющаяся ежедневная практика", "осмысленная рутина"],
+    "simple": {
+      "summary": "Daily work, service, and health routines may feel naturally expansive — a broad, generous orientation toward practical engagement that wants to do more, help more, and grow through what it does.",
+      "pattern": "You may find meaning in work and service quite naturally, approach health with optimism, and be drawn to roles that allow you to contribute broadly rather than narrowly.",
+      "growth": "The growth task is to ensure that this generous orientation toward work and service is grounded in sustainable limits — so that doing more does not become overdoing, and optimism about health does not replace practical care.",
+      "reflection": "Where does your genuine enthusiasm for work and service produce the most lasting and meaningful contribution?"
+    },
+    "simpleRu": {
+      "summary": "Ежедневная работа, служение и распорядок здоровья могут ощущаться естественно расширяющимися — широкая, щедрая ориентация на практическое вовлечение, желающая делать больше, помогать больше и расти через то, чем занимается.",
+      "pattern": "Вы можете находить смысл в работе и служении вполне естественно, подходить к здоровью с оптимизмом и быть притянуты к ролям, позволяющим вносить широкий, а не узкий вклад.",
+      "growth": "Задача роста — убедиться, что эта щедрая ориентация на работу и служение заземлена в устойчивых пределах, чтобы делание большего не превращалось в чрезмерное, а оптимизм в отношении здоровья не заменял практической заботы.",
+      "reflection": "Где ваш подлинный энтузиазм к работе и служению производит наиболее долговечный и значимый вклад?"
+    },
+    "advanced": {
+      "technical": "The 6th house is the field of daily work, service, health, and routine. Jupiter in the 6th brings the Jupiterian principle of expansion, meaning, and generosity into the arena of everyday practical engagement and service.",
+      "method": "This is a house-topic interpretation where Jupiter as the archetype of meaning and growth shapes the daily work domain with a broad and optimistic quality.",
+      "caution": "Do not read this as immunity from health challenges or guaranteed professional success. Jupiter in the 6th can also produce overextension, excessive workload, or health habits based on optimism rather than realism.",
+      "constructiveChannel": "The constructive expression is meaningful service: work and daily practice that is broad enough to contribute genuinely and grounded enough to be sustained — service that grows with experience."
+    },
+    "advancedRu": {
+      "technical": "6-й дом — поле ежедневной работы, служения, здоровья и рутины. Юпитер в 6-м доме привносит юпитерианский принцип расширения, смысла и щедрости в арену повседневного практического вовлечения и служения.",
+      "method": "Это интерпретация по теме дома, где Юпитер как архетип смысла и роста формирует область ежедневной работы широким и оптимистичным качеством.",
+      "caution": "Не следует читать это как иммунитет от проблем со здоровьем или гарантированный профессиональный успех. Юпитер в 6-м доме также может производить перенапряжение, чрезмерную рабочую нагрузку или привычки здоровья, основанные на оптимизме, а не реализме.",
+      "constructiveChannel": "Конструктивное выражение — осмысленное служение: работа и ежедневная практика, достаточно широкие для подлинного вклада и достаточно заземлённые для устойчивости."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-in-3rd-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 3 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["careful communication", "structured thinking", "discipline in learning", "serious mind", "cautious expression"],
+    "themesRu": ["тщательная коммуникация", "структурированное мышление", "дисциплина в обучении", "серьёзный ум", "осторожное выражение"],
+    "simple": {
+      "summary": "Communication, learning, and the expression of ideas may be areas where you are particularly careful, measured, and serious — a mind that takes words and knowledge seriously.",
+      "pattern": "You may feel some caution or self-consciousness in how you communicate, take longer to formulate ideas than others, or hold your thoughts to a high standard before sharing them.",
+      "growth": "The growth task is to discover that careful expression is a genuine gift, and that the quality of your thinking does not require you to hold back from sharing it once it has been genuinely worked through.",
+      "reflection": "Where does your careful approach to expression reflect genuine precision, and where does it become an unnecessary barrier to being heard?"
+    },
+    "simpleRu": {
+      "summary": "Коммуникация, обучение и выражение идей могут быть областями, где вы особенно тщательны, взвешены и серьёзны — ум, принимающий слова и знание всерьёз.",
+      "pattern": "Вы можете ощущать некоторую осторожность или застенчивость в том, как вы общаетесь, дольше других формулировать идеи или удерживать мысли при высоком стандарте, прежде чем ими делиться.",
+      "growth": "Задача роста — обнаружить, что тщательное выражение является подлинным даром, и что качество вашего мышления не требует от вас воздерживаться от его публикации, как только оно подлинно проработано.",
+      "reflection": "Где ваш тщательный подход к выражению отражает подлинную точность, а где становится ненужным барьером для того, чтобы быть услышанным?"
+    },
+    "advanced": {
+      "technical": "The 3rd house is the field of communication, local learning, siblings, and the immediate environment. Saturn in the 3rd brings discipline, seriousness, and high standards into the arena of thought and expression.",
+      "method": "This combines house-topic interpretation with Saturn as the force shaping the quality and seriousness of how ideas are formed and communicated.",
+      "caution": "Do not read this as guaranteed communication difficulties or learning disabilities. Saturn in the 3rd often produces exceptional precision, depth, and seriousness in thinking and writing.",
+      "constructiveChannel": "The constructive expression is authoritative communication: the ability to speak and write with genuine depth, precision, and measured authority — words that carry genuine weight because they have been genuinely considered."
+    },
+    "advancedRu": {
+      "technical": "3-й дом — поле коммуникации, местного обучения, братьев и сестёр и непосредственного окружения. Сатурн в 3-м доме привносит дисциплину, серьёзность и высокие стандарты в арену мысли и выражения.",
+      "method": "Это интерпретация по теме дома с Сатурном как силой, формирующей качество и серьёзность того, как формируются и коммуницируются идеи.",
+      "caution": "Не следует читать это как гарантированные трудности с коммуникацией или проблемы с обучением. Сатурн в 3-м доме часто производит исключительную точность, глубину и серьёзность в мышлении и письме.",
+      "constructiveChannel": "Конструктивное выражение — авторитетная коммуникация: способность говорить и писать с подлинной глубиной, точностью и взвешенным авторитетом — слова, несущие подлинный вес, потому что они были подлинно обдуманы."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-in-3rd-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Moon", "house": 3 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["emotional communication", "feeling in language", "responsive mind", "intuitive learning", "emotionally attuned expression"],
+    "themesRu": ["эмоциональная коммуникация", "чувство в языке", "отзывчивый ум", "интуитивное обучение", "эмоционально настроенное выражение"],
+    "simple": {
+      "summary": "Communication, language, and daily learning may be strongly colored by feeling — a natural ability to express emotional truth and to sense the emotional texture of what is being communicated.",
+      "pattern": "You may learn best through personal connection and emotional engagement, and may have a natural gift for communication that touches people rather than merely informing them.",
+      "growth": "The growth task is to develop the ability to be genuinely clear and direct alongside being emotionally resonant — so that emotional truth is communicated with enough structure to be understood.",
+      "reflection": "Where does your emotionally attuned communication create the most genuine understanding between you and others?"
+    },
+    "simpleRu": {
+      "summary": "Коммуникация, язык и ежедневное обучение могут быть сильно окрашены чувством — природная способность выражать эмоциональную правду и ощущать эмоциональную текстуру того, что коммуницируется.",
+      "pattern": "Вы можете лучше всего обучаться через личную связь и эмоциональное вовлечение, и у вас может быть природный дар к коммуникации, которая касается людей, а не просто информирует их.",
+      "growth": "Задача роста — развить способность быть подлинно ясным и прямым наряду с эмоциональным резонированием, чтобы эмоциональная правда коммуницировалась с достаточной структурой для понимания.",
+      "reflection": "Где ваша эмоционально настроенная коммуникация создаёт наиболее подлинное понимание между вами и другими?"
+    },
+    "advanced": {
+      "technical": "The 3rd house is the field of communication, learning, and everyday mental engagement. The Moon in the 3rd brings emotional responsiveness, feeling-colored thinking, and the lunar quality of instinctive expression into this arena.",
+      "method": "This combines house-topic interpretation with the psychological Moon as the force that infuses the daily communicative field with emotional sensitivity and intuitive responsiveness.",
+      "caution": "Do not read this as emotional instability in communication or guaranteed difficulty with siblings. The Moon in the 3rd describes a natural orientation toward emotionally attuned expression.",
+      "constructiveChannel": "The constructive expression is emotionally intelligent communication: the ability to speak, write, and learn in ways that are genuinely attuned to the emotional dimension of human interaction."
+    },
+    "advancedRu": {
+      "technical": "3-й дом — поле коммуникации, обучения и повседневного ментального вовлечения. Луна в 3-м доме привносит эмоциональную отзывчивость, окрашенное чувством мышление и лунное качество инстинктивного выражения в эту арену.",
+      "method": "Это интерпретация по теме дома с психологической Луной как силой, наполняющей ежедневное коммуникативное поле эмоциональной чуткостью и интуитивной отзывчивостью.",
+      "caution": "Не следует читать это как эмоциональную нестабильность в коммуникации или гарантированные трудности с братьями/сёстрами. Луна в 3-м доме описывает природную ориентацию на эмоционально настроенное выражение.",
+      "constructiveChannel": "Конструктивное выражение — эмоционально интеллектуальная коммуникация: способность говорить, писать и учиться способами, подлинно настроенными на эмоциональное измерение человеческого взаимодействия."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mercury-in-3rd-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mercury", "house": 3 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["natural communication", "active mind", "curiosity", "quick learning", "expressive intelligence"],
+    "themesRu": ["природная коммуникация", "активный ум", "любопытство", "быстрое обучение", "выразительный интеллект"],
+    "simple": {
+      "summary": "Communication, learning, and mental engagement may feel particularly natural and lively — a mind that is genuinely curious, quick to make connections, and at ease in the world of words and ideas.",
+      "pattern": "You may be drawn to reading, conversation, writing, or the exchange of ideas as natural sources of pleasure and stimulation — most alive when thinking, learning, or communicating.",
+      "growth": "The growth task is to bring depth and focus alongside natural quickness, so that the broad engagement with ideas also produces genuine mastery in chosen areas.",
+      "reflection": "Where does your natural ease with communication and learning most serve real understanding rather than simply accumulating information?"
+    },
+    "simpleRu": {
+      "summary": "Коммуникация, обучение и ментальное вовлечение могут ощущаться особенно естественными и живыми — ум, подлинно любознательный, быстро устанавливающий связи и непринуждённый в мире слов и идей.",
+      "pattern": "Вас может тянуть к чтению, разговору, письму или обмену идеями как к природным источникам удовольствия и стимуляции — наиболее живой, когда думаете, учитесь или общаетесь.",
+      "growth": "Задача роста — привнести глубину и сосредоточенность наряду с природной быстротой, чтобы широкое вовлечение с идеями также производило подлинное мастерство в выбранных областях.",
+      "reflection": "Где ваша природная лёгкость в коммуникации и обучении наиболее служит подлинному пониманию, а не просто накоплению информации?"
+    },
+    "advanced": {
+      "technical": "Mercury in the 3rd house is a natural placement where the Mercurial principle of mind, communication, and learning resonates with the field most associated with these qualities.",
+      "method": "This is a house-topic interpretation where Mercury as the archetype of mind shapes the communicative field with natural ease, curiosity, and expressive facility.",
+      "caution": "Do not read this as guaranteed intellectual brilliance or communication mastery. It describes a natural orientation toward mental engagement that still requires cultivation to reach its full potential.",
+      "constructiveChannel": "The constructive expression is skillful communication: the ability to think clearly, learn broadly, and express ideas with natural ease — contributing to genuine understanding rather than mere information exchange."
+    },
+    "advancedRu": {
+      "technical": "Меркурий в 3-м доме является природным размещением, где меркурианский принцип ума, коммуникации и обучения резонирует с полем, наиболее связанным с этими качествами.",
+      "method": "Это интерпретация по теме дома, где Меркурий как архетип ума формирует коммуникативное поле природной лёгкостью, любопытством и выразительной способностью.",
+      "caution": "Не следует читать это как гарантированный интеллектуальный блеск или мастерство коммуникации. Это описывает природную ориентацию на ментальное вовлечение, всё же требующую культивирования для достижения полного потенциала.",
+      "constructiveChannel": "Конструктивное выражение — умелая коммуникация: способность мыслить ясно, учиться широко и выражать идеи с природной лёгкостью — вносить вклад в подлинное понимание, а не просто в обмен информацией."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.jupiter-in-3rd-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Jupiter", "house": 3 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["broad learning", "generous communication", "expansive thinking", "philosophical curiosity", "inspiring expression"],
+    "themesRu": ["широкое обучение", "щедрая коммуникация", "расширяющееся мышление", "философское любопытство", "вдохновляющее выражение"],
+    "simple": {
+      "summary": "Learning, communication, and everyday mental engagement may feel naturally expansive — a broad curiosity, generous conversational style, and a tendency to see the larger meaning in what you study and share.",
+      "pattern": "You may love learning across many areas, communicate with natural enthusiasm and warmth, and tend to see connections between ideas that others miss.",
+      "growth": "The growth task is to bring enough focus and precision alongside the breadth — so that wide-ranging curiosity also produces genuine expertise and the ability to communicate complex ideas clearly.",
+      "reflection": "Where does your natural enthusiasm for ideas and learning most genuinely inspire or expand the thinking of those around you?"
+    },
+    "simpleRu": {
+      "summary": "Обучение, коммуникация и повседневное ментальное вовлечение могут ощущаться естественно расширяющимися — широкое любопытство, щедрый стиль общения и склонность видеть более широкий смысл в том, что вы изучаете и делаете.",
+      "pattern": "Вы можете любить обучение во многих областях, общаться с природным энтузиазмом и теплотой и склонны видеть связи между идеями, которые другие упускают.",
+      "growth": "Задача роста — привнести достаточно сосредоточенности и точности наряду с широтой, чтобы разносторонний интерес также производил подлинную экспертизу и способность ясно коммуницировать сложные идеи.",
+      "reflection": "Где ваш природный энтузиазм к идеям и обучению наиболее подлинно вдохновляет или расширяет мышление окружающих вас людей?"
+    },
+    "advanced": {
+      "technical": "The 3rd house is the field of communication, learning, and everyday mental engagement. Jupiter in the 3rd brings the Jupiterian principle of expansion, philosophy, and broad curiosity into this arena.",
+      "method": "This is a house-topic interpretation where Jupiter as the archetype of meaning and expansiveness shapes the communicative and learning field with enthusiasm and philosophical breadth.",
+      "caution": "Do not read this as guaranteed eloquence or intellectual mastery. Jupiter in the 3rd can also produce scattered thinking, overconfident communication, or difficulty with precision and detail.",
+      "constructiveChannel": "The constructive expression is inspiring communication: the ability to share ideas with enough generosity, enthusiasm, and genuine breadth that it expands the thinking of those who engage with it."
+    },
+    "advancedRu": {
+      "technical": "3-й дом — поле коммуникации, обучения и повседневного ментального вовлечения. Юпитер в 3-м доме привносит юпитерианский принцип расширения, философии и широкого любопытства в эту арену.",
+      "method": "Это интерпретация по теме дома, где Юпитер как архетип смысла и экспансивности формирует коммуникативное и учебное поле с энтузиазмом и философской широтой.",
+      "caution": "Не следует читать это как гарантированное красноречие или интеллектуальное мастерство. Юпитер в 3-м доме также может производить рассеянное мышление, самоуверенную коммуникацию или трудности с точностью и деталью.",
+      "constructiveChannel": "Конструктивное выражение — вдохновляющая коммуникация: способность делиться идеями с достаточной щедростью, энтузиазмом и подлинной широтой, чтобы это расширяло мышление тех, кто с этим вовлекается."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-in-3rd-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mars", "house": 3 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["direct communication", "assertive thinking", "debate", "quick mind", "energetic learning"],
+    "themesRu": ["прямая коммуникация", "напористое мышление", "дискуссия", "быстрый ум", "энергичное обучение"],
+    "simple": {
+      "summary": "Communication and thinking may carry a natural directness and energy — a mind that gets to the point, is not afraid of debate, and brings active engagement to learning and the exchange of ideas.",
+      "pattern": "You may communicate with unusual directness, enjoy intellectual challenge and debate, and bring an energetic, sometimes competitive quality to your mental life and everyday interactions.",
+      "growth": "The growth task is to ensure that directness in communication serves genuine understanding rather than domination, and that energy in thinking is used to illuminate rather than to win.",
+      "reflection": "Where does your directness and confidence in expressing ideas open genuine dialogue rather than closing it down?"
+    },
+    "simpleRu": {
+      "summary": "Коммуникация и мышление могут нести природную прямоту и энергию — ум, сразу переходящий к делу, не боящийся дискуссии и привносящий активное вовлечение в обучение и обмен идеями.",
+      "pattern": "Вы можете общаться с необычной прямотой, наслаждаться интеллектуальным вызовом и дебатами, и привносить энергичное, иногда соревновательное качество в свою ментальную жизнь и повседневные взаимодействия.",
+      "growth": "Задача роста — убедиться, что прямота в коммуникации служит подлинному пониманию, а не господству, и что энергия в мышлении используется для освещения, а не для победы.",
+      "reflection": "Где ваша прямота и уверенность в выражении идей открывает подлинный диалог, а не закрывает его?"
+    },
+    "advanced": {
+      "technical": "The 3rd house is the field of communication, learning, and everyday mental engagement. Mars in the 3rd brings the Martian principle of drive, directness, and assertive energy into the arena of thought and expression.",
+      "method": "This combines house-topic interpretation with Mars as the force energizing the communicative field with directness, competitive energy, and mental initiative.",
+      "caution": "Do not read this as guaranteed argumentativeness or communication aggression. Mars in the 3rd describes a natural orientation toward direct, energetic mental engagement that can be a source of genuine intellectual courage.",
+      "constructiveChannel": "The constructive expression is courageous communication: the ability to speak truth directly, engage in genuine intellectual challenge, and bring the energy of real conviction to ideas and debate."
+    },
+    "advancedRu": {
+      "technical": "3-й дом — поле коммуникации, обучения и повседневного ментального вовлечения. Марс в 3-м доме привносит марсианский принцип воли, прямоты и напористой энергии в арену мысли и выражения.",
+      "method": "Это интерпретация по теме дома с Марсом как силой, заряжающей коммуникативное поле прямотой, соревновательной энергией и ментальной инициативой.",
+      "caution": "Не следует читать это как гарантированную сварливость или коммуникативную агрессию. Марс в 3-м доме описывает природную ориентацию на прямое, энергичное ментальное вовлечение, которое может быть источником подлинного интеллектуального мужества.",
+      "constructiveChannel": "Конструктивное выражение — смелая коммуникация: способность говорить правду прямо, вовлекаться в подлинный интеллектуальный вызов и привносить энергию реального убеждения в идеи и дискуссию."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-in-9th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 9 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["serious philosophy", "tested belief", "discipline in higher learning", "cautious worldview", "hard-won wisdom"],
+    "themesRu": ["серьёзная философия", "проверенная вера", "дисциплина в высшем обучении", "осторожное мировоззрение", "трудно добытая мудрость"],
+    "simple": {
+      "summary": "Philosophy, belief, and the search for meaning may be areas of serious engagement — a worldview built through genuine experience, testing, and the willingness to question what is taken for granted.",
+      "pattern": "You may approach questions of belief and meaning with great seriousness and skepticism, take a long time to establish genuine philosophical convictions, and find that your worldview has been shaped more by experience than by received wisdom.",
+      "growth": "The growth task is to discover that genuine wisdom includes faith alongside evidence — and that a worldview built entirely on what can be proven may miss dimensions of meaning that life actually offers.",
+      "reflection": "What beliefs have you most thoroughly tested, and what did they reveal once you stopped defending them and genuinely engaged with the questions they raise?"
+    },
+    "simpleRu": {
+      "summary": "Философия, вера и поиск смысла могут быть областями серьёзного вовлечения — мировоззрение, построенное через подлинный опыт, испытание и готовность ставить под сомнение то, что принимается как данность.",
+      "pattern": "Вы можете подходить к вопросам веры и смысла с большой серьёзностью и скептицизмом, долго устанавливать подлинные философские убеждения и обнаруживать, что ваше мировоззрение сформировано опытом больше, чем полученной мудростью.",
+      "growth": "Задача роста — обнаружить, что подлинная мудрость включает веру наряду с доказательствами, и что мировоззрение, построенное исключительно на том, что можно доказать, может упустить измерения смысла, которые жизнь на самом деле предлагает.",
+      "reflection": "Какие убеждения вы наиболее тщательно проверили, и что они раскрыли, как только вы перестали их защищать и подлинно вовлеклись в вопросы, которые они поднимают?"
+    },
+    "advanced": {
+      "technical": "The 9th house is the field of philosophy, higher learning, belief, and the search for meaning. Saturn in the 9th brings discipline, skepticism, and the demand for genuine evidence into the arena of worldview and higher truth.",
+      "method": "This combines house-topic interpretation with Saturn as the force shaping how meaning is constructed — slowly, through experience, and with the rigorous testing of received belief.",
+      "caution": "Do not read this as a closed or rigid worldview. Saturn in the 9th often produces profound philosophical depth through the process of testing and genuinely earning one's convictions.",
+      "constructiveChannel": "The constructive expression is hard-won wisdom: a worldview of genuine philosophical weight, built through real experience, rigorous questioning, and the willingness to stand behind what has been thoroughly tested."
+    },
+    "advancedRu": {
+      "technical": "9-й дом — поле философии, высшего обучения, веры и поиска смысла. Сатурн в 9-м доме привносит дисциплину, скептицизм и требование подлинных доказательств в арену мировоззрения и высшей истины.",
+      "method": "Это интерпретация по теме дома с Сатурном как силой, формирующей то, как строится смысл — медленно, через опыт, с тщательным испытанием полученных убеждений.",
+      "caution": "Не следует читать это как закрытое или ригидное мировоззрение. Сатурн в 9-м доме часто производит глубокую философскую глубину через процесс испытания и подлинного зарабатывания убеждений.",
+      "constructiveChannel": "Конструктивное выражение — трудно добытая мудрость: мировоззрение подлинного философского веса, построенное через реальный опыт, тщательное вопрошание и готовность стоять за то, что было основательно проверено."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-in-9th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Moon", "house": 9 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["emotional search for meaning", "feeling in belief", "travel as home", "intuitive philosophy", "spiritual longing"],
+    "themesRu": ["эмоциональный поиск смысла", "чувство в вере", "путешествие как дом", "интуитивная философия", "духовное томление"],
+    "simple": {
+      "summary": "The search for meaning, adventure, and the wider world may feel deeply connected to your emotional life — a genuine longing to find something that feels like philosophical or spiritual home.",
+      "pattern": "You may feel emotionally drawn to travel, different cultures, and philosophical or spiritual exploration, and may find that your sense of emotional security is partly connected to having a meaningful worldview.",
+      "growth": "The growth task is to ground this broad emotional search in specific commitment — to let the love of the wide world deepen your roots rather than replace them.",
+      "reflection": "Where has your search for meaning through travel, philosophy, or wider experience most genuinely changed how you understand your place in the world?"
+    },
+    "simpleRu": {
+      "summary": "Поиск смысла, приключений и более широкого мира может быть тесно связан с вашей эмоциональной жизнью — подлинная тоска найти нечто, ощущающееся как философский или духовный дом.",
+      "pattern": "Вас может эмоционально тянуть к путешествиям, различным культурам и философскому или духовному исследованию, и вы можете обнаруживать, что ваше чувство эмоциональной безопасности частично связано с наличием значимого мировоззрения.",
+      "growth": "Задача роста — заземлить этот широкий эмоциональный поиск в конкретной приверженности, позволить любви к широкому миру углублять ваши корни, а не заменять их.",
+      "reflection": "Где ваш поиск смысла через путешествия, философию или более широкий опыт наиболее подлинно изменил то, как вы понимаете своё место в мире?"
+    },
+    "advanced": {
+      "technical": "The 9th house is the field of philosophy, higher learning, and the search for meaning. The Moon in the 9th brings emotional responsiveness, feeling-colored belief, and the lunar quality of instinctive spiritual search into this arena.",
+      "method": "This combines house-topic interpretation with the psychological Moon as the force that infuses the search for meaning with emotional depth and genuine longing.",
+      "caution": "Do not read this as guaranteed wandering or inability to commit to a fixed home or belief. The Moon in the 9th describes a natural orientation toward broad meaning that can deepen roots through philosophical and spiritual experience.",
+      "constructiveChannel": "The constructive expression is emotionally grounded wisdom: a philosophy of life that has been genuinely felt and tested through experience — not merely adopted, but emotionally understood and lived."
+    },
+    "advancedRu": {
+      "technical": "9-й дом — поле философии, высшего обучения и поиска смысла. Луна в 9-м доме привносит эмоциональную отзывчивость, окрашенную чувством веру и лунное качество инстинктивного духовного поиска в эту арену.",
+      "method": "Это интерпретация по теме дома с психологической Луной как силой, наполняющей поиск смысла эмоциональной глубиной и подлинным томлением.",
+      "caution": "Не следует читать это как гарантированное скитание или неспособность привязаться к фиксированному дому или убеждению. Луна в 9-м доме описывает природную ориентацию на широкий смысл, способную углублять корни через философский и духовный опыт.",
+      "constructiveChannel": "Конструктивное выражение — эмоционально укоренённая мудрость: философия жизни, которая была подлинно прочувствована и проверена через опыт — не просто принята, но эмоционально понята и прожита."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.sun-in-9th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Sun", "house": 9 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["identity through meaning", "philosophical selfhood", "expansion of self", "truth-seeking identity", "global perspective"],
+    "themesRu": ["идентичность через смысл", "философское «я»", "расширение «я»", "истино-ищущая идентичность", "глобальная перспектива"],
+    "simple": {
+      "summary": "Your sense of who you are may be deeply connected to the search for meaning, truth, and understanding — an identity that grows and expands through genuine philosophical and experiential exploration.",
+      "pattern": "You may feel most yourself when you are learning something significant, encountering a wider world, or engaging with questions of meaning and purpose that go beyond the everyday.",
+      "growth": "The growth task is to ground this expansive search for meaning in specific contribution — to let the pursuit of truth become a gift to something and someone rather than remaining purely personal.",
+      "reflection": "Where has the search for meaning and understanding most genuinely shaped who you are becoming?"
+    },
+    "simpleRu": {
+      "summary": "Ваше ощущение того, кто вы есть, может быть тесно связано с поиском смысла, истины и понимания — идентичность, растущая и расширяющаяся через подлинное философское и опытное исследование.",
+      "pattern": "Вы можете чувствовать себя наиболее собой, когда узнаёте что-то значительное, встречаете более широкий мир или вовлекаетесь в вопросы смысла и цели, выходящие за рамки повседневного.",
+      "growth": "Задача роста — заземлить этот экспансивный поиск смысла в конкретном вкладе — позволить стремлению к истине стать даром чему-то и кому-то, а не оставаться сугубо личным.",
+      "reflection": "Где поиск смысла и понимания наиболее подлинно формировал то, кем вы становитесь?"
+    },
+    "advanced": {
+      "technical": "The 9th house is the field of philosophy, higher learning, belief, and the expansion of perspective. The Sun in the 9th brings the solar principle of identity, consciousness, and purposeful selfhood into the arena of meaning-making and philosophical exploration.",
+      "method": "This combines house-topic interpretation with the Sun as the force shaping identity through the pursuit of truth, understanding, and expanded perspective.",
+      "caution": "Do not read this as guaranteed wisdom or philosophical authority. The Sun in the 9th describes a strong orientation toward meaning-seeking that requires genuine engagement rather than simply asserting a philosophical identity.",
+      "constructiveChannel": "The constructive expression is purposeful exploration: an identity genuinely shaped by the search for truth — a self that grows through encounter with the wider world and shares what it has learned with genuine generosity."
+    },
+    "advancedRu": {
+      "technical": "9-й дом — поле философии, высшего обучения, веры и расширения перспективы. Солнце в 9-м доме привносит солнечный принцип идентичности, сознания и целенаправленного «я» в арену создания смысла и философского исследования.",
+      "method": "Это интерпретация по теме дома с Солнцем как силой, формирующей идентичность через стремление к истине, пониманию и расширенной перспективе.",
+      "caution": "Не следует читать это как гарантированную мудрость или философский авторитет. Солнце в 9-м доме описывает сильную ориентацию на поиск смысла, требующую подлинного вовлечения, а не просто утверждения философской идентичности.",
+      "constructiveChannel": "Конструктивное выражение — целенаправленное исследование: идентичность, подлинно сформированная поиском истины — «я», растущее через встречу с более широким миром и делящееся тем, что узнало, с подлинной щедростью."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mercury-in-9th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mercury", "house": 9 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["philosophical thinking", "broad intellect", "cross-cultural curiosity", "wide-ranging analysis", "meaning in ideas"],
+    "themesRu": ["философское мышление", "широкий интеллект", "межкультурное любопытство", "широкоохватный анализ", "смысл в идеях"],
+    "simple": {
+      "summary": "Your thinking and communication may be naturally drawn to the bigger picture — questions of philosophy, culture, meaning, and understanding that go beyond the immediate and local.",
+      "pattern": "You may be drawn to higher learning, philosophical reading, or cross-cultural exchange as sources of genuine intellectual pleasure — most alive when thinking about big questions.",
+      "growth": "The growth task is to ground broad philosophical thinking in enough precision and practical application that ideas become genuinely useful rather than remaining in the realm of interesting abstraction.",
+      "reflection": "Where does your natural love of the bigger picture most genuinely serve the people and situations you are engaged with?"
+    },
+    "simpleRu": {
+      "summary": "Ваше мышление и коммуникация могут быть естественно притянуты к большой картине — вопросам философии, культуры, смысла и понимания, выходящим за пределы непосредственного и местного.",
+      "pattern": "Вас может тянуть к высшему обучению, философскому чтению или межкультурному обмену как к источникам подлинного интеллектуального удовольствия — наиболее живой, когда думаете о больших вопросах.",
+      "growth": "Задача роста — заземлить широкое философское мышление в достаточной точности и практическом применении, чтобы идеи становились подлинно полезными, а не оставались в сфере интересной абстракции.",
+      "reflection": "Где ваша природная любовь к большой картине наиболее подлинно служит людям и ситуациям, с которыми вы вовлечены?"
+    },
+    "advanced": {
+      "technical": "The 9th house is the field of philosophy, higher learning, and broad perspective. Mercury in the 9th brings the Mercurial principle of analysis, curiosity, and communication into the arena of meaning-making and philosophical inquiry.",
+      "method": "This is a house-topic interpretation where Mercury as the archetype of mind shapes the philosophical domain with intellectual breadth, questioning, and cross-cultural curiosity.",
+      "caution": "Do not read this as guaranteed philosophical brilliance or academic success. Mercury in the 9th describes a natural orientation toward big-picture thinking that requires grounding in practical precision to be effective.",
+      "constructiveChannel": "The constructive expression is philosophical communication: the ability to think and speak across wide intellectual territory with enough clarity and curiosity that it genuinely expands understanding."
+    },
+    "advancedRu": {
+      "technical": "9-й дом — поле философии, высшего обучения и широкой перспективы. Меркурий в 9-м доме привносит меркурианский принцип анализа, любопытства и коммуникации в арену создания смысла и философского исследования.",
+      "method": "Это интерпретация по теме дома, где Меркурий как архетип ума формирует философскую область с интеллектуальной широтой, вопрошанием и межкультурным любопытством.",
+      "caution": "Не следует читать это как гарантированный философский блеск или академический успех. Меркурий в 9-м доме описывает природную ориентацию на мышление большой картины, требующую заземления в практической точности для эффективности.",
+      "constructiveChannel": "Конструктивное выражение — философская коммуникация: способность мыслить и говорить по широкой интеллектуальной территории с достаточной ясностью и любопытством, чтобы это подлинно расширяло понимание."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.jupiter-in-9th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Jupiter", "house": 9 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["natural philosophy", "abundant meaning", "expansive belief", "love of wisdom", "natural teacher"],
+    "themesRu": ["природная философия", "обильный смысл", "расширяющаяся вера", "любовь к мудрости", "природный учитель"],
+    "simple": {
+      "summary": "Philosophy, higher learning, and the search for meaning may feel like a natural home — a genuine enthusiasm for wisdom, broad perspectives, and the ideas that give life its deepest sense of purpose.",
+      "pattern": "You may love learning, exploring different worldviews, and sharing what you have come to understand with others — a natural teacher or seeker who finds life richest when engaged with the big questions.",
+      "growth": "The growth task is to ensure that philosophical optimism includes the kind of rigorous honesty that genuine wisdom requires — so that breadth of vision is matched by depth of genuine understanding.",
+      "reflection": "Where has your love of philosophy and meaning most genuinely changed how you relate to and contribute to the world around you?"
+    },
+    "simpleRu": {
+      "summary": "Философия, высшее обучение и поиск смысла могут ощущаться природным домом — подлинный энтузиазм к мудрости, широким перспективам и идеям, дающим жизни глубочайшее ощущение цели.",
+      "pattern": "Вы можете любить обучение, исследование различных мировоззрений и делиться с другими тем, что вы поняли — природный учитель или искатель, находящий жизнь наиболее богатой, когда вовлечён в большие вопросы.",
+      "growth": "Задача роста — убедиться, что философский оптимизм включает вид строгой честности, которого требует подлинная мудрость, чтобы широта видения была сопоставима с глубиной подлинного понимания.",
+      "reflection": "Где ваша любовь к философии и смыслу наиболее подлинно изменила то, как вы относитесь к окружающему миру и вносите в него вклад?"
+    },
+    "advanced": {
+      "technical": "Jupiter in the 9th house is a natural placement where the Jupiterian principle of expansion, philosophy, and meaning resonates with the field most associated with these qualities.",
+      "method": "This is a house-topic interpretation where Jupiter as the archetype of wisdom and broad vision shapes the 9th house domain with natural enthusiasm, optimism, and philosophical generosity.",
+      "caution": "Do not read this as guaranteed spiritual authority or philosophical wisdom. Jupiter in the 9th can also produce overconfident belief, dogmatism, or a tendency to seek breadth without depth.",
+      "constructiveChannel": "The constructive expression is genuine wisdom: a philosophical engagement with life that is broad enough to encompass real diversity of thought and deep enough to generate genuine understanding that can be shared with others."
+    },
+    "advancedRu": {
+      "technical": "Юпитер в 9-м доме является природным размещением, где юпитерианский принцип расширения, философии и смысла резонирует с полем, наиболее связанным с этими качествами.",
+      "method": "Это интерпретация по теме дома, где Юпитер как архетип мудрости и широкого видения формирует область 9-го дома с природным энтузиазмом, оптимизмом и философской щедростью.",
+      "caution": "Не следует читать это как гарантированный духовный авторитет или философскую мудрость. Юпитер в 9-м доме также может производить самоуверенные убеждения, догматизм или склонность искать широту без глубины.",
+      "constructiveChannel": "Конструктивное выражение — подлинная мудрость: философское вовлечение с жизнью, достаточно широкое для охвата реального разнообразия мысли и достаточно глубокое для создания подлинного понимания, которым можно поделиться с другими."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.saturn-in-11th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Saturn", "house": 11 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path", "source.greene-sasportas-development-personality-v1"],
+    "themes": ["selective friendship", "serious ideals", "earned belonging", "responsibility in community", "tested hope"],
+    "themesRu": ["избирательная дружба", "серьёзные идеалы", "заработанная принадлежность", "ответственность в сообществе", "проверенная надежда"],
+    "simple": {
+      "summary": "Friendship, community, and your larger hopes for the world may be areas of serious investment — fewer, but deeper relationships, and ideals that you hold carefully because they have genuinely been tested.",
+      "pattern": "You may find large social gatherings uncomfortable, prefer a small number of trustworthy friends over broad social circles, and approach collective engagement with caution and high standards.",
+      "growth": "The growth task is to discover that belonging is not only earned but also received — that opening to community with appropriate trust can bring genuine warmth and support without requiring absolute certainty first.",
+      "reflection": "Where do high standards in friendship protect you, and where do they prevent you from receiving the genuine human connection that you actually need?"
+    },
+    "simpleRu": {
+      "summary": "Дружба, сообщество и ваши более широкие надежды на мир могут быть областями серьёзных инвестиций — меньше, но более глубокие отношения, и идеалы, которые вы держите бережно, потому что они подлинно прошли проверку.",
+      "pattern": "Вам могут быть некомфортны большие социальные собрания, вы можете предпочитать небольшое число надёжных друзей широким социальным кругам и подходить к коллективному вовлечению с осторожностью и высокими стандартами.",
+      "growth": "Задача роста — обнаружить, что принадлежность не только зарабатывается, но и получается — что открытие сообществу с соответствующим доверием может принести подлинное тепло и поддержку без необходимости абсолютной определённости сначала.",
+      "reflection": "Где высокие стандарты в дружбе защищают вас, а где мешают вам получать подлинную человеческую связь, которая вам действительно нужна?"
+    },
+    "advanced": {
+      "technical": "The 11th house is the field of friendship, community, collective ideals, and broader social belonging. Saturn in the 11th brings discipline, selectivity, and high standards into this arena.",
+      "method": "This combines house-topic interpretation with Saturn as the force shaping how community, friendship, and collective engagement are approached with caution and seriousness.",
+      "caution": "Do not read this as guaranteed social isolation or inability to form friendships. Saturn in the 11th often produces a small number of deeply loyal and genuine friendships forged through time and mutual trust.",
+      "constructiveChannel": "The constructive expression is loyal community leadership: the ability to sustain genuine commitment to shared ideals and to be the kind of steady, reliable presence in community that others can genuinely rely on."
+    },
+    "advancedRu": {
+      "technical": "11-й дом — поле дружбы, сообщества, коллективных идеалов и более широкой социальной принадлежности. Сатурн в 11-м доме привносит дисциплину, избирательность и высокие стандарты в эту арену.",
+      "method": "Это интерпретация по теме дома с Сатурном как силой, формирующей то, как к сообществу, дружбе и коллективному вовлечению подходят с осторожностью и серьёзностью.",
+      "caution": "Не следует читать это как гарантированную социальную изоляцию или неспособность строить дружеские отношения. Сатурн в 11-м доме часто производит небольшое число глубоко лояльных и подлинных дружеских связей, сформированных через время и взаимное доверие.",
+      "constructiveChannel": "Конструктивное выражение — лояльное лидерство в сообществе: способность поддерживать подлинную приверженность общим идеалам и быть видом устойчивого, надёжного присутствия в сообществе, на которое другие могут подлинно полагаться."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.moon-in-11th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Moon", "house": 11 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["emotional belonging", "group feeling", "community as home", "care in friendship", "emotionally attuned ideals"],
+    "themesRu": ["эмоциональная принадлежность", "групповое чувство", "сообщество как дом", "забота в дружбе", "эмоционально настроенные идеалы"],
+    "simple": {
+      "summary": "Friendship, community, and the sense of belonging may feel deeply connected to your emotional world — a genuine need to feel at home in some group or collective, and a care for those you consider your people.",
+      "pattern": "You may feel emotionally nourished by belonging to a community or group that shares your values, and may find that your mood and sense of safety are significantly affected by the quality of your social connections.",
+      "growth": "The growth task is to build enough inner security so that emotional wellbeing does not depend entirely on being received warmly by the group — so that you can belong without requiring constant approval.",
+      "reflection": "Where does your feeling of belonging to a community give you genuine emotional sustenance, and where does it create a dependency on the group's mood and acceptance?"
+    },
+    "simpleRu": {
+      "summary": "Дружба, сообщество и ощущение принадлежности могут ощущаться тесно связанными с вашим эмоциональным миром — подлинная потребность чувствовать себя дома в какой-то группе или коллективе, и забота о тех, кого вы считаете своими людьми.",
+      "pattern": "Вы можете эмоционально питаться принадлежностью к сообществу или группе, разделяющей ваши ценности, и обнаруживать, что ваше настроение и ощущение безопасности значительно зависят от качества ваших социальных связей.",
+      "growth": "Задача роста — выстроить достаточно внутренней безопасности, чтобы эмоциональное благополучие не зависело целиком от тёплого приятия группой — чтобы вы могли принадлежать, не требуя постоянного одобрения.",
+      "reflection": "Где ваше ощущение принадлежности сообществу даёт вам подлинное эмоциональное питание, а где создаёт зависимость от настроения и принятия группы?"
+    },
+    "advanced": {
+      "technical": "The 11th house is the field of friendship, community, and collective ideals. The Moon in the 11th brings emotional responsiveness, care, and the lunar principle of belonging and nourishment into the arena of social connection.",
+      "method": "This combines house-topic interpretation with the psychological Moon as the force connecting emotional security to the quality of social belonging and collective engagement.",
+      "caution": "Do not read this as guaranteed emotional instability in social situations or over-dependence on group approval. The Moon in the 11th describes a natural orientation toward emotionally nourishing community.",
+      "constructiveChannel": "The constructive expression is caring community membership: the ability to create genuine warmth and emotional safety within groups — contributing a quality of care that makes collective engagement feel truly belonging."
+    },
+    "advancedRu": {
+      "technical": "11-й дом — поле дружбы, сообщества и коллективных идеалов. Луна в 11-м доме привносит эмоциональную отзывчивость, заботу и лунный принцип принадлежности и питания в арену социальной связи.",
+      "method": "Это интерпретация по теме дома с психологической Луной как силой, связывающей эмоциональную безопасность с качеством социальной принадлежности и коллективного вовлечения.",
+      "caution": "Не следует читать это как гарантированную эмоциональную нестабильность в социальных ситуациях или чрезмерную зависимость от группового одобрения. Луна в 11-м доме описывает природную ориентацию на эмоционально питающее сообщество.",
+      "constructiveChannel": "Конструктивное выражение — заботливое членство в сообществе: способность создавать подлинное тепло и эмоциональную безопасность в группах — привносить качество заботы, делающей коллективное вовлечение подлинно ощущающимся как принадлежность."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.venus-in-11th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Venus", "house": 11 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["social grace", "harmony in community", "beautiful friendships", "aesthetic ideals", "charming connection"],
+    "themesRu": ["социальная грация", "гармония в сообществе", "прекрасные дружеские отношения", "эстетические идеалы", "обаятельная связь"],
+    "simple": {
+      "summary": "Friendship, community, and social connection may feel natural and pleasurable — a genuine ease in relating to others in group settings and a love of the friendships that bring beauty and warmth to your world.",
+      "pattern": "You may find social connection relatively natural and enjoyable, attract friends with genuine warmth and charm, and be drawn to communities organized around beauty, creativity, or shared aesthetic values.",
+      "growth": "The growth task is to ensure that the love of harmonious social connection includes the capacity for honest engagement even when it creates friction — so that friendship is real as well as pleasant.",
+      "reflection": "Where does your natural social grace create genuine warmth and lasting connection, and where does it stay at the pleasant surface to avoid necessary difficulty?"
+    },
+    "simpleRu": {
+      "summary": "Дружба, сообщество и социальная связь могут ощущаться естественными и приятными — подлинная лёгкость в отношениях с другими в групповых условиях и любовь к дружеским отношениям, приносящим красоту и тепло в ваш мир.",
+      "pattern": "Вы можете находить социальную связь относительно естественной и приятной, притягивать друзей с подлинной теплотой и обаянием и быть притянуты к сообществам, организованным вокруг красоты, творчества или общих эстетических ценностей.",
+      "growth": "Задача роста — убедиться, что любовь к гармоничной социальной связи включает способность к честному вовлечению, даже когда оно создаёт трение, чтобы дружба была реальной, а не только приятной.",
+      "reflection": "Где ваша природная социальная грация создаёт подлинное тепло и прочную связь, а где остаётся на приятной поверхности, чтобы избежать необходимой трудности?"
+    },
+    "advanced": {
+      "technical": "The 11th house is the field of friendship, community, and collective ideals. Venus in the 11th brings the Venusian principle of beauty, harmony, and relational grace into the arena of social belonging and group connection.",
+      "method": "This is a house-topic interpretation where Venus as the archetype of love and beauty shapes the quality of social engagement with natural charm, aesthetic sensitivity, and relational warmth.",
+      "caution": "Do not read this as guaranteed social popularity or ease in all group contexts. Venus in the 11th describes a natural orientation toward harmonious social connection that still requires honesty and depth to sustain genuinely.",
+      "constructiveChannel": "The constructive expression is graceful community: the ability to bring beauty, harmony, and genuine warmth to collective engagement in ways that make belonging feel genuinely welcoming and worth sustaining."
+    },
+    "advancedRu": {
+      "technical": "11-й дом — поле дружбы, сообщества и коллективных идеалов. Венера в 11-м доме привносит венерианский принцип красоты, гармонии и реляционной грации в арену социальной принадлежности и группового взаимодействия.",
+      "method": "Это интерпретация по теме дома, где Венера как архетип любви и красоты формирует качество социального вовлечения с природным обаянием, эстетической чуткостью и реляционной теплотой.",
+      "caution": "Не следует читать это как гарантированную социальную популярность или лёгкость во всех групповых контекстах. Венера в 11-м доме описывает природную ориентацию на гармоничную социальную связь, всё же требующую честности и глубины для подлинного устойчивого поддержания.",
+      "constructiveChannel": "Конструктивное выражение — изящное сообщество: способность привносить красоту, гармонию и подлинное тепло в коллективное вовлечение способами, делающими принадлежность подлинно гостеприимной и стоящей поддержания."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.jupiter-in-11th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Jupiter", "house": 11 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["abundant friendships", "broad ideals", "generous community", "expansive social network", "optimistic hope"],
+    "themesRu": ["обильная дружба", "широкие идеалы", "щедрое сообщество", "расширяющаяся социальная сеть", "оптимистичная надежда"],
+    "simple": {
+      "summary": "Friendship, community, and the broader ideals that give collective life its meaning may feel naturally expansive — a generosity of spirit that brings people together and finds meaning in shared vision.",
+      "pattern": "You may attract friends and collaborators with relative ease, enjoy the company of a wide and diverse social circle, and feel genuinely energized by visions of what collective effort can create.",
+      "growth": "The growth task is to ensure that breadth of social engagement includes genuine depth — so that the wide social network includes the kind of trustworthy, loyal friendships that sustain when things are difficult.",
+      "reflection": "Where does your generosity in community and friendship attract people who genuinely share your values, and where does it attract people who simply enjoy your openness without reciprocating?"
+    },
+    "simpleRu": {
+      "summary": "Дружба, сообщество и более широкие идеалы, дающие коллективной жизни её смысл, могут ощущаться естественно расширяющимися — щедрость духа, объединяющая людей и находящая смысл в общем видении.",
+      "pattern": "Вы можете привлекать друзей и соратников с относительной лёгкостью, наслаждаться компанией широкого и разнообразного социального круга и чувствовать себя подлинно заряженным видениями того, что коллективные усилия могут создать.",
+      "growth": "Задача роста — убедиться, что широта социального вовлечения включает подлинную глубину — чтобы широкая социальная сеть включала вид надёжных, лояльных дружеских связей, поддерживающих, когда всё трудно.",
+      "reflection": "Где ваша щедрость в сообществе и дружбе привлекает людей, подлинно разделяющих ваши ценности, а где привлекает тех, кто просто наслаждается вашей открытостью, не отвечая взаимностью?"
+    },
+    "advanced": {
+      "technical": "The 11th house is the field of friendship, community, and collective ideals. Jupiter in the 11th brings the Jupiterian principle of expansion, generosity, and philosophical breadth into the arena of social belonging and collective vision.",
+      "method": "This is a house-topic interpretation where Jupiter as the archetype of abundance and meaning shapes the social field with natural generosity, optimism, and the love of shared purpose.",
+      "caution": "Do not read this as guaranteed popularity or the guarantee that all friendships will be genuinely reciprocal. Jupiter in the 11th can also produce scattered social engagement or over-extension in commitments to groups and causes.",
+      "constructiveChannel": "The constructive expression is inspired community leadership: the ability to bring enthusiasm, vision, and genuine generosity to collective engagement in ways that expand shared possibility and inspire others toward meaningful shared goals."
+    },
+    "advancedRu": {
+      "technical": "11-й дом — поле дружбы, сообщества и коллективных идеалов. Юпитер в 11-м доме привносит юпитерианский принцип расширения, щедрости и философской широты в арену социальной принадлежности и коллективного видения.",
+      "method": "Это интерпретация по теме дома, где Юпитер как архетип изобилия и смысла формирует социальное поле с природной щедростью, оптимизмом и любовью к общей цели.",
+      "caution": "Не следует читать это как гарантированную популярность или гарантию, что все дружеские отношения будут подлинно взаимными. Юпитер в 11-м доме также может производить рассеянное социальное вовлечение или перенапряжение в обязательствах перед группами и причинами.",
+      "constructiveChannel": "Конструктивное выражение — вдохновлённое лидерство в сообществе: способность привносить энтузиазм, видение и подлинную щедрость в коллективное вовлечение способами, расширяющими общие возможности и вдохновляющими других на значимые общие цели."
+    },
+    "confidence": "medium"
+  },
+  {
+    "id": "rule-instance.western.mars-in-11th-house",
+    "system": "western",
+    "methodFamily": "psychological-natal",
+    "factor": { "planet": "Mars", "house": 11 },
+    "sourceRules": ["rule.western.house-topic-layer", "rule.western.cusp-ruler-resident-pipeline"],
+    "sourceIds": ["source.ushkova-zakharova-houses-life-path"],
+    "themes": ["passionate ideals", "drive in community", "fighting for causes", "assertive friendship", "energetic collective action"],
+    "themesRu": ["страстные идеалы", "воля в сообществе", "борьба за причины", "напористая дружба", "энергичное коллективное действие"],
+    "simple": {
+      "summary": "Friendship, community, and collective action may carry a strong, passionate energy — a drive to work toward ideals that matter and to bring genuine commitment and courage to shared causes.",
+      "pattern": "You may be drawn to activist communities, groups organized around meaningful causes, or social networks that share your convictions — bringing intensity, directness, and genuine drive to collective engagement.",
+      "growth": "The growth task is to channel the drive for collective action into sustained collaborative effort rather than individual assertion — so that the energy serves the group's shared purpose rather than dominating it.",
+      "reflection": "Where does your passionate commitment to shared ideals and community create the most genuine collective momentum and lasting change?"
+    },
+    "simpleRu": {
+      "summary": "Дружба, сообщество и коллективное действие могут нести сильную, страстную энергию — стремление работать к идеалам, которые имеют значение, и привносить подлинную приверженность и мужество в общие причины.",
+      "pattern": "Вас может тянуть к активистским сообществам, группам, организованным вокруг значимых причин, или социальным сетям, разделяющим ваши убеждения — привнося интенсивность, прямоту и подлинную волю в коллективное вовлечение.",
+      "growth": "Задача роста — направить волю к коллективному действию в устойчивое совместное усилие, а не в индивидуальное утверждение, чтобы энергия служила общей цели группы, а не доминировала над ней.",
+      "reflection": "Где ваша страстная приверженность общим идеалам и сообществу создаёт наиболее подлинный коллективный импульс и долговечные изменения?"
+    },
+    "advanced": {
+      "technical": "The 11th house is the field of friendship, community, and collective ideals. Mars in the 11th brings the Martian principle of drive, assertive energy, and passionate action into the arena of social belonging and shared purpose.",
+      "method": "This combines house-topic interpretation with Mars as the force energizing the social and collective field with directness, competitive energy, and passionate commitment to shared ideals.",
+      "caution": "Do not read this as guaranteed conflict within groups or inability to cooperate. Mars in the 11th describes a natural orientation toward passionate, driven collective action that can be a source of genuine social courage.",
+      "constructiveChannel": "The constructive expression is courageous collective action: the ability to bring genuine drive, conviction, and energy to shared causes — creating the momentum that turns shared ideals into real and lasting change."
+    },
+    "advancedRu": {
+      "technical": "11-й дом — поле дружбы, сообщества и коллективных идеалов. Марс в 11-м доме привносит марсианский принцип воли, напористой энергии и страстного действия в арену социальной принадлежности и общей цели.",
+      "method": "Это интерпретация по теме дома с Марсом как силой, заряжающей социальное и коллективное поле прямотой, соревновательной энергией и страстной приверженностью общим идеалам.",
+      "caution": "Не следует читать это как гарантированный конфликт внутри групп или неспособность к сотрудничеству. Марс в 11-м доме описывает природную ориентацию на страстное, движимое коллективное действие, которое может быть источником подлинного социального мужества.",
+      "constructiveChannel": "Конструктивное выражение — смелое коллективное действие: способность привносить подлинную волю, убеждённость и энергию в общие причины — создавая импульс, превращающий общие идеалы в реальные и долговечные изменения."
+    },
+    "confidence": "medium"
   }
 ]
