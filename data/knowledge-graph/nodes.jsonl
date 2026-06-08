@@ -243,3 +243,103 @@
 {"id": "rule-instance.western.venus-in-11th-house", "type": "rule", "label": "Venus in 11th House", "system": "western", "status": "draft"}
 {"id": "rule-instance.western.jupiter-in-11th-house", "type": "rule", "label": "Jupiter in 11th House", "system": "western", "status": "draft"}
 {"id": "rule-instance.western.mars-in-11th-house", "type": "rule", "label": "Mars in 11th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.sun-opposition-uranus", "type": "rule", "label": "Sun opposition Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.moon-conjunction-uranus", "type": "rule", "label": "Moon conjunction Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.moon-trine-uranus", "type": "rule", "label": "Moon trine Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-conjunction-uranus", "type": "rule", "label": "Mercury conjunction Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-square-uranus", "type": "rule", "label": "Mercury square Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-trine-uranus", "type": "rule", "label": "Mercury trine Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-opposition-uranus", "type": "rule", "label": "Mercury opposition Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-conjunction-uranus", "type": "rule", "label": "Venus conjunction Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-square-uranus", "type": "rule", "label": "Venus square Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-trine-uranus", "type": "rule", "label": "Venus trine Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-opposition-uranus", "type": "rule", "label": "Venus opposition Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-conjunction-uranus", "type": "rule", "label": "Mars conjunction Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-square-uranus", "type": "rule", "label": "Mars square Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-trine-uranus", "type": "rule", "label": "Mars trine Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-opposition-uranus", "type": "rule", "label": "Mars opposition Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-conjunction-uranus", "type": "rule", "label": "Jupiter conjunction Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-square-uranus", "type": "rule", "label": "Jupiter square Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-trine-uranus", "type": "rule", "label": "Jupiter trine Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-opposition-uranus", "type": "rule", "label": "Jupiter opposition Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-conjunction-uranus", "type": "rule", "label": "Saturn conjunction Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-trine-uranus", "type": "rule", "label": "Saturn trine Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-opposition-uranus", "type": "rule", "label": "Saturn opposition Uranus", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.sun-opposition-neptune", "type": "rule", "label": "Sun opposition Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.moon-trine-neptune", "type": "rule", "label": "Moon trine Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.moon-opposition-neptune", "type": "rule", "label": "Moon opposition Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-conjunction-neptune", "type": "rule", "label": "Mercury conjunction Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-trine-neptune", "type": "rule", "label": "Mercury trine Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-opposition-neptune", "type": "rule", "label": "Mercury opposition Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-opposition-neptune", "type": "rule", "label": "Venus opposition Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-conjunction-neptune", "type": "rule", "label": "Mars conjunction Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-square-neptune", "type": "rule", "label": "Mars square Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-trine-neptune", "type": "rule", "label": "Mars trine Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-opposition-neptune", "type": "rule", "label": "Mars opposition Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-conjunction-neptune", "type": "rule", "label": "Jupiter conjunction Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-square-neptune", "type": "rule", "label": "Jupiter square Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-trine-neptune", "type": "rule", "label": "Jupiter trine Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-opposition-neptune", "type": "rule", "label": "Jupiter opposition Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-conjunction-neptune", "type": "rule", "label": "Saturn conjunction Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-square-neptune", "type": "rule", "label": "Saturn square Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-trine-neptune", "type": "rule", "label": "Saturn trine Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-opposition-neptune", "type": "rule", "label": "Saturn opposition Neptune", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.sun-trine-pluto", "type": "rule", "label": "Sun trine Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.sun-opposition-pluto", "type": "rule", "label": "Sun opposition Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.moon-trine-pluto", "type": "rule", "label": "Moon trine Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.moon-opposition-pluto", "type": "rule", "label": "Moon opposition Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-conjunction-pluto", "type": "rule", "label": "Mercury conjunction Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-trine-pluto", "type": "rule", "label": "Mercury trine Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-opposition-pluto", "type": "rule", "label": "Mercury opposition Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-conjunction-pluto", "type": "rule", "label": "Venus conjunction Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-trine-pluto", "type": "rule", "label": "Venus trine Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-opposition-pluto", "type": "rule", "label": "Venus opposition Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-trine-pluto", "type": "rule", "label": "Mars trine Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-opposition-pluto", "type": "rule", "label": "Mars opposition Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-conjunction-pluto", "type": "rule", "label": "Jupiter conjunction Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-square-pluto", "type": "rule", "label": "Jupiter square Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-trine-pluto", "type": "rule", "label": "Jupiter trine Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-opposition-pluto", "type": "rule", "label": "Jupiter opposition Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-conjunction-pluto", "type": "rule", "label": "Saturn conjunction Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-square-pluto", "type": "rule", "label": "Saturn square Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-trine-pluto", "type": "rule", "label": "Saturn trine Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.saturn-opposition-pluto", "type": "rule", "label": "Saturn opposition Pluto", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.sun-in-2nd-house", "type": "rule", "label": "Sun in 2nd House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.sun-in-3rd-house", "type": "rule", "label": "Sun in 3rd House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.sun-in-4th-house", "type": "rule", "label": "Sun in 4th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.sun-in-5th-house", "type": "rule", "label": "Sun in 5th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.sun-in-6th-house", "type": "rule", "label": "Sun in 6th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.sun-in-8th-house", "type": "rule", "label": "Sun in 8th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.sun-in-11th-house", "type": "rule", "label": "Sun in 11th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.sun-in-12th-house", "type": "rule", "label": "Sun in 12th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.moon-in-12th-house", "type": "rule", "label": "Moon in 12th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-in-1st-house", "type": "rule", "label": "Mercury in 1st House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-in-2nd-house", "type": "rule", "label": "Mercury in 2nd House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-in-4th-house", "type": "rule", "label": "Mercury in 4th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-in-5th-house", "type": "rule", "label": "Mercury in 5th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-in-7th-house", "type": "rule", "label": "Mercury in 7th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-in-8th-house", "type": "rule", "label": "Mercury in 8th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-in-10th-house", "type": "rule", "label": "Mercury in 10th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-in-11th-house", "type": "rule", "label": "Mercury in 11th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mercury-in-12th-house", "type": "rule", "label": "Mercury in 12th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-in-3rd-house", "type": "rule", "label": "Venus in 3rd House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-in-6th-house", "type": "rule", "label": "Venus in 6th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-in-7th-house", "type": "rule", "label": "Venus in 7th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-in-8th-house", "type": "rule", "label": "Venus in 8th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.venus-in-9th-house", "type": "rule", "label": "Venus in 9th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.mars-in-9th-house", "type": "rule", "label": "Mars in 9th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-in-4th-house", "type": "rule", "label": "Jupiter in 4th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-in-7th-house", "type": "rule", "label": "Jupiter in 7th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-in-10th-house", "type": "rule", "label": "Jupiter in 10th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.jupiter-in-12th-house", "type": "rule", "label": "Jupiter in 12th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.pluto-in-1st-house", "type": "rule", "label": "Pluto in 1st House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.pluto-in-2nd-house", "type": "rule", "label": "Pluto in 2nd House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.pluto-in-3rd-house", "type": "rule", "label": "Pluto in 3rd House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.pluto-in-4th-house", "type": "rule", "label": "Pluto in 4th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.pluto-in-5th-house", "type": "rule", "label": "Pluto in 5th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.pluto-in-6th-house", "type": "rule", "label": "Pluto in 6th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.pluto-in-7th-house", "type": "rule", "label": "Pluto in 7th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.pluto-in-9th-house", "type": "rule", "label": "Pluto in 9th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.pluto-in-10th-house", "type": "rule", "label": "Pluto in 10th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.pluto-in-11th-house", "type": "rule", "label": "Pluto in 11th House", "system": "western", "status": "draft"}
+{"id": "rule-instance.western.pluto-in-12th-house", "type": "rule", "label": "Pluto in 12th House", "system": "western", "status": "draft"}
