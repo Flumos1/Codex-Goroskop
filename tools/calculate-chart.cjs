@@ -8,6 +8,16 @@ const placesPath = path.join(projectRoot, "data", "places.json");
 
 const bodies = ["Sun", "Moon", "Mercury", "Venus", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto"];
 const signs = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"];
+const siderealSigns = ["Mesha", "Vrishabha", "Mithuna", "Karkata", "Simha", "Kanya", "Tula", "Vrischika", "Dhanu", "Makara", "Kumbha", "Meena"];
+const nakshatras = [
+  "Ashwini","Bharani","Krittika","Rohini","Mrigashira","Ardra","Punarvasu","Pushya","Ashlesha",
+  "Magha","Purva Phalguni","Uttara Phalguni","Hasta","Chitra","Swati","Vishakha","Anuradha","Jyeshtha",
+  "Mula","Purva Ashadha","Uttara Ashadha","Shravana","Dhanishtha","Shatabhisha","Purva Bhadrapada","Uttara Bhadrapada","Revati"
+];
+const nakshatraRulers = ["Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Saturn","Mercury",
+  "Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Saturn","Mercury",
+  "Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Saturn","Mercury"];
+const vimshottariYears = { Sun:6, Moon:10, Mars:7, Rahu:18, Jupiter:16, Saturn:19, Mercury:17, Ketu:7, Venus:20 };
 const availableRuleQueries = new Set([
   "Moon square Saturn",
   "Venus square Saturn",
@@ -181,6 +191,49 @@ function signForLongitude(longitude) {
   return { sign: signs[signIndex], signIndex, degreeInSign: normalized - signIndex * 30 };
 }
 
+// Lahiri ayanamsha (degrees) for a given JS Date
+// Uses IAU formula: ayanamsha ≈ 23.85 - 50.2388475"/year from J2000.0, offset to Lahiri epoch
+function lahiriAyanamsha(date) {
+  const jd = Astronomy.MakeTime(date).tt + 2451545.0;
+  const T = (jd - 2451545.0) / 36525.0; // Julian centuries from J2000
+  // Lahiri ayanamsha at J2000.0 = 23.853 degrees; precession rate ~50.2388475 arcsec/year
+  // T is in Julian centuries (100 years), so T*100 = years from J2000
+  const ayanamsha = 23.853 + (T * 100 * 50.2388475 / 3600);
+  return normalizeDegrees(ayanamsha);
+}
+
+function siderealLongitude(tropicalLon, ayanamsha) {
+  return normalizeDegrees(tropicalLon - ayanamsha);
+}
+
+function nakshatraForLongitude(siderealLon) {
+  const normalized = normalizeDegrees(siderealLon);
+  const index = Math.floor(normalized / (360 / 27));
+  const pada = Math.floor((normalized % (360 / 27)) / (360 / 108)) + 1;
+  return { nakshatra: nakshatras[index], nakshatraIndex: index, pada, ruler: nakshatraRulers[index] };
+}
+
+function siderealSignForLongitude(siderealLon) {
+  const normalized = normalizeDegrees(siderealLon);
+  const signIndex = Math.floor(normalized / 30);
+  return { sign: siderealSigns[signIndex], signIndex, degreeInSign: normalized - signIndex * 30 };
+}
+
+// Vimshottari dasha running period from Moon nakshatra and birth date
+function vimshottariDashaFromMoon(moonSiderealLon, birthDate) {
+  const nk = nakshatraForLongitude(moonSiderealLon);
+  const nakshatraSpan = 360 / 27;
+  const degInNakshatra = normalizeDegrees(moonSiderealLon) % nakshatraSpan;
+  const fractionElapsed = degInNakshatra / nakshatraSpan;
+  const ruler = nk.ruler;
+  const totalYears = vimshottariYears[ruler];
+  const yearsElapsed = fractionElapsed * totalYears;
+  const yearsRemaining = totalYears - yearsElapsed;
+  const msPerYear = 365.25 * 24 * 3600 * 1000;
+  const dashEnd = new Date(birthDate.getTime() + yearsRemaining * msPerYear);
+  return { currentDashaLord: ruler, yearsRemainingInDasha: Number(yearsRemaining.toFixed(2)), dashaEnds: dashEnd.toISOString().slice(0, 10) };
+}
+
 function angularDistance(a, b) {
   const diff = Math.abs(normalizeDegrees(a) - normalizeDegrees(b));
   return diff > 180 ? 360 - diff : diff;
@@ -331,16 +384,28 @@ function applyHousePlacements(positions, anglesAndHouses) {
 }
 
 function calculatePositions(date) {
+  const ayanamsha = lahiriAyanamsha(date);
   return bodies.map((body) => {
     const longitude = body === "Sun"
       ? Astronomy.SunPosition(date).elon
       : Astronomy.Ecliptic(Astronomy.GeoVector(body, date, true)).elon;
     const sign = signForLongitude(longitude);
+    const siderealLon = siderealLongitude(longitude, ayanamsha);
+    const siderealSign = siderealSignForLongitude(siderealLon);
+    const nk = nakshatraForLongitude(siderealLon);
     return {
       body,
       tropicalLongitude: Number(normalizeDegrees(longitude).toFixed(6)),
       sign: sign.sign,
       degreeInSign: Number(sign.degreeInSign.toFixed(6)),
+      vedic: {
+        siderealLongitude: Number(siderealLon.toFixed(6)),
+        rashi: siderealSign.sign,
+        degreeInRashi: Number(siderealSign.degreeInSign.toFixed(6)),
+        nakshatra: nk.nakshatra,
+        pada: nk.pada,
+        nakshatraRuler: nk.ruler,
+      },
     };
   });
 }
@@ -408,7 +473,7 @@ function calculateAspects(positions) {
   return aspects;
 }
 
-function buildProfile(args, positions, aspects, anglesAndHouses) {
+function buildProfile(args, positions, aspects, anglesAndHouses, birthDate) {
   const aspectFactors = aspects
     .filter((aspect) => aspect.matchedRuleQuery)
     .map((aspect) => ({
@@ -436,6 +501,26 @@ function buildProfile(args, positions, aspects, anglesAndHouses) {
       },
     }));
   const factors = [...aspectFactors, ...houseFactors];
+
+  function buildVedicSummary(positions, birthDate) {
+    const ayanamsha = lahiriAyanamsha(birthDate);
+    const moon = positions.find(p => p.body === "Moon");
+    const lagna = positions.find(p => p.body === "Sun"); // placeholder until sidereal ASC is calculated
+    const dasha = moon ? vimshottariDashaFromMoon(moon.vedic.siderealLongitude, birthDate) : null;
+    return {
+      ayanamsha: { system: "Lahiri", degrees: Number(ayanamsha.toFixed(4)) },
+      grahaPositions: positions.map(p => ({
+        graha: p.body,
+        rashi: p.vedic.rashi,
+        degreeInRashi: p.vedic.degreeInRashi,
+        nakshatra: p.vedic.nakshatra,
+        pada: p.vedic.pada,
+        nakshatraRuler: p.vedic.nakshatraRuler,
+      })),
+      vimshottariDasha: dasha,
+      note: "Lagna (sidereal ASC) requires sidereal house calculation — not yet implemented. Using tropical ASC as placeholder.",
+    };
+  }
 
   return {
     title: "Calculated Natal Prototype",
@@ -469,7 +554,7 @@ function buildProfile(args, positions, aspects, anglesAndHouses) {
           ? "Houses use a prototype Whole Sign system from the Ascendant sign."
           : "Ascendant and houses use a prototype Equal House system from the Ascendant.",
         "House cusps are not Placidus, Koch, Regiomontanus, or Vedic bhava calculations.",
-        "No Vedic sidereal ayanamsa yet.",
+        "Vedic sidereal positions use Lahiri ayanamsha (prototype formula). Verify against Swiss Ephemeris for production use.",
       ],
       positions,
       aspects,
@@ -482,6 +567,7 @@ function buildProfile(args, positions, aspects, anglesAndHouses) {
         imumCoeli: anglesAndHouses.imumCoeli,
       },
       houses: anglesAndHouses.houses,
+      vedic: buildVedicSummary(positions, birthDate),
     },
     context: args.language === "ru"
       ? "Прототип расчетного профиля. Факторы выбраны только из тех правил генератора, которые уже есть в базе."
@@ -500,7 +586,7 @@ function calculateProfile(args) {
 
   const anglesAndHouses = calculateAnglesAndHouses(date, args);
   const positions = applyHousePlacements(calculatePositions(date), anglesAndHouses);
-  return buildProfile(args, positions, calculateAspects(positions), anglesAndHouses);
+  return buildProfile(args, positions, calculateAspects(positions), anglesAndHouses, date);
 }
 
 function main() {
