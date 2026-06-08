@@ -18,6 +18,12 @@ const nakshatraRulers = ["Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Sa
   "Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Saturn","Mercury",
   "Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Saturn","Mercury"];
 const vimshottariYears = { Sun:6, Moon:10, Mars:7, Rahu:18, Jupiter:16, Saturn:19, Mercury:17, Ketu:7, Venus:20 };
+// Traditional Western sign rulers (Ptolemaic + modern outer planets as co-rulers)
+const signRuler = {
+  Aries:"Mars", Taurus:"Venus", Gemini:"Mercury", Cancer:"Moon", Leo:"Sun", Virgo:"Mercury",
+  Libra:"Venus", Scorpio:"Pluto", Sagittarius:"Jupiter", Capricorn:"Saturn",
+  Aquarius:"Uranus", Pisces:"Neptune",
+};
 // Build available rule query set dynamically from all rule files
 const rulesDir = path.join(projectRoot, "generator", "rules");
 const availableRuleQueries = new Set();
@@ -34,6 +40,8 @@ for (const ruleFile of fs.readdirSync(rulesDir).filter(f => f.endsWith(".json"))
       availableRuleQueries.add(`${f.planet} in ${f.house}th house`);
     } else if (f.planet && f.sign) {
       availableRuleQueries.add(`${f.planet} in ${f.sign}`);
+    } else if (f.rulerOfHouse && f.placedInHouse) {
+      availableRuleQueries.add(`rule-instance.western.ruler-of-${f.rulerOfHouse}-in-${f.placedInHouse}`);
     }
   }
 }
@@ -517,7 +525,33 @@ function buildProfile(args, positions, aspects, anglesAndHouses, birthDate) {
       query,
       calculated: { body: position.body, sign: position.sign },
     }));
-  const factors = [...aspectFactors, ...houseFactors, ...signFactors];
+  // Ruler pipeline: for each house, find its sign ruler, then find that ruler's house
+  const rulerFactors = [];
+  if (anglesAndHouses.houses && anglesAndHouses.houses.length > 0) {
+    anglesAndHouses.houses.forEach((house) => {
+      const houseNum = house.house;
+      const cuspSign = house.sign;
+      const ruler = signRuler[cuspSign];
+      if (!ruler) return;
+      const rulerPosition = positions.find(p => p.body === ruler);
+      if (!rulerPosition || !rulerPosition.house) return;
+      const fromH = `${houseNum}${['st','nd','rd'][houseNum-1]||'th'}`;
+      const toH = `${rulerPosition.house}${['st','nd','rd'][rulerPosition.house-1]||'th'}`;
+      const query = `ruler-of-${fromH}-in-${toH}`;
+      if (availableRuleQueries.has(`rule-instance.western.${query}`)) {
+        rulerFactors.push({
+          query,
+          calculated: {
+            sourceHouse: houseNum,
+            cuspSign,
+            ruler,
+            rulerHouse: rulerPosition.house,
+          },
+        });
+      }
+    });
+  }
+  const factors = [...aspectFactors, ...houseFactors, ...signFactors, ...rulerFactors];
 
   function buildVedicSummary(positions, birthDate, anglesAndHouses) {
     const ayanamsha = lahiriAyanamsha(birthDate);
