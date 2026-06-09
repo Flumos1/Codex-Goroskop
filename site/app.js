@@ -22,7 +22,7 @@ const ASPECT_RU = {
 };
 const TYPE_LABEL = {
   aspect: "Аспект", house: "Дом", sign: "Знак", ruler: "Управитель", transit: "Транзит",
-  vedic: "Джйотиш", kabbalah: "Каббала",
+  vedic: "Джйотиш", kabbalah: "Каббала", "chinese-zodiac": "Восточный зодиак",
 };
 
 const RASHI_RU = {
@@ -122,6 +122,11 @@ function renderPlanets(profile) {
 function factorTitle(item) {
   const r = item.rule || {};
   const f = r.factor || {};
+  if (f.chineseAnimal) {
+    const ruGen = item.rule?.simpleRu?.animalRuGen || f.chineseAnimal;
+    const yr = item.calculated?.birthYear || "";
+    return { title: `Год ${ruGen} — Восточный зодиак${yr ? ` (${yr})` : ""}`, typeKey: "chinese-zodiac" };
+  }
   if (f.kabbalahPlanet && f.sign)
     return { title: `Каббала: ${SIGN_RU[f.sign] || f.sign} — месяц ${f.hebrewMonth}`, typeKey: "kabbalah" };
   if (f.graha && f.rashi)
@@ -149,8 +154,9 @@ function renderFactors(profile) {
 
   // Split into groups
   const kabbalah = matched.filter(i => i.rule?.type === "kabbalah");
+  const chinese  = matched.filter(i => i.rule?.type === "chinese-zodiac");
   const vedic    = matched.filter(i => i.rule?.system === "vedic");
-  const western  = matched.filter(i => i.rule?.type !== "kabbalah" && i.rule?.system !== "vedic");
+  const western  = matched.filter(i => !["kabbalah","chinese-zodiac"].includes(i.rule?.type) && i.rule?.system !== "vedic");
   const topN     = 5;
 
   function renderGroup(items, groupLabel, isTop) {
@@ -179,9 +185,11 @@ function renderFactors(profile) {
   stat.innerHTML = `<span>${matched.length} интерпретаций</span> <span class="factors-stat-note">· топ-${topN} выделены · отсортировано по значимости</span>`;
   container.appendChild(stat);
 
-  renderGroup(western,   western.length && (vedic.length || kabbalah.length) ? "Западная астрология" : null, true);
+  const hasOther = vedic.length || kabbalah.length || chinese.length;
+  renderGroup(western,   western.length && hasOther ? "Западная астрология" : null, true);
   renderGroup(vedic,     vedic.length     ? "Джйотиш (ведическая)" : null, false);
   renderGroup(kabbalah,  kabbalah.length  ? "Каббалистическая астрология" : null, false);
+  renderGroup(chinese,   chinese.length   ? "Восточный зодиак (Давыдов)" : null, false);
 }
 
 function renderVedic(profile) {

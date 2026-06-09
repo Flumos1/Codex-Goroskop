@@ -213,7 +213,8 @@ tr:last-child td { border-bottom: none; }
 .type-ruler   { background: #2d1a22; color: #e07090; }
 .type-transit  { background: #1a2040; color: #7090e0; }
 .type-vedic    { background: #1a2a1a; color: #7ecb7e; }
-.type-kabbalah { background: #2a1a30; color: #c090e0; }
+.type-kabbalah      { background: #2a1a30; color: #c090e0; }
+.type-chinese-zodiac { background: #1a2a20; color: #80d8a0; }
 
 .factor-body {
   padding: 14px 16px;

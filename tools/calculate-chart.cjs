@@ -46,6 +46,8 @@ for (const ruleFile of fs.readdirSync(rulesDir).filter(f => f.endsWith(".json"))
       availableRuleQueries.add(`vedic:${f.graha}:${f.rashi}`);
     } else if (f.kabbalahPlanet && f.sign) {
       availableRuleQueries.add(`kabbalah:${f.kabbalahPlanet}:${f.sign}`);
+    } else if (f.chineseAnimal) {
+      availableRuleQueries.add(`chinese:${f.chineseAnimal}`);
     }
   }
 }
@@ -569,7 +571,14 @@ function buildProfile(args, positions, aspects, anglesAndHouses, birthDate) {
       query: `kabbalah:Sun:${p.sign}`,
       calculated: { kabbalahPlanet: "Sun", sign: p.sign, system: "kabbalah" },
     }));
-  const factors = [...aspectFactors, ...houseFactors, ...signFactors, ...rulerFactors, ...vedicRashiFactors, ...kabbalahFactors];
+  // Chinese zodiac: computed from birth year (approx, anchor 1900=Rat)
+  const CHINESE_ANIMALS = ["Rat","Ox","Tiger","Rabbit","Dragon","Snake","Horse","Goat","Monkey","Rooster","Dog","Pig"];
+  const birthYear = birthDate ? birthDate.getFullYear() : null;
+  const chineseAnimal = birthYear ? CHINESE_ANIMALS[((birthYear - 1900) % 12 + 12) % 12] : null;
+  const chineseFactors = (chineseAnimal && availableRuleQueries.has(`chinese:${chineseAnimal}`))
+    ? [{ query: `chinese:${chineseAnimal}`, calculated: { chineseAnimal, birthYear, system: "chinese" } }]
+    : [];
+  const factors = [...aspectFactors, ...houseFactors, ...signFactors, ...rulerFactors, ...vedicRashiFactors, ...kabbalahFactors, ...chineseFactors];
 
   function buildVedicSummary(positions, birthDate, anglesAndHouses) {
     const ayanamsha = lahiriAyanamsha(birthDate);
