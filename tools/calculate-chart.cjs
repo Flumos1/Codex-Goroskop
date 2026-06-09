@@ -44,6 +44,8 @@ for (const ruleFile of fs.readdirSync(rulesDir).filter(f => f.endsWith(".json"))
       availableRuleQueries.add(`rule-instance.western.ruler-of-${f.rulerOfHouse}-in-${f.placedInHouse}`);
     } else if (f.graha && f.rashi) {
       availableRuleQueries.add(`vedic:${f.graha}:${f.rashi}`);
+    } else if (f.kabbalahPlanet && f.sign) {
+      availableRuleQueries.add(`kabbalah:${f.kabbalahPlanet}:${f.sign}`);
     }
   }
 }
@@ -561,7 +563,13 @@ function buildProfile(args, positions, aspects, anglesAndHouses, birthDate) {
       query: `vedic:${p.body}:${p.vedic.rashi}`,
       calculated: { graha: p.body, rashi: p.vedic.rashi, system: "vedic" },
     }));
-  const factors = [...aspectFactors, ...houseFactors, ...signFactors, ...rulerFactors, ...vedicRashiFactors];
+  const kabbalahFactors = positions
+    .filter(p => p.body === "Sun" && availableRuleQueries.has(`kabbalah:Sun:${p.sign}`))
+    .map(p => ({
+      query: `kabbalah:Sun:${p.sign}`,
+      calculated: { kabbalahPlanet: "Sun", sign: p.sign, system: "kabbalah" },
+    }));
+  const factors = [...aspectFactors, ...houseFactors, ...signFactors, ...rulerFactors, ...vedicRashiFactors, ...kabbalahFactors];
 
   function buildVedicSummary(positions, birthDate, anglesAndHouses) {
     const ayanamsha = lahiriAyanamsha(birthDate);

@@ -21,12 +21,13 @@ function loadAllRules() {
 }
 
 function buildRuleIndex(rules) {
-  const byAspect   = new Map(); // "Moon trine Pluto" → rule
-  const byHouse    = new Map(); // "Sun 10" → rule
-  const bySign     = new Map(); // "Sun Gemini" → rule
-  const byRulerId  = new Map(); // "rule-instance.western.ruler-of-1st-in-9th" → rule
-  const byVedic    = new Map(); // "Sun:Mesha" → rule
-  const byBirthday = new Map(); // "5:15" → rule (month:day)
+  const byAspect    = new Map(); // "Moon trine Pluto" → rule
+  const byHouse     = new Map(); // "Sun 10" → rule
+  const bySign      = new Map(); // "Sun Gemini" → rule
+  const byRulerId   = new Map(); // "rule-instance.western.ruler-of-1st-in-9th" → rule
+  const byVedic     = new Map(); // "Sun:Mesha" → rule
+  const byBirthday  = new Map(); // "5:15" → rule (month:day)
+  const byKabbalah  = new Map(); // "Sun:Aries" → rule
 
   for (const rule of rules) {
     const f = rule.factor || {};
@@ -45,9 +46,11 @@ function buildRuleIndex(rules) {
       byVedic.set(`${f.graha}:${f.rashi}`, rule);
     } else if (f.month && f.day) {
       byBirthday.set(`${f.month}:${f.day}`, rule);
+    } else if (f.kabbalahPlanet && f.sign) {
+      byKabbalah.set(`${f.kabbalahPlanet}:${f.sign}`, rule);
     }
   }
-  return { byAspect, byHouse, bySign, byRulerId, byVedic, byBirthday };
+  return { byAspect, byHouse, bySign, byRulerId, byVedic, byBirthday, byKabbalah };
 }
 
 function findRuleForFactor(factor, idx) {
@@ -76,6 +79,10 @@ function findRuleForFactor(factor, idx) {
   // Vedic: "vedic:Sun:Mesha"
   if (q.startsWith("vedic:") && c.graha && c.rashi) {
     return idx.byVedic.get(`${c.graha}:${c.rashi}`);
+  }
+  // Kabbalah: "kabbalah:Sun:Aries"
+  if (q.startsWith("kabbalah:") && c.kabbalahPlanet && c.sign) {
+    return idx.byKabbalah.get(`${c.kabbalahPlanet}:${c.sign}`);
   }
   return null;
 }

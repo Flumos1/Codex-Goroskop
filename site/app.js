@@ -22,7 +22,7 @@ const ASPECT_RU = {
 };
 const TYPE_LABEL = {
   aspect: "Аспект", house: "Дом", sign: "Знак", ruler: "Управитель", transit: "Транзит",
-  vedic: "Джйотиш",
+  vedic: "Джйотиш", kabbalah: "Каббала",
 };
 
 const RASHI_RU = {
@@ -71,10 +71,13 @@ function makeFactorItem(title, typeKey, texts) {
   body.className = "factor-body";
 
   if (texts) {
-    if (texts.summary)    body.innerHTML += `<p><strong>${texts.summary}</strong></p>`;
-    if (texts.pattern)    body.innerHTML += `<p>${texts.pattern}</p>`;
-    if (texts.growth)     body.innerHTML += `<div class="label">Задача роста</div><p>${texts.growth}</p>`;
-    if (texts.reflection) body.innerHTML += `<div class="label">Вопрос для рефлексии</div><p>${texts.reflection}</p>`;
+    if (texts.summary)          body.innerHTML += `<p><strong>${texts.summary}</strong></p>`;
+    if (texts.description && !texts.summary) body.innerHTML += `<p>${texts.description.slice(0,400)}…</p>`;
+    if (texts.pattern)          body.innerHTML += `<p>${texts.pattern}</p>`;
+    if (texts.tikkun)           body.innerHTML += `<div class="label">${texts.tikkunTitle || "Тиккун (задача исправления)"}</div><p>${texts.tikkun.slice(0,350)}…</p>`;
+    if (texts.monthlyInfluence) body.innerHTML += `<div class="label">Влияние месяца</div><p>${texts.monthlyInfluence}</p>`;
+    if (texts.growth)           body.innerHTML += `<div class="label">Задача роста</div><p>${texts.growth}</p>`;
+    if (texts.reflection)       body.innerHTML += `<div class="label">Вопрос для рефлексии</div><p>${texts.reflection}</p>`;
   }
 
   item.appendChild(header);
@@ -119,6 +122,8 @@ function renderPlanets(profile) {
 function factorTitle(item) {
   const r = item.rule || {};
   const f = r.factor || {};
+  if (f.kabbalahPlanet && f.sign)
+    return { title: `Каббала: ${SIGN_RU[f.sign] || f.sign} — месяц ${f.hebrewMonth}`, typeKey: "kabbalah" };
   if (f.graha && f.rashi)
     return { title: `${GRAHA_RU[f.graha] || f.graha} в ${RASHI_RU[f.rashi] || f.rashi}`, typeKey: "vedic" };
   if (f.planetA && f.aspect && f.planetB)
@@ -142,10 +147,11 @@ function renderFactors(profile) {
     return;
   }
 
-  // Split into Western and Vedic groups
-  const western = matched.filter(i => (i.rule?.system || "western") !== "vedic");
-  const vedic   = matched.filter(i => i.rule?.system === "vedic");
-  const topN    = 5;
+  // Split into groups
+  const kabbalah = matched.filter(i => i.rule?.type === "kabbalah");
+  const vedic    = matched.filter(i => i.rule?.system === "vedic");
+  const western  = matched.filter(i => i.rule?.type !== "kabbalah" && i.rule?.system !== "vedic");
+  const topN     = 5;
 
   function renderGroup(items, groupLabel, isTop) {
     if (!items.length) return;
@@ -173,8 +179,9 @@ function renderFactors(profile) {
   stat.innerHTML = `<span>${matched.length} интерпретаций</span> <span class="factors-stat-note">· топ-${topN} выделены · отсортировано по значимости</span>`;
   container.appendChild(stat);
 
-  renderGroup(western, western.length && vedic.length ? "Западная астрология" : null, true);
-  renderGroup(vedic,   vedic.length   ? "Джйотиш (ведическая)" : null, false);
+  renderGroup(western,   western.length && (vedic.length || kabbalah.length) ? "Западная астрология" : null, true);
+  renderGroup(vedic,     vedic.length     ? "Джйотиш (ведическая)" : null, false);
+  renderGroup(kabbalah,  kabbalah.length  ? "Каббалистическая астрология" : null, false);
 }
 
 function renderVedic(profile) {

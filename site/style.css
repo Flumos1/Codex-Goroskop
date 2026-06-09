@@ -211,8 +211,9 @@ tr:last-child td { border-bottom: none; }
 .type-house   { background: #1a2d2a; color: #5cc49a; }
 .type-sign    { background: #2d261a; color: #c4a45c; }
 .type-ruler   { background: #2d1a22; color: #e07090; }
-.type-transit { background: #1a2040; color: #7090e0; }
-.type-vedic   { background: #1a2a1a; color: #7ecb7e; }
+.type-transit  { background: #1a2040; color: #7090e0; }
+.type-vedic    { background: #1a2a1a; color: #7ecb7e; }
+.type-kabbalah { background: #2a1a30; color: #c090e0; }
 
 .factor-body {
   padding: 14px 16px;
