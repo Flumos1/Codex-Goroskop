@@ -355,10 +355,19 @@ tr:last-child td { border-bottom: none; }
   gap: 16px;
   margin-bottom: 20px;
 }
+.day-title-label {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #e8d8ff;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+.day-title-label.hidden { display: none; }
 .period-label {
   font-size: 13px;
   color: var(--accent);
-  margin-top: 4px;
+  margin-top: 2px;
 }
 .source-badge {
   font-size: 11px;

@@ -13,6 +13,8 @@ const PLANET_RU = {
   Sun: "Солнце", Moon: "Луна", Mercury: "Меркурий", Venus: "Венера",
   Mars: "Марс", Jupiter: "Юпитер", Saturn: "Сатурн", Uranus: "Уран",
   Neptune: "Нептун", Pluto: "Плутон",
+  ASC: "Асцендент", MC: "МС (Середина Неба)",
+  "North Node": "Северный Узел", "South Node": "Южный Узел",
 };
 const ASPECT_RU = {
   conjunction: "соединение", opposition: "оппозиция", square: "квадрат",
@@ -377,6 +379,16 @@ async function loadBirthdayPortrait(e) {
 
     document.getElementById("bd-result-name").textContent =
       name ? `${name} — ${day} ${MONTH_RU[month]}` : `${day} ${MONTH_RU[month]}`;
+
+    const dayTitleEl = document.getElementById("bd-day-title");
+    if (ru.dayTitleShort) {
+      dayTitleEl.textContent = ru.dayTitleShort.toUpperCase();
+      dayTitleEl.classList.remove("hidden");
+    } else {
+      dayTitleEl.textContent = "";
+      dayTitleEl.classList.add("hidden");
+    }
+
     document.getElementById("bd-period-label").textContent =
       `${period.titleRu || ""} · ${period.sign || ""}`;
 

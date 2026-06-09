@@ -69,8 +69,8 @@ function parseArgs(argv) {
     else if (arg === "--place-key") args.placeKey = argv[++i];
     else if (arg === "--name") args.name = argv[++i];
     else if (arg === "--place") args.place = argv[++i];
-    else if (arg === "--lat") args.latitude = Number(argv[++i]);
-    else if (arg === "--lon") args.longitude = Number(argv[++i]);
+    else if (arg === "--lat" || arg === "--latitude") args.latitude = Number(argv[++i]);
+    else if (arg === "--lon" || arg === "--longitude") args.longitude = Number(argv[++i]);
     else if (arg === "--mode") args.mode = argv[++i];
     else if (arg === "--language") args.language = argv[++i];
     else if (arg === "--house-system") args.houseSystem = argv[++i];

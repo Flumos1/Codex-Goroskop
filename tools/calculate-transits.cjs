@@ -22,10 +22,15 @@ const projectRoot = path.resolve(__dirname, "..");
 const rulesDir    = path.join(projectRoot, "generator", "rules");
 const placesPath  = path.join(projectRoot, "data", "places.json");
 
-// Load transit rules
+// Load transit rules (slow planets + fast planets merged)
 function loadTransitRules() {
-  const file = path.join(rulesDir, "psychological-transit-rules.json");
-  return JSON.parse(fs.readFileSync(file, "utf8"));
+  const slow = path.join(rulesDir, "psychological-transit-rules.json");
+  const fast = path.join(rulesDir, "psychological-fast-transit-rules.json");
+  const rules = JSON.parse(fs.readFileSync(slow, "utf8"));
+  if (fs.existsSync(fast)) {
+    rules.push(...JSON.parse(fs.readFileSync(fast, "utf8")));
+  }
+  return rules;
 }
 
 // Build lookup: "Jupiter conjunction Sun" → rule
@@ -55,28 +60,29 @@ function resolveTransitDate(args) {
   return new Date(); // today
 }
 
-// Natal points we track
-const NATAL_TARGETS = ["Sun","Moon","Mercury","Venus","Mars","Jupiter","Saturn"];
+// Natal points we track (all 10 planets come from calculatePositions automatically)
+// Angles (ASC, MC) are added separately from the natal profile when coordinates are available.
 const ASC_POINT = "ASC";
+const MC_POINT  = "MC";
 
-// Orbs per transit planet (slow = tighter, fast = standard)
-function defaultOrb(planet, aspect) {
-  const tight = { Neptune: 1, Pluto: 1 };
+// Orbs per transit planet
+function defaultOrb(planet) {
+  const tight    = { Neptune: 1, Pluto: 1 };
   const standard = { Jupiter: 2, Saturn: 2, Uranus: 2, Mars: 1, Sun: 1 };
-  return (tight[planet] ?? standard[planet] ?? 2);
+  const fast     = { Moon: 1, Mercury: 1, Venus: 1 };
+  return (tight[planet] ?? standard[planet] ?? fast[planet] ?? 2);
 }
 
-function findActiveTransits(natalPositions, transitPositions, natalAscendant, transitIndex, customOrb) {
+function findActiveTransits(natalPositions, transitPositions, natalAscendant, natalMidheaven, transitIndex, customOrb) {
   const active = [];
 
-  // Prepare natal points map
+  // Prepare natal points map (all 10 planets + angles when available)
   const natalMap = {};
   for (const p of natalPositions) {
     natalMap[p.body] = p.tropicalLongitude;
   }
-  if (natalAscendant) {
-    natalMap[ASC_POINT] = natalAscendant.longitude;
-  }
+  if (natalAscendant)  natalMap[ASC_POINT] = natalAscendant.longitude;
+  if (natalMidheaven)  natalMap[MC_POINT]  = natalMidheaven.longitude;
 
   for (const tPos of transitPositions) {
     const tPlanet = tPos.body;
@@ -193,14 +199,15 @@ function main() {
   // Calculate natal positions
   const natalPositions = calculatePositions(birthDate);
 
-  // Resolve natal ASC if we have coordinates
-  let natalAscendant = null;
+  // Resolve natal ASC and MC if we have coordinates
+  let natalAscendant  = null;
+  let natalMidheaven  = null;
   if (Number.isFinite(args.latitude) && Number.isFinite(args.longitude)) {
-    // Import ASC finder — use the full natal profile
     const { calculateProfile } = require("./calculate-chart.cjs");
     try {
       const natalProfile = calculateProfile(args);
       natalAscendant = natalProfile.calculation.angles.ascendant;
+      natalMidheaven = natalProfile.calculation.angles.midheaven;
     } catch {}
   }
 
@@ -211,7 +218,7 @@ function main() {
   const transitRules   = loadTransitRules();
   const transitIndex   = buildTransitIndex(transitRules);
   const activeTransits = findActiveTransits(
-    natalPositions, transitPositions, natalAscendant, transitIndex, args.customOrb
+    natalPositions, transitPositions, natalAscendant, natalMidheaven, transitIndex, args.customOrb
   );
 
   const profile = buildTransitProfile(
