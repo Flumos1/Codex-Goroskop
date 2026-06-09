@@ -76,6 +76,7 @@ function makeFactorItem(title, typeKey, texts) {
     if (texts.pattern)          body.innerHTML += `<p>${texts.pattern}</p>`;
     if (texts.tikkun)           body.innerHTML += `<div class="label">${texts.tikkunTitle || "Тиккун (задача исправления)"}</div><p>${texts.tikkun.slice(0,350)}…</p>`;
     if (texts.monthlyInfluence) body.innerHTML += `<div class="label">Влияние месяца</div><p>${texts.monthlyInfluence}</p>`;
+    if (texts.advice)           body.innerHTML += `<div class="label">Совет</div><p>${texts.advice}</p>`;
     if (texts.growth)           body.innerHTML += `<div class="label">Задача роста</div><p>${texts.growth}</p>`;
     if (texts.reflection)       body.innerHTML += `<div class="label">Вопрос для рефлексии</div><p>${texts.reflection}</p>`;
   }
@@ -129,6 +130,11 @@ function factorTitle(item) {
   }
   if (f.kabbalahPlanet && f.sign)
     return { title: `Каббала: ${SIGN_RU[f.sign] || f.sign} — месяц ${f.hebrewMonth}`, typeKey: "kabbalah" };
+  if (f.nakshatra) {
+    const nkRu = item.rule?.simpleRu?.name || f.nakshatra;
+    const ruler = item.rule?.simpleRu?.ruler || item.calculated?.ruler || "";
+    return { title: `Луна в накшатре ${nkRu}${ruler ? ` (${ruler})` : ""}`, typeKey: "vedic" };
+  }
   if (f.graha && f.rashi)
     return { title: `${GRAHA_RU[f.graha] || f.graha} в ${RASHI_RU[f.rashi] || f.rashi}`, typeKey: "vedic" };
   if (f.planetA && f.aspect && f.planetB)
@@ -155,8 +161,8 @@ function renderFactors(profile) {
   // Split into groups
   const kabbalah = matched.filter(i => i.rule?.type === "kabbalah");
   const chinese  = matched.filter(i => i.rule?.type === "chinese-zodiac");
-  const vedic    = matched.filter(i => i.rule?.system === "vedic");
-  const western  = matched.filter(i => !["kabbalah","chinese-zodiac"].includes(i.rule?.type) && i.rule?.system !== "vedic");
+  const vedic    = matched.filter(i => i.rule?.system === "vedic" || i.rule?.type === "nakshatra");
+  const western  = matched.filter(i => !["kabbalah","chinese-zodiac","nakshatra"].includes(i.rule?.type) && i.rule?.system !== "vedic");
   const topN     = 5;
 
   function renderGroup(items, groupLabel, isTop) {

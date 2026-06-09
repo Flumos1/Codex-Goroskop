@@ -29,6 +29,7 @@ function buildRuleIndex(rules) {
   const byBirthday  = new Map(); // "5:15" → rule (month:day)
   const byKabbalah  = new Map(); // "Sun:Aries" → rule
   const byChinese   = new Map(); // "Rat" → rule
+  const byNakshatra = new Map(); // "Ashwini" → rule
 
   for (const rule of rules) {
     const f = rule.factor || {};
@@ -51,9 +52,11 @@ function buildRuleIndex(rules) {
       byKabbalah.set(`${f.kabbalahPlanet}:${f.sign}`, rule);
     } else if (f.chineseAnimal) {
       byChinese.set(f.chineseAnimal, rule);
+    } else if (f.nakshatra) {
+      byNakshatra.set(f.nakshatra, rule);
     }
   }
-  return { byAspect, byHouse, bySign, byRulerId, byVedic, byBirthday, byKabbalah, byChinese };
+  return { byAspect, byHouse, bySign, byRulerId, byVedic, byBirthday, byKabbalah, byChinese, byNakshatra };
 }
 
 function findRuleForFactor(factor, idx) {
@@ -90,6 +93,10 @@ function findRuleForFactor(factor, idx) {
   // Chinese zodiac: "chinese:Rat"
   if (q.startsWith("chinese:") && c.chineseAnimal) {
     return idx.byChinese.get(c.chineseAnimal);
+  }
+  // Nakshatra: "nakshatra:Ashwini"
+  if (q.startsWith("nakshatra:") && c.nakshatra) {
+    return idx.byNakshatra.get(c.nakshatra);
   }
   return null;
 }

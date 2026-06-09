@@ -48,6 +48,8 @@ for (const ruleFile of fs.readdirSync(rulesDir).filter(f => f.endsWith(".json"))
       availableRuleQueries.add(`kabbalah:${f.kabbalahPlanet}:${f.sign}`);
     } else if (f.chineseAnimal) {
       availableRuleQueries.add(`chinese:${f.chineseAnimal}`);
+    } else if (f.nakshatra) {
+      availableRuleQueries.add(`nakshatra:${f.nakshatra}`);
     }
   }
 }
@@ -578,7 +580,13 @@ function buildProfile(args, positions, aspects, anglesAndHouses, birthDate) {
   const chineseFactors = (chineseAnimal && availableRuleQueries.has(`chinese:${chineseAnimal}`))
     ? [{ query: `chinese:${chineseAnimal}`, calculated: { chineseAnimal, birthYear, system: "chinese" } }]
     : [];
-  const factors = [...aspectFactors, ...houseFactors, ...signFactors, ...rulerFactors, ...vedicRashiFactors, ...kabbalahFactors, ...chineseFactors];
+  // Moon nakshatra factor
+  const moonPos = positions.find(p => p.body === "Moon");
+  const moonNakshatra = moonPos?.vedic?.nakshatra;
+  const nakshatraFactors = (moonNakshatra && availableRuleQueries.has(`nakshatra:${moonNakshatra}`))
+    ? [{ query: `nakshatra:${moonNakshatra}`, calculated: { nakshatra: moonNakshatra, ruler: moonPos.vedic.nakshatraRuler, system: "vedic-nakshatra" } }]
+    : [];
+  const factors = [...aspectFactors, ...houseFactors, ...signFactors, ...rulerFactors, ...vedicRashiFactors, ...kabbalahFactors, ...chineseFactors, ...nakshatraFactors];
 
   function buildVedicSummary(positions, birthDate, anglesAndHouses) {
     const ayanamsha = lahiriAyanamsha(birthDate);
