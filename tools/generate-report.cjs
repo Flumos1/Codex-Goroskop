@@ -433,4 +433,18 @@ function main() {
   }
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  factorLabel,
+  findRules,
+  labels,
+  languageFromProfile,
+  listRules,
+  loadRules,
+  renderCompositeMarkdown,
+  renderMarkdown,
+  renderProfileMarkdown,
+};

@@ -25,6 +25,12 @@ The project now has:
 - Reference-chart verification harness with four external references and candidate baselines.
 - Rule source trace command.
 - Project validation command.
+- First-level local module showcase with full-screen motion scene and entry cards for Vedic, Western, Jewish/Kabbalistic, compatibility, numerology, and forecasting branches.
+- Second-level Western astrology page for chart input, chart wheel, aspects, dispositor chains, and report display.
+- Separate local Vedic / Jyotish page with sidereal prototype, Lagna, Moon nakshatra, Vimshottari period theme, and human-language prediction text.
+- Separate local compatibility page with two-person input, relationship context selection, synastry aspects, multi-axis interpretation, bold hypotheses, deep research notes, and communication forecast.
+- Separate local Jewish / Kabbalistic page with Berg-inspired month/sign layer, tikkun, name/date number overlays, bold hypotheses, and practical light-oriented prompts.
+- Separate local graphs / biorhythms page with seven forecast curves for body, emotions, mind, love, business, intuition, and integrated luck, plus human-readable current-period notes.
 - Completed OCR pipeline pass with Tesseract / ImageMagick / Ghostscript and page-level resume cache.
 - Goldschneider birthday-personology primary-wave notes and source-only report schema.
 - Custom Codex skill: `codex-goroskop-research`.
@@ -84,11 +90,17 @@ The generator can:
 - Assign Whole Sign houses from the Ascendant sign.
 - Match planet-in-house factors to available generator rules.
 - Match calculated major aspects to available generator rules.
+- Calculate traditional or modern dispositor chains for a calculated profile.
 - Validate deterministic calculation fixtures.
 - Verify four external reference charts and candidate baselines with explicit source/status metadata.
 - Trace generator rules back to sources and graph links.
 - Render simple, advanced, or both report modes.
 - Write reports to `generator/outputs`.
+- Serve a local browser prototype with a first-level module showcase plus second-level Western profile form, SVG chart wheel, aspect list, dispositor view, and generated report.
+- Serve a separate Vedic prototype page that keeps Jyotish separate from Western interpretation and uses non-fatalistic period language.
+- Serve a compatibility prototype for romantic, friendship, business, family, coworker, parent-child, and general communication contexts.
+- Serve a Jewish / Kabbalistic prototype that keeps the esoteric layer labeled and separate from Western, Jyotish, and birthday-personology reports.
+- Serve a graphs / biorhythms prototype that combines natal-chart seed values with cyclical forecast curves and explanatory cards for planning attention across seven life areas.
 - Design-level support for future birthday source-only and stereo overlay report modes.
 
 ## Current Limitations
@@ -100,14 +112,17 @@ The generator can:
 - House calculation currently supports prototype Equal Houses and Whole Sign only.
 - No Placidus, Koch, Regiomontanus, or Vedic bhava systems yet.
 - No Vedic sidereal calculation yet.
+- Vedic branch has a first sidereal prototype using approximate Lahiri ayanamsa, Lagna reference, Moon nakshatra, and a high-level Vimshottari mahadasha theme. It still needs professional-grade ayanamsa verification, Rahu/Ketu placement, vargas, strength logic, antardasha, and source-expanded interpretations.
 - Vedic branch now has framework plus source-backed generator rules for functional roles, dasha context, and sensitive bhava safety; detailed graha/rashi/bhava interpretations are still pending.
 - Chinese / East Asian branch has source intake and OCR-completed Davydov texts; methodology extraction is pending.
 - Birthday-personology primary-wave source has been added; Goldschneider's `Тайный язык дня рождения` OCR is complete and detailed source notes are pending.
 - Compatibility domain has one extracted Goldschneider source and three OCR-completed Goldschneider sources.
 - New Agafonov, Levin, Mazova, K. Rao, Semira/Vetash, and Sushchinskaya source families have been sorted into the library; extraction/OCR review and OCR pass are complete.
 - Berg's Kabbalistic source is OCR-readable.
+- Jewish / Kabbalistic branch is a first symbolic prototype only: exact Hebrew calendar sunset handling, Hebrew-letter gematria, detailed month source extraction, and religious-tradition review are still pending.
+- Graphs / biorhythms branch is a planning prototype only: the seven curves are symbolic astrological and biorhythmic indicators, not medical diagnosis, financial advice, or event guarantees.
 - Full OCR sweep is complete: all 105 PDF source records are readable, with no `ocrRequired`, `running`, `partial`, or `failed` records remaining.
-- No web UI yet.
+- Web UI is a local prototype only; it is not production-deployed and still uses the prototype calculation layer.
 
 ## Recommended Next Steps
 
@@ -123,10 +138,11 @@ The generator can:
    - more aspect rules;
    - first Vedic graha/bhava rules.
 
-3. Build a minimal site prototype:
-   - report profile input;
-   - simple/advanced toggle;
-   - generated report display.
+3. Improve the site prototype:
+   - add saved profile management;
+   - add richer chart controls;
+   - add richer Vedic/Jyotish controls and antardasha support;
+   - add stronger browser-based UI tests.
 
 4. Convert OCR-completed sources into methodology notes:
    - start with birthday personology / compatibility;

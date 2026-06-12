@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Еврейский блок | Codex Goroskop</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell jewish-shell">
+      <section class="input-panel" aria-label="Данные для еврейского блока">
+        <div class="brand-block">
+          <div class="brand-mark">K</div>
+          <div>
+            <h1>Еврейский блок</h1>
+            <p>Каббалистический месяц, тиккун, числовой слой имени и практики света человеческим языком.</p>
+          </div>
+        </div>
+
+        <form id="jewish-form" class="birth-form">
+          <label><span>Имя</span><input name="name" value="Demo User" autocomplete="name"></label>
+          <div class="field-pair">
+            <label><span>Дата</span><input name="localDate" type="date" value="1990-04-10" required></label>
+            <label><span>Время</span><input name="localTime" type="time" value="08:30" required></label>
+          </div>
+          <label><span>Место</span><select name="placeKey" id="jewish-place-select"></select></label>
+          <button class="primary-button" type="submit"><span>Раскрыть код месяца</span></button>
+          <a class="secondary-button nav-button" href="/"><span>Назад к витрине</span></a>
+        </form>
+
+        <div class="status-line" id="jewish-status">Готов к расчету.</div>
+      </section>
+
+      <section class="workspace jewish-workspace" aria-label="Каббалистический отчет">
+        <header class="summary-strip">
+          <div><span class="metric-label">Месяц</span><strong id="jewish-month">-</strong></div>
+          <div><span class="metric-label">Знак</span><strong id="jewish-sign">-</strong></div>
+          <div><span class="metric-label">Имя</span><strong id="jewish-name-layer">-</strong></div>
+          <div><span class="metric-label">Дата</span><strong id="jewish-date-layer">-</strong></div>
+        </header>
+
+        <section class="compatibility-hero">
+          <p class="eyebrow">Kabbalistic astrology prototype</p>
+          <h2 id="jewish-title">Код месяца</h2>
+          <div id="jewish-synthesis" class="human-summary"></div>
+        </section>
+
+        <section class="compatibility-grid">
+          <article class="panel-block">
+            <h2>Тиккун и тень</h2>
+            <div id="jewish-tikkun" class="anchor-list"></div>
+          </article>
+          <article class="panel-block">
+            <h2>Смелые гипотезы</h2>
+            <div id="jewish-hypotheses" class="prediction-list"></div>
+          </article>
+        </section>
+
+        <section class="compatibility-grid">
+          <article class="panel-block">
+            <h2>Практики</h2>
+            <div id="jewish-practices" class="prediction-list"></div>
+          </article>
+          <article class="panel-block">
+            <h2>Метод</h2>
+            <div id="jewish-method" class="anchor-list"></div>
+          </article>
+        </section>
+
+        <section class="panel-block">
+          <h2>Границы блока</h2>
+          <p id="jewish-safety" class="summary-note"></p>
+        </section>
+      </section>
+    </main>
+
+    <script src="/profile.js?v=20260612-1"></script>
+    <script src="/jewish.js?v=20260612-2"></script>
+  </body>
+</html>

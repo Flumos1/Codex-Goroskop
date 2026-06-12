@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Codex Goroskop</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="home-body">
+    <main class="portal-shell">
+      <section class="portal-scene" aria-label="Витрина направлений Codex Goroskop">
+        <canvas id="portal-canvas" aria-hidden="true"></canvas>
+        <div class="portal-depth" aria-hidden="true">
+          <div class="orbital-ring ring-a"></div>
+          <div class="orbital-ring ring-b"></div>
+          <div class="orbital-ring ring-c"></div>
+        </div>
+
+        <div class="portal-content">
+          <header class="portal-header">
+            <div class="brand-block portal-brand">
+              <div class="brand-mark">CG</div>
+              <div>
+                <h1>Codex Goroskop</h1>
+                <p>Система символических карт, прогнозов и совместимости без фатализма и пустого шума.</p>
+              </div>
+            </div>
+            <div class="portal-status">Research prototype</div>
+          </header>
+
+          <section class="portal-intro">
+            <p class="eyebrow">Первый уровень</p>
+            <h2>Выберите традицию или задачу</h2>
+            <p>Главная страница работает как навигационная витрина. Каждый блок ведет в отдельный слой: со своей логикой, языком, расчетами и границами интерпретации.</p>
+          </section>
+
+          <form id="home-profile-form" class="home-profile-form" aria-label="Данные рождения">
+            <label><span>Имя</span><input name="name" value="Demo User" autocomplete="name"></label>
+            <label><span>Дата рождения</span><input name="localDate" type="date" value="1990-04-10" required></label>
+            <label><span>Время</span><input name="localTime" type="time" value="08:30" required></label>
+            <label><span>Место</span><select name="placeKey" id="home-place-select"></select></label>
+          </form>
+
+          <nav class="module-grid" aria-label="Блоки проекта">
+            <a class="module-tile active-module" href="/vedic.html">
+              <span class="module-kicker">Jyotish</span>
+              <strong>Ведическая астрология</strong>
+              <span>Лагна, раши, накшатра Луны и период Вимшоттари человеческим языком.</span>
+            </a>
+            <a class="module-tile active-module" href="/western.html">
+              <span class="module-kicker">Natal</span>
+              <strong>Западная астрология</strong>
+              <span>Карта, аспекты, дома, диспозиторий и психологический отчет.</span>
+            </a>
+            <a class="module-tile active-module" href="/jewish.html">
+              <span class="module-kicker">Hebrew</span>
+              <strong>Еврейский блок</strong>
+              <span>Каббалистическая символика, календарные циклы и смысловые соответствия.</span>
+            </a>
+            <a class="module-tile active-module" href="/compatibility.html">
+              <span class="module-kicker">Synastry</span>
+              <strong>Совместимость</strong>
+              <span>Отношения без приговора: точки контакта, напряжение, ресурс и диалог.</span>
+            </a>
+            <a class="module-tile planned-module" href="#numerology">
+              <span class="module-kicker">Numbers</span>
+              <strong>Нумерология</strong>
+              <span>Числовые циклы, имя, дата рождения и практический ритм периода.</span>
+            </a>
+            <a class="module-tile active-module" href="/rhythms.html">
+              <span class="module-kicker">Timing</span>
+              <strong>Графики и биоритмы</strong>
+              <span>7 красивых линий: тело, эмоции, интеллект, любовь, дела, интуиция и общий поток.</span>
+            </a>
+          </nav>
+        </div>
+      </section>
+    </main>
+
+    <script src="/profile.js?v=20260612-1"></script>
+    <script src="/home.js?v=20260612-2"></script>
+  </body>
+</html>

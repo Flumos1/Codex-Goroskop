@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Западная астрология | Codex Goroskop</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="input-panel" aria-label="Исходные данные">
+        <div class="brand-block">
+          <div class="brand-mark">CG</div>
+          <div>
+            <h1>Западная астрология</h1>
+            <p>Натальная карта, аспекты, диспозиторий и отчет в одном рабочем пространстве.</p>
+          </div>
+        </div>
+
+        <form id="birth-form" class="birth-form">
+          <label>
+            <span>Имя</span>
+            <input name="name" value="Demo User" autocomplete="name">
+          </label>
+
+          <div class="field-pair">
+            <label>
+              <span>Дата</span>
+              <input name="localDate" type="date" value="1990-04-10" required>
+            </label>
+            <label>
+              <span>Время</span>
+              <input name="localTime" type="time" value="08:30" required>
+            </label>
+          </div>
+
+          <label>
+            <span>Место</span>
+            <select name="placeKey" id="place-select"></select>
+          </label>
+
+          <div class="field-pair">
+            <label>
+              <span>Система домов</span>
+              <select name="houseSystem">
+                <option value="equal-from-ascendant">Equal от ASC</option>
+                <option value="whole-sign">Whole Sign</option>
+              </select>
+            </label>
+            <label>
+              <span>Отчет</span>
+              <select name="mode">
+                <option value="both">Просто + подробно</option>
+                <option value="simple">Просто</option>
+                <option value="advanced">Подробно</option>
+              </select>
+            </label>
+          </div>
+
+          <details>
+            <summary>Ручные координаты</summary>
+            <div class="field-pair">
+              <label>
+                <span>Широта</span>
+                <input name="latitude" inputmode="decimal" placeholder="47.0105">
+              </label>
+              <label>
+                <span>Долгота</span>
+                <input name="longitude" inputmode="decimal" placeholder="28.8638">
+              </label>
+            </div>
+            <label>
+              <span>Таймзона</span>
+              <input name="timeZone" placeholder="Europe/Chisinau">
+            </label>
+          </details>
+
+          <button class="primary-button" type="submit">
+            <span>Рассчитать карту</span>
+          </button>
+          <button class="secondary-button" id="jump-result" type="button">
+            <span>К результату</span>
+          </button>
+          <a class="secondary-button nav-button" href="/vedic.html">
+            <span>Ведическая астрология</span>
+          </a>
+          <a class="secondary-button nav-button" href="/">
+            <span>Назад к витрине</span>
+          </a>
+        </form>
+
+        <div class="status-line" id="status-line">Готов к расчету.</div>
+      </section>
+
+      <section class="workspace" aria-label="Рабочая область">
+        <header class="summary-strip" id="summary-strip">
+          <div>
+            <span class="metric-label">ASC</span>
+            <strong id="asc-value">-</strong>
+          </div>
+          <div>
+            <span class="metric-label">MC</span>
+            <strong id="mc-value">-</strong>
+          </div>
+          <div>
+            <span class="metric-label">Аспекты</span>
+            <strong id="aspect-count">-</strong>
+          </div>
+          <div>
+            <span class="metric-label">Диспозитор</span>
+            <strong id="final-dispositor">-</strong>
+          </div>
+        </header>
+
+        <nav class="tabs" aria-label="Разделы">
+          <button class="tab active" data-tab="chart" type="button">Карта</button>
+          <button class="tab" data-tab="aspects" type="button">Аспекты</button>
+          <button class="tab" data-tab="dispositor" type="button">Диспозиторий</button>
+          <button class="tab" data-tab="report" type="button">Отчет</button>
+        </nav>
+
+        <section class="tab-panel active" id="tab-chart">
+          <div class="chart-layout">
+            <div class="chart-stage" id="chart-stage"></div>
+            <div class="data-column">
+              <section class="panel-block chart-legend">
+                <h2>Легенда</h2>
+                <div class="legend-row"><span class="legend-line soft"></span> гармоничные аспекты</div>
+                <div class="legend-row"><span class="legend-line hard"></span> напряжённые аспекты</div>
+                <div class="legend-row"><span class="legend-dot"></span> планеты на круге</div>
+              </section>
+              <section class="panel-block">
+                <h2>Планеты</h2>
+                <div class="table-wrap">
+                  <table>
+                    <thead>
+                      <tr><th>Тело</th><th>Знак</th><th>Градус</th><th>Дом</th></tr>
+                    </thead>
+                    <tbody id="positions-body"></tbody>
+                  </table>
+                </div>
+              </section>
+              <section class="panel-block">
+                <h2>Главные акценты</h2>
+                <div id="highlights" class="highlights"></div>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="tab-aspects">
+          <section class="panel-block fill">
+            <h2>Список аспектов</h2>
+            <div id="aspects-list" class="aspect-list"></div>
+          </section>
+        </section>
+
+        <section class="tab-panel" id="tab-dispositor">
+          <div class="dispositor-grid">
+            <section class="panel-block">
+              <h2>Цепочки управителей</h2>
+              <div id="dispositor-summary" class="summary-note"></div>
+              <div id="dispositor-stats" class="stat-chips"></div>
+              <div id="chains-list" class="chains-list"></div>
+            </section>
+            <section class="panel-block">
+              <h2>Положения</h2>
+              <div id="rulers-list" class="rulers-list"></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="tab-report">
+          <div class="report-actions">
+            <button class="tool-button" id="download-report" type="button">Скачать .md</button>
+            <button class="tool-button" id="print-report" type="button">Печать</button>
+          </div>
+          <article class="report-view" id="report-view"></article>
+        </section>
+      </section>
+    </main>
+
+    <script src="/profile.js?v=20260612-1"></script>
+    <script src="/app.js?v=20260612-8"></script>
+  </body>
+</html>
