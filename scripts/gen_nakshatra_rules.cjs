@@ -5,6 +5,7 @@
  */
 const fs   = require("fs");
 const path = require("path");
+const { ensureSchema } = require("./lib/rule-schema.cjs");
 
 const ROOT = path.resolve(__dirname, "..");
 const OUT  = path.join(ROOT, "generator", "rules", "nakshatra-transit-rules.json");
@@ -228,7 +229,7 @@ const NAKSHATRA_DATA = [
   },
 ];
 
-const rules = NAKSHATRA_DATA.map(n => ({
+const rules = NAKSHATRA_DATA.map(n => ensureSchema({
   ruleId: `nakshatra:${n.name}`,
   type: "nakshatra",
   factor: {
@@ -256,6 +257,22 @@ const rules = NAKSHATRA_DATA.map(n => ({
   confidence: "high",
   status: "source-verified",
   sources: ["Vedic astrology tradition — Parashara, Varahamihira"],
+}, {
+  system: "vedic",
+  methodFamily: "vedic-nakshatra",
+  sourceIds: ["source.vedic-nakshatra-tradition"],
+  themes: [n.name.toLowerCase(), "nakshatra", "moon", String(n.ruler || "").toLowerCase()],
+  simple: {
+    pattern: n.advice,
+    growth: `Луна в накшатре ${n.ru} раскрывается через её тему: ${n.summary}`,
+    reflection: `Как энергия накшатры ${n.ru} (управитель ${n.rulerRu}) окрашивает ваши эмоции и внутренние ритмы?`,
+  },
+  advanced: {
+    technical: `Транзит Луны через накшатру ${n.name} (№${n.index + 1}), управитель ${n.ruler}. Символ: ${n.symbol}; божество: ${n.deity}.`,
+    method: `Лунная накшатра определяется по долготе Луны (27 равных секторов по 13°20'); тема и совет взяты из ведической традиции.`,
+    caution: `Накшатра Луны — один слой; полная картина учитывает раши, паду, дашу и дом положения Луны.`,
+    constructiveChannel: `Действовать в согласии с темой накшатры ${n.ru}: ${n.advice}`,
+  },
 }));
 
 fs.writeFileSync(OUT, JSON.stringify(rules, null, 2), "utf8");

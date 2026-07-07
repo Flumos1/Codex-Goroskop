@@ -11,6 +11,7 @@
 "use strict";
 const fs   = require("fs");
 const path = require("path");
+const { ensureSchema } = require("./lib/rule-schema.cjs");
 
 const ROOT = path.resolve(__dirname, "..");
 const OCR_FILE = path.join(ROOT,
@@ -122,7 +123,7 @@ function generateRules(sections) {
       ? (twoSent[1].trim() + " " + twoSent[2].trim()).slice(0, 280)
       : descRu.slice(0, 280);
 
-    rules.push({
+    rules.push(ensureSchema({
       id,
       type: "chinese-zodiac",
       factor: {
@@ -147,7 +148,24 @@ function generateRules(sections) {
       source: "Давыдов М. — Китайский Гороскоп, 2011",
       confidence: "high",
       status: "source-verified",
-    });
+    }, {
+      system: "chinese-zodiac",
+      methodFamily: "eastern-zodiac",
+      sourceIds: ["source.davydov-chinese-goroskop"],
+      themes: [s.en.toLowerCase(), s.element.toLowerCase(), s.yin ? "yin" : "yang", "chinese-zodiac"],
+      simple: {
+        summary: summaryRu,
+        pattern: `Знак ${s.ruNom} проявляет устойчивый набор черт характера и поведения, описанный в характеристике года рождения.`,
+        growth: `Осознание сильных и слабых сторон знака ${s.ruNom} помогает направлять природные качества конструктивно.`,
+        reflection: `Как черты года ${s.ruNom} (стихия ${s.element}) проявляются в вашем характере и решениях?`,
+      },
+      advanced: {
+        technical: `Китайский зодиак: год рождения → животное «${s.en}» (№${s.num}), стихия ${s.element}, ${s.yin ? "инь" : "ян"}.`,
+        method: `Знак года определяется по китайскому лунно-солнечному календарю с учётом даты китайского Нового года; характеристика взята из описания знака рождения.`,
+        caution: `Знак года — один слой восточной системы; полная картина учитывает также месяц, день и час рождения (четыре столпа судьбы).`,
+        constructiveChannel: `Направить природные качества знака ${s.ruNom} в осознанные, зрелые формы поведения.`,
+      },
+    }));
   }
 
   rules.sort((a, b) => a.factor.animalNum - b.factor.animalNum);

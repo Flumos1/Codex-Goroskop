@@ -10,6 +10,7 @@
 "use strict";
 const fs   = require("fs");
 const path = require("path");
+const { ensureSchema } = require("./lib/rule-schema.cjs");
 
 const ROOT = path.resolve(__dirname, "..");
 const OCR_FILE = path.join(ROOT,
@@ -132,7 +133,7 @@ function generateRules(sections) {
       ? (sentenceBreak[1].trim() + " " + sentenceBreak[2].trim()).slice(0, 250)
       : descRu.slice(0, 250);
 
-    rules.push({
+    rules.push(ensureSchema({
       id,
       type: "kabbalah",
       factor: {
@@ -159,7 +160,24 @@ function generateRules(sections) {
       source: "Берг Р. — Каббалистическая астрология, 2011",
       confidence: "high",
       status: "source-verified",
-    });
+    }, {
+      system: "kabbalah",
+      methodFamily: "kabbalistic-astrology",
+      sourceIds: ["source.berg-kabbalistic-astrology"],
+      themes: [s.sign.toLowerCase(), "kabbalah", "tikkun", `hebrew-month-${s.hebrewMonth}`],
+      simple: {
+        summary: summaryRu,
+        pattern: `Солнце в ${s.signRu} задаёт кармическую задачу (тиккун) знака, описанную через месяц ${s.hebrewMonth}.`,
+        growth: `Работа над тиккуном знака ${s.signRu} — путь исправления и духовного роста.`,
+        reflection: `Какой тиккун (исправление) несёт ваше Солнце в ${s.signRu} и как вы его проживаете?`,
+      },
+      advanced: {
+        technical: `Каббалистическая астрология: Солнце в ${s.sign} (№${s.num}), еврейский месяц ${s.hebrewMonth}.`,
+        method: `Знак Солнца сопоставляется с еврейским месяцем и его тиккуном по Берг; описание и влияние месяца взяты из источника.`,
+        caution: `Каббалистический слой — один из многих; его следует читать вместе с классической натальной картой, а не вместо неё.`,
+        constructiveChannel: `Осознанно проживать тиккун знака ${s.signRu}, превращая кармическую задачу в духовный рост.`,
+      },
+    }));
   }
 
   // Sort by sign number
