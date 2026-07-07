@@ -1,0 +1,19 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+# Deploy: push this repo to GitHub, then in Render → New → Blueprint,
+# point it at the repo. Render reads this file and provisions the service.
+services:
+  - type: web
+    name: codex-goroskop
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm install
+    startCommand: node site/server.cjs
+    healthCheckPath: /
+    envVars:
+      # Set the value in the Render dashboard (Environment tab). sync:false
+      # keeps the secret out of the repo. Without it /api/chat returns 503.
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: NODE_VERSION
+        value: "22.11.0"
