@@ -48,6 +48,10 @@ for (const ruleFile of fs.readdirSync(rulesDir).filter(f => f.endsWith(".json"))
       availableRuleQueries.add(`kabbalah:${f.kabbalahPlanet}:${f.sign}`);
     } else if (f.chineseAnimal) {
       availableRuleQueries.add(`chinese:${f.chineseAnimal}`);
+    } else if (f.nakshatra && f.pada) {
+      availableRuleQueries.add(`nakshatra-pada:${f.nakshatra}:${f.pada}`);
+    } else if (f.nakshatra && f.mansionNum) {
+      availableRuleQueries.add(`lunar-mansion:${f.nakshatra}`);
     } else if (f.nakshatra) {
       availableRuleQueries.add(`nakshatra:${f.nakshatra}`);
     }
@@ -242,19 +246,44 @@ function siderealSignForLongitude(siderealLon) {
   return { sign: siderealSigns[signIndex], signIndex, degreeInSign: normalized - signIndex * 30 };
 }
 
-// Vimshottari dasha running period from Moon nakshatra and birth date
-function vimshottariDashaFromMoon(moonSiderealLon, birthDate) {
+// Fixed Vimshottari cycle order (120-year total); each birth starts mid-cycle
+// at the Moon's nakshatra ruler and proceeds through this sequence.
+const VIMSHOTTARI_ORDER = ["Ketu", "Venus", "Sun", "Moon", "Mars", "Rahu", "Jupiter", "Saturn", "Mercury"];
+const MS_PER_YEAR = 365.25 * 24 * 3600 * 1000;
+
+// Vimshottari dasha lord active on referenceDate (defaults to now), found by
+// walking the fixed 9-lord cycle forward from the birth (Moon-nakshatra) dasha
+// rather than just reporting the first dasha's balance at birth.
+function vimshottariDashaFromMoon(moonSiderealLon, birthDate, referenceDate = new Date()) {
   const nk = nakshatraForLongitude(moonSiderealLon);
   const nakshatraSpan = 360 / 27;
   const degInNakshatra = normalizeDegrees(moonSiderealLon) % nakshatraSpan;
   const fractionElapsed = degInNakshatra / nakshatraSpan;
-  const ruler = nk.ruler;
-  const totalYears = vimshottariYears[ruler];
-  const yearsElapsed = fractionElapsed * totalYears;
-  const yearsRemaining = totalYears - yearsElapsed;
-  const msPerYear = 365.25 * 24 * 3600 * 1000;
-  const dashEnd = new Date(birthDate.getTime() + yearsRemaining * msPerYear);
-  return { currentDashaLord: ruler, yearsRemainingInDasha: Number(yearsRemaining.toFixed(2)), dashaEnds: dashEnd.toISOString().slice(0, 10) };
+  const startLord = nk.ruler;
+  const startLordYears = vimshottariYears[startLord];
+  const yearsRemainingAtBirth = startLordYears * (1 - fractionElapsed);
+
+  let idx = VIMSHOTTARI_ORDER.indexOf(startLord);
+  let lord = startLord;
+  let periodStart = birthDate.getTime();
+  let periodEnd = periodStart + yearsRemainingAtBirth * MS_PER_YEAR;
+
+  const refMs = referenceDate.getTime();
+  let guard = 0;
+  while (periodEnd < refMs && guard < 200) {
+    idx = (idx + 1) % VIMSHOTTARI_ORDER.length;
+    lord = VIMSHOTTARI_ORDER[idx];
+    periodStart = periodEnd;
+    periodEnd = periodStart + vimshottariYears[lord] * MS_PER_YEAR;
+    guard += 1;
+  }
+
+  const yearsRemaining = Math.max(0, (periodEnd - refMs) / MS_PER_YEAR);
+  return {
+    currentDashaLord: lord,
+    yearsRemainingInDasha: Number(yearsRemaining.toFixed(2)),
+    dashaEnds: new Date(periodEnd).toISOString().slice(0, 10),
+  };
 }
 
 function angularDistance(a, b) {
@@ -612,13 +641,20 @@ function buildProfile(args, positions, aspects, anglesAndHouses, birthDate) {
   const chineseFactors = (chineseAnimal && availableRuleQueries.has(`chinese:${chineseAnimal}`))
     ? [{ query: `chinese:${chineseAnimal}`, calculated: { chineseAnimal, birthYear: chineseResult?.effectiveYear || birthYear, system: "chinese" } }]
     : [];
-  // Moon nakshatra factor
+  // Moon nakshatra + pada factors
   const moonPos = positions.find(p => p.body === "Moon");
   const moonNakshatra = moonPos?.vedic?.nakshatra;
+  const moonPada      = moonPos?.vedic?.pada;
   const nakshatraFactors = (moonNakshatra && availableRuleQueries.has(`nakshatra:${moonNakshatra}`))
     ? [{ query: `nakshatra:${moonNakshatra}`, calculated: { nakshatra: moonNakshatra, ruler: moonPos.vedic.nakshatraRuler, system: "vedic-nakshatra" } }]
     : [];
-  const factors = [...aspectFactors, ...houseFactors, ...signFactors, ...rulerFactors, ...vedicRashiFactors, ...kabbalahFactors, ...chineseFactors, ...nakshatraFactors];
+  const nakshatraPadaFactors = (moonNakshatra && moonPada && availableRuleQueries.has(`nakshatra-pada:${moonNakshatra}:${moonPada}`))
+    ? [{ query: `nakshatra-pada:${moonNakshatra}:${moonPada}`, calculated: { nakshatra: moonNakshatra, pada: moonPada, ruler: moonPos.vedic.nakshatraRuler, system: "vedic-nakshatra-pada" } }]
+    : [];
+  const lunarMansionFactors = (moonNakshatra && availableRuleQueries.has(`lunar-mansion:${moonNakshatra}`))
+    ? [{ query: `lunar-mansion:${moonNakshatra}`, calculated: { nakshatra: moonNakshatra, ruler: moonPos.vedic.nakshatraRuler, system: "lunar-mansion" } }]
+    : [];
+  const factors = [...aspectFactors, ...houseFactors, ...signFactors, ...rulerFactors, ...vedicRashiFactors, ...kabbalahFactors, ...chineseFactors, ...nakshatraFactors, ...nakshatraPadaFactors, ...lunarMansionFactors];
 
   function buildVedicSummary(positions, birthDate, anglesAndHouses) {
     const ayanamsha = lahiriAyanamsha(birthDate);

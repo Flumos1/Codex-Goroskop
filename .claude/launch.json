@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "codex-site",
+      "name": "codex-goroskop",
       "runtimeExecutable": "node",
       "runtimeArgs": ["./site/server.cjs"],
       "port": 4000

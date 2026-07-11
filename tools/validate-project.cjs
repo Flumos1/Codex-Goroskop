@@ -115,8 +115,14 @@ function main() {
   const ruleFiles = listFiles(rulesDir, ".json");
   const rules = [];
   for (const filePath of ruleFiles) {
-    const fileRules = readJson(filePath);
-    if (!Array.isArray(fileRules)) errors.push(`${path.relative(projectRoot, filePath)} must contain a JSON array`);
+    const raw = readJson(filePath);
+    // Rule files are arrays (or objects with a .rules array). Object-shaped
+    // data files (frameworks, compatibility periods/pairs) are not rule lists.
+    const fileRules = Array.isArray(raw) ? raw : (Array.isArray(raw.rules) ? raw.rules : null);
+    if (!fileRules) {
+      warnings.push(`${path.relative(projectRoot, filePath)}: not a rule array — skipped (data file)`);
+      continue;
+    }
     for (const rule of fileRules) {
       validateRule(rule, filePath, errors);
       rules.push(rule);

@@ -26,11 +26,12 @@
     "node": ">=20"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.103.0",
     "astronomy-engine": "^2.1.19",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "openai": "^6.42.0",
+    "openai": "^6.42.0"
+  },
+  "devDependencies": {
     "pdf-parse": "^1.1.1"
   }
 }

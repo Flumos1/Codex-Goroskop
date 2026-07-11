@@ -251,20 +251,19 @@ PERIOD_DATA = {
 }
 
 # ── Day-to-period mapping ──────────────────────────────────────────────────────
-import datetime
 
 def date_to_period(month, day):
-    target = datetime.date(2000, month, day)
+    md = (month, day)
     for (sm, sd, em, ed, title_en, title_ru, sign, pnum) in PERIODS:
-        try:
-            start = datetime.date(2000, sm, sd)
-            # handle year wrap (Dec 22 → Jan 1)
-            end_year = 2001 if (em < sm or (em == sm and ed < sd)) else 2000
-            end = datetime.date(end_year, em, ed)
-        except ValueError:
-            continue
-        if start <= target <= end:
-            return pnum, title_en, title_ru, sign
+        wraps = (em < sm) or (em == sm and ed < sd)
+        if wraps:
+            # Period spans the year-end (e.g. Dec 22 → Jan 1): a date matches if it
+            # is in the December tail (>= start) or the January head (<= end).
+            if md >= (sm, sd) or md <= (em, ed):
+                return pnum, title_en, title_ru, sign
+        else:
+            if (sm, sd) <= md <= (em, ed):
+                return pnum, title_en, title_ru, sign
     return None, None, None, None
 
 # ── Build rules ─────────────────────────────────────────────────────────────────

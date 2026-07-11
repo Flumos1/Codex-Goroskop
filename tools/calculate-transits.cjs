@@ -15,7 +15,7 @@ const chartModule = require("./calculate-chart.cjs");
 const {
   calculatePositions, angularDistance, normalizeDegrees,
   resolveInput, parseArgs, aspectDefinitions,
-  lahiriAyanamsha, siderealLongitude,
+  lahiriAyanamsha, siderealLongitude, calculateProfile,
 } = chartModule;
 
 const projectRoot = path.resolve(__dirname, "..");
@@ -73,7 +73,7 @@ function defaultOrb(planet) {
   return (tight[planet] ?? standard[planet] ?? fast[planet] ?? 2);
 }
 
-function findActiveTransits(natalPositions, transitPositions, natalAscendant, natalMidheaven, transitIndex, customOrb) {
+function findActiveTransits(natalPositions, transitPositions, nextTransitMap, natalAscendant, natalMidheaven, transitIndex, customOrb) {
   const active = [];
 
   // Prepare natal points map (all 10 planets + angles when available)
@@ -92,18 +92,25 @@ function findActiveTransits(natalPositions, transitPositions, natalAscendant, na
       for (const aspDef of aspectDefinitions) {
         const distance = angularDistance(tLon, natalLon);
         const delta    = Math.abs(distance - aspDef.angle);
-        const orb      = customOrb ?? defaultOrb(tPlanet, aspDef.name);
+        const orb      = customOrb ?? defaultOrb(tPlanet);
         if (delta > orb) continue;
 
         const key = `${tPlanet} ${aspDef.name} ${natalName}`;
         const rule = transitIndex.get(key);
         if (!rule) continue;
 
-        // Determine applying vs separating
-        // Transit planet is applying if it's moving toward exact aspect
-        const signedDist = ((tLon - natalLon + 540) % 360) - 180;
-        const currentAngle = distance;
-        const phase = delta < 0.5 ? "exact" : (signedDist < aspDef.angle ? "applying" : "separating");
+        // Applying vs separating: compare the orb now against the orb one day
+        // later using the planet's actual next-day position. This works for any
+        // aspect angle and correctly handles retrograde motion.
+        let phase;
+        if (delta < 0.5) {
+          phase = "exact";
+        } else if (nextTransitMap && nextTransitMap[tPlanet] != null) {
+          const deltaNext = Math.abs(angularDistance(nextTransitMap[tPlanet], natalLon) - aspDef.angle);
+          phase = deltaNext < delta ? "applying" : "separating";
+        } else {
+          phase = "applying";
+        }
 
         active.push({
           transitPlanet: tPlanet,
@@ -175,35 +182,35 @@ function buildTransitProfile(args, natalProfile, transitPositions, activeTransit
   };
 }
 
-function main() {
-  const argv = process.argv.slice(2);
-  const args = parseTransitArgs(argv);
+// Transit rule index is static; build it once and reuse across calls.
+let _transitIndex = null;
+function getTransitIndex() {
+  if (!_transitIndex) _transitIndex = buildTransitIndex(loadTransitRules());
+  return _transitIndex;
+}
 
-  // Resolve birth date
-  let birthDate;
-  try {
-    birthDate = resolveInput(args);
-  } catch (e) {
-    console.error("Birth date error:", e.message);
-    process.exit(1);
-  }
+const DAY_MS = 24 * 60 * 60 * 1000;
 
+/**
+ * Compute a transit profile in-process. Accepts the same args shape as the
+ * chart calculator (localDate/localTime/timeZone/latitude/longitude or datetime)
+ * plus transitDate/transitDatetime, customOrb, language, name.
+ * Throws on invalid input; never calls process.exit.
+ */
+function runTransits(args) {
+  const birthDate = resolveInput(args);
   if (Number.isNaN(birthDate.getTime())) {
-    console.error("Invalid birth date.");
-    process.exit(1);
+    throw new Error("Invalid birth date.");
   }
 
-  // Resolve transit date
   const transitDate = resolveTransitDate(args);
 
-  // Calculate natal positions
   const natalPositions = calculatePositions(birthDate);
 
   // Resolve natal ASC and MC if we have coordinates
   let natalAscendant  = null;
   let natalMidheaven  = null;
   if (Number.isFinite(args.latitude) && Number.isFinite(args.longitude)) {
-    const { calculateProfile } = require("./calculate-chart.cjs");
     try {
       const natalProfile = calculateProfile(args);
       natalAscendant = natalProfile.calculation.angles.ascendant;
@@ -211,23 +218,37 @@ function main() {
     } catch {}
   }
 
-  // Calculate transit positions (for transit date, no location needed)
+  // Transit positions on the date, plus one day later for applying/separating.
   const transitPositions = calculatePositions(transitDate);
+  const nextPositions     = calculatePositions(new Date(transitDate.getTime() + DAY_MS));
+  const nextTransitMap = {};
+  for (const p of nextPositions) nextTransitMap[p.body] = p.tropicalLongitude;
 
-  // Load rules and find active transits
-  const transitRules   = loadTransitRules();
-  const transitIndex   = buildTransitIndex(transitRules);
   const activeTransits = findActiveTransits(
-    natalPositions, transitPositions, natalAscendant, natalMidheaven, transitIndex, args.customOrb
+    natalPositions, transitPositions, nextTransitMap,
+    natalAscendant, natalMidheaven, getTransitIndex(), args.customOrb
   );
 
-  const profile = buildTransitProfile(
+  return buildTransitProfile(
     args,
     { birthData: { datetimeUtc: birthDate.toISOString() } },
     transitPositions,
     activeTransits,
     transitDate
   );
+}
+
+function main() {
+  const argv = process.argv.slice(2);
+  const args = parseTransitArgs(argv);
+
+  let profile;
+  try {
+    profile = runTransits(args);
+  } catch (e) {
+    console.error("Transit error:", e.message);
+    process.exit(1);
+  }
 
   const output = JSON.stringify(profile, null, 2);
 
@@ -242,4 +263,6 @@ function main() {
   }
 }
 
-main();
+if (require.main === module) main();
+
+module.exports = { runTransits, loadTransitRules, buildTransitIndex, findActiveTransits, defaultOrb };

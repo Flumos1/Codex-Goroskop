@@ -4,19 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Codex Goroskop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="logo">Codex Goroskop</div>
-    <div class="logo-sub">Психологическая астрология</div>
+    <div class="header-inner">
+      <div>
+        <div class="logo">Codex Goroskop</div>
+        <div class="logo-sub">Психологическая астрология</div>
+      </div>
+      <div class="header-ornament">☿ ♄ ♃</div>
+    </div>
   </header>
 
   <main>
     <!-- Mode tabs -->
-    <div class="mode-tabs">
-      <button class="mode-tab active" data-mode="natal">Натальная карта</button>
-      <button class="mode-tab" data-mode="birthday">День рождения</button>
+    <div class="mode-tabs" role="tablist" aria-label="Режимы гороскопа">
+      <button class="mode-tab active" role="tab" aria-selected="true" data-mode="natal">Натальная карта</button>
+      <button class="mode-tab" role="tab" aria-selected="false" data-mode="birthday">День рождения</button>
+      <button class="mode-tab" role="tab" aria-selected="false" data-mode="compatibility">Совместимость</button>
     </div>
 
     <!-- Natal form -->
@@ -42,6 +51,7 @@
           </select>
         </div>
         <button type="submit" id="submit-btn">Рассчитать карту</button>
+        <div id="form-error" class="error-msg hidden" role="alert"></div>
       </form>
     </section>
 
@@ -91,6 +101,46 @@
 
     </section>
 
+    <!-- Action buttons (shown after natal results) -->
+    <div id="action-buttons" class="hidden action-buttons-row">
+      <button id="full-report-btn" class="btn-report">
+        ✦ Получить полный разбор карты
+        <span class="btn-report-sub">Всё объяснено простым языком · PDF</span>
+      </button>
+      <button id="chat-btn" class="btn-chat">
+        ✦ Поговорить с астрологом ИИ
+        <span class="btn-chat-sub">10 вопросов по вашей карте</span>
+      </button>
+    </div>
+
+    <!-- Full Report Modal -->
+    <div id="report-modal" class="report-modal hidden">
+      <div class="report-modal-inner">
+        <div class="report-modal-header">
+          <div class="report-modal-title">Полный разбор натальной карты</div>
+          <div class="report-modal-actions">
+            <button id="report-print-btn" class="report-action-btn">⎙ Печать / сохранить в PDF</button>
+            <button id="report-close-btn" class="report-action-btn report-close" aria-label="Закрыть отчёт">✕ Закрыть</button>
+          </div>
+        </div>
+        <div id="report-content" class="report-content"></div>
+      </div>
+    </div>
+
+    <!-- AI Chat Widget -->
+    <div id="chat-widget" class="chat-widget hidden">
+      <div class="chat-header">
+        <span class="chat-title">Астролог ИИ</span>
+        <span id="chat-counter" class="chat-counter">10 вопросов</span>
+        <button id="chat-close-btn" class="chat-close" aria-label="Закрыть чат">✕</button>
+      </div>
+      <div id="chat-messages" class="chat-messages"></div>
+      <div class="chat-input-row">
+        <input type="text" id="chat-input" class="chat-input" placeholder="Задайте вопрос о своей карте…" maxlength="300" />
+        <button id="chat-send-btn" class="chat-send-btn">→</button>
+      </div>
+    </div>
+
     <!-- Birthday mode form -->
     <section id="birthday-section" class="card hidden">
       <h2>Портрет дня рождения</h2>
@@ -105,7 +155,49 @@
           <input type="date" id="bd-date" required />
         </div>
         <button type="submit" id="bd-submit-btn">Получить портрет</button>
+        <div id="bd-error" class="error-msg hidden" role="alert"></div>
       </form>
+    </section>
+
+    <!-- Compatibility mode -->
+    <section id="compatibility-section" class="card hidden">
+      <h2>Совместимость по Гольдшнайдеру</h2>
+      <p class="section-note">Анализ взаимоотношений двух людей по системе персонологии — 48 астрологических периодов и 1128 уникальных связей.</p>
+      <form id="compat-form">
+        <div class="compat-persons">
+          <div class="compat-person">
+            <div class="compat-person-label">Первый человек</div>
+            <div class="field-row">
+              <label for="compat-name-a">Имя</label>
+              <input type="text" id="compat-name-a" placeholder="Необязательно" />
+            </div>
+            <div class="field-row">
+              <label for="compat-date-a">Дата рождения</label>
+              <input type="date" id="compat-date-a" required />
+            </div>
+          </div>
+          <div class="compat-divider">×</div>
+          <div class="compat-person">
+            <div class="compat-person-label">Второй человек</div>
+            <div class="field-row">
+              <label for="compat-name-b">Имя</label>
+              <input type="text" id="compat-name-b" placeholder="Необязательно" />
+            </div>
+            <div class="field-row">
+              <label for="compat-date-b">Дата рождения</label>
+              <input type="date" id="compat-date-b" required />
+            </div>
+          </div>
+        </div>
+        <button type="submit" id="compat-submit-btn">Анализировать совместимость</button>
+      </form>
+    </section>
+
+    <!-- Compatibility results -->
+    <section id="compat-results" class="hidden">
+      <div class="card" id="compat-result-card">
+        <div id="compat-result-content"></div>
+      </div>
     </section>
 
     <!-- Birthday results -->
