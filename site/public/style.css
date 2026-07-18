@@ -1,31 +1,33 @@
 /* ─── Variables ─────────────────────────────────────────── */
 :root {
-  --bg:            #13131f;
-  --bg-mid:        #18182a;
-  --surface:       #1e1e30;
-  --surface-2:     #252540;
-  --surface-3:     #2c2c50;
-  --border:        #38385a;
-  --border-subtle: #2c2c48;
+  /* Editorial cool palette — steel/dusty blue, teal, warm taupe.
+     Derived from Fay FW16/17 swatches: #557A95 #7395AE #379683 #5D5C61 #B1A296 */
+  --bg:            #14181d;
+  --bg-mid:        #191f25;
+  --surface:       #1f262d;
+  --surface-2:     #28323b;
+  --surface-3:     #313d48;
+  --border:        #3c4a56;
+  --border-subtle: #2c3742;
 
-  --accent:        #8b7cf8;
-  --accent-dim:    #5a4cc0;
-  --accent-soft:   rgba(139,124,248,0.12);
-  --accent-glow:   rgba(139,124,248,0.22);
+  --accent:        #7395ae;
+  --accent-dim:    #557a95;
+  --accent-soft:   rgba(115,149,174,0.14);
+  --accent-glow:   rgba(115,149,174,0.24);
 
-  --gold:          #d4a843;
-  --gold-soft:     rgba(212,168,67,0.12);
-  --gold-border:   rgba(212,168,67,0.35);
+  --gold:          #b1a296;
+  --gold-soft:     rgba(177,162,150,0.14);
+  --gold-border:   rgba(177,162,150,0.38);
 
-  --green:         #4ec99a;
-  --teal:          #3ec8b4;
-  --red:           #e05c6a;
-  --pink:          #e070a8;
-  --violet:        #c484f0;
+  --green:         #3fa189;
+  --teal:          #379683;
+  --red:           #c65f66;
+  --pink:          #b47f96;
+  --violet:        #8ea6c0;
 
-  --text:          #f0edf8;
-  --text-dim:      #b0b0d0;
-  --text-muted:    #8888aa;
+  --text:          #eef1f4;
+  --text-dim:      #b4bdc7;
+  --text-muted:    #808c98;
 
   --radius:        12px;
   --radius-sm:     8px;
@@ -53,7 +55,7 @@ body {
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   background-image:
-    radial-gradient(ellipse 80% 60% at 50% -20%, rgba(90,70,180,0.07) 0%, transparent 70%);
+    radial-gradient(ellipse 80% 60% at 50% -20%, rgba(70,110,150,0.07) 0%, transparent 70%);
 }
 
 /* ─── Header ────────────────────────────────────────────── */
@@ -61,7 +63,7 @@ header {
   padding: 28px 40px 24px;
   border-bottom: 1px solid var(--border);
   background:
-    radial-gradient(ellipse 100% 200% at 50% -50%, rgba(80,60,180,0.12) 0%, transparent 70%),
+    radial-gradient(ellipse 100% 200% at 50% -50%, rgba(70,110,150,0.12) 0%, transparent 70%),
     var(--bg-mid);
   position: relative;
 }
@@ -94,7 +96,7 @@ header::after {
   letter-spacing: 0.04em;
   color: var(--gold);
   line-height: 1.1;
-  text-shadow: 0 0 30px rgba(201,162,76,0.25);
+  text-shadow: 0 0 30px rgba(177,162,150,0.25);
 }
 
 .logo-sub {
@@ -237,9 +239,9 @@ select option { background: var(--surface-2); }
 
 /* ─── Button ────────────────────────────────────────────── */
 button {
-  background: linear-gradient(135deg, var(--accent-dim) 0%, #4a3ab8 100%);
+  background: linear-gradient(135deg, var(--accent-dim) 0%, #3f5f78 100%);
   color: #fff;
-  border: 1px solid rgba(157,141,248,0.3);
+  border: 1px solid rgba(115,149,174,0.3);
   border-radius: var(--radius-sm);
   font-family: var(--font-body);
   font-size: 14px;
@@ -248,12 +250,12 @@ button {
   cursor: pointer;
   transition: all var(--trans);
   letter-spacing: 0.03em;
-  box-shadow: 0 2px 10px rgba(94,79,208,0.4);
+  box-shadow: 0 2px 10px rgba(85,122,149,0.4);
 }
 
 button:hover {
   background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dim) 100%);
-  box-shadow: 0 4px 20px rgba(157,141,248,0.35);
+  box-shadow: 0 4px 20px rgba(115,149,174,0.35);
   transform: translateY(-1px);
 }
 
@@ -400,7 +402,7 @@ tr:hover td { background: rgba(255,255,255,0.02); }
   transition: border-color var(--trans);
 }
 
-.factor-item:hover { border-color: rgba(157,141,248,0.25); }
+.factor-item:hover { border-color: rgba(115,149,174,0.25); }
 
 .factor-item.factor-top {
   border-left: 2px solid var(--accent);
@@ -446,14 +448,14 @@ tr:hover td { background: rgba(255,255,255,0.02); }
   white-space: nowrap;
 }
 
-.type-aspect        { background: rgba(130,80,230,0.2);  color: #b09aff; border: 1px solid rgba(130,80,230,0.25); }
+.type-aspect        { background: rgba(177,162,150,0.2);  color: #cbb9a6; border: 1px solid rgba(177,162,150,0.25); }
 .type-house         { background: rgba(60,180,120,0.15); color: #5ecba0; border: 1px solid rgba(60,180,120,0.2); }
 .type-sign          { background: rgba(200,160,60,0.15); color: #c9a24c; border: 1px solid rgba(200,160,60,0.2); }
-.type-ruler         { background: rgba(220,80,130,0.15); color: #e07099; border: 1px solid rgba(220,80,130,0.2); }
-.type-transit       { background: rgba(70,110,220,0.15); color: #7090e0; border: 1px solid rgba(70,110,220,0.2); }
+.type-ruler         { background: rgba(180,110,140,0.15); color: #cf8fa8; border: 1px solid rgba(180,110,140,0.2); }
+.type-transit       { background: rgba(90,125,165,0.15); color: #8fabc9; border: 1px solid rgba(90,125,165,0.2); }
 .type-vedic         { background: rgba(60,180,120,0.15); color: #5ecba0; border: 1px solid rgba(60,180,120,0.2); }
 .type-nakshatra     { background: rgba(60,160,160,0.15); color: #4dcec8; border: 1px solid rgba(60,160,160,0.2); }
-.type-kabbalah      { background: rgba(190,80,230,0.15); color: #c878f0; border: 1px solid rgba(190,80,230,0.2); }
+.type-kabbalah      { background: rgba(180,127,150,0.15); color: #cf9fb4; border: 1px solid rgba(180,127,150,0.2); }
 .type-chinese-zodiac{ background: rgba(40,180,140,0.15); color: #50d8a8; border: 1px solid rgba(40,180,140,0.2); }
 
 .factor-chevron {
@@ -506,7 +508,7 @@ tr:hover td { background: rgba(255,255,255,0.02); }
   font-weight: 500;
 }
 .phase-exact      { background: rgba(50,200,100,0.15); color: #50df90; border: 1px solid rgba(50,200,100,0.2); }
-.phase-applying   { background: rgba(70,110,220,0.15); color: #7090e0; border: 1px solid rgba(70,110,220,0.2); }
+.phase-applying   { background: rgba(90,125,165,0.15); color: #8fabc9; border: 1px solid rgba(90,125,165,0.2); }
 .phase-separating { background: rgba(160,120,60,0.15); color: #a08060; border: 1px solid rgba(160,120,60,0.2); }
 
 /* ─── Vedic card ────────────────────────────────────────── */
@@ -526,7 +528,7 @@ tr:hover td { background: rgba(255,255,255,0.02); }
   transition: border-color var(--trans);
 }
 
-.vedic-planet:hover { border-color: rgba(157,141,248,0.3); }
+.vedic-planet:hover { border-color: rgba(115,149,174,0.3); }
 
 .vedic-planet .vp-name {
   font-weight: 600;
@@ -626,9 +628,9 @@ tr:hover td { background: rgba(255,255,255,0.02); }
   font-size: 12px;
   padding: 5px 12px;
   border-radius: 20px;
-  background: rgba(190,80,230,0.12);
+  background: rgba(180,127,150,0.12);
   color: var(--violet);
-  border: 1px solid rgba(190,80,230,0.2);
+  border: 1px solid rgba(180,127,150,0.2);
   white-space: nowrap;
   letter-spacing: 0.02em;
 }
@@ -680,9 +682,9 @@ tr:hover td { background: rgba(255,255,255,0.02); }
 }
 
 .weakness-chips .trait-chip {
-  background: rgba(224,92,106,0.10);
-  color: #e07c88;
-  border-color: rgba(224,92,106,0.2);
+  background: rgba(198,95,102,0.10);
+  color: #d1888e;
+  border-color: rgba(198,95,102,0.2);
 }
 
 .bd-advice-box {
@@ -718,8 +720,8 @@ tr:hover td { background: rgba(255,255,255,0.02); }
   margin-bottom: 20px;
 }
 .synthesis-inner {
-  background: linear-gradient(135deg, rgba(157,141,248,0.06) 0%, rgba(201,162,76,0.04) 100%);
-  border: 1px solid rgba(157,141,248,0.18);
+  background: linear-gradient(135deg, rgba(115,149,174,0.06) 0%, rgba(177,162,150,0.04) 100%);
+  border: 1px solid rgba(115,149,174,0.18);
   border-left: 3px solid var(--accent);
   border-radius: var(--radius-sm);
   padding: 16px 18px;
@@ -748,7 +750,7 @@ tr:hover td { background: rgba(255,255,255,0.02); }
   border-radius: 20px;
   background: var(--accent-soft);
   color: var(--accent);
-  border: 1px solid rgba(157,141,248,0.2);
+  border: 1px solid rgba(115,149,174,0.2);
   font-weight: 500;
   letter-spacing: 0.02em;
   display: flex;
@@ -860,11 +862,11 @@ tr:hover td { background: rgba(255,255,255,0.02); }
   font-weight: 500;
   letter-spacing: 0.03em;
 }
-.compat-cat-love       { background:rgba(220,80,130,0.12); color:#e07099; border:1px solid rgba(220,80,130,0.2); }
+.compat-cat-love       { background:rgba(180,110,140,0.12); color:#cf8fa8; border:1px solid rgba(180,110,140,0.2); }
 .compat-cat-marriage   { background:rgba(200,160,60,0.12);  color:#c9a24c; border:1px solid rgba(200,160,60,0.2); }
 .compat-cat-friendship { background:rgba(60,180,120,0.12);  color:#4dbf96; border:1px solid rgba(60,180,120,0.2); }
-.compat-cat-family     { background:rgba(157,141,248,0.12); color:#9d8df8; border:1px solid rgba(157,141,248,0.2); }
-.compat-cat-work       { background:rgba(70,110,220,0.12);  color:#7090e0; border:1px solid rgba(70,110,220,0.2); }
+.compat-cat-family     { background:rgba(180,127,150,0.12); color:#cf9fb4; border:1px solid rgba(180,127,150,0.2); }
+.compat-cat-work       { background:rgba(90,125,165,0.12);  color:#8fabc9; border:1px solid rgba(90,125,165,0.2); }
 
 @media (max-width: 640px) {
   .compat-persons { grid-template-columns: 1fr; }
@@ -901,8 +903,8 @@ tr:hover td { background: rgba(255,255,255,0.02); }
   color: var(--red);
   font-size: 14px;
   padding: 10px 14px;
-  background: rgba(224,92,106,0.08);
-  border: 1px solid rgba(224,92,106,0.2);
+  background: rgba(198,95,102,0.08);
+  border: 1px solid rgba(198,95,102,0.2);
   border-radius: var(--radius-sm);
 }
 
@@ -959,7 +961,7 @@ tr:hover td { background: rgba(255,255,255,0.02); }
 
 button.btn-report {
   flex: 3;
-  background: linear-gradient(135deg, #e07820 0%, #c95f0a 100%);
+  background: linear-gradient(135deg, #3fa189 0%, #2f7d6b 100%);
   color: #fff;
   border: none;
   border-radius: 14px;
@@ -974,7 +976,7 @@ button.btn-report {
   align-items: flex-start;
   gap: 5px;
   transition: opacity 0.2s, transform 0.15s;
-  box-shadow: 0 4px 24px rgba(224, 120, 32, 0.35);
+  box-shadow: 0 4px 24px rgba(55, 150, 131, 0.35);
 }
 .btn-report:hover { opacity: 0.92; transform: translateY(-1px); }
 .btn-report-sub {
@@ -1017,7 +1019,7 @@ button.btn-report {
 .report-modal {
   position: fixed;
   inset: 0;
-  background: rgba(10,10,22,0.88);
+  background: rgba(10,13,17,0.88);
   z-index: 1000;
   display: flex;
   align-items: flex-start;
@@ -1114,8 +1116,8 @@ button.btn-report {
 }
 .report-content .report-theme-chip {
   display: inline-block;
-  background: rgba(139,124,248,0.12);
-  border: 1px solid rgba(139,124,248,0.25);
+  background: rgba(115,149,174,0.12);
+  border: 1px solid rgba(115,149,174,0.25);
   color: var(--accent);
   border-radius: 20px;
   padding: 4px 14px;
