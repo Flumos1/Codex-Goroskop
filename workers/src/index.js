@@ -232,7 +232,10 @@ function isValidTime(s) {
   return h >= 0 && h <= 23 && mi >= 0 && mi <= 59;
 }
 
-// ── Rate limiting (per isolate — best effort) ────────────────────────────────
+// ── Rate limiting ────────────────────────────────────────────────────────────
+// Primary limiter is the account-scoped Rate Limiting binding (env.*_RATE_
+// LIMITER), which holds across isolates. If the binding is missing (e.g. an
+// older runtime or misconfig), fall back to a best-effort per-isolate window.
 function createRateLimiter(windowMs, maxPerWindow) {
   const hits = new Map();
   let lastSweep = Date.now();
@@ -254,8 +257,20 @@ function createRateLimiter(windowMs, maxPerWindow) {
     return false;
   };
 }
-const apiRateLimited = createRateLimiter(60 * 1000, 30);
-const chatRateLimited = createRateLimiter(10 * 60 * 1000, 20);
+const apiFallback = createRateLimiter(60 * 1000, 30);
+const chatFallback = createRateLimiter(10 * 60 * 1000, 20);
+
+async function isRateLimited(binding, fallback, key) {
+  if (binding) {
+    try {
+      const { success } = await binding.limit({ key });
+      return !success;
+    } catch {
+      /* binding failed — fall through to in-memory */
+    }
+  }
+  return fallback(key);
+}
 
 // ── Responses ────────────────────────────────────────────────────────────────
 const SECURITY_HEADERS = {
@@ -389,7 +404,7 @@ async function handleChat(request, env) {
   if (!apiKey) {
     return json({ error: "AI чат не настроен. Добавьте OPENAI_API_KEY в секреты воркера." }, 503);
   }
-  if (chatRateLimited(clientIp(request))) {
+  if (await isRateLimited(env.CHAT_RATE_LIMITER, chatFallback, clientIp(request))) {
     return tooMany("Слишком много запросов. Попробуйте позже.");
   }
 
@@ -462,7 +477,7 @@ export default {
       }
 
       if (pathname.startsWith("/api/") && pathname !== "/api/chat") {
-        if (apiRateLimited(clientIp(request))) {
+        if (await isRateLimited(env.API_RATE_LIMITER, apiFallback, clientIp(request))) {
           return tooMany("Слишком много запросов. Попробуйте через минуту.");
         }
       }

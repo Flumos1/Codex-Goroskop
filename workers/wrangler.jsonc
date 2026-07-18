@@ -21,5 +21,20 @@
   },
   "observability": {
     "enabled": true
-  }
+  },
+  // Account-scoped rate limiting (works across isolates, unlike the in-memory
+  // fallback). period must be 10 or 60 seconds. Keyed by client IP in code.
+  // namespace_id is an arbitrary unique integer per limiter.
+  "ratelimits": [
+    {
+      "name": "API_RATE_LIMITER",
+      "namespace_id": "1001",
+      "simple": { "limit": 30, "period": 60 }
+    },
+    {
+      "name": "CHAT_RATE_LIMITER",
+      "namespace_id": "1002",
+      "simple": { "limit": 8, "period": 60 }
+    }
+  ]
 }
