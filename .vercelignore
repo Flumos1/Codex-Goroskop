@@ -1,0 +1,28 @@
+# Only the serverless function's runtime files should be uploaded.
+# The function needs: site/**, lib/**, data/*.json, package*.json, vercel.json.
+# Everything below is research/build material the running server never reads.
+
+node_modules
+.git
+
+# 2.7 GB of source book PDFs — never needed at runtime
+sources
+
+# Bulk data: OCR text, caches, knowledge graph. The server only reads the
+# small data/*.json files (places, palmistry-rules, hebrew-calendar-months),
+# which are NOT ignored below.
+data/extracted-text
+data/ocr-page-cache
+data/ocr-runs
+data/knowledge-graph
+
+# Research / authoring / generation tooling — not used by site/server.cjs
+research
+knowledge-base
+methodology
+docs
+generator
+tools
+scripts
+
+*.zip
