@@ -1,0 +1,25 @@
+{
+  // Cloudflare Workers config for Codex Goroskop.
+  // Build assets first: npm run build (in this directory).
+  "name": "codex-goroskop",
+  "main": "src/index.js",
+  "compatibility_date": "2025-11-01",
+  // The calc engines are CJS and require("fs")/require("path") at module
+  // scope (guarded, unused at runtime here) — nodejs_compat provides them.
+  "compatibility_flags": ["nodejs_compat"],
+  // The CJS engines compute fs paths from __dirname at module scope (used
+  // only in Node; guarded at runtime here). esbuild does not polyfill it.
+  "define": {
+    "__dirname": "'/'"
+  },
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    // API and data-bundle paths must reach the Worker even though assets
+    // exist; /_data/* is then 404'd for external clients in the Worker.
+    "run_worker_first": ["/api/*", "/_data/*"]
+  },
+  "observability": {
+    "enabled": true
+  }
+}

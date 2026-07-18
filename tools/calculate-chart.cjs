@@ -27,36 +27,50 @@ const signRuler = {
 // Build available rule query set dynamically from all rule files
 const rulesDir = path.join(projectRoot, "generator", "rules");
 const availableRuleQueries = new Set();
-for (const ruleFile of fs.readdirSync(rulesDir).filter(f => f.endsWith(".json"))) {
-  let rules;
-  try { rules = JSON.parse(fs.readFileSync(path.join(rulesDir, ruleFile), "utf8")); } catch { continue; }
-  if (!Array.isArray(rules)) { rules = rules.rules || []; }
-  for (const rule of rules) {
-    const f = rule.factor || {};
-    if (f.planetA && f.aspect && f.planetB) {
-      availableRuleQueries.add(`${f.planetA} ${f.aspect} ${f.planetB}`);
-      availableRuleQueries.add(`${f.planetB} ${f.aspect} ${f.planetA}`);
-    } else if (f.planet && f.house) {
-      availableRuleQueries.add(`${f.planet} in ${f.house}th house`);
-    } else if (f.planet && f.sign) {
-      availableRuleQueries.add(`${f.planet} in ${f.sign}`);
-    } else if (f.rulerOfHouse && f.placedInHouse) {
-      availableRuleQueries.add(`rule-instance.western.ruler-of-${f.rulerOfHouse}-in-${f.placedInHouse}`);
-    } else if (f.graha && f.rashi) {
-      availableRuleQueries.add(`vedic:${f.graha}:${f.rashi}`);
-    } else if (f.kabbalahPlanet && f.sign) {
-      availableRuleQueries.add(`kabbalah:${f.kabbalahPlanet}:${f.sign}`);
-    } else if (f.chineseAnimal) {
-      availableRuleQueries.add(`chinese:${f.chineseAnimal}`);
-    } else if (f.nakshatra && f.pada) {
-      availableRuleQueries.add(`nakshatra-pada:${f.nakshatra}:${f.pada}`);
-    } else if (f.nakshatra && f.mansionNum) {
-      availableRuleQueries.add(`lunar-mansion:${f.nakshatra}`);
-    } else if (f.nakshatra) {
-      availableRuleQueries.add(`nakshatra:${f.nakshatra}`);
+
+// Register rule arrays into availableRuleQueries. Exported so non-Node
+// runtimes (Cloudflare Workers) can inject rules loaded from elsewhere.
+function registerAvailableRules(ruleLists) {
+  for (let rules of ruleLists) {
+    if (!Array.isArray(rules)) { rules = rules.rules || []; }
+    for (const rule of rules) {
+      const f = rule.factor || {};
+      if (f.planetA && f.aspect && f.planetB) {
+        availableRuleQueries.add(`${f.planetA} ${f.aspect} ${f.planetB}`);
+        availableRuleQueries.add(`${f.planetB} ${f.aspect} ${f.planetA}`);
+      } else if (f.planet && f.house) {
+        availableRuleQueries.add(`${f.planet} in ${f.house}th house`);
+      } else if (f.planet && f.sign) {
+        availableRuleQueries.add(`${f.planet} in ${f.sign}`);
+      } else if (f.rulerOfHouse && f.placedInHouse) {
+        availableRuleQueries.add(`rule-instance.western.ruler-of-${f.rulerOfHouse}-in-${f.placedInHouse}`);
+      } else if (f.graha && f.rashi) {
+        availableRuleQueries.add(`vedic:${f.graha}:${f.rashi}`);
+      } else if (f.kabbalahPlanet && f.sign) {
+        availableRuleQueries.add(`kabbalah:${f.kabbalahPlanet}:${f.sign}`);
+      } else if (f.chineseAnimal) {
+        availableRuleQueries.add(`chinese:${f.chineseAnimal}`);
+      } else if (f.nakshatra && f.pada) {
+        availableRuleQueries.add(`nakshatra-pada:${f.nakshatra}:${f.pada}`);
+      } else if (f.nakshatra && f.mansionNum) {
+        availableRuleQueries.add(`lunar-mansion:${f.nakshatra}`);
+      } else if (f.nakshatra) {
+        availableRuleQueries.add(`nakshatra:${f.nakshatra}`);
+      }
     }
   }
 }
+
+// Node: scan the rules directory at load time. In runtimes without a real
+// filesystem the scan fails silently and registerAvailableRules must be
+// called by the host before calculateProfile.
+try {
+  const lists = [];
+  for (const ruleFile of fs.readdirSync(rulesDir).filter(f => f.endsWith(".json"))) {
+    try { lists.push(JSON.parse(fs.readFileSync(path.join(rulesDir, ruleFile), "utf8"))); } catch { continue; }
+  }
+  registerAvailableRules(lists);
+} catch { /* no filesystem — host injects rules */ }
 const meanObliquityDeg = 23.4392911;
 const supportedHouseSystems = new Set(["equal-from-ascendant", "whole-sign"]);
 
@@ -93,9 +107,18 @@ function normalizeText(input) {
   return String(input || "").toLowerCase().trim();
 }
 
+// Host-injected places for runtimes without a filesystem (Cloudflare Workers).
+let injectedPlaces = null;
+function setPlaces(places) {
+  injectedPlaces = Array.isArray(places) ? places : Object.values(places || {});
+}
+
 function loadPlaces() {
-  if (!fs.existsSync(placesPath)) return [];
-  return JSON.parse(fs.readFileSync(placesPath, "utf8"));
+  if (injectedPlaces) return injectedPlaces;
+  try {
+    if (!fs.existsSync(placesPath)) return [];
+    return JSON.parse(fs.readFileSync(placesPath, "utf8"));
+  } catch { return []; }
 }
 
 function findPlace(input, places) {
@@ -815,4 +838,6 @@ module.exports = {
   signs,
   signRuler,
   availableRuleQueries,
+  registerAvailableRules,
+  setPlaces,
 };

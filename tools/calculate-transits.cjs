@@ -189,6 +189,12 @@ function getTransitIndex() {
   return _transitIndex;
 }
 
+// Host-injected transit rules for runtimes without a filesystem
+// (Cloudflare Workers): pre-builds the index so loadTransitRules is never hit.
+function setTransitRules(rules) {
+  _transitIndex = buildTransitIndex(rules);
+}
+
 const DAY_MS = 24 * 60 * 60 * 1000;
 
 /**
@@ -265,4 +271,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { runTransits, loadTransitRules, buildTransitIndex, findActiveTransits, defaultOrb };
+module.exports = { runTransits, loadTransitRules, buildTransitIndex, findActiveTransits, defaultOrb, setTransitRules };
