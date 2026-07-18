@@ -12,12 +12,18 @@ function optionList() {
 }
 
 async function loadPlaces() {
-  const response = await fetch("/api/places");
-  state.places = await response.json();
-  $("#place-a").innerHTML = optionList();
-  $("#place-b").innerHTML = optionList();
-  $("#place-a").value = "chisinau-md";
-  $("#place-b").value = "kyiv-ua";
+  if (window.CodexProfile) {
+    state.places = await CodexProfile.loadPlaces();
+    CodexProfile.renderPlaceOptions($("#place-a"), state.places);
+    CodexProfile.renderPlaceOptions($("#place-b"), state.places, "kyiv-ua");
+  } else {
+    const response = await fetch("/api/places");
+    state.places = await response.json();
+    $("#place-a").innerHTML = optionList();
+    $("#place-b").innerHTML = optionList();
+    $("#place-a").value = "chisinau-md";
+    $("#place-b").value = "kyiv-ua";
+  }
 }
 
 function payloadFromForm(form) {

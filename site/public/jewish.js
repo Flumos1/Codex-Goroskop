@@ -9,10 +9,15 @@ function renderList(selector, items, className) {
 }
 
 async function loadPlaces() {
-  const response = await fetch("/api/places");
-  state.places = await response.json();
-  $("#jewish-place-select").innerHTML = state.places.map((place) => `<option value="${place.key}">${place.name}</option>`).join("");
-  $("#jewish-place-select").value = "chisinau-md";
+  const select = $("#jewish-place-select");
+  if (window.CodexProfile) {
+    state.places = await CodexProfile.setupPlaceSelect(select);
+  } else {
+    const response = await fetch("/api/places");
+    state.places = await response.json();
+    select.innerHTML = state.places.map((place) => `<option value="${place.key}">${place.name}</option>`).join("");
+    select.value = "chisinau-md";
+  }
 }
 
 function payloadFromForm(form) {
@@ -46,6 +51,7 @@ function renderJewish(result) {
   renderList("#jewish-hypotheses", result.boldHypotheses, "prediction-item bold-hypothesis");
   renderList("#jewish-practices", result.practices, "prediction-item");
   $("#jewish-method").innerHTML = `
+    <div class="anchor-card"><strong>Еврейская дата</strong><p>${result.hebrewCalendar.day} ${result.month.month} ${result.hebrewCalendar.year}. Заход солнца: ${result.hebrewCalendar.sunsetLocalTime || "не определен"} (${result.hebrewCalendar.place}). ${result.hebrewCalendar.afterSunset ? "Время рождения после sunset, поэтому использован следующий еврейский день." : "Время рождения до sunset, поэтому использована та же гражданская дата."}</p></div>
     <div class="anchor-card"><strong>${result.sourceFrame.branch}</strong><p>${result.sourceFrame.primarySource}</p></div>
     <div class="anchor-card"><strong>Метод</strong><p>${result.sourceFrame.method}</p></div>
     <div class="anchor-card"><strong>Ограничение</strong><p>${result.sourceFrame.limitation}</p></div>

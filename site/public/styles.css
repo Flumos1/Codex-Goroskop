@@ -1092,6 +1092,425 @@ th {
   color: var(--muted);
 }
 
+.palmistry-shell {
+  grid-template-columns: minmax(320px, 430px) minmax(0, 1fr);
+}
+
+.palmistry-workspace {
+  display: grid;
+  gap: 18px;
+  padding-bottom: 18px;
+}
+
+.palmistry-hero,
+.palmistry-grid,
+.palmistry-workspace > .panel-block {
+  margin: 0 18px;
+}
+
+.palmistry-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
+  gap: 18px;
+  align-items: stretch;
+  padding-top: 18px;
+}
+
+.palmistry-hero h2 {
+  max-width: 900px;
+  margin-bottom: 12px;
+  font-size: clamp(28px, 4vw, 52px);
+  line-height: 1.02;
+}
+
+.palmistry-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.palm-photo-stage {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 320px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(38, 94, 91, 0.08), rgba(182, 134, 52, 0.08)),
+    #fffefa;
+  overflow: hidden;
+}
+
+.palm-photo-stage img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 420px;
+  object-fit: contain;
+}
+
+.palm-photo-stage canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: contain;
+}
+
+.palm-guide-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.palm-guide-overlay path {
+  fill: none;
+  stroke: rgba(154, 64, 56, 0.82);
+  stroke-linecap: round;
+  stroke-width: 8;
+  filter: drop-shadow(0 2px 4px rgba(255, 253, 248, 0.85));
+  opacity: 0.86;
+  pointer-events: stroke;
+}
+
+.palm-guide-overlay path[data-guide="head"] {
+  stroke: rgba(38, 94, 91, 0.82);
+}
+
+.palm-guide-overlay path[data-guide="life"] {
+  stroke: rgba(182, 134, 52, 0.88);
+}
+
+.palm-guide-overlay path[data-guide="fate"] {
+  stroke: rgba(71, 112, 137, 0.86);
+}
+
+.palm-guide-overlay path.active {
+  stroke-width: 12;
+  opacity: 1;
+}
+
+.palm-guide-overlay path.dimmed {
+  opacity: 0.18;
+}
+
+.palm-guide-tooltip {
+  position: absolute;
+  z-index: 8;
+  max-width: 220px;
+  border: 1px solid rgba(32, 33, 38, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 253, 248, 0.96);
+  box-shadow: 0 12px 28px rgba(37, 31, 20, 0.16);
+  color: var(--ink);
+  pointer-events: none;
+  padding: 9px 10px;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.palm-image-analysis {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.palm-line-card {
+  transition: border-color 160ms ease, transform 160ms ease, background 160ms ease;
+}
+
+.palm-line-card.active {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  background: rgba(38, 94, 91, 0.07);
+}
+
+.auto-reading-panel {
+  display: grid;
+  gap: 12px;
+}
+
+.auto-input-note {
+  border: 1px solid rgba(38, 94, 91, 0.22);
+  border-radius: 8px;
+  background: rgba(38, 94, 91, 0.07);
+  color: var(--accent);
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.auto-reading-panel p {
+  margin-bottom: 0;
+  line-height: 1.55;
+}
+
+.auto-reading-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.auto-reading-head strong {
+  color: var(--accent);
+}
+
+.auto-reading-head span,
+.auto-chip {
+  border: 1px solid rgba(38, 94, 91, 0.22);
+  border-radius: 999px;
+  background: rgba(38, 94, 91, 0.07);
+  color: var(--accent);
+  padding: 6px 9px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.auto-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.auto-recognized-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 18px;
+  color: var(--ink);
+  line-height: 1.45;
+}
+
+.monthly-advice {
+  display: grid;
+  gap: 12px;
+}
+
+.monthly-advice-card {
+  border: 1px solid rgba(38, 94, 91, 0.16);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  background: #fffefa;
+  padding: 14px;
+}
+
+.monthly-advice-card h3 {
+  margin-bottom: 7px;
+  color: var(--accent);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.monthly-advice-card p {
+  margin-bottom: 0;
+  color: var(--ink);
+  line-height: 1.62;
+}
+
+.ai-chat-widget {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 40;
+  font-size: 14px;
+}
+
+.ai-chat-toggle {
+  width: 58px;
+  height: 58px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 12px 28px rgba(37, 31, 20, 0.22);
+  color: #fffefa;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.ai-chat-panel {
+  display: grid;
+  grid-template-rows: auto auto minmax(180px, 1fr) auto;
+  width: min(420px, calc(100vw - 24px));
+  max-height: min(720px, calc(100vh - 32px));
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 253, 248, 0.98);
+  box-shadow: 0 18px 60px rgba(37, 31, 20, 0.22);
+  overflow: hidden;
+}
+
+.ai-chat-widget.collapsed .ai-chat-panel {
+  display: none;
+}
+
+.ai-chat-widget:not(.collapsed) .ai-chat-toggle {
+  display: none;
+}
+
+.ai-chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--line);
+  background: rgba(235, 229, 216, 0.72);
+  padding: 12px;
+}
+
+.ai-chat-header strong,
+.ai-chat-header span {
+  display: block;
+}
+
+.ai-chat-header strong {
+  color: var(--accent);
+  font-size: 15px;
+}
+
+.ai-chat-header span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.ai-chat-close {
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #fffefa;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.ai-chat-questions {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--line);
+  padding: 10px 12px;
+}
+
+.ai-chat-questions button {
+  flex: 0 0 auto;
+  max-width: 260px;
+  border: 1px solid rgba(38, 94, 91, 0.22);
+  border-radius: 999px;
+  background: rgba(38, 94, 91, 0.07);
+  color: var(--accent);
+  cursor: pointer;
+  padding: 7px 10px;
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.ai-chat-messages {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  overflow: auto;
+  padding: 12px;
+}
+
+.ai-chat-message {
+  max-width: 92%;
+  border-radius: 8px;
+  padding: 10px 11px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.ai-chat-message.user {
+  justify-self: end;
+  background: var(--accent);
+  color: #fffefa;
+}
+
+.ai-chat-message.assistant {
+  justify-self: start;
+  border: 1px solid var(--line);
+  background: #fffefa;
+  color: var(--ink);
+}
+
+.ai-chat-message.local-fallback {
+  border-color: rgba(154, 64, 56, 0.32);
+}
+
+.ai-chat-form {
+  display: grid;
+  gap: 8px;
+  border-top: 1px solid var(--line);
+  padding: 12px;
+}
+
+.ai-chat-form textarea {
+  width: 100%;
+  min-height: 76px;
+  resize: vertical;
+  border: 1px solid #cfc6b3;
+  border-radius: 6px;
+  background: #fffefa;
+  color: var(--ink);
+  padding: 10px 12px;
+  font: inherit;
+}
+
+.ai-chat-form button {
+  min-height: 42px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fffefa;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.ai-chat-form button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.palmistry-fieldset {
+  display: grid;
+  gap: 8px;
+  margin: 12px 0 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 254, 250, 0.66);
+  padding: 12px;
+}
+
+.palmistry-fieldset legend {
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.palmistry-fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink);
+  font-size: 14px;
+}
+
+.palmistry-fieldset input {
+  width: 16px;
+  min-height: 16px;
+  margin: 0;
+  accent-color: var(--accent);
+}
+
 @media (max-width: 1120px) {
   .app-shell,
   .chart-layout,
@@ -1104,7 +1523,11 @@ th {
   .compatibility-grid,
   .axis-grid,
   .rhythms-shell,
-  .rhythm-card-grid {
+  .rhythm-card-grid,
+  .palmistry-shell,
+  .palmistry-hero,
+  .palmistry-grid,
+  .palm-image-analysis {
     grid-template-columns: 1fr;
   }
 

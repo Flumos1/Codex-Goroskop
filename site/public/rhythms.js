@@ -5,10 +5,15 @@ function $(selector) {
 }
 
 async function loadPlaces() {
-  const response = await fetch("/api/places");
-  state.places = await response.json();
-  $("#rhythms-place-select").innerHTML = state.places.map((place) => `<option value="${place.key}">${place.name}</option>`).join("");
-  $("#rhythms-place-select").value = "chisinau-md";
+  const select = $("#rhythms-place-select");
+  if (window.CodexProfile) {
+    state.places = await CodexProfile.setupPlaceSelect(select);
+  } else {
+    const response = await fetch("/api/places");
+    state.places = await response.json();
+    select.innerHTML = state.places.map((place) => `<option value="${place.key}">${place.name}</option>`).join("");
+    select.value = "chisinau-md";
+  }
   document.querySelector('[name="startDate"]').value = new Date().toISOString().slice(0, 10);
 }
 

@@ -31,6 +31,8 @@ The project now has:
 - Separate local compatibility page with two-person input, relationship context selection, synastry aspects, multi-axis interpretation, bold hypotheses, deep research notes, and communication forecast.
 - Separate local Jewish / Kabbalistic page with Berg-inspired month/sign layer, tikkun, name/date number overlays, bold hypotheses, and practical light-oriented prompts.
 - Separate local graphs / biorhythms page with seven forecast curves for body, emotions, mind, love, business, intuition, and integrated luck, plus human-readable current-period notes.
+- Separate local palmistry page with photo preview, browser-side contrast/edge map, image quality scoring, schematic main-line overlay, automatic photo-based heuristic selection of hand shape, main lines and mounts, rule-based symbolic interpretation, expanded bold hypotheses, symbolic future forecast, and safety framing.
+- Shared contextual ChatGPT-style assistant widget on every local page with 10 suggested questions, free-form questions, page-context collection, `/api/ai-chat`, OpenAI Responses API support via `OPENAI_API_KEY`, and local fallback messaging when the key is not configured.
 - Completed OCR pipeline pass with Tesseract / ImageMagick / Ghostscript and page-level resume cache.
 - Goldschneider birthday-personology primary-wave notes and source-only report schema.
 - Custom Codex skill: `codex-goroskop-research`.
@@ -101,6 +103,8 @@ The generator can:
 - Serve a compatibility prototype for romantic, friendship, business, family, coworker, parent-child, and general communication contexts.
 - Serve a Jewish / Kabbalistic prototype that keeps the esoteric layer labeled and separate from Western, Jyotish, and birthday-personology reports.
 - Serve a graphs / biorhythms prototype that combines natal-chart seed values with cyclical forecast curves and explanatory cards for planning attention across seven life areas.
+- Serve a palmistry prototype that uses a structured rule base for hand shape, major lines, and mounts, plus a browser-side canvas edge map, schematic guide overlay, image quality metrics, automatic zone-based line/mount selection, AI-readiness score, expanded hypotheses, and a symbolic forecast layer as groundwork for a later MediaPipe/OpenCV model.
+- Serve a shared contextual AI chat prototype that can answer questions from the visible page report, offer 10 page-specific prompts, and call OpenAI's Responses API from the server when `OPENAI_API_KEY` is available.
 - Design-level support for future birthday source-only and stereo overlay report modes.
 
 ## Current Limitations
@@ -121,6 +125,7 @@ The generator can:
 - Berg's Kabbalistic source is OCR-readable.
 - Jewish / Kabbalistic branch is a first symbolic prototype only: exact Hebrew calendar sunset handling, Hebrew-letter gematria, detailed month source extraction, and religious-tradition review are still pending.
 - Graphs / biorhythms branch is a planning prototype only: the seven curves are symbolic astrological and biorhythmic indicators, not medical diagnosis, financial advice, or event guarantees.
+- Palmistry branch is symbolic and heuristic: uploaded photos are analyzed in the browser with zone/edge-density rules, but the current prototype does not yet perform biometric identification or production-grade automatic line extraction.
 - Full OCR sweep is complete: all 105 PDF source records are readable, with no `ocrRequired`, `running`, `partial`, or `failed` records remaining.
 - Web UI is a local prototype only; it is not production-deployed and still uses the prototype calculation layer.
 

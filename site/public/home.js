@@ -1,5 +1,5 @@
 const canvas = document.querySelector("#portal-canvas");
-const context = canvas.getContext("2d");
+let context = null;
 let width = 0;
 let height = 0;
 let pixelRatio = 1;
@@ -11,15 +11,14 @@ async function setupHomeProfile() {
   const form = document.querySelector("#home-profile-form");
   const placeSelect = document.querySelector("#home-place-select");
   if (!form || !placeSelect || !window.CodexProfile) return;
-  const response = await fetch("/api/places");
-  const places = await response.json();
-  placeSelect.innerHTML = places.map((place) => `<option value="${place.key}">${place.name}</option>`).join("");
+  await CodexProfile.setupPlaceSelect(placeSelect);
   CodexProfile.applyToForm(form);
   CodexProfile.bindForm(form);
 }
 
 function resize() {
   if (!fallbackActive) return;
+  if (!context) context = canvas.getContext("2d");
   pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
   width = canvas.clientWidth;
   height = canvas.clientHeight;

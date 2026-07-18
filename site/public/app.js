@@ -274,11 +274,15 @@ function renderAll(result) {
 }
 
 async function loadPlaces() {
-  const response = await fetch("/api/places");
-  state.places = await response.json();
   const select = $("#place-select");
-  select.innerHTML = state.places.map((place) => `<option value="${place.key}">${place.name}</option>`).join("");
-  select.value = "chisinau-md";
+  if (window.CodexProfile) {
+    state.places = await CodexProfile.setupPlaceSelect(select);
+  } else {
+    const response = await fetch("/api/places");
+    state.places = await response.json();
+    select.innerHTML = state.places.map((place) => `<option value="${place.key}">${place.name}</option>`).join("");
+    select.value = "chisinau-md";
+  }
   syncPlaceFields();
 }
 
