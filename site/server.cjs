@@ -10,6 +10,7 @@ const { calculateCompatibility } = require("../lib/compatibility.cjs");
 const { calculateJewish } = require("../lib/jewish.cjs");
 const { calculateRhythms } = require("../lib/rhythms.cjs");
 const { calculatePalmistry } = require("../lib/palmistry.cjs");
+const { calculateNumerology } = require("../lib/numerology.cjs");
 const { answerAiChat } = require("../lib/ai-chat.cjs");
 
 const projectRoot = path.resolve(__dirname, "..");
@@ -131,6 +132,11 @@ async function handleApi(req, res) {
 
     if (req.url === "/api/palmistry") {
       sendJson(res, 200, { palmistry: calculatePalmistry(input) });
+      return;
+    }
+
+    if (req.url === "/api/numerology") {
+      sendJson(res, 200, { numerology: calculateNumerology(input) });
       return;
     }
 
