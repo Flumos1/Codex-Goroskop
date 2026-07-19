@@ -5,3 +5,6 @@ Thumbs.db
 data/ocr-page-cache/
 .env
 .env.*
+
+.vercel
+.env*

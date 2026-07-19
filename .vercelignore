@@ -16,13 +16,17 @@ data/ocr-page-cache
 data/ocr-runs
 data/knowledge-graph
 
-# Research / authoring / generation tooling — not used by site/server.cjs
+# Research / authoring material — not used by site/server.cjs
 research
 knowledge-base
 methodology
 docs
-generator
-tools
 scripts
+
+# generator/ and tools/ ARE needed at runtime (lib requires tools/*.cjs;
+# generate-report reads generator/rules/*.json), so they are NOT ignored.
+# Exclude only generator's build outputs/samples.
+generator/outputs
+generator/samples
 
 *.zip

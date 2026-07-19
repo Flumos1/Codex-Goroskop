@@ -7,6 +7,7 @@
       "config": {
         "includeFiles": [
           "site/public/**",
+          "generator/rules/**",
           "data/places.json",
           "data/palmistry-rules.json",
           "data/hebrew-calendar-months.json"
