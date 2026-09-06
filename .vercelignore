@@ -30,3 +30,10 @@ generator/outputs
 generator/samples
 
 *.zip
+
+# Secrets live in the Vercel project's environment variables, never in the
+# bundle: lib/ai-chat.cjs falls back to reading .env/.env.local from the
+# project root at runtime, so an uploaded one would silently become the
+# deployed key.
+.env
+.env.*
