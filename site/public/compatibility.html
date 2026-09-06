@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Совместимость | Codex Goroskop</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell compatibility-shell">
+      <section class="input-panel" aria-label="Данные для совместимости">
+        <div class="brand-block">
+          <div class="brand-mark">S</div>
+          <div>
+            <h1>Совместимость</h1>
+            <p>Расширенное исследование связи: любовь, дружба, бизнес и любые человеческие коммуникации.</p>
+          </div>
+        </div>
+
+        <form id="compatibility-form" class="birth-form">
+          <fieldset class="person-fieldset">
+            <legend>Человек A</legend>
+            <label><span>Имя</span><input name="nameA" value="Person A"></label>
+            <div class="field-pair">
+              <label><span>Дата</span><input name="localDateA" type="date" value="1990-04-10" required></label>
+              <label><span>Время</span><input name="localTimeA" type="time" value="08:30" required></label>
+            </div>
+            <label><span>Место</span><select name="placeKeyA" id="place-a"></select></label>
+          </fieldset>
+
+          <fieldset class="person-fieldset">
+            <legend>Человек B</legend>
+            <label><span>Имя</span><input name="nameB" value="Person B"></label>
+            <div class="field-pair">
+              <label><span>Дата</span><input name="localDateB" type="date" value="1992-09-18" required></label>
+              <label><span>Время</span><input name="localTimeB" type="time" value="18:15" required></label>
+            </div>
+            <label><span>Место</span><select name="placeKeyB" id="place-b"></select></label>
+          </fieldset>
+
+          <label>
+            <span>Тип связи</span>
+            <select name="relationshipContext">
+              <option value="romantic">Любовь и роман</option>
+              <option value="marriage">Брак / долгий союз</option>
+              <option value="friendship">Дружба</option>
+              <option value="business">Бизнес-партнерство</option>
+              <option value="coworkers">Коллеги</option>
+              <option value="parentChild">Родитель и ребенок</option>
+              <option value="family">Семья / родственники</option>
+              <option value="general">Любая коммуникация</option>
+            </select>
+          </label>
+
+          <button class="primary-button" type="submit"><span>Исследовать связь</span></button>
+          <a class="secondary-button nav-button" href="/"><span>Назад к витрине</span></a>
+        </form>
+
+        <div class="status-line" id="compatibility-status">Готов к расчету.</div>
+      </section>
+
+      <section class="workspace compatibility-workspace" aria-label="Отчет совместимости">
+        <header class="summary-strip compatibility-summary">
+          <div><span class="metric-label">Тип</span><strong id="relationship-label">-</strong></div>
+          <div><span class="metric-label">Аспекты</span><strong id="aspect-total">-</strong></div>
+          <div><span class="metric-label">Сильная ось</span><strong id="top-axis">-</strong></div>
+          <div><span class="metric-label">Гипотезы</span><strong id="hypothesis-count">-</strong></div>
+        </header>
+
+        <section class="compatibility-hero">
+          <p class="eyebrow">Synastry research</p>
+          <h2>Не вердикт, а карта того, как люди включают друг друга</h2>
+          <div id="compatibility-summary" class="human-summary"></div>
+        </section>
+
+        <section class="panel-block">
+          <h2>Оси связи</h2>
+          <div id="axis-grid" class="axis-grid"></div>
+        </section>
+
+        <section class="compatibility-grid">
+          <article class="panel-block">
+            <h2>Смелые гипотезы</h2>
+            <div id="hypotheses-list" class="prediction-list"></div>
+          </article>
+          <article class="panel-block">
+            <h2>Глубокое исследование</h2>
+            <div id="deep-research" class="anchor-list"></div>
+          </article>
+        </section>
+
+        <section class="compatibility-grid">
+          <article class="panel-block">
+            <h2>Точные контакты</h2>
+            <div id="close-aspects" class="aspect-list"></div>
+          </article>
+          <article class="panel-block">
+            <h2>Прогноз и рекомендации</h2>
+            <div id="compatibility-forecast" class="prediction-list"></div>
+          </article>
+        </section>
+
+        <section class="panel-block">
+          <h2>Границы отчета</h2>
+          <p id="compatibility-safety" class="summary-note"></p>
+        </section>
+      </section>
+    </main>
+
+    <script src="/profile.js?v=20260613-1"></script>
+    <script src="/compatibility.js?v=20260613-1"></script>
+    <script src="/ai-chat.js?v=20260613-1"></script>
+  </body>
+</html>

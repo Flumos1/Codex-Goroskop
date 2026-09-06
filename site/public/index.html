@@ -1,245 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Codex Goroskop</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <div class="header-inner">
-      <div>
-        <div class="logo">Codex Goroskop</div>
-        <div class="logo-sub">Психологическая астрология</div>
-      </div>
-      <div class="header-ornament">☿ ♄ ♃</div>
-    </div>
-  </header>
-
-  <main>
-    <!-- Mode tabs -->
-    <div class="mode-tabs" role="tablist" aria-label="Режимы гороскопа">
-      <button class="mode-tab active" role="tab" aria-selected="true" data-mode="natal">Натальная карта</button>
-      <button class="mode-tab" role="tab" aria-selected="false" data-mode="birthday">День рождения</button>
-      <button class="mode-tab" role="tab" aria-selected="false" data-mode="compatibility">Совместимость</button>
-    </div>
-
-    <!-- Natal form -->
-    <section id="form-section" class="card">
-      <h2>Натальная карта</h2>
-      <form id="chart-form">
-        <div class="field-row">
-          <label for="name">Имя</label>
-          <input type="text" id="name" placeholder="Необязательно" />
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Codex Goroskop</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="home-body">
+    <main class="portal-shell">
+      <section class="portal-scene" aria-label="Витрина направлений Codex Goroskop">
+        <canvas id="portal-canvas" aria-hidden="true"></canvas>
+        <div class="portal-depth" aria-hidden="true">
+          <div class="orbital-ring ring-a"></div>
+          <div class="orbital-ring ring-b"></div>
+          <div class="orbital-ring ring-c"></div>
         </div>
-        <div class="field-row">
-          <label for="local-date">Дата рождения</label>
-          <input type="date" id="local-date" required />
-        </div>
-        <div class="field-row">
-          <label for="local-time">Время рождения</label>
-          <input type="time" id="local-time" value="12:00" />
-        </div>
-        <div class="field-row">
-          <label for="place">Место рождения</label>
-          <select id="place" required>
-            <option value="">— выберите город —</option>
-          </select>
-        </div>
-        <button type="submit" id="submit-btn">Рассчитать карту</button>
-        <div id="form-error" class="error-msg hidden" role="alert"></div>
-      </form>
-    </section>
 
-    <!-- Results -->
-    <section id="results" class="hidden">
-
-      <!-- Planet positions -->
-      <div class="card">
-        <h2>Планеты <span id="chart-name"></span></h2>
-        <table id="planets-table">
-          <thead>
-            <tr>
-              <th>Планета</th>
-              <th>Знак</th>
-              <th>°</th>
-              <th>Дом</th>
-            </tr>
-          </thead>
-          <tbody id="planets-body"></tbody>
-        </table>
-        <div id="angles-row" class="angles-row"></div>
-      </div>
-
-      <!-- Interpretations -->
-      <div class="card" id="factors-card">
-        <h2>Интерпретации</h2>
-        <div id="factors-list"></div>
-      </div>
-
-      <!-- Vedic -->
-      <div class="card" id="vedic-card">
-        <h2>Ведическая карта (Джйотиш)</h2>
-        <div id="vedic-content"></div>
-      </div>
-
-      <!-- Transits -->
-      <div class="card" id="transits-card">
-        <div class="card-header-row">
-          <h2>Транзиты</h2>
-          <div class="transit-controls">
-            <input type="date" id="transit-date" />
-            <button id="transit-btn">Рассчитать</button>
-          </div>
-        </div>
-        <div id="transits-content"></div>
-      </div>
-
-    </section>
-
-    <!-- Action buttons (shown after natal results) -->
-    <div id="action-buttons" class="hidden action-buttons-row">
-      <button id="full-report-btn" class="btn-report">
-        ✦ Получить полный разбор карты
-        <span class="btn-report-sub">Всё объяснено простым языком · PDF</span>
-      </button>
-      <button id="chat-btn" class="btn-chat">
-        ✦ Поговорить с астрологом ИИ
-        <span class="btn-chat-sub">10 вопросов по вашей карте</span>
-      </button>
-    </div>
-
-    <!-- Full Report Modal -->
-    <div id="report-modal" class="report-modal hidden">
-      <div class="report-modal-inner">
-        <div class="report-modal-header">
-          <div class="report-modal-title">Полный разбор натальной карты</div>
-          <div class="report-modal-actions">
-            <button id="report-print-btn" class="report-action-btn">⎙ Печать / сохранить в PDF</button>
-            <button id="report-close-btn" class="report-action-btn report-close" aria-label="Закрыть отчёт">✕ Закрыть</button>
-          </div>
-        </div>
-        <div id="report-content" class="report-content"></div>
-      </div>
-    </div>
-
-    <!-- AI Chat Widget -->
-    <div id="chat-widget" class="chat-widget hidden">
-      <div class="chat-header">
-        <span class="chat-title">Астролог ИИ</span>
-        <span id="chat-counter" class="chat-counter">10 вопросов</span>
-        <button id="chat-close-btn" class="chat-close" aria-label="Закрыть чат">✕</button>
-      </div>
-      <div id="chat-messages" class="chat-messages"></div>
-      <div class="chat-input-row">
-        <input type="text" id="chat-input" class="chat-input" placeholder="Задайте вопрос о своей карте…" maxlength="300" />
-        <button id="chat-send-btn" class="chat-send-btn">→</button>
-      </div>
-    </div>
-
-    <!-- Birthday mode form -->
-    <section id="birthday-section" class="card hidden">
-      <h2>Портрет дня рождения</h2>
-      <p class="section-note">Система Гольдшнайдера — астролого-психологический портрет по дате рождения. Не требует времени и места.</p>
-      <form id="birthday-form">
-        <div class="field-row">
-          <label for="bd-name">Имя</label>
-          <input type="text" id="bd-name" placeholder="Необязательно" />
-        </div>
-        <div class="field-row">
-          <label for="bd-date">Дата рождения</label>
-          <input type="date" id="bd-date" required />
-        </div>
-        <button type="submit" id="bd-submit-btn">Получить портрет</button>
-        <div id="bd-error" class="error-msg hidden" role="alert"></div>
-      </form>
-    </section>
-
-    <!-- Compatibility mode -->
-    <section id="compatibility-section" class="card hidden">
-      <h2>Совместимость по Гольдшнайдеру</h2>
-      <p class="section-note">Анализ взаимоотношений двух людей по системе персонологии — 48 астрологических периодов и 1128 уникальных связей.</p>
-      <form id="compat-form">
-        <div class="compat-persons">
-          <div class="compat-person">
-            <div class="compat-person-label">Первый человек</div>
-            <div class="field-row">
-              <label for="compat-name-a">Имя</label>
-              <input type="text" id="compat-name-a" placeholder="Необязательно" />
+        <div class="portal-content">
+          <header class="portal-header">
+            <div class="brand-block portal-brand">
+              <div class="brand-mark">CG</div>
+              <div>
+                <h1>Codex Goroskop</h1>
+                <p>Система символических карт, прогнозов и совместимости без фатализма и пустого шума.</p>
+              </div>
             </div>
-            <div class="field-row">
-              <label for="compat-date-a">Дата рождения</label>
-              <input type="date" id="compat-date-a" required />
-            </div>
-          </div>
-          <div class="compat-divider">×</div>
-          <div class="compat-person">
-            <div class="compat-person-label">Второй человек</div>
-            <div class="field-row">
-              <label for="compat-name-b">Имя</label>
-              <input type="text" id="compat-name-b" placeholder="Необязательно" />
-            </div>
-            <div class="field-row">
-              <label for="compat-date-b">Дата рождения</label>
-              <input type="date" id="compat-date-b" required />
-            </div>
-          </div>
+            <div class="portal-status">Research prototype</div>
+          </header>
+
+          <section class="portal-intro">
+            <p class="eyebrow">Первый уровень</p>
+            <h2>Выберите традицию или задачу</h2>
+            <p>Главная страница работает как навигационная витрина. Каждый блок ведет в отдельный слой: со своей логикой, языком, расчетами и границами интерпретации.</p>
+          </section>
+
+          <form id="home-profile-form" class="home-profile-form" aria-label="Данные рождения">
+            <label><span>Имя</span><input name="name" value="Demo User" autocomplete="name"></label>
+            <label><span>Дата рождения</span><input name="localDate" type="date" value="1990-04-10" required></label>
+            <label><span>Время</span><input name="localTime" type="time" value="08:30" required></label>
+            <label><span>Место</span><select name="placeKey" id="home-place-select"></select></label>
+          </form>
+
+          <nav class="module-grid" aria-label="Блоки проекта">
+            <a class="module-tile active-module" href="/vedic.html">
+              <span class="module-kicker">Jyotish</span>
+              <strong>Ведическая астрология</strong>
+              <span>Лагна, раши, накшатра Луны и период Вимшоттари человеческим языком.</span>
+            </a>
+            <a class="module-tile active-module" href="/western.html">
+              <span class="module-kicker">Natal</span>
+              <strong>Западная астрология</strong>
+              <span>Карта, аспекты, дома, диспозиторий и психологический отчет.</span>
+            </a>
+            <a class="module-tile active-module" href="/jewish.html">
+              <span class="module-kicker">Hebrew</span>
+              <strong>Еврейский блок</strong>
+              <span>Каббалистическая символика, календарные циклы и смысловые соответствия.</span>
+            </a>
+            <a class="module-tile active-module" href="/compatibility.html">
+              <span class="module-kicker">Synastry</span>
+              <strong>Совместимость</strong>
+              <span>Отношения без приговора: точки контакта, напряжение, ресурс и диалог.</span>
+            </a>
+            <a class="module-tile active-module" href="/numerology.html">
+              <span class="module-kicker">Numbers</span>
+              <strong>Нумерология</strong>
+              <span>Жизненный путь, экспрессия, число души и практический ритм персонального года.</span>
+            </a>
+            <a class="module-tile active-module" href="/rhythms.html">
+              <span class="module-kicker">Timing</span>
+              <strong>Графики и биоритмы</strong>
+              <span>7 красивых линий: тело, эмоции, интеллект, любовь, дела, интуиция и общий поток.</span>
+            </a>
+            <a class="module-tile active-module" href="/palmistry.html">
+              <span class="module-kicker">Palm AI</span>
+              <strong>Хиромантия</strong>
+              <span>Разбор ладони по фото и признакам: форма руки, линии, холмы, психологический профиль и мягкие прогнозные гипотезы.</span>
+            </a>
+          </nav>
         </div>
-        <button type="submit" id="compat-submit-btn">Анализировать совместимость</button>
-      </form>
-    </section>
+      </section>
+    </main>
 
-    <!-- Compatibility results -->
-    <section id="compat-results" class="hidden">
-      <div class="card" id="compat-result-card">
-        <div id="compat-result-content"></div>
-      </div>
-    </section>
-
-    <!-- Birthday results -->
-    <section id="birthday-results" class="hidden">
-      <div class="card">
-        <div class="birthday-header">
-          <div>
-            <h2 id="bd-result-name"></h2>
-            <div id="bd-day-title" class="day-title-label"></div>
-            <div id="bd-period-label" class="period-label"></div>
-          </div>
-          <div class="bd-badge-col">
-            <span class="source-badge">Гольдшнайдер · Первичная волна</span>
-          </div>
-        </div>
-
-        <div id="bd-summary" class="bd-summary"></div>
-
-        <div class="bd-traits-row">
-          <div class="bd-trait-box">
-            <div class="label">Сильные стороны</div>
-            <div id="bd-strengths" class="trait-chips"></div>
-          </div>
-          <div class="bd-trait-box">
-            <div class="label">Риски и вызовы</div>
-            <div id="bd-weaknesses" class="trait-chips weakness-chips"></div>
-          </div>
-        </div>
-
-        <div class="bd-advice-box">
-          <div class="label">Направление роста</div>
-          <div id="bd-advice"></div>
-        </div>
-
-        <div class="bd-disclaimer" id="bd-disclaimer">
-          Портрет дня по системе Гольдшнайдера. Источник: «Тайный язык дня рождения».
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <script src="app.js"></script>
-</body>
+    <script src="/profile.js?v=20260613-1"></script>
+    <script src="/home.js?v=20260613-1"></script>
+    <script src="/ai-chat.js?v=20260613-1"></script>
+  </body>
 </html>

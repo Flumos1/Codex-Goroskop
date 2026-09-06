@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ведическая астрология | Codex Goroskop</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell vedic-shell">
+      <section class="input-panel" aria-label="Данные для ведической карты">
+        <div class="brand-block">
+          <div class="brand-mark">V</div>
+          <div>
+            <h1>Ведическая астрология</h1>
+            <p>Отдельная ветка Джйотиша: лагна, раши, накшатра Луны и мягкий прогноз по текущему периоду.</p>
+          </div>
+        </div>
+
+        <form id="vedic-form" class="birth-form">
+          <label>
+            <span>Имя</span>
+            <input name="name" value="Demo User" autocomplete="name">
+          </label>
+
+          <div class="field-pair">
+            <label>
+              <span>Дата</span>
+              <input name="localDate" type="date" value="1990-04-10" required>
+            </label>
+            <label>
+              <span>Время</span>
+              <input name="localTime" type="time" value="08:30" required>
+            </label>
+          </div>
+
+          <label>
+            <span>Место</span>
+            <select name="placeKey" id="vedic-place-select"></select>
+          </label>
+
+          <label>
+            <span>Тема вопроса</span>
+            <select name="questionFocus">
+              <option value="general">Общий вектор</option>
+              <option value="work">Работа и дело</option>
+              <option value="relationships">Отношения</option>
+              <option value="money">Деньги и ресурсы</option>
+              <option value="inner">Внутреннее состояние</option>
+              <option value="spiritual">Духовный путь</option>
+            </select>
+          </label>
+
+          <details>
+            <summary>Ручные координаты</summary>
+            <div class="field-pair">
+              <label>
+                <span>Широта</span>
+                <input name="latitude" inputmode="decimal" placeholder="47.0105">
+              </label>
+              <label>
+                <span>Долгота</span>
+                <input name="longitude" inputmode="decimal" placeholder="28.8638">
+              </label>
+            </div>
+            <label>
+              <span>Таймзона</span>
+              <input name="timeZone" placeholder="Europe/Chisinau">
+            </label>
+          </details>
+
+          <button class="primary-button" type="submit">
+            <span>Рассчитать Джйотиш</span>
+          </button>
+          <a class="secondary-button nav-button" href="/">
+            <span>Назад к витрине</span>
+          </a>
+        </form>
+
+        <div class="status-line" id="vedic-status">Готов к расчету.</div>
+      </section>
+
+      <section class="workspace vedic-workspace" aria-label="Ведический отчет">
+        <header class="summary-strip vedic-summary">
+          <div>
+            <span class="metric-label">Лагна</span>
+            <strong id="vedic-lagna">-</strong>
+          </div>
+          <div>
+            <span class="metric-label">Луна</span>
+            <strong id="vedic-moon">-</strong>
+          </div>
+          <div>
+            <span class="metric-label">Накшатра</span>
+            <strong id="vedic-nakshatra">-</strong>
+          </div>
+          <div>
+            <span class="metric-label">Период</span>
+            <strong id="vedic-dasha">-</strong>
+          </div>
+        </header>
+
+        <section class="vedic-hero">
+          <div>
+            <p class="eyebrow">Jyotish prototype</p>
+            <h2>Отдельное чтение, не смешанное с западной картой</h2>
+            <p>Здесь карта переводится в сидерический зодиак, дома считаются от лагны, а прогнозный блок говорит о темах периода человеческим языком: что усиливается, где быть внимательнее и как использовать время.</p>
+          </div>
+          <div class="method-card" id="vedic-method"></div>
+        </section>
+
+        <section class="vedic-grid">
+          <article class="panel-block">
+            <h2>Главное объяснение</h2>
+            <div id="vedic-human-summary" class="human-summary"></div>
+          </article>
+
+          <article class="panel-block">
+            <h2>Прогноз периода</h2>
+            <div id="vedic-prediction" class="prediction-list"></div>
+          </article>
+        </section>
+
+        <section class="panel-block focus-panel">
+          <div>
+            <p class="eyebrow">Выбранная тема</p>
+            <h2 id="vedic-focus-title">Фокус вопроса</h2>
+            <p id="vedic-focus-summary" class="focus-summary"></p>
+          </div>
+          <div id="vedic-focus-list" class="prediction-list"></div>
+        </section>
+
+        <section class="vedic-grid">
+          <article class="panel-block">
+            <h2>Опорные точки</h2>
+            <div id="vedic-anchors" class="anchor-list"></div>
+          </article>
+
+          <article class="panel-block">
+            <h2>Грахи по домам</h2>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr><th>Граха</th><th>Раши</th><th>Дом</th><th>Роль</th></tr>
+                </thead>
+                <tbody id="vedic-positions"></tbody>
+              </table>
+            </div>
+          </article>
+        </section>
+
+        <section class="panel-block">
+          <h2>Границы прогноза</h2>
+          <p id="vedic-safety" class="summary-note"></p>
+        </section>
+      </section>
+    </main>
+
+    <script src="/profile.js?v=20260613-1"></script>
+    <script src="/vedic.js?v=20260613-1"></script>
+    <script src="/ai-chat.js?v=20260613-1"></script>
+  </body>
+</html>

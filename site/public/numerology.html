@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Нумерология | Codex Goroskop</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell numerology-shell">
+      <section class="input-panel" aria-label="Данные для нумерологии">
+        <div class="brand-block">
+          <div class="brand-mark">N</div>
+          <div>
+            <h1>Нумерология</h1>
+            <p>Пифагорейские числа имени и даты рождения: жизненный путь, экспрессия, душа, личность и персональный цикл.</p>
+          </div>
+        </div>
+
+        <form id="numerology-form" class="birth-form">
+          <label><span>Полное имя</span><input name="name" value="Demo User" autocomplete="name" required></label>
+          <label><span>Дата рождения</span><input name="localDate" type="date" value="1990-04-10" required></label>
+          <button class="primary-button" type="submit"><span>Рассчитать числа</span></button>
+          <a class="secondary-button nav-button" href="/"><span>Назад к витрине</span></a>
+        </form>
+
+        <div class="status-line" id="numerology-status">Готов к расчету.</div>
+      </section>
+
+      <section class="workspace numerology-workspace" aria-label="Нумерологический отчет">
+        <header class="summary-strip">
+          <div><span class="metric-label">Путь</span><strong id="num-life-path">-</strong></div>
+          <div><span class="metric-label">Экспрессия</span><strong id="num-expression">-</strong></div>
+          <div><span class="metric-label">Душа</span><strong id="num-soul-urge">-</strong></div>
+          <div><span class="metric-label">Личность</span><strong id="num-personality">-</strong></div>
+        </header>
+
+        <section class="compatibility-hero">
+          <p class="eyebrow">Pythagorean numerology prototype</p>
+          <h2 id="numerology-title">Числовой код имени и даты</h2>
+          <div id="numerology-synthesis" class="human-summary"></div>
+        </section>
+
+        <section class="axis-grid" id="numerology-axis-grid"></section>
+
+        <section class="compatibility-grid">
+          <article class="panel-block">
+            <h2>Персональный цикл</h2>
+            <div id="numerology-cycle" class="anchor-list"></div>
+          </article>
+          <article class="panel-block">
+            <h2>Смелые гипотезы</h2>
+            <div id="numerology-hypotheses" class="prediction-list"></div>
+          </article>
+        </section>
+
+        <section class="compatibility-grid">
+          <article class="panel-block">
+            <h2>Прогноз</h2>
+            <div id="numerology-forecast" class="prediction-list"></div>
+          </article>
+          <article class="panel-block">
+            <h2>Метод</h2>
+            <div id="numerology-method" class="anchor-list"></div>
+          </article>
+        </section>
+
+        <section class="panel-block">
+          <h2>10 ответов на месяц</h2>
+          <div id="numerology-advice" class="monthly-advice"></div>
+        </section>
+
+        <section class="panel-block">
+          <h2>Границы блока</h2>
+          <p id="numerology-safety" class="summary-note"></p>
+        </section>
+      </section>
+    </main>
+
+    <script src="/profile.js?v=20260613-1"></script>
+    <script src="/numerology.js?v=20260613-1"></script>
+    <script src="/ai-chat.js?v=20260613-1"></script>
+  </body>
+</html>

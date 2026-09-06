@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Графики и биоритмы | Codex Goroskop</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell rhythms-shell">
+      <section class="input-panel" aria-label="Данные для графиков">
+        <div class="brand-block">
+          <div class="brand-mark">R</div>
+          <div>
+            <h1>Графики и биоритмы</h1>
+            <p>Семь линий прогноза на основе натальной карты и транзитно-биоритмической модели.</p>
+          </div>
+        </div>
+
+        <form id="rhythms-form" class="birth-form">
+          <label><span>Имя</span><input name="name" value="Demo User" autocomplete="name"></label>
+          <div class="field-pair">
+            <label><span>Дата</span><input name="localDate" type="date" value="1990-04-10" required></label>
+            <label><span>Время</span><input name="localTime" type="time" value="08:30" required></label>
+          </div>
+          <label><span>Место</span><select name="placeKey" id="rhythms-place-select"></select></label>
+          <div class="field-pair">
+            <label><span>Начало</span><input name="startDate" type="date"></label>
+            <label><span>Период</span><select name="period" id="rhythms-period">
+              <option value="7">Неделя</option>
+              <option value="30" selected>Месяц</option>
+              <option value="365">Год</option>
+            </select></label>
+          </div>
+          <input name="days" type="hidden" value="30">
+          <button class="primary-button" type="submit"><span>Построить графики</span></button>
+          <a class="secondary-button nav-button" href="/"><span>Назад к витрине</span></a>
+        </form>
+
+        <div class="status-line" id="rhythms-status">Готов к расчету.</div>
+      </section>
+
+      <section class="workspace rhythms-workspace" aria-label="Графики">
+        <header class="summary-strip">
+          <div><span class="metric-label">Период</span><strong id="rhythms-range">-</strong></div>
+          <div><span class="metric-label">Тело</span><strong id="body-now">-</strong></div>
+          <div><span class="metric-label">Эмоции</span><strong id="emotion-now">-</strong></div>
+          <div><span class="metric-label">Удача</span><strong id="luck-now">-</strong></div>
+        </header>
+
+        <section class="compatibility-hero">
+          <p class="eyebrow">7 forecast curves</p>
+          <h2>Красивые графики для планирования периода</h2>
+          <div id="rhythm-controls" class="rhythm-filter-grid" aria-label="Выбор графиков"></div>
+          <div class="chart-panel">
+            <svg id="rhythms-chart" class="rhythms-chart" viewBox="0 0 1100 520" role="img" aria-label="Семь графиков биоритмов"></svg>
+            <div id="rhythm-tooltip" class="rhythm-tooltip" hidden></div>
+          </div>
+        </section>
+
+        <section class="panel-block">
+          <h2>Текущие значения</h2>
+          <div id="rhythm-cards" class="rhythm-card-grid"></div>
+        </section>
+
+        <section class="panel-block">
+          <h2>Границы прогноза</h2>
+          <p id="rhythms-safety" class="summary-note"></p>
+        </section>
+      </section>
+    </main>
+
+    <script src="/profile.js?v=20260613-1"></script>
+    <script src="/rhythms.js?v=20260613-1"></script>
+    <script src="/ai-chat.js?v=20260613-1"></script>
+  </body>
+</html>

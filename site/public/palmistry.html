@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Хиромантия | Codex Goroskop</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell palmistry-shell">
+      <section class="input-panel" aria-label="Данные ладони">
+        <div class="brand-block">
+          <div class="brand-mark">P</div>
+          <div>
+            <h1>Хиромантия</h1>
+            <p>Символический AI-разбор ладони: фото, форма руки, основные линии и холмы без медицинских или фатальных обещаний.</p>
+          </div>
+        </div>
+
+        <form id="palmistry-form" class="birth-form">
+          <label><span>Фото ладони</span><input id="palm-photo" name="photo" type="file" accept="image/*"></label>
+          <label><span>Рука</span><select name="handSide">
+            <option value="dominant">Ведущая</option>
+            <option value="right">Правая</option>
+            <option value="left">Левая</option>
+          </select></label>
+          <div class="auto-input-note">
+            Форма руки, линии и холмы выбираются автоматически после загрузки фото. Чем ровнее свет и четче ладонь, тем увереннее разбор.
+          </div>
+
+          <button class="primary-button" type="submit"><span>Собрать разбор</span></button>
+          <a class="secondary-button nav-button" href="/"><span>Назад к витрине</span></a>
+        </form>
+        <div class="status-line" id="palmistry-status">Готов к разбору.</div>
+      </section>
+
+      <section class="workspace palmistry-workspace" aria-label="Разбор ладони">
+        <header class="summary-strip">
+          <div><span class="metric-label">Рука</span><strong id="palm-side">-</strong></div>
+          <div><span class="metric-label">Форма</span><strong id="palm-shape">-</strong></div>
+          <div><span class="metric-label">Линии</span><strong id="palm-lines">-</strong></div>
+          <div><span class="metric-label">Холмы</span><strong id="palm-mounts-count">-</strong></div>
+        </header>
+
+        <section class="palmistry-hero">
+          <div>
+            <p class="eyebrow">Palm reading prototype</p>
+            <h2>Разбор ладони как карта темперамента, энергии и привычных сценариев</h2>
+            <p class="focus-summary">В этой версии фото помогает видеть ладонь рядом с выбранными признаками. Следующим слоем можно добавить MediaPipe/OpenCV для автоматической разметки.</p>
+          </div>
+          <div class="palm-photo-stage">
+            <img id="palm-preview" alt="Превью ладони" hidden>
+            <canvas id="palm-line-map" width="640" height="640" hidden></canvas>
+            <svg id="palm-guide-overlay" class="palm-guide-overlay" viewBox="0 0 640 640" aria-label="Схема основных линий ладони" hidden>
+              <path data-guide="heart" d="M155 250 C250 210, 345 218, 488 250"></path>
+              <path data-guide="head" d="M165 330 C265 305, 365 325, 500 372"></path>
+              <path data-guide="life" d="M250 185 C150 248, 128 410, 260 548"></path>
+              <path data-guide="fate" d="M330 548 C326 440, 330 322, 340 190"></path>
+            </svg>
+            <div id="palm-guide-tooltip" class="palm-guide-tooltip" hidden></div>
+            <div id="palm-empty" class="empty-state">Загрузите фото ладони: ровный свет, вся ладонь в кадре, камера сверху.</div>
+          </div>
+        </section>
+
+        <section class="panel-block">
+          <h2>Качество снимка и карта линий</h2>
+          <div id="palm-image-analysis" class="palm-image-analysis">
+            <div class="empty-state">После загрузки фото здесь появится оценка света, контраста и резкости.</div>
+          </div>
+        </section>
+
+        <section class="panel-block">
+          <h2>Автораспознавание</h2>
+          <div id="palm-auto-reading" class="auto-reading-panel">
+            <div class="empty-state">Загрузите фото, и программа сама выберет форму руки, линии и холмы по видимым зонам ладони.</div>
+          </div>
+        </section>
+
+        <section class="palmistry-grid">
+          <div class="panel-block">
+            <h2>Основной тон</h2>
+            <div id="palm-tone" class="highlights"></div>
+          </div>
+          <div class="panel-block">
+            <h2>Синтез</h2>
+            <div id="palm-synthesis" class="highlights"></div>
+          </div>
+        </section>
+
+        <section class="panel-block">
+          <h2>Линии ладони</h2>
+          <div id="palm-line-grid" class="axis-grid"></div>
+        </section>
+
+        <section class="palmistry-grid">
+          <div class="panel-block">
+            <h2>Холмы</h2>
+            <div id="palm-mounts" class="anchor-list"></div>
+          </div>
+          <div class="panel-block">
+            <h2>Смелые гипотезы</h2>
+            <div id="palm-hypotheses" class="prediction-list"></div>
+          </div>
+        </section>
+
+        <section class="panel-block">
+          <h2>Прогноз будущего</h2>
+          <div id="palm-future" class="prediction-list"></div>
+        </section>
+
+        <section class="panel-block">
+          <h2>10 ответов на месяц</h2>
+          <div id="palm-advice" class="monthly-advice"></div>
+          <p id="palm-photo-note" class="summary-note"></p>
+          <p id="palm-safety" class="summary-note"></p>
+        </section>
+      </section>
+    </main>
+
+    <script src="/palmistry.js?v=20260613-4"></script>
+    <script src="/ai-chat.js?v=20260613-1"></script>
+  </body>
+</html>

@@ -42,7 +42,13 @@ function loadRules() {
     .filter((name) => name.endsWith(".json"))
     .flatMap((name) => {
       const filePath = path.join(rulesDir, name);
-      return JSON.parse(fs.readFileSync(filePath, "utf8")).map((rule) => ({
+      const raw = JSON.parse(fs.readFileSync(filePath, "utf8"));
+      // Rule files come in two shapes: a bare array (the original set) and
+      // { rules: [...] } with sibling metadata (the book-derived sets). Files
+      // that carry neither — the compatibility pair tables and the report
+      // frameworks — contribute no individual rules here.
+      const list = Array.isArray(raw) ? raw : Array.isArray(raw.rules) ? raw.rules : [];
+      return list.map((rule) => ({
         ...rule,
         _file: name,
       }));
@@ -433,4 +439,18 @@ function main() {
   }
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  factorLabel,
+  findRules,
+  labels,
+  languageFromProfile,
+  listRules,
+  loadRules,
+  renderCompositeMarkdown,
+  renderMarkdown,
+  renderProfileMarkdown,
+};

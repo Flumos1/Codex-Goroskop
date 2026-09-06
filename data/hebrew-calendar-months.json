@@ -1,0 +1,16 @@
+[
+  { "key": "Nisan", "ru": "Нисан", "order": 1, "zodiacSign": "Aries", "aliases": ["Nisan"] },
+  { "key": "Iyar", "ru": "Ияр", "order": 2, "zodiacSign": "Taurus", "aliases": ["Iyar", "Iyyar"] },
+  { "key": "Sivan", "ru": "Сиван", "order": 3, "zodiacSign": "Gemini", "aliases": ["Sivan"] },
+  { "key": "Tammuz", "ru": "Таммуз", "order": 4, "zodiacSign": "Cancer", "aliases": ["Tammuz", "Tamuz"] },
+  { "key": "Av", "ru": "Ав", "order": 5, "zodiacSign": "Leo", "aliases": ["Av"] },
+  { "key": "Elul", "ru": "Элуль", "order": 6, "zodiacSign": "Virgo", "aliases": ["Elul"] },
+  { "key": "Tishrei", "ru": "Тишрей", "order": 7, "zodiacSign": "Libra", "aliases": ["Tishri", "Tishrei"] },
+  { "key": "Cheshvan", "ru": "Мар-Хешван", "order": 8, "zodiacSign": "Scorpio", "aliases": ["Cheshvan", "Heshvan", "Marcheshvan", "Marheshvan"] },
+  { "key": "Kislev", "ru": "Кислев", "order": 9, "zodiacSign": "Sagittarius", "aliases": ["Kislev"] },
+  { "key": "Tevet", "ru": "Тевет", "order": 10, "zodiacSign": "Capricorn", "aliases": ["Tevet", "Teves"] },
+  { "key": "Shevat", "ru": "Шват", "order": 11, "zodiacSign": "Aquarius", "aliases": ["Shevat", "Shvat"] },
+  { "key": "Adar", "ru": "Адар", "order": 12, "zodiacSign": "Pisces", "aliases": ["Adar"] },
+  { "key": "Adar I", "ru": "Адар I", "order": 12, "zodiacSign": "Pisces", "leapMonth": true, "aliases": ["Adar I", "Adar 1", "Adar Rishon"] },
+  { "key": "Adar II", "ru": "Адар II", "order": 13, "zodiacSign": "Pisces", "leapMonth": true, "aliases": ["Adar II", "Adar 2", "Adar Sheni"] }
+]

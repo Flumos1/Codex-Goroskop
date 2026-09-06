@@ -13,14 +13,16 @@
     "sample:report": "node ./tools/generate-sample-report.cjs",
     "generate": "node ./tools/generate-report.cjs",
     "calculate": "node ./tools/calculate-chart.cjs",
+    "transits": "node ./tools/calculate-transits.cjs",
+    "site": "node ./site/server.cjs",
+    "start": "node ./site/server.cjs",
+    "validate:site": "node ./tools/validate-site.cjs",
+    "validate:dispositor": "node ./tools/validate-dispositor.cjs",
     "trace:rule": "node ./tools/trace-rule.cjs",
     "validate:calculations": "node ./tools/validate-calculations.cjs",
     "verify:references": "node ./tools/verify-reference-charts.cjs --include-candidates",
     "verify:references:strict": "node ./tools/verify-reference-charts.cjs --include-candidates --strict-references",
-    "validate": "node ./tools/validate-project.cjs && node ./tools/validate-calculations.cjs && node ./tools/verify-reference-charts.cjs --include-candidates --strict-references",
-    "transits": "node ./tools/calculate-transits.cjs",
-    "site": "node ./site/server.cjs",
-    "start": "node ./site/server.cjs"
+    "validate": "node ./tools/validate-project.cjs && node ./tools/validate-calculations.cjs && node ./tools/verify-reference-charts.cjs --include-candidates --strict-references && node ./tools/validate-dispositor.cjs && node ./tools/validate-site.cjs"
   },
   "engines": {
     "node": ">=20"
@@ -28,7 +30,6 @@
   "dependencies": {
     "astronomy-engine": "^2.1.19",
     "dotenv": "^17.4.2",
-    "express": "^5.2.1",
     "openai": "^6.42.0"
   },
   "devDependencies": {

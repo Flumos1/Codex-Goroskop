@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "site/server.cjs",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": [
+          "site/public/**",
+          "generator/rules/**",
+          "data/places.json",
+          "data/palmistry-rules.json",
+          "data/hebrew-calendar-months.json"
+        ]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "site/server.cjs"
+    }
+  ]
+}
