@@ -17,6 +17,13 @@ KEY_FILE="${1:-./.env}"
 KEY=$(grep -E '^OPENAI_API_KEY=' "$KEY_FILE" | head -1 | sed 's/^OPENAI_API_KEY=//' | tr -d '"'"'"'\r')
 [ -n "$KEY" ] || { echo "В $KEY_FILE нет OPENAI_API_KEY"; exit 1; }
 
+# Strip a BOM or zero-width character if the file carries one: it would end up
+# inside the Authorization header and break every request at runtime.
+KEY=$(printf '%s' "$KEY" | sed $'s/ï»¿//g')
+case "$KEY" in
+  *[!\!-~]*) echo "В ключе есть непечатаемые символы — проверьте $KEY_FILE"; exit 1 ;;
+esac
+
 echo "Беру ключ ${KEY:0:12}… из $KEY_FILE"
 
 # Remove any existing value first so re-running this is safe.
@@ -30,6 +37,6 @@ echo "Проверка /api/ai-chat:"
 curl -s -m 90 -X POST https://codex-goroskop.vercel.app/api/ai-chat \
   -H "Content-Type: application/json" \
   -d '{"question":"тест соединения","context":"проверка","pageTitle":"test"}' \
-  | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);console.log('  model:',j.model,'| connected:',j.connected);process.exit(j.connected?0:1)}catch(e){console.log('  RAW:',d.slice(0,200));process.exit(1)}})"
+  | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>{try{const j=JSON.parse(d);console.log('  model:',j.model,'| connected:',j.connected);if(j.apiError)console.log('  apiError:',j.apiError);process.exit(j.connected?0:1)}catch(e){console.log('  RAW:',d.slice(0,200));process.exit(1)}})"
 
 echo "Готово: чат подключён."
